@@ -54,30 +54,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/daffy/.cache
-	wal
-15
-d/home/daffy/.cache/wal
-	colors.css
-20
-d/home/daffy/.cache
-	wal
-15
-d/home/daffy/.cache/wal
-	colors.css
-20
-d/home/daffy/.cache
-	wal
-15
-d/home/daffy
-	..
-0
-d/home/daffy/.mozilla
-	firefox
-2
-d/home/daffy/.mozilla/firefox
-	..
-0
 d/home/daffy/.mozilla
 	firefox
 2
@@ -354,6 +330,30 @@ d/home/daffy/documents/school/12/essays
 d/home/daffy/documents/school/12
 	chemistry
 1
+d/home/daffy
+	git
+4
+d/home/daffy/.config
+	fontconfig
+6
+d/home/daffy/.config/fontconfig
+	fonts.conf
+1
+d/home/daffy/.config
+	dunst
+5
+d/home/daffy/.config/dunst
+	..
+0
+d/home/daffy/.config
+	compton
+3
+d/home/daffy/.config/compton
+	..
+0
+d/home/daffy/.config
+	compton
+3
 d
 
 # Right window history (oldest to newest):

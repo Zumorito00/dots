@@ -11,25 +11,29 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/0
+~MSle0~/nh3
 
 # Last Substitute Search Pattern:
-~MSle0&0
+~MSle0&NH
 
 # Last Substitute String:
-$
+$NH2
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1596975585,,"wq"
+:noh
+|2,0,1596969833,,"noh"
+:UltiSnipsEdit
+|2,0,1596968793,,"UltiSnipsEdit"
+:w
+|2,0,1596967749,,"w"
+:%s/NH/NH2
+|2,0,1596967627,,"%s/NH/NH2"
 :q
 |2,0,1596974117,,"q"
-:wq
-|2,0,1596965733,,"wq"
-:w
-|2,0,1596963727,,"w"
 :'<,'>s/0/1
 |2,0,1596963699,,"'<,'>s/0/1"
-:UltiSnipsEdit
-|2,0,1596963678,,"UltiSnipsEdit"
 :L
 |2,0,1596963423,,"L"
 :WE
@@ -50,8 +54,6 @@ $
 |2,0,1596962086,,"let g:auto_save = 1"
 :q:q
 |2,0,1596961688,,"q:q"
-:noh
-|2,0,1596961442,,"noh"
 :Q
 |2,0,1596961370,,"Q"
 :Wq
@@ -78,6 +80,12 @@ $
 |2,0,1596778160,,"pdf"
 
 # Search String History (newest to oldest):
+?/nh3
+|2,1,1596969829,47,"nh3"
+? NH
+|2,1,1596967627,,"NH"
+?/power
+|2,1,1596964777,47,"power"
 ? @$
 |2,1,1596965721,,"@$"
 ? 0
@@ -108,91 +116,221 @@ $
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
+@n
+|2,3,1596967858,,"n"
 @y
 |2,3,1596782225,,"y"
 
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	 
-|3,0,0,0,1,0,1596965722," "
-""1	LINE	0
+""0	LINE	0
 	
-	# school scripts
-	super + c
-	    current
-	super + n
-	    notes
-|3,1,1,1,6,0,1596965732,"","# school scripts","super + c","    current","super + n","    notes"
+	kd
+|3,1,0,1,2,0,1596970588,"","kd"
+"1	LINE	0
+	
+	kd
+|3,0,1,1,2,0,1596970488,"","kd"
 "2	LINE	0
-	    mdaksmdas maskdmas damkdmkasdm pokea sdmasmdk a vasoijfwakremwr dspdosakfopkdsaomvms asodmsakldmenop
-|3,0,2,1,1,0,1596962995,"    mdaksmdas maskdmas damkdmkasdm pokea sdmasmdk a vasoijfwakremwr dspdosakfopkdsaomvms asodmsakldmenop"
-"3	LINE	0
-	    mkasdmasdmk amskdmsadk mdkasmkdmsmadkmkdsamk mdaskmdksamdkmsakmkm mdkasmdkmksamkm 
-	    asdmsakdmasd \[
-	    aksmdkasmdkds maskdmksadmkmsakdmksamdkmdaksmkm
-	    \]
-|3,0,3,1,4,0,1596962952,"    mkasdmasdmk amskdmsadk mdkasmkdmsmadkmkdsamk mdaskmdksamdkmsakmkm mdkasmdkmksamkm ","    asdmsakdmasd \\[","    aksmdkasmdkds maskdmksadmkmsakdmksamdkmdaksmkm","    \\]"
-"4	LINE	0
-	" bind == to compile latex
-	au BufRead,BufReadPre,BufNewFile *.tex map == :w <CR> :!pdflatex '%'; rm *.log *.aux <CR>
-|3,0,4,1,2,0,1596962827,"\" bind == to compile latex","au BufRead,BufReadPre,BufNewFile *.tex map == :w <CR> :!pdflatex '%'; rm *.log *.aux <CR>"
-"5	LINE	0
 	
-|3,0,5,1,1,0,1596962444,""
+|3,0,2,1,1,0,1596969676,""
+"3	LINE	0
+	Alkenes:
+|3,0,3,1,1,0,1596969184,"Alkenes:"
+"4	LINE	0
+	j
+|3,0,4,1,1,0,1596969184,"j"
+"5	LINE	0
+	A catalyst of H3PO4 and 300C is required for an alkene addition reaction with H20
+|3,0,5,1,1,0,1596969129,"A catalyst of H3PO4 and 300C is required for an alkene addition reaction with H20"
 "6	LINE	0
-	" live document preview
-	autocmd Filetype tex command! L :silent !st -e zsh -c "latexmk -pdf -pvc '%'" & <CR>
-|3,0,6,1,2,0,1596962432,"\" live document preview","autocmd Filetype tex command! L :silent !st -e zsh -c \"latexmk -pdf -pvc '%'\" & <CR>"
+	A catalyst of H3PO4 and 300C is required for an alkene addition reaction with H20
+|3,0,6,1,1,0,1596969125,"A catalyst of H3PO4 and 300C is required for an alkene addition reaction with H20"
 "7	LINE	0
-	" auto save on latex documents
-|3,0,7,1,1,0,1596962429,"\" auto save on latex documents"
+	- Have a 
+|3,0,7,1,1,0,1596968398,"- Have a "
 "8	LINE	0
-	" create vimwiki table
-	command T :VimwikiTable
-|3,0,8,1,2,0,1596962423,"\" create vimwiki table","command T :VimwikiTable"
+	
+|3,0,8,1,1,0,1596968104,""
 "9	LINE	0
-	" convert vimwiki to html
-	command VHALL :VimwikiAll2HTML
-	command VH :Vimwiki2HTML
-|3,0,9,1,3,0,1596962412,"\" convert vimwiki to html","command VHALL :VimwikiAll2HTML","command VH :Vimwiki2HTML"
+	== Notes ==
+|3,0,9,1,1,0,1596967779,"== Notes =="
 "q@	CHAR	0
 	$A $0jjjj
 |3,2,26,0,1,0,1596963719,"$A $0jjjj"
-"-	CHAR	0
-	Responses to Adversity
-|3,0,36,0,1,0,1596963602,"Responses to Adversity"
 
 # File marks:
-'0  1  0  ~/.gitconfig
-|4,48,1,0,1596974117,"~/.gitconfig"
-'1  59  0  ~/.config/sxhkd/sxhkdrc
-|4,49,59,0,1596965733,"~/.config/sxhkd/sxhkdrc"
-'2  94  0  ~/.vim/.vimrc
-|4,50,94,0,1596965703,"~/.vim/.vimrc"
-'3  3  8  ~/vimwiki/english/comparative/responses_to_adversity.wiki
-|4,51,3,8,1596963729,"~/vimwiki/english/comparative/responses_to_adversity.wiki"
-'4  8  0  ~/vimwiki/essays/authority.tex
-|4,52,8,0,1596962999,"~/vimwiki/essays/authority.tex"
-'5  8  0  ~/vimwiki/essays/authority.tex
-|4,53,8,0,1596962999,"~/vimwiki/essays/authority.tex"
-'6  92  57  ~/.vim/.vimrc
-|4,54,92,57,1596962907,"~/.vim/.vimrc"
-'7  92  57  ~/.vim/.vimrc
-|4,55,92,57,1596962907,"~/.vim/.vimrc"
-'8  1  0  ~/vimwiki/essays/authority.tex
-|4,56,1,0,1596962896,"~/vimwiki/essays/authority.tex"
-'9  1  0  ~/vimwiki/essays/authority.tex
-|4,57,1,0,1596962896,"~/vimwiki/essays/authority.tex"
+'0  1  0  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,48,1,0,1596975585,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+'1  14  18  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,49,14,18,1596975580,"~/git/dots/zsh/.config/zsh/.zshrc"
+'2  14  27  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,50,14,27,1596975512,"~/git/dots/zsh/.config/zsh/.zshrc"
+'3  1  0  ~/.gitconfig
+|4,51,1,0,1596974117,"~/.gitconfig"
+'4  59  0  ~/.config/sxhkd/sxhkdrc
+|4,52,59,0,1596965733,"~/.config/sxhkd/sxhkdrc"
+'5  94  0  ~/.vim/.vimrc
+|4,53,94,0,1596965703,"~/.vim/.vimrc"
+'6  3  8  ~/vimwiki/english/comparative/responses_to_adversity.wiki
+|4,54,3,8,1596963729,"~/vimwiki/english/comparative/responses_to_adversity.wiki"
+'7  3  8  ~/vimwiki/english/comparative/responses_to_adversity.wiki
+|4,55,3,8,1596963729,"~/vimwiki/english/comparative/responses_to_adversity.wiki"
+'8  8  0  ~/vimwiki/essays/authority.tex
+|4,56,8,0,1596962999,"~/vimwiki/essays/authority.tex"
+'9  8  0  ~/vimwiki/essays/authority.tex
+|4,57,8,0,1596962999,"~/vimwiki/essays/authority.tex"
 
 # Jumplist (newest first):
+-'  1  0  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,1,0,1596975585,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  14  18  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,14,18,1596975580,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  13  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,13,0,1596975574,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,1,0,1596975545,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  14  27  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,14,27,1596975512,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,1,0,1596975489,"~/git/dots/zsh/.config/zsh/.zshrc"
 -'  1  0  ~/.gitconfig
 |4,39,1,0,1596974117,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1596974117,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1596974117,"~/.gitconfig"
+-'  1  0  ~/.gitconfig
+|4,39,1,0,1596974117,"~/.gitconfig"
+-'  6  2  ~/vimwiki/chemistry/organic_chemistry/organic_chemistry.wiki
+|4,39,6,2,1596970669,"~/vimwiki/chemistry/organic_chemistry/organic_chemistry.wiki"
+-'  5  2  ~/vimwiki/chemistry/organic_chemistry/organic_chemistry.wiki
+|4,39,5,2,1596970668,"~/vimwiki/chemistry/organic_chemistry/organic_chemistry.wiki"
+-'  1  0  ~/vimwiki/chemistry/organic_chemistry/topic_3.wiki
+|4,39,1,0,1596970668,"~/vimwiki/chemistry/organic_chemistry/topic_3.wiki"
+-'  4  2  ~/vimwiki/chemistry/organic_chemistry/organic_chemistry.wiki
+|4,39,4,2,1596970667,"~/vimwiki/chemistry/organic_chemistry/organic_chemistry.wiki"
+-'  1  0  ~/vimwiki/chemistry/organic_chemistry/topic_1.wiki
+|4,39,1,0,1596970666,"~/vimwiki/chemistry/organic_chemistry/topic_1.wiki"
+-'  1  0  ~/vimwiki/chemistry/organic_chemistry/organic_chemistry.wiki
+|4,39,1,0,1596970662,"~/vimwiki/chemistry/organic_chemistry/organic_chemistry.wiki"
+-'  4  2  ~/vimwiki/chemistry/chemistry.wiki
+|4,39,4,2,1596970661,"~/vimwiki/chemistry/chemistry.wiki"
+-'  1  0  ~/vimwiki/chemistry/analysis_of_organic_molecules/analysis_of_organic_molecules.wiki
+|4,39,1,0,1596970660,"~/vimwiki/chemistry/analysis_of_organic_molecules/analysis_of_organic_molecules.wiki"
+-'  5  2  ~/vimwiki/chemistry/chemistry.wiki
+|4,39,5,2,1596970636,"~/vimwiki/chemistry/chemistry.wiki"
+-'  4  2  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,4,2,1596970633,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  52  0  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,52,0,1596970596,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  49  0  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,49,0,1596970578,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  47  100  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,47,100,1596970577,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  56  37  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,56,37,1596970503,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  45  0  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,45,0,1596970502,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  42  0  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,42,0,1596970502,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  39  0  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,39,0,1596970502,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  37  0  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,37,0,1596970502,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  34  0  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,34,0,1596970501,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  30  0  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,30,0,1596970501,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  23  0  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,23,0,1596970501,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  18  0  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,18,0,1596970501,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  13  0  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,13,0,1596970501,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  8  0  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,8,0,1596970501,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  48  4  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,48,4,1596969835,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  15  35  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,15,35,1596969834,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  41  14  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,41,14,1596969830,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  40  30  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,40,30,1596969829,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  38  45  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,38,45,1596969586,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  31  1  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,31,1,1596969202,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  17  14  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,17,14,1596969194,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  14  18  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,14,18,1596969178,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  64  0  ~/vimwiki/chemistry/organic_chemistry/topic_3.wiki
+|4,39,64,0,1596968646,"~/vimwiki/chemistry/organic_chemistry/topic_3.wiki"
+-'  24  35  ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+|4,39,24,35,1596968585,"~/vimwiki/chemistry/organic_chemistry/topic_4.wiki"
+-'  7  0  ~/vimwiki/chemistry/organic_chemistry/topic_1.wiki
+|4,39,7,0,1596967781,"~/vimwiki/chemistry/organic_chemistry/topic_1.wiki"
+-'  61  6  ~/vimwiki/chemistry/organic_chemistry/topic_3.wiki
+|4,39,61,6,1596967774,"~/vimwiki/chemistry/organic_chemistry/topic_3.wiki"
+-'  7  13  ~/vimwiki/chemistry/organic_chemistry/topic_3.wiki
+|4,39,7,13,1596967665,"~/vimwiki/chemistry/organic_chemistry/topic_3.wiki"
+-'  9  0  ~/vimwiki/chemistry/organic_chemistry/topic_3.wiki
+|4,39,9,0,1596967659,"~/vimwiki/chemistry/organic_chemistry/topic_3.wiki"
+-'  11  0  ~/vimwiki/chemistry/organic_chemistry/topic_3.wiki
+|4,39,11,0,1596967658,"~/vimwiki/chemistry/organic_chemistry/topic_3.wiki"
+-'  13  0  ~/vimwiki/chemistry/organic_chemistry/topic_3.wiki
+|4,39,13,0,1596967658,"~/vimwiki/chemistry/organic_chemistry/topic_3.wiki"
+-'  18  0  ~/vimwiki/chemistry/organic_chemistry/topic_3.wiki
+|4,39,18,0,1596967658,"~/vimwiki/chemistry/organic_chemistry/topic_3.wiki"
+-'  23  0  ~/vimwiki/chemistry/organic_chemistry/topic_3.wiki
+|4,39,23,0,1596967657,"~/vimwiki/chemistry/organic_chemistry/topic_3.wiki"
+-'  28  0  ~/vimwiki/chemistry/organic_chemistry/topic_3.wiki
+|4,39,28,0,1596967657,"~/vimwiki/chemistry/organic_chemistry/topic_3.wiki"
+-'  32  0  ~/vimwiki/chemistry/organic_chemistry/topic_3.wiki
+|4,39,32,0,1596967657,"~/vimwiki/chemistry/organic_chemistry/topic_3.wiki"
 -'  59  0  ~/.config/sxhkd/sxhkdrc
 |4,39,59,0,1596965733,"~/.config/sxhkd/sxhkdrc"
 -'  59  0  ~/.config/sxhkd/sxhkdrc
 |4,39,59,0,1596965733,"~/.config/sxhkd/sxhkdrc"
+-'  59  0  ~/.config/sxhkd/sxhkdrc
+|4,39,59,0,1596965733,"~/.config/sxhkd/sxhkdrc"
+-'  59  0  ~/.config/sxhkd/sxhkdrc
+|4,39,59,0,1596965733,"~/.config/sxhkd/sxhkdrc"
+-'  59  0  ~/.config/sxhkd/sxhkdrc
+|4,39,59,0,1596965733,"~/.config/sxhkd/sxhkdrc"
+-'  59  0  ~/.config/sxhkd/sxhkdrc
+|4,39,59,0,1596965733,"~/.config/sxhkd/sxhkdrc"
+-'  59  0  ~/.config/sxhkd/sxhkdrc
+|4,39,59,0,1596965733,"~/.config/sxhkd/sxhkdrc"
+-'  59  0  ~/.config/sxhkd/sxhkdrc
+|4,39,59,0,1596965733,"~/.config/sxhkd/sxhkdrc"
+-'  63  0  ~/.config/sxhkd/sxhkdrc
+|4,39,63,0,1596965727,"~/.config/sxhkd/sxhkdrc"
+-'  170  38  ~/.config/sxhkd/sxhkdrc
+|4,39,170,38,1596965727,"~/.config/sxhkd/sxhkdrc"
+-'  63  0  ~/.config/sxhkd/sxhkdrc
+|4,39,63,0,1596965727,"~/.config/sxhkd/sxhkdrc"
+-'  170  38  ~/.config/sxhkd/sxhkdrc
+|4,39,170,38,1596965727,"~/.config/sxhkd/sxhkdrc"
+-'  63  0  ~/.config/sxhkd/sxhkdrc
+|4,39,63,0,1596965727,"~/.config/sxhkd/sxhkdrc"
+-'  170  38  ~/.config/sxhkd/sxhkdrc
+|4,39,170,38,1596965727,"~/.config/sxhkd/sxhkdrc"
+-'  63  0  ~/.config/sxhkd/sxhkdrc
+|4,39,63,0,1596965727,"~/.config/sxhkd/sxhkdrc"
+-'  170  38  ~/.config/sxhkd/sxhkdrc
+|4,39,170,38,1596965727,"~/.config/sxhkd/sxhkdrc"
+-'  63  0  ~/.config/sxhkd/sxhkdrc
+|4,39,63,0,1596965727,"~/.config/sxhkd/sxhkdrc"
+-'  170  38  ~/.config/sxhkd/sxhkdrc
+|4,39,170,38,1596965727,"~/.config/sxhkd/sxhkdrc"
+-'  63  0  ~/.config/sxhkd/sxhkdrc
+|4,39,63,0,1596965727,"~/.config/sxhkd/sxhkdrc"
+-'  170  38  ~/.config/sxhkd/sxhkdrc
+|4,39,170,38,1596965727,"~/.config/sxhkd/sxhkdrc"
 -'  63  0  ~/.config/sxhkd/sxhkdrc
 |4,39,63,0,1596965727,"~/.config/sxhkd/sxhkdrc"
 -'  170  38  ~/.config/sxhkd/sxhkdrc
@@ -217,182 +355,338 @@ $
 |4,39,20,0,1596965726,"~/.config/sxhkd/sxhkdrc"
 -'  16  0  ~/.config/sxhkd/sxhkdrc
 |4,39,16,0,1596965726,"~/.config/sxhkd/sxhkdrc"
--'  12  0  ~/.config/sxhkd/sxhkdrc
-|4,39,12,0,1596965725,"~/.config/sxhkd/sxhkdrc"
--'  8  0  ~/.config/sxhkd/sxhkdrc
-|4,39,8,0,1596965725,"~/.config/sxhkd/sxhkdrc"
--'  4  0  ~/.config/sxhkd/sxhkdrc
-|4,39,4,0,1596965725,"~/.config/sxhkd/sxhkdrc"
--'  1  0  ~/.config/sxhkd/sxhkdrc
-|4,39,1,0,1596965725,"~/.config/sxhkd/sxhkdrc"
--'  12  0  ~/.config/sxhkd/sxhkdrc
-|4,39,12,0,1596965725,"~/.config/sxhkd/sxhkdrc"
--'  8  0  ~/.config/sxhkd/sxhkdrc
-|4,39,8,0,1596965725,"~/.config/sxhkd/sxhkdrc"
--'  4  0  ~/.config/sxhkd/sxhkdrc
-|4,39,4,0,1596965725,"~/.config/sxhkd/sxhkdrc"
--'  1  0  ~/.config/sxhkd/sxhkdrc
-|4,39,1,0,1596965725,"~/.config/sxhkd/sxhkdrc"
--'  94  0  ~/.vim/.vimrc
-|4,39,94,0,1596965703,"~/.vim/.vimrc"
--'  94  0  ~/.vim/.vimrc
-|4,39,94,0,1596965703,"~/.vim/.vimrc"
--'  94  0  ~/.vim/.vimrc
-|4,39,94,0,1596965703,"~/.vim/.vimrc"
--'  94  0  ~/.vim/.vimrc
-|4,39,94,0,1596965703,"~/.vim/.vimrc"
--'  1  0  ~/.vim/.vimrc
-|4,39,1,0,1596965698,"~/.vim/.vimrc"
--'  1  0  ~/.vim/.vimrc
-|4,39,1,0,1596965698,"~/.vim/.vimrc"
--'  1  0  ~/.vim/.vimrc
-|4,39,1,0,1596965698,"~/.vim/.vimrc"
--'  1  0  ~/.vim/.vimrc
-|4,39,1,0,1596965698,"~/.vim/.vimrc"
--'  3  8  ~/vimwiki/english/comparative/responses_to_adversity.wiki
-|4,39,3,8,1596963729,"~/vimwiki/english/comparative/responses_to_adversity.wiki"
--'  3  8  ~/vimwiki/english/comparative/responses_to_adversity.wiki
-|4,39,3,8,1596963729,"~/vimwiki/english/comparative/responses_to_adversity.wiki"
--'  3  8  ~/vimwiki/english/comparative/responses_to_adversity.wiki
-|4,39,3,8,1596963729,"~/vimwiki/english/comparative/responses_to_adversity.wiki"
--'  3  8  ~/vimwiki/english/comparative/responses_to_adversity.wiki
-|4,39,3,8,1596963729,"~/vimwiki/english/comparative/responses_to_adversity.wiki"
--'  3  8  ~/vimwiki/english/comparative/responses_to_adversity.wiki
-|4,39,3,8,1596963729,"~/vimwiki/english/comparative/responses_to_adversity.wiki"
--'  3  8  ~/vimwiki/english/comparative/responses_to_adversity.wiki
-|4,39,3,8,1596963729,"~/vimwiki/english/comparative/responses_to_adversity.wiki"
--'  3  8  ~/vimwiki/english/comparative/responses_to_adversity.wiki
-|4,39,3,8,1596963729,"~/vimwiki/english/comparative/responses_to_adversity.wiki"
--'  3  8  ~/vimwiki/english/comparative/responses_to_adversity.wiki
-|4,39,3,8,1596963729,"~/vimwiki/english/comparative/responses_to_adversity.wiki"
--'  11  2  ~/vimwiki/english/english.wiki
-|4,39,11,2,1596963667,"~/vimwiki/english/english.wiki"
--'  11  2  ~/vimwiki/english/english.wiki
-|4,39,11,2,1596963667,"~/vimwiki/english/english.wiki"
--'  11  2  ~/vimwiki/english/english.wiki
-|4,39,11,2,1596963667,"~/vimwiki/english/english.wiki"
--'  11  2  ~/vimwiki/english/english.wiki
-|4,39,11,2,1596963667,"~/vimwiki/english/english.wiki"
--'  11  2  ~/vimwiki/english/english.wiki
-|4,39,11,2,1596963667,"~/vimwiki/english/english.wiki"
--'  11  2  ~/vimwiki/english/english.wiki
-|4,39,11,2,1596963667,"~/vimwiki/english/english.wiki"
--'  11  2  ~/vimwiki/english/english.wiki
-|4,39,11,2,1596963667,"~/vimwiki/english/english.wiki"
--'  11  2  ~/vimwiki/english/english.wiki
-|4,39,11,2,1596963667,"~/vimwiki/english/english.wiki"
--'  1  0  ~/vimwiki/english/comparative/authority.wiki
-|4,39,1,0,1596963666,"~/vimwiki/english/comparative/authority.wiki"
--'  1  0  ~/vimwiki/english/comparative/authority.wiki
-|4,39,1,0,1596963666,"~/vimwiki/english/comparative/authority.wiki"
--'  1  0  ~/vimwiki/english/comparative/authority.wiki
-|4,39,1,0,1596963666,"~/vimwiki/english/comparative/authority.wiki"
--'  1  0  ~/vimwiki/english/comparative/authority.wiki
-|4,39,1,0,1596963666,"~/vimwiki/english/comparative/authority.wiki"
--'  1  0  ~/vimwiki/english/comparative/authority.wiki
-|4,39,1,0,1596963666,"~/vimwiki/english/comparative/authority.wiki"
--'  1  0  ~/vimwiki/english/comparative/authority.wiki
-|4,39,1,0,1596963666,"~/vimwiki/english/comparative/authority.wiki"
--'  1  0  ~/vimwiki/english/comparative/authority.wiki
-|4,39,1,0,1596963666,"~/vimwiki/english/comparative/authority.wiki"
--'  1  0  ~/vimwiki/english/comparative/authority.wiki
-|4,39,1,0,1596963666,"~/vimwiki/english/comparative/authority.wiki"
--'  10  2  ~/vimwiki/english/english.wiki
-|4,39,10,2,1596963664,"~/vimwiki/english/english.wiki"
--'  10  2  ~/vimwiki/english/english.wiki
-|4,39,10,2,1596963664,"~/vimwiki/english/english.wiki"
--'  10  2  ~/vimwiki/english/english.wiki
-|4,39,10,2,1596963664,"~/vimwiki/english/english.wiki"
--'  10  2  ~/vimwiki/english/english.wiki
-|4,39,10,2,1596963664,"~/vimwiki/english/english.wiki"
--'  10  2  ~/vimwiki/english/english.wiki
-|4,39,10,2,1596963664,"~/vimwiki/english/english.wiki"
--'  10  2  ~/vimwiki/english/english.wiki
-|4,39,10,2,1596963664,"~/vimwiki/english/english.wiki"
--'  10  2  ~/vimwiki/english/english.wiki
-|4,39,10,2,1596963664,"~/vimwiki/english/english.wiki"
--'  10  2  ~/vimwiki/english/english.wiki
-|4,39,10,2,1596963664,"~/vimwiki/english/english.wiki"
--'  5  6  ~/vimwiki/english/comparative/responses_to_adversity.wiki
-|4,39,5,6,1596963662,"~/vimwiki/english/comparative/responses_to_adversity.wiki"
--'  5  6  ~/vimwiki/english/comparative/responses_to_adversity.wiki
-|4,39,5,6,1596963662,"~/vimwiki/english/comparative/responses_to_adversity.wiki"
--'  5  6  ~/vimwiki/english/comparative/responses_to_adversity.wiki
-|4,39,5,6,1596963662,"~/vimwiki/english/comparative/responses_to_adversity.wiki"
--'  5  6  ~/vimwiki/english/comparative/responses_to_adversity.wiki
-|4,39,5,6,1596963662,"~/vimwiki/english/comparative/responses_to_adversity.wiki"
--'  5  6  ~/vimwiki/english/comparative/responses_to_adversity.wiki
-|4,39,5,6,1596963662,"~/vimwiki/english/comparative/responses_to_adversity.wiki"
--'  5  6  ~/vimwiki/english/comparative/responses_to_adversity.wiki
-|4,39,5,6,1596963662,"~/vimwiki/english/comparative/responses_to_adversity.wiki"
--'  5  6  ~/vimwiki/english/comparative/responses_to_adversity.wiki
-|4,39,5,6,1596963662,"~/vimwiki/english/comparative/responses_to_adversity.wiki"
--'  5  6  ~/vimwiki/english/comparative/responses_to_adversity.wiki
-|4,39,5,6,1596963662,"~/vimwiki/english/comparative/responses_to_adversity.wiki"
--'  1  0  ~/vimwiki/english/english.wiki
-|4,39,1,0,1596963651,"~/vimwiki/english/english.wiki"
--'  1  0  ~/vimwiki/english/english.wiki
-|4,39,1,0,1596963651,"~/vimwiki/english/english.wiki"
--'  1  0  ~/vimwiki/english/english.wiki
-|4,39,1,0,1596963651,"~/vimwiki/english/english.wiki"
--'  1  0  ~/vimwiki/english/english.wiki
-|4,39,1,0,1596963651,"~/vimwiki/english/english.wiki"
--'  1  0  ~/vimwiki/english/english.wiki
-|4,39,1,0,1596963651,"~/vimwiki/english/english.wiki"
--'  1  0  ~/vimwiki/english/english.wiki
-|4,39,1,0,1596963651,"~/vimwiki/english/english.wiki"
--'  1  0  ~/vimwiki/english/english.wiki
-|4,39,1,0,1596963651,"~/vimwiki/english/english.wiki"
--'  1  0  ~/vimwiki/english/english.wiki
-|4,39,1,0,1596963651,"~/vimwiki/english/english.wiki"
--'  5  2  ~/vimwiki/index.wiki
-|4,39,5,2,1596963650,"~/vimwiki/index.wiki"
--'  6  2  ~/vimwiki/index.wiki
-|4,39,6,2,1596963650,"~/vimwiki/index.wiki"
--'  7  2  ~/vimwiki/index.wiki
-|4,39,7,2,1596963650,"~/vimwiki/index.wiki"
--'  5  2  ~/vimwiki/index.wiki
-|4,39,5,2,1596963650,"~/vimwiki/index.wiki"
--'  6  2  ~/vimwiki/index.wiki
-|4,39,6,2,1596963650,"~/vimwiki/index.wiki"
--'  7  2  ~/vimwiki/index.wiki
-|4,39,7,2,1596963650,"~/vimwiki/index.wiki"
--'  5  2  ~/vimwiki/index.wiki
-|4,39,5,2,1596963650,"~/vimwiki/index.wiki"
--'  6  2  ~/vimwiki/index.wiki
-|4,39,6,2,1596963650,"~/vimwiki/index.wiki"
--'  7  2  ~/vimwiki/index.wiki
-|4,39,7,2,1596963650,"~/vimwiki/index.wiki"
--'  5  2  ~/vimwiki/index.wiki
-|4,39,5,2,1596963650,"~/vimwiki/index.wiki"
--'  6  2  ~/vimwiki/index.wiki
-|4,39,6,2,1596963650,"~/vimwiki/index.wiki"
--'  7  2  ~/vimwiki/index.wiki
-|4,39,7,2,1596963650,"~/vimwiki/index.wiki"
--'  5  2  ~/vimwiki/index.wiki
-|4,39,5,2,1596963650,"~/vimwiki/index.wiki"
--'  6  2  ~/vimwiki/index.wiki
-|4,39,6,2,1596963650,"~/vimwiki/index.wiki"
--'  7  2  ~/vimwiki/index.wiki
-|4,39,7,2,1596963650,"~/vimwiki/index.wiki"
--'  5  2  ~/vimwiki/index.wiki
-|4,39,5,2,1596963650,"~/vimwiki/index.wiki"
--'  6  2  ~/vimwiki/index.wiki
-|4,39,6,2,1596963650,"~/vimwiki/index.wiki"
--'  7  2  ~/vimwiki/index.wiki
-|4,39,7,2,1596963650,"~/vimwiki/index.wiki"
--'  5  2  ~/vimwiki/index.wiki
-|4,39,5,2,1596963650,"~/vimwiki/index.wiki"
--'  6  2  ~/vimwiki/index.wiki
-|4,39,6,2,1596963650,"~/vimwiki/index.wiki"
--'  7  2  ~/vimwiki/index.wiki
-|4,39,7,2,1596963650,"~/vimwiki/index.wiki"
+-'  42  0  ~/.config/sxhkd/sxhkdrc
+|4,39,42,0,1596965726,"~/.config/sxhkd/sxhkdrc"
+-'  24  0  ~/.config/sxhkd/sxhkdrc
+|4,39,24,0,1596965726,"~/.config/sxhkd/sxhkdrc"
+-'  20  0  ~/.config/sxhkd/sxhkdrc
+|4,39,20,0,1596965726,"~/.config/sxhkd/sxhkdrc"
+-'  16  0  ~/.config/sxhkd/sxhkdrc
+|4,39,16,0,1596965726,"~/.config/sxhkd/sxhkdrc"
+-'  42  0  ~/.config/sxhkd/sxhkdrc
+|4,39,42,0,1596965726,"~/.config/sxhkd/sxhkdrc"
+-'  24  0  ~/.config/sxhkd/sxhkdrc
+|4,39,24,0,1596965726,"~/.config/sxhkd/sxhkdrc"
+-'  20  0  ~/.config/sxhkd/sxhkdrc
+|4,39,20,0,1596965726,"~/.config/sxhkd/sxhkdrc"
+-'  16  0  ~/.config/sxhkd/sxhkdrc
+|4,39,16,0,1596965726,"~/.config/sxhkd/sxhkdrc"
+-'  42  0  ~/.config/sxhkd/sxhkdrc
+|4,39,42,0,1596965726,"~/.config/sxhkd/sxhkdrc"
+-'  24  0  ~/.config/sxhkd/sxhkdrc
+|4,39,24,0,1596965726,"~/.config/sxhkd/sxhkdrc"
+-'  20  0  ~/.config/sxhkd/sxhkdrc
+|4,39,20,0,1596965726,"~/.config/sxhkd/sxhkdrc"
+-'  16  0  ~/.config/sxhkd/sxhkdrc
+|4,39,16,0,1596965726,"~/.config/sxhkd/sxhkdrc"
+-'  42  0  ~/.config/sxhkd/sxhkdrc
+|4,39,42,0,1596965726,"~/.config/sxhkd/sxhkdrc"
+-'  24  0  ~/.config/sxhkd/sxhkdrc
+|4,39,24,0,1596965726,"~/.config/sxhkd/sxhkdrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/vimwiki/chemistry/organic_chemistry/topic_4.wiki
+	*	1596975584	0
+	"	1	0
+	^	51	39
+	.	51	38
+	+	1	19
+	+	2	0
+	+	3	15
+	+	4	12
+	+	5	10
+	+	6	0
+	+	7	17
+	+	8	0
+	+	4	8
+	+	5	81
+	+	9	11
+	+	11	57
+	+	12	0
+	+	12	15
+	+	11	55
+	+	12	0
+	+	11	81
+	+	12	32
+	+	15	46
+	+	13	0
+	+	15	78
+	+	16	32
+	+	17	13
+	+	15	37
+	+	17	33
+	+	16	32
+	+	18	0
+	+	19	0
+	+	15	79
+	+	20	64
+	+	21	104
+	+	22	124
+	+	23	0
+	+	24	60
+	+	25	28
+	+	27	27
+	+	26	26
+	+	28	0
+	+	28	83
+	+	29	40
+	+	24	62
+	+	29	80
+	+	29	0
+	+	28	0
+	+	29	0
+	+	30	0
+	+	31	0
+	+	10	11
+	+	14	15
+	+	19	10
+	+	31	7
+	+	31	16
+	+	32	66
+	+	33	62
+	+	34	0
+	+	35	80
+	+	35	0
+	+	35	91
+	+	32	66
+	+	36	34
+	+	37	0
+	+	38	66
+	+	45	0
+	+	46	14
+	+	47	100
+	+	48	50
+	+	52	0
+	+	39	0
+	+	40	94
+	+	41	16
+	+	40	125
+	+	41	37
+	+	42	0
+	+	43	80
+	+	44	26
+	+	52	4
+	+	53	35
+	+	55	37
+	+	54	27
+	+	56	38
+	+	57	0
+	+	52	0
+	+	49	0
+	+	50	74
+	+	51	0
+	+	47	100
+	+	51	38
+
+> ~/git/dots/zsh/.config/zsh/.zshrc
+	*	1596975579	0
+	"	14	18
+	^	14	19
+	.	14	18
+	+	14	27
+	+	13	0
+	+	13	14
+	+	14	18
 
 > ~/.gitconfig
 	*	1596974115	0
 	"	1	0
+
+> ~/vimwiki/chemistry/organic_chemistry/organic_chemistry.wiki
+	*	1596970668	0
+	"	6	2
+	^	6	10
+	.	6	2
+	+	1	19
+	+	2	0
+	+	3	11
+	+	4	24
+	+	5	29
+	+	6	29
+	+	7	0
+	+	4	9
+	+	5	9
+	+	6	9
+	+	4	2
+	+	5	2
+	+	6	2
+
+> ~/vimwiki/chemistry/organic_chemistry/topic_3.wiki
+	*	1596970667	0
+	"	1	0
+	^	61	7
+	.	61	7
+	+	1	19
+	+	2	0
+	+	3	15
+	+	4	12
+	+	5	10
+	+	4	85
+	+	5	81
+	+	6	0
+	+	7	11
+	+	7	19
+	+	8	23
+	+	9	0
+	+	10	124
+	+	11	0
+	+	12	57
+	+	13	0
+	+	14	10
+	+	15	30
+	+	16	10
+	+	12	21
+	+	18	0
+	+	19	17
+	+	20	78
+	+	21	79
+	+	22	79
+	+	23	0
+	+	24	18
+	+	25	30
+	+	26	69
+	+	28	0
+	+	29	111
+	+	32	0
+	+	33	11
+	+	34	30
+	+	35	64
+	+	37	0
+	+	38	9
+	+	39	30
+	+	40	67
+	+	42	0
+	+	43	7
+	+	44	27
+	+	45	36
+	+	46	18
+	+	41	16
+	+	36	14
+	+	30	2
+	+	31	16
+	+	27	21
+	+	17	14
+	+	47	0
+	+	48	7
+	+	49	27
+	+	50	69
+	+	51	18
+	+	52	0
+	+	53	0
+	+	45	0
+	+	7	0
+	+	53	0
+	+	53	8
+	+	7	14
+	+	54	60
+	+	55	17
+	+	56	7
+	+	57	7
+	+	58	10
+	+	59	8
+	+	60	10
+	+	61	7
+	+	62	15
+	+	63	8
+	+	64	14
+	+	61	7
+
+> ~/vimwiki/chemistry/organic_chemistry/topic_1.wiki
+	*	1596970664	0
+	"	1	0
+	^	9	0
+	.	7	0
+	+	1	24
+	+	2	0
+	+	3	12
+	+	4	12
+	+	5	10
+	+	4	0
+	+	4	2
+	+	5	83
+	+	5	2
+	+	6	0
+	+	7	11
+	+	10	0
+	+	10	4
+	+	10	3
+	+	10	105
+	+	11	2
+	+	10	20
+	+	12	30
+	+	13	33
+	+	14	0
+	+	15	50
+	+	16	0
+	+	17	57
+	+	18	0
+	+	19	61
+	+	20	0
+	+	21	0
+	+	7	15
+	+	21	37
+	+	22	12
+	+	23	30
+	+	24	48
+	+	25	0
+	+	8	18
+	+	9	0
+	+	7	0
+
+> ~/vimwiki/chemistry/chemistry.wiki
+	*	1596970661	0
+	"	4	2
+	^	4	38
+	.	4	2
+	+	1	12
+	+	2	0
+	+	3	20
+	+	3	23
+	+	3	9
+	+	4	19
+	+	5	91
+	+	5	2
+	+	4	2
+
+> ~/vimwiki/chemistry/analysis_of_organic_molecules/analysis_of_organic_molecules.wiki
+	*	1596970636	0
+	"	1	0
+	^	8	31
+	.	8	31
+	+	1	30
+	+	2	0
+	+	3	11
+	+	4	33
+	+	5	28
+	+	6	38
+	+	7	26
+	+	8	31
+
+> ~/.vim/UltiSnips/vimwiki.snippets
+	*	1596968832	0
+	"	27	9
+	^	27	10
+	.	27	10
+	+	2	3
+	+	6	0
+	+	2	8
+	+	22	18
+	+	2	6
+	+	6	8
+	+	10	10
+	+	14	12
+	+	18	14
+	+	22	16
+	+	30	5
+	+	31	10
+	+	30	4
+	+	32	0
+	+	29	26
+	+	34	5
+	+	35	10
+	+	34	3
+	+	27	10
 
 > ~/.config/sxhkd/sxhkdrc
 	*	1596965732	0
@@ -470,105 +764,82 @@ $
 	+	84	0
 	+	92	58
 
-> ~/vimwiki/english/comparative/responses_to_adversity.wiki
-	*	1596963728	0
-	"	3	8
-	^	3	9
-	.	3	9
-	+	1	24
-	+	4	0
-	+	5	6
-	+	2	0
-	+	3	9
-
-> ~/.vim/UltiSnips/vimwiki.snippets
-	*	1596963727	0
-	"	23	9
-	^	22	19
-	.	22	18
-	+	2	3
-	+	6	0
-	+	2	8
-	+	22	18
-
-> ~/vimwiki/english/english.wiki
-	*	1596963667	0
-	"	11	2
-	^	11	39
-	.	11	38
-	+	11	38
-
-> ~/vimwiki/english/comparative/authority.wiki
-	*	1596963664	0
-	"	1	0
-
 > ~/vimwiki/index.wiki
-	*	1596963650	0
-	"	5	2
+	*	1596964772	0
+	"	7	2
 	^	6	34
 	.	6	26
 	+	7	0
 	+	4	2
 	+	6	26
 
-> ~/vimwiki/chemistry/chemistry.wiki
-	*	1596963648	0
-	"	4	2
-	^	4	38
-	.	4	2
-	+	1	12
-	+	2	0
-	+	3	20
-	+	3	23
-	+	3	9
-	+	4	19
-	+	5	91
-	+	5	2
-	+	4	2
+> ~/vimwiki/english/english.wiki
+	*	1596964117	0
+	"	11	2
+	^	11	39
+	.	11	38
+	+	11	38
 
-> ~/vimwiki/chemistry/organic_chemistry/organic_chemistry.wiki
-	*	1596963647	0
-	"	4	2
-	^	6	10
-	.	6	2
-	+	1	19
-	+	2	0
-	+	3	11
-	+	4	24
-	+	5	29
-	+	6	29
-	+	7	0
-	+	4	9
-	+	5	9
-	+	6	9
-	+	4	2
-	+	5	2
-	+	6	2
-
-> ~/vimwiki/chemistry/organic_chemistry/topic_1.wiki
-	*	1596963641	0
-	"	1	0
-	^	5	10
-	.	5	10
+> ~/vimwiki/english/comparative/responses_to_adversity.wiki
+	*	1596964111	0
+	"	15	0
+	.	15	0
 	+	1	24
+	+	9	0
+	+	10	6
 	+	2	0
-	+	3	12
-	+	4	12
-	+	5	10
+	+	3	9
+	+	4	119
+	+	5	1
+	+	6	88
+	+	7	2
+	+	8	27
+	+	9	2
+	+	6	0
+	+	9	0
+	+	4	0
+	+	4	114
+	+	6	84
+	+	6	0
+	+	8	61
+	+	6	42
+	+	11	19
+	+	12	231
+	+	12	226
+	+	12	150
+	+	12	226
+	+	13	0
+	+	8	0
+	+	13	0
+	+	14	15
+	+	18	17
+	+	18	10
+	+	18	8
+	+	18	25
+	+	18	19
+	+	18	0
+	+	19	0
+	+	19	19
+	+	23	17
+	+	23	11
+	+	23	0
+	+	24	19
+	+	28	20
+	+	28	10
+	+	28	7
+	+	18	0
+	+	25	0
+	+	28	0
+	+	18	0
+	+	19	0
+	+	18	0
+	+	20	0
+	+	23	0
+	+	15	0
 
-> ~/vimwiki/chemistry/analysis_of_organic_molecules/analysis_of_organic_molecules.wiki
-	*	1596963638	0
+> ~/vimwiki/english/comparative/authority.wiki
+	*	1596963950	0
 	"	1	0
-	^	8	31
-	.	8	31
-	+	1	30
-	+	2	0
-	+	3	11
-	+	4	33
-	+	5	28
-	+	6	38
-	+	7	26
-	+	8	31
 
 > ~/vimwiki/essays/essays.wiki
 	*	1596963550	0
