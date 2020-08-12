@@ -19,4 +19,4 @@ sxhkd &
 # python ~/build/inkscape-shortcut-manager/main.py &
 
 # Start Window Manager
-exec dwm
+exec bspwm
