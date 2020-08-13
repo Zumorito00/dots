@@ -21,6 +21,10 @@ Plug 'dylanaraps/wal.vim'
 Plug 'vimwiki/vimwiki'
 let g:vimwiki_table_mappings = 0
 
+" Latex live preview
+Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
+let g:livepreview_previewer = 'zth'
+
 " Auto save on exit insert mode
 Plug '907th/vim-auto-save'
 let g:auto_save = 0
@@ -71,8 +75,6 @@ nnoremap <C-f> : silent exec '!inkscape-figures edit "'.b:vimtex.root.'/figures/
 " Commands
 " reload syntax highlighting
 command WE :w | e %
-" live document preview
-command L :silent !st -e zsh -c "latexmk -pdf -pvc '%'" & <CR>
 " create vimwiki table
 command T :VimwikiTable
 " convert vimwiki to html
@@ -83,11 +85,13 @@ command VH :Vimwiki2HTML
 " :so after .vimrc write
 au BufWritePost *.vimrc :so ~/.vim/.vimrc
 " restart sxhkd after write
-au BufWritePost *sxhkdrc !killall sxhkd; setsid sxhkd &
+au BufWritePost *sxhkdrc silent !killall sxhkd; setsid sxhkd &
 " restart compton after write
-au BufWritePost *compton.conf !killall compton; setsid compton --config *compton.conf &
+au BufWritePost *compton.conf silent !killall compton; setsid compton --config *compton.conf &
 " make install after write to config.h
-au BufWritePost *config.*h !sudo make install
+au BufWritePost *config.*h silent !sudo make install
+" restart bspwm after write
+au BufWritePost *bspwmrc silent !bspc wm -r
 " auto save on latex documents
 au BufRead,BufReadPre,BufNewFile *.tex let g:auto_save = 1
 " bind == to compile latex

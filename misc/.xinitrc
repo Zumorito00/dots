@@ -10,7 +10,7 @@ wal -i ~/.config/back.png
 xrdb ${HOME}/.cache/wal/xresources
 
 # Status Bar
-dwmbar &
+bar &
 
 # Key Daemon
 sxhkd &

@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/\$
+~MSle0~/yay
 
 # Last Substitute Search Pattern:
 ~MSle0&\$
@@ -20,16 +20,36 @@
 $
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1597225121,,"q"
-:Q
-|2,0,1597225120,,"Q"
-:w
-|2,0,1597214688,,"w"
-:W
-|2,0,1597214684,,"W"
 :wq
-|2,0,1597214587,,"wq"
+|2,0,1597291749,,"wq"
+:noh
+|2,0,1597291724,,"noh"
+:q
+|2,0,1597291710,,"q"
+:LL
+|2,0,1597233870,,"LL"
+:Wq
+|2,0,1597233859,,"Wq"
+:PlugInstall
+|2,0,1597233829,,"PlugInstall"
+:w
+|2,0,1597233823,,"w"
+:L
+|2,0,1597233559,,"L"
+:qw
+|2,0,1597233317,,"qw"
+:q!
+|2,0,1597233186,,"q!"
+:Q
+|2,0,1597233185,,"Q"
+:q:q
+|2,0,1597233105,,"q:q"
+:e
+|2,0,1597233090,,"e"
+:W
+|2,0,1597233057,,"W"
+:%s/foregroundalt/foreground/
+|2,0,1597231262,,"%s/foregroundalt/foreground/"
 :WQ
 |2,0,1597109408,,"WQ"
 :VH
@@ -54,42 +74,28 @@ $
 |2,0,1596976850,,"r!figlet Arch Setup Script"
 :r!figlet Hello
 |2,0,1596976836,,"r!figlet Hello"
-:noh
-|2,0,1596969833,,"noh"
 :UltiSnipsEdit
 |2,0,1596968793,,"UltiSnipsEdit"
 :%s/NH/NH2
 |2,0,1596967627,,"%s/NH/NH2"
 :'<,'>s/0/1
 |2,0,1596963699,,"'<,'>s/0/1"
-:L
-|2,0,1596963423,,"L"
 :'<,'>s/autocmd/au
 |2,0,1596962874,,"'<,'>s/autocmd/au"
-:q!
-|2,0,1596962665,,"q!"
 :filetype detect
 |2,0,1596962539,,"filetype detect"
 :clear
 |2,0,1596962655,,"clear"
-:PlugInstall
-|2,0,1596962641,,"PlugInstall"
 :filetype
 |2,0,1596962204,,"filetype"
 :let g:auto_save = 1
 |2,0,1596962086,,"let g:auto_save = 1"
-:q:q
-|2,0,1596961688,,"q:q"
-:Wq
-|2,0,1596784932,,"Wq"
 :h 'autowriteall'
 |2,0,1596783862,,"h 'autowriteall'"
 :h g:vimwiki_autowriteall
 |2,0,1596783728,,"h g:vimwiki_autowriteall"
 :UltiSnipsAddFiletypes
 |2,0,1596783494,,"UltiSnipsAddFiletypes"
-:e
-|2,0,1596783485,,"e"
 :w | e%
 |2,0,1596783261,,"w | e%"
 :'<,'>s/1/0/
@@ -104,8 +110,24 @@ $
 |2,0,1596778160,,"pdf"
 
 # Search String History (newest to oldest):
+?/yay
+|2,1,1597291720,47,"yay"
+?/brow
+|2,1,1597232555,47,"brow"
+?/12
+|2,1,1597231643,47,"12"
+?/1s
+|2,1,1597231383,47,"1s"
+? foregroundalt
+|2,1,1597231262,,"foregroundalt"
+?/font.*size
+|2,1,1597230686,47,"font.*size"
+?/font
+|2,1,1597230676,47,"font"
 ? @$
-|2,1,1597214604,,"@$"
+|2,1,1597230362,,"@$"
+? #
+|2,1,1597228480,,"#"
 ? \$
 |2,1,1597065353,,"\\$"
 ? \s\$
@@ -158,357 +180,671 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	dwm
-|3,0,0,0,1,0,1597214606,"dwm"
-""1	LINE	0
-	# gaps controls
-	super + {_,shift + } g
-	    bspc config window_gap {12,0}
+"0	LINE	0
+	:q
 	
-	# border controls
-	super + {_,shift + } b
-	    bspc config border_width $(( $(bspc config border_width) {+,-} 1 ))
-	# 
-|3,1,1,1,8,0,1597214663,"# gaps controls","super + {_,shift + } g","    bspc config window_gap {12,0}","","# border controls","super + {_,shift + } b","    bspc config border_width $(( $(bspc config border_width) {+,-} 1 ))","# "
-"2	BLOCK	1
-	# 
-	# 
-	# 
-	# 
-	# 
-	# 
-	# 
-	# 
-|3,0,2,2,8,1,1597214642,"# ","# ","# ","# ","# ","# ","# ","# "
+	\begin{document}
+	    Hello
+	    mksadkmsad
+	    \[
+	    ksamdsamd
+	
+	
+	
+	
+	
+	    \]
+	\end{document}
+|3,0,0,1,14,0,1597233338,":q","","\\begin{document}","    Hello","    mksadkmsad","    \\[","    ksamdsamd","","","","","","    \\]","\\end{document}"
+"1	LINE	0
+	
+|3,0,1,1,1,0,1597233854,""
+"2	LINE	0
+	" Latex live preview
+|3,0,2,1,1,0,1597233852,"\" Latex live preview"
 "3	LINE	0
 	
-	#
-	# bspwm hotkeys
-	#
-	
-	# # quit/restart bspwm
-	# super + alt + {q,r}
-	# 	bspc {quit,wm -r}
-	# 
-	# # close and kill
-	# super + {_,shift + }q
-	# 	bspc node -{c,k}
-	# 
-	# # alternate between the tiled and monocle layout
-	# super + m
-	# 	bspc desktop -l next
-	# 
-	# # send the newest marked node to the newest preselected node
-	# # super + y
-	# # 	bspc node newest.marked.local -n newest.!automatic.local
-	# 
-	# # swap the current node and the biggest node
-	# # super + g
-	# # 	bspc node -s biggest
-	# 
-	# #
-	# # state/flags
-	# #
-	# 
-	# # set the window state
-	# super + {t,shift + t,s,f}
-	# 	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
-	# 
-	# # set the node flags
-	# # super + ctrl + {m,x,y,z}
-	# # 	bspc node -g {marked,locked,sticky,private}
-	# 
-	# # set sticky node flag
-	# super + shift + s
-	#     bspc node -g sticky
-	# 
-	# #
-	# # focus/swap
-	# #
-	# 
-	# # focus the node in the given direction
-	# super + {_,shift + }{h,j,k,l}
-	# 	bspc node -{f,s} {west,south,north,east}
-	# 
-	# # focus the node for the given path jump
-|3,0,3,1,50,0,1597214617,"","#","# bspwm hotkeys","#","","# # quit/restart bspwm","# super + alt + {q,r}","# 	bspc {quit,wm -r}","# ","# # close and kill","# super + {_,shift + }q","# 	bspc node -{c,k}","# ","# # alternate between the tiled and monocle layout","# super + m","# 	bspc desktop -l next","# ","# # send the newest marked node to the newest preselected node","# # super + y","# # 	bspc node newest.marked.local -n newest.!automatic.local","# ",>48
-|<"# # swap the current node and the biggest node","# # super + g","# # 	bspc node -s biggest","# ","# #","# # state/flags","# #","# ","# # set the window state","# super + {t,shift + t,s,f}","# 	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}","# ","# # set the node flags","# # super + ctrl + {m,x,y,z}","# # 	bspc node -g {marked,locked,sticky,private}","# ","# # set sticky node flag","# super + shift + s","#     bspc node -g sticky","# ","# #","# # focus/swap","# #","# ",>43
-|<"# # focus the node in the given direction","# super + {_,shift + }{h,j,k,l}","# 	bspc node -{f,s} {west,south,north,east}","# ","# # focus the node for the given path jump"
+|3,0,3,1,1,0,1597233811,""
 "4	LINE	0
-	- 
-|3,0,4,1,1,0,1597123690,"- "
+	" live document preview
+	command L :silent exec "!(latexmk -pdf -pvc '%'&) > /dev/null"
+|3,0,4,1,2,0,1597233783,"\" live document preview","command L :silent exec \"!(latexmk -pdf -pvc '%'&) > /dev/null\""
 "5	LINE	0
 	
-|3,0,5,1,1,0,1597063570,""
+|3,0,5,1,1,0,1597233349,""
 "6	LINE	0
-	= Definitions ==
-|3,0,6,1,1,0,1597063569,"= Definitions =="
+	:q
+	
+	\begin{document}
+	    Hello
+	    mksadkmsad
+	    \[
+	    ksamdsamd
+	
+	
+	
+	
+	
+	    \]
+	\end{document}
+|3,0,6,1,14,0,1597233337,":q","","\\begin{document}","    Hello","    mksadkmsad","    \\[","    ksamdsamd","","","","","","    \\]","\\end{document}"
 "7	LINE	0
-	End Point:: Always a single 
-|3,0,7,1,1,0,1597063565,"End Point:: Always a single "
+	\documentclass{basic}
+	
+|3,0,7,1,2,0,1597233285,"\\documentclass{basic}",""
 "8	LINE	0
-	Equivalence Point:: Rea
-|3,0,8,1,1,0,1597063491,"Equivalence Point:: Rea"
+	bspc rule -a Kupfer.py focus=on
+	bspc rule -a Screenkey manage=off
+|3,0,8,1,2,0,1597232374,"bspc rule -a Kupfer.py focus=on","bspc rule -a Screenkey manage=off"
 "9	LINE	0
-	== Notes 
-|3,0,9,1,1,0,1597063460,"== Notes "
+	
+	# vscode
+	super + backslash
+	    vscodium
+|3,0,9,1,4,0,1597232133,"","# vscode","super + backslash","    vscodium"
+"j	CHAR	0
+	jjj
+|3,0,19,0,1,0,1597233078,"jjj"
 "q@	CHAR	0
 	0wv$hj
 |3,2,26,0,1,0,1597018953,"0wv$hj"
-"-	CHAR	0
-	dwm
-|3,0,36,0,1,0,1597214583,"dwm"
+""-	CHAR	0
+	compton-tryone-git
+|3,1,36,0,1,0,1597291727,"compton-tryone-git"
 
 # File marks:
-'0  33  0  ~/git/dots/sxhkd/.config/sxhkd/sxhkdrc
-|4,48,33,0,1597225121,"~/git/dots/sxhkd/.config/sxhkd/sxhkdrc"
-'1  22  9  ~/.xinitrc
-|4,49,22,9,1597214587,"~/.xinitrc"
-'2  22  9  ~/.xinitrc
-|4,50,22,9,1597214587,"~/.xinitrc"
-'3  15  0  ~/vimwiki/index.wiki
-|4,51,15,0,1597214426,"~/vimwiki/index.wiki"
-'4  15  0  ~/vimwiki/index.wiki
-|4,52,15,0,1597214426,"~/vimwiki/index.wiki"
-'5  10  110  ~/vimwiki/english/comparative/roles_of_women.wiki
-|4,53,10,110,1597125292,"~/vimwiki/english/comparative/roles_of_women.wiki"
-'6  10  110  ~/vimwiki/english/comparative/roles_of_women.wiki
-|4,54,10,110,1597125292,"~/vimwiki/english/comparative/roles_of_women.wiki"
-'7  10  2  ~/vimwiki/index.wiki
-|4,55,10,2,1597125284,"~/vimwiki/index.wiki"
-'8  10  2  ~/vimwiki/index.wiki
-|4,56,10,2,1597125284,"~/vimwiki/index.wiki"
-'9  10  2  ~/vimwiki/index.wiki
-|4,57,10,2,1597125284,"~/vimwiki/index.wiki"
+'0  75  41  ~/git/dots/setup.sh
+|4,48,75,41,1597291749,"~/git/dots/setup.sh"
+'1  1  0  ~/git/dots/in
+|4,49,1,0,1597291710,"~/git/dots/in"
+'2  9  12  ~/test.tex
+|4,50,9,12,1597233888,"~/test.tex"
+'3  26  33  ~/git/dots/vim/.vim/.vimrc
+|4,51,26,33,1597233862,"~/git/dots/vim/.vim/.vimrc"
+'4  78  0  ~/git/dots/vim/.vim/.vimrc
+|4,52,78,0,1597233790,"~/git/dots/vim/.vim/.vimrc"
+'5  74  0  ~/git/dots/vim/.vim/.vimrc
+|4,53,74,0,1597233790,"~/git/dots/vim/.vim/.vimrc"
+'6  1  12  ~/test.tex
+|4,54,1,12,1597233578,"~/test.tex"
+'7  1  12  ~/test.tex
+|4,55,1,12,1597233578,"~/test.tex"
+'8  4  0  ~/test.tex
+|4,56,4,0,1597233439,"~/test.tex"
+'9  4  0  ~/test.tex
+|4,57,4,0,1597233439,"~/test.tex"
 
 # Jumplist (newest first):
--'  33  0  ~/git/dots/sxhkd/.config/sxhkd/sxhkdrc
-|4,39,33,0,1597225121,"~/git/dots/sxhkd/.config/sxhkd/sxhkdrc"
--'  51  0  ~/git/dots/sxhkd/.config/sxhkd/sxhkdrc
-|4,39,51,0,1597214625,"~/git/dots/sxhkd/.config/sxhkd/sxhkdrc"
--'  49  4  ~/git/dots/sxhkd/.config/sxhkd/sxhkdrc
-|4,39,49,4,1597214623,"~/git/dots/sxhkd/.config/sxhkd/sxhkdrc"
--'  34  0  ~/git/dots/sxhkd/.config/sxhkd/sxhkdrc
-|4,39,34,0,1597214616,"~/git/dots/sxhkd/.config/sxhkd/sxhkdrc"
--'  2  0  ~/git/dots/sxhkd/.config/sxhkd/sxhkdrc
-|4,39,2,0,1597214610,"~/git/dots/sxhkd/.config/sxhkd/sxhkdrc"
--'  10  0  ~/git/dots/sxhkd/.config
-|4,39,10,0,1597214604,"~/git/dots/sxhkd/.config"
--'  10  0  ~/git/dots/sxhkd
-|4,39,10,0,1597214602,"~/git/dots/sxhkd"
--'  22  9  ~/.xinitrc
-|4,39,22,9,1597214587,"~/.xinitrc"
--'  22  9  ~/.xinitrc
-|4,39,22,9,1597214587,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1597214582,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1597214582,"~/.xinitrc"
--'  15  0  ~/vimwiki/index.wiki
-|4,39,15,0,1597214426,"~/vimwiki/index.wiki"
--'  15  0  ~/vimwiki/index.wiki
-|4,39,15,0,1597214426,"~/vimwiki/index.wiki"
--'  15  0  ~/vimwiki/index.wiki
-|4,39,15,0,1597214426,"~/vimwiki/index.wiki"
--'  17  44  ~/vimwiki/index.wiki
-|4,39,17,44,1597214421,"~/vimwiki/index.wiki"
--'  17  44  ~/vimwiki/index.wiki
-|4,39,17,44,1597214421,"~/vimwiki/index.wiki"
--'  17  44  ~/vimwiki/index.wiki
-|4,39,17,44,1597214421,"~/vimwiki/index.wiki"
--'  1  0  ~/vimwiki/index.wiki
-|4,39,1,0,1597201065,"~/vimwiki/index.wiki"
--'  1  0  ~/vimwiki/index.wiki
-|4,39,1,0,1597201065,"~/vimwiki/index.wiki"
--'  1  0  ~/vimwiki/index.wiki
-|4,39,1,0,1597201065,"~/vimwiki/index.wiki"
--'  10  110  ~/vimwiki/english/comparative/roles_of_women.wiki
-|4,39,10,110,1597125292,"~/vimwiki/english/comparative/roles_of_women.wiki"
--'  10  110  ~/vimwiki/english/comparative/roles_of_women.wiki
-|4,39,10,110,1597125292,"~/vimwiki/english/comparative/roles_of_women.wiki"
--'  10  110  ~/vimwiki/english/comparative/roles_of_women.wiki
-|4,39,10,110,1597125292,"~/vimwiki/english/comparative/roles_of_women.wiki"
--'  10  110  ~/vimwiki/english/comparative/roles_of_women.wiki
-|4,39,10,110,1597125292,"~/vimwiki/english/comparative/roles_of_women.wiki"
--'  10  110  ~/vimwiki/english/comparative/roles_of_women.wiki
-|4,39,10,110,1597125292,"~/vimwiki/english/comparative/roles_of_women.wiki"
--'  10  2  ~/vimwiki/index.wiki
-|4,39,10,2,1597125284,"~/vimwiki/index.wiki"
--'  10  2  ~/vimwiki/index.wiki
-|4,39,10,2,1597125284,"~/vimwiki/index.wiki"
--'  10  2  ~/vimwiki/index.wiki
-|4,39,10,2,1597125284,"~/vimwiki/index.wiki"
--'  10  2  ~/vimwiki/index.wiki
-|4,39,10,2,1597125284,"~/vimwiki/index.wiki"
--'  10  2  ~/vimwiki/index.wiki
-|4,39,10,2,1597125284,"~/vimwiki/index.wiki"
--'  7  2  ~/vimwiki/index.wiki
-|4,39,7,2,1597124525,"~/vimwiki/index.wiki"
--'  6  2  ~/vimwiki/index.wiki
-|4,39,6,2,1597124525,"~/vimwiki/index.wiki"
--'  7  2  ~/vimwiki/index.wiki
-|4,39,7,2,1597124525,"~/vimwiki/index.wiki"
--'  6  2  ~/vimwiki/index.wiki
-|4,39,6,2,1597124525,"~/vimwiki/index.wiki"
--'  7  2  ~/vimwiki/index.wiki
-|4,39,7,2,1597124525,"~/vimwiki/index.wiki"
--'  6  2  ~/vimwiki/index.wiki
-|4,39,6,2,1597124525,"~/vimwiki/index.wiki"
--'  7  2  ~/vimwiki/index.wiki
-|4,39,7,2,1597124525,"~/vimwiki/index.wiki"
--'  6  2  ~/vimwiki/index.wiki
-|4,39,6,2,1597124525,"~/vimwiki/index.wiki"
--'  7  2  ~/vimwiki/index.wiki
-|4,39,7,2,1597124525,"~/vimwiki/index.wiki"
--'  6  2  ~/vimwiki/index.wiki
-|4,39,6,2,1597124525,"~/vimwiki/index.wiki"
--'  5  2  ~/vimwiki/index.wiki
-|4,39,5,2,1597124524,"~/vimwiki/index.wiki"
--'  5  2  ~/vimwiki/index.wiki
-|4,39,5,2,1597124524,"~/vimwiki/index.wiki"
--'  5  2  ~/vimwiki/index.wiki
-|4,39,5,2,1597124524,"~/vimwiki/index.wiki"
--'  1  0  ~/vimwiki/index.wiki
-|4,39,1,0,1597124524,"~/vimwiki/index.wiki"
--'  5  2  ~/vimwiki/index.wiki
-|4,39,5,2,1597124524,"~/vimwiki/index.wiki"
--'  5  2  ~/vimwiki/index.wiki
-|4,39,5,2,1597124524,"~/vimwiki/index.wiki"
--'  1  0  ~/vimwiki/index.wiki
-|4,39,1,0,1597124524,"~/vimwiki/index.wiki"
--'  4  19  ~/vimwiki/english/comparative/roles_of_women.wiki
-|4,39,4,19,1597123698,"~/vimwiki/english/comparative/roles_of_women.wiki"
--'  4  19  ~/vimwiki/english/comparative/roles_of_women.wiki
-|4,39,4,19,1597123698,"~/vimwiki/english/comparative/roles_of_women.wiki"
--'  4  19  ~/vimwiki/english/comparative/roles_of_women.wiki
-|4,39,4,19,1597123698,"~/vimwiki/english/comparative/roles_of_women.wiki"
--'  4  19  ~/vimwiki/english/comparative/roles_of_women.wiki
-|4,39,4,19,1597123698,"~/vimwiki/english/comparative/roles_of_women.wiki"
--'  4  19  ~/vimwiki/english/comparative/roles_of_women.wiki
-|4,39,4,19,1597123698,"~/vimwiki/english/comparative/roles_of_women.wiki"
--'  1  17  ~/vimwiki/english/comparative/roles_of_women.wiki
-|4,39,1,17,1597123648,"~/vimwiki/english/comparative/roles_of_women.wiki"
--'  1  17  ~/vimwiki/english/comparative/roles_of_women.wiki
-|4,39,1,17,1597123648,"~/vimwiki/english/comparative/roles_of_women.wiki"
--'  1  17  ~/vimwiki/english/comparative/roles_of_women.wiki
-|4,39,1,17,1597123648,"~/vimwiki/english/comparative/roles_of_women.wiki"
--'  1  17  ~/vimwiki/english/comparative/roles_of_women.wiki
-|4,39,1,17,1597123648,"~/vimwiki/english/comparative/roles_of_women.wiki"
--'  1  17  ~/vimwiki/english/comparative/roles_of_women.wiki
-|4,39,1,17,1597123648,"~/vimwiki/english/comparative/roles_of_women.wiki"
--'  12  2  ~/vimwiki/english/english.wiki
-|4,39,12,2,1597123646,"~/vimwiki/english/english.wiki"
--'  12  2  ~/vimwiki/english/english.wiki
-|4,39,12,2,1597123646,"~/vimwiki/english/english.wiki"
--'  12  2  ~/vimwiki/english/english.wiki
-|4,39,12,2,1597123646,"~/vimwiki/english/english.wiki"
--'  12  2  ~/vimwiki/english/english.wiki
-|4,39,12,2,1597123646,"~/vimwiki/english/english.wiki"
--'  12  2  ~/vimwiki/english/english.wiki
-|4,39,12,2,1597123646,"~/vimwiki/english/english.wiki"
--'  11  2  ~/vimwiki/english/english.wiki
-|4,39,11,2,1597123645,"~/vimwiki/english/english.wiki"
--'  10  2  ~/vimwiki/english/english.wiki
-|4,39,10,2,1597123645,"~/vimwiki/english/english.wiki"
--'  1  0  ~/vimwiki/english/english.wiki
-|4,39,1,0,1597123645,"~/vimwiki/english/english.wiki"
--'  11  2  ~/vimwiki/english/english.wiki
-|4,39,11,2,1597123645,"~/vimwiki/english/english.wiki"
--'  10  2  ~/vimwiki/english/english.wiki
-|4,39,10,2,1597123645,"~/vimwiki/english/english.wiki"
--'  1  0  ~/vimwiki/english/english.wiki
-|4,39,1,0,1597123645,"~/vimwiki/english/english.wiki"
--'  11  2  ~/vimwiki/english/english.wiki
-|4,39,11,2,1597123645,"~/vimwiki/english/english.wiki"
--'  10  2  ~/vimwiki/english/english.wiki
-|4,39,10,2,1597123645,"~/vimwiki/english/english.wiki"
--'  1  0  ~/vimwiki/english/english.wiki
-|4,39,1,0,1597123645,"~/vimwiki/english/english.wiki"
--'  11  2  ~/vimwiki/english/english.wiki
-|4,39,11,2,1597123645,"~/vimwiki/english/english.wiki"
--'  10  2  ~/vimwiki/english/english.wiki
-|4,39,10,2,1597123645,"~/vimwiki/english/english.wiki"
--'  1  0  ~/vimwiki/english/english.wiki
-|4,39,1,0,1597123645,"~/vimwiki/english/english.wiki"
--'  11  2  ~/vimwiki/english/english.wiki
-|4,39,11,2,1597123645,"~/vimwiki/english/english.wiki"
--'  10  2  ~/vimwiki/english/english.wiki
-|4,39,10,2,1597123645,"~/vimwiki/english/english.wiki"
--'  1  0  ~/vimwiki/english/english.wiki
-|4,39,1,0,1597123645,"~/vimwiki/english/english.wiki"
--'  5  2  ~/vimwiki/index.wiki
-|4,39,5,2,1597123644,"~/vimwiki/index.wiki"
--'  5  2  ~/vimwiki/index.wiki
-|4,39,5,2,1597123644,"~/vimwiki/index.wiki"
--'  10  2  ~/vimwiki/index.wiki
-|4,39,10,2,1597123202,"~/vimwiki/index.wiki"
--'  10  2  ~/vimwiki/index.wiki
-|4,39,10,2,1597123202,"~/vimwiki/index.wiki"
--'  7  2  ~/vimwiki/index.wiki
-|4,39,7,2,1597123201,"~/vimwiki/index.wiki"
--'  6  2  ~/vimwiki/index.wiki
-|4,39,6,2,1597123201,"~/vimwiki/index.wiki"
--'  7  2  ~/vimwiki/index.wiki
-|4,39,7,2,1597123201,"~/vimwiki/index.wiki"
--'  6  2  ~/vimwiki/index.wiki
-|4,39,6,2,1597123201,"~/vimwiki/index.wiki"
--'  6  49  ~/vimwiki/english/comparative/roles_of_women.wiki
-|4,39,6,49,1597123200,"~/vimwiki/english/comparative/roles_of_women.wiki"
--'  6  49  ~/vimwiki/english/comparative/roles_of_women.wiki
-|4,39,6,49,1597123200,"~/vimwiki/english/comparative/roles_of_women.wiki"
--'  6  49  ~/vimwiki/english/comparative/roles_of_women.wiki
-|4,39,6,49,1597123200,"~/vimwiki/english/comparative/roles_of_women.wiki"
--'  6  49  ~/vimwiki/english/comparative/roles_of_women.wiki
-|4,39,6,49,1597123200,"~/vimwiki/english/comparative/roles_of_women.wiki"
--'  6  49  ~/vimwiki/english/comparative/roles_of_women.wiki
-|4,39,6,49,1597123200,"~/vimwiki/english/comparative/roles_of_women.wiki"
--'  1  0  ~/vimwiki/english/The Roles of Women.wiki
-|4,39,1,0,1597122085,"~/vimwiki/english/The Roles of Women.wiki"
--'  1  0  ~/vimwiki/english/The Roles of Women.wiki
-|4,39,1,0,1597122085,"~/vimwiki/english/The Roles of Women.wiki"
--'  1  0  ~/vimwiki/english/The Roles of Women.wiki
-|4,39,1,0,1597122085,"~/vimwiki/english/The Roles of Women.wiki"
--'  1  0  ~/vimwiki/english/The Roles of Women.wiki
-|4,39,1,0,1597122085,"~/vimwiki/english/The Roles of Women.wiki"
--'  1  0  ~/vimwiki/english/The Roles of Women.wiki
-|4,39,1,0,1597122085,"~/vimwiki/english/The Roles of Women.wiki"
--'  11  2  ~/vimwiki/index.wiki
-|4,39,11,2,1597122077,"~/vimwiki/index.wiki"
--'  11  2  ~/vimwiki/index.wiki
-|4,39,11,2,1597122077,"~/vimwiki/index.wiki"
--'  11  2  ~/vimwiki/index.wiki
-|4,39,11,2,1597122077,"~/vimwiki/index.wiki"
--'  11  2  ~/vimwiki/index.wiki
-|4,39,11,2,1597122077,"~/vimwiki/index.wiki"
+-'  75  41  ~/git/dots/setup.sh
+|4,39,75,41,1597291749,"~/git/dots/setup.sh"
+-'  1  0  ~/git/dots/setup.sh
+|4,39,1,0,1597291720,"~/git/dots/setup.sh"
+-'  1  0  ~/git/dots/in
+|4,39,1,0,1597291710,"~/git/dots/in"
+-'  1  0  ~/git/dots/in
+|4,39,1,0,1597291710,"~/git/dots/in"
+-'  9  12  ~/test.tex
+|4,39,9,12,1597233888,"~/test.tex"
+-'  9  12  ~/test.tex
+|4,39,9,12,1597233888,"~/test.tex"
+-'  9  12  ~/test.tex
+|4,39,9,12,1597233888,"~/test.tex"
+-'  9  12  ~/test.tex
+|4,39,9,12,1597233888,"~/test.tex"
+-'  1  0  ~/test.tex
+|4,39,1,0,1597233869,"~/test.tex"
+-'  1  0  ~/test.tex
+|4,39,1,0,1597233869,"~/test.tex"
+-'  1  0  ~/test.tex
+|4,39,1,0,1597233869,"~/test.tex"
+-'  1  0  ~/test.tex
+|4,39,1,0,1597233869,"~/test.tex"
+-'  26  33  ~/git/dots/vim/.vim/.vimrc
+|4,39,26,33,1597233862,"~/git/dots/vim/.vim/.vimrc"
+-'  26  33  ~/git/dots/vim/.vim/.vimrc
+|4,39,26,33,1597233862,"~/git/dots/vim/.vim/.vimrc"
+-'  26  33  ~/git/dots/vim/.vim/.vimrc
+|4,39,26,33,1597233862,"~/git/dots/vim/.vim/.vimrc"
+-'  26  33  ~/git/dots/vim/.vim/.vimrc
+|4,39,26,33,1597233862,"~/git/dots/vim/.vim/.vimrc"
+-'  26  33  ~/git/dots/vim/.vim/.vimrc
+|4,39,26,33,1597233862,"~/git/dots/vim/.vim/.vimrc"
+-'  26  33  ~/git/dots/vim/.vim/.vimrc
+|4,39,26,33,1597233862,"~/git/dots/vim/.vim/.vimrc"
+-'  26  33  ~/git/dots/vim/.vim/.vimrc
+|4,39,26,33,1597233862,"~/git/dots/vim/.vim/.vimrc"
+-'  26  33  ~/git/dots/vim/.vim/.vimrc
+|4,39,26,33,1597233862,"~/git/dots/vim/.vim/.vimrc"
+-'  31  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,31,0,1597233807,"~/git/dots/vim/.vim/.vimrc"
+-'  33  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,33,0,1597233807,"~/git/dots/vim/.vim/.vimrc"
+-'  31  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,31,0,1597233807,"~/git/dots/vim/.vim/.vimrc"
+-'  33  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,33,0,1597233807,"~/git/dots/vim/.vim/.vimrc"
+-'  31  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,31,0,1597233807,"~/git/dots/vim/.vim/.vimrc"
+-'  33  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,33,0,1597233807,"~/git/dots/vim/.vim/.vimrc"
+-'  31  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,31,0,1597233807,"~/git/dots/vim/.vim/.vimrc"
+-'  33  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,33,0,1597233807,"~/git/dots/vim/.vim/.vimrc"
+-'  31  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,31,0,1597233807,"~/git/dots/vim/.vim/.vimrc"
+-'  33  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,33,0,1597233807,"~/git/dots/vim/.vim/.vimrc"
+-'  31  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,31,0,1597233807,"~/git/dots/vim/.vim/.vimrc"
+-'  33  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,33,0,1597233807,"~/git/dots/vim/.vim/.vimrc"
+-'  31  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,31,0,1597233807,"~/git/dots/vim/.vim/.vimrc"
+-'  33  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,33,0,1597233807,"~/git/dots/vim/.vim/.vimrc"
+-'  31  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,31,0,1597233807,"~/git/dots/vim/.vim/.vimrc"
+-'  33  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,33,0,1597233807,"~/git/dots/vim/.vim/.vimrc"
+-'  27  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,27,0,1597233806,"~/git/dots/vim/.vim/.vimrc"
+-'  27  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,27,0,1597233806,"~/git/dots/vim/.vim/.vimrc"
+-'  27  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,27,0,1597233806,"~/git/dots/vim/.vim/.vimrc"
+-'  27  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,27,0,1597233806,"~/git/dots/vim/.vim/.vimrc"
+-'  27  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,27,0,1597233806,"~/git/dots/vim/.vim/.vimrc"
+-'  27  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,27,0,1597233806,"~/git/dots/vim/.vim/.vimrc"
+-'  27  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,27,0,1597233806,"~/git/dots/vim/.vim/.vimrc"
+-'  27  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,27,0,1597233806,"~/git/dots/vim/.vim/.vimrc"
+-'  19  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,19,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  16  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,16,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  13  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,13,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  10  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,10,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  5  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,5,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  19  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,19,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  16  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,16,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  13  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,13,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  10  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,10,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  5  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,5,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  19  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,19,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  16  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,16,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  13  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,13,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  10  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,10,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  5  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,5,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  19  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,19,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  16  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,16,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  13  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,13,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  10  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,10,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  5  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,5,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  19  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,19,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  16  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,16,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  13  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,13,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  10  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,10,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  5  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,5,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  19  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,19,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  16  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,16,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  13  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,13,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  10  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,10,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  5  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,5,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  19  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,19,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  16  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,16,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  13  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,13,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  10  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,10,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  5  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,5,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  19  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,19,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  16  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,16,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  13  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,13,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  10  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,10,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  5  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,5,0,1597233805,"~/git/dots/vim/.vim/.vimrc"
+-'  2  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,2,0,1597233804,"~/git/dots/vim/.vim/.vimrc"
+-'  1  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,1,0,1597233804,"~/git/dots/vim/.vim/.vimrc"
+-'  2  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,2,0,1597233804,"~/git/dots/vim/.vim/.vimrc"
+-'  1  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,1,0,1597233804,"~/git/dots/vim/.vim/.vimrc"
+-'  2  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,2,0,1597233804,"~/git/dots/vim/.vim/.vimrc"
+-'  1  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,1,0,1597233804,"~/git/dots/vim/.vim/.vimrc"
+-'  2  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,2,0,1597233804,"~/git/dots/vim/.vim/.vimrc"
+-'  1  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,1,0,1597233804,"~/git/dots/vim/.vim/.vimrc"
+-'  2  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,2,0,1597233804,"~/git/dots/vim/.vim/.vimrc"
+-'  1  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,1,0,1597233804,"~/git/dots/vim/.vim/.vimrc"
+-'  2  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,2,0,1597233804,"~/git/dots/vim/.vim/.vimrc"
+-'  1  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,1,0,1597233804,"~/git/dots/vim/.vim/.vimrc"
+-'  2  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,2,0,1597233804,"~/git/dots/vim/.vim/.vimrc"
+-'  1  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,1,0,1597233804,"~/git/dots/vim/.vim/.vimrc"
+-'  2  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,2,0,1597233804,"~/git/dots/vim/.vim/.vimrc"
+-'  1  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,1,0,1597233804,"~/git/dots/vim/.vim/.vimrc"
 
 # History of marks within files (newest to oldest):
 
+> ~/git/dots/setup.sh
+	*	1597291748	0
+	"	75	41
+	^	75	42
+	.	75	42
+	+	79	10
+	+	114	0
+	+	1	0
+	+	111	0
+	+	1	0
+	+	14	0
+	+	2	0
+	+	1	0
+	+	29	0
+	+	26	24
+	+	27	18
+	+	26	26
+	+	28	13
+	+	32	19
+	+	26	19
+	+	33	44
+	+	35	1
+	+	77	0
+	+	66	3
+	+	23	0
+	+	22	13
+	+	67	20
+	+	75	42
+	+	76	0
+	+	72	13
+	+	76	13
+	+	33	43
+	+	36	0
+	+	39	0
+	+	37	14
+	+	41	0
+	+	39	82
+	+	33	0
+	+	33	106
+	+	39	93
+	+	47	0
+	+	45	8
+	+	34	13
+	+	45	26
+	+	42	0
+	+	48	0
+	+	51	45
+	+	45	26
+	+	33	103
+	+	45	68
+	+	44	35
+	+	32	37
+	+	50	47
+	+	38	36
+	+	40	13
+	+	46	13
+	+	52	13
+	+	22	0
+	+	68	46
+	+	33	36
+	+	45	80
+	+	70	15
+	+	63	0
+	+	56	3
+	+	33	33
+	+	62	13
+	+	62	0
+	+	60	47
+	+	62	0
+	+	71	5
+	+	18	11
+	+	20	0
+	+	33	108
+	+	64	0
+	+	78	0
+	+	24	0
+	+	84	18
+	+	87	24
+	+	112	24
+	+	89	0
+	+	88	0
+	+	81	0
+	+	80	15
+	+	82	9
+	+	92	14
+	+	111	0
+	+	110	9
+	+	107	0
+	+	104	0
+	+	109	20
+	+	42	0
+	+	45	26
+	+	75	42
+
+> ~/git/dots/in
+	*	1597291709	0
+	"	1	0
+
+> ~/test.tex
+	*	1597233887	0
+	"	9	12
+	^	9	13
+	.	9	12
+	+	1	0
+	+	1	9
+	+	1	12
+	+	1	0
+	+	11	0
+	+	11	9
+	+	11	14
+	+	11	0
+	+	11	13
+	+	11	0
+	+	1	2
+	+	1	0
+	+	4	0
+	+	2	0
+	+	4	9
+	+	5	13
+	+	6	13
+	+	9	12
+
+> ~/git/dots/vim/.vim/.vimrc
+	*	1597233861	0
+	"	26	33
+	^	26	34
+	.	26	33
+	+	94	0
+	+	93	27
+	+	94	31
+	+	88	31
+	+	90	36
+	+	92	33
+	+	78	0
+	+	25	54
+	+	27	0
+	+	24	20
+	+	26	43
+	+	27	0
+	+	26	33
+
+> ~/test.tes
+	*	1597233355	0
+	"	1	0
+
+> ~/test.
+	*	1597233147	0
+	"	1	0
+
 > ~/git/dots/sxhkd/.config/sxhkd/sxhkdrc
-	*	1597225120	0
-	"	33	0
-	.	33	57
+	*	1597232561	0
+	"	18	9
+	^	18	10
+	.	18	9
 	+	51	0
 	+	28	0
 	+	29	0
 	+	33	57
+	+	51	0
+	+	29	0
+	+	53	13
+	+	2	22
+	+	55	0
+	+	78	24
+	+	80	1
+	+	61	1
+	+	60	31
+	+	62	43
+	+	61	10
+	+	66	41
+	+	74	56
+	+	70	23
+	+	80	37
+	+	82	40
+	+	85	0
+	+	84	3
+	+	86	23
+	+	88	34
+	+	90	61
+	+	91	0
+	+	92	0
+	+	93	19
+	+	94	55
+	+	31	28
+	+	21	2
+	+	20	0
+	+	21	2
+	+	23	0
+	+	22	8
+	+	23	42
+	+	23	51
+	+	18	9
 
-> ~/.xinitrc
-	*	1597214586	0
-	"	22	9
-	^	22	10
-	.	22	9
-	+	22	9
+> ~/.scripts/chbg
+	*	1597232462	0
+	"	15	11
+	^	15	12
+	.	15	11
+	+	15	10
+	+	13	1
+	+	13	0
+	+	16	0
+	+	14	4
+	+	15	11
+
+> ~/.scripts/bar
+	*	1597232446	0
+	"	286	0
+	^	255	27
+	.	255	32
+	+	64	0
+	+	63	0
+	+	62	0
+	+	61	0
+	+	60	0
+	+	58	0
+	+	57	0
+	+	56	0
+	+	55	0
+	+	54	0
+	+	53	0
+	+	52	0
+	+	51	0
+	+	50	0
+	+	48	0
+	+	47	0
+	+	46	0
+	+	45	0
+	+	44	0
+	+	42	0
+	+	41	0
+	+	40	0
+	+	39	0
+	+	38	0
+	+	37	0
+	+	36	0
+	+	35	0
+	+	34	0
+	+	33	0
+	+	31	0
+	+	33	0
+	+	31	0
+	+	30	0
+	+	29	0
+	+	28	0
+	+	26	0
+	+	25	0
+	+	24	0
+	+	23	0
+	+	20	0
+	+	21	0
+	+	19	0
+	+	17	0
+	+	16	0
+	+	14	0
+	+	12	0
+	+	11	0
+	+	10	0
+	+	8	0
+	+	1	0
+	+	77	22
+	+	57	32
+	+	60	0
+	+	85	0
+	+	85	10
+	+	85	19
+	+	85	0
+	+	85	10
+	+	85	0
+	+	105	19
+	+	106	19
+	+	221	25
+	+	204	24
+	+	132	27
+	+	132	25
+	+	128	85
+	+	133	0
+	+	133	28
+	+	135	12
+	+	135	0
+	+	135	39
+	+	132	0
+	+	125	0
+	+	131	23
+	+	135	27
+	+	144	22
+	+	145	0
+	+	135	0
+	+	130	0
+	+	126	0
+	+	120	0
+	+	144	0
+	+	142	8
+	+	191	0
+	+	187	0
+	+	179	3
+	+	181	7
+	+	255	26
+	+	243	24
+	+	210	0
+	+	244	24
+	+	283	7
+	+	145	8
+	+	255	32
+
+> ~/git/dots/bspwm/.config/bspwm/bspwmrc
+	*	1597232414	0
+	"	1	0
+	^	19	68
+	.	19	67
+	+	10	36
+	+	3	0
+	+	20	43
+	+	21	18
+	+	6	32
+	+	4	35
+	+	6	32
+	+	1	0
+	+	7	33
+	+	8	33
+	+	10	31
+	+	11	31
+	+	12	32
+	+	8	0
+	+	4	35
+	+	2	29
+	+	17	40
+	+	13	35
+	+	22	31
+	+	19	27
+	+	20	27
+	+	21	0
+	+	22	0
+	+	23	0
+	+	19	47
+	+	20	47
+	+	19	67
 
 > ~/vimwiki/index.wiki
-	*	1597214425	0
-	"	15	0
+	*	1597232275	0
+	"	17	2
 	^	17	45
 	.	17	0
 	+	7	0
 	+	4	2
 	+	6	26
 	+	17	0
+
+> ~/.xinitrc
+	*	1597231495	0
+	"	13	4
+	^	13	5
+	.	13	4
+	+	22	9
+	+	13	4
+
+> ~/.cache/wal/colors.sh
+	*	1597230803	0
+	"	1	0
+
+> ~/git/dots/fontconfig/.config/fontconfig/fonts.conf
+	*	1597230364	0
+	"	1	1
+
+> ~/.scripts/dwmbar
+	*	1597230096	0
+	"	1	0
 
 > ~/vimwiki/english/comparative/roles_of_women.wiki
 	*	1597125291	0
@@ -1081,99 +1417,6 @@ $
 	*	1596979392	0
 	"	1	0
 
-> ~/git/dots/setup.sh
-	*	1596979331	0
-	"	110	9
-	^	45	26
-	.	45	26
-	+	79	10
-	+	114	0
-	+	1	0
-	+	111	0
-	+	1	0
-	+	14	0
-	+	2	0
-	+	1	0
-	+	29	0
-	+	26	24
-	+	27	18
-	+	26	26
-	+	28	13
-	+	32	19
-	+	26	19
-	+	33	44
-	+	35	1
-	+	77	0
-	+	66	3
-	+	23	0
-	+	22	13
-	+	67	20
-	+	75	42
-	+	76	0
-	+	72	13
-	+	76	13
-	+	33	43
-	+	36	0
-	+	39	0
-	+	37	14
-	+	41	0
-	+	39	82
-	+	33	0
-	+	33	106
-	+	39	93
-	+	47	0
-	+	45	8
-	+	34	13
-	+	45	26
-	+	42	0
-	+	48	0
-	+	51	45
-	+	45	26
-	+	33	103
-	+	45	68
-	+	44	35
-	+	32	37
-	+	50	47
-	+	38	36
-	+	40	13
-	+	46	13
-	+	52	13
-	+	22	0
-	+	68	46
-	+	33	36
-	+	45	80
-	+	70	15
-	+	63	0
-	+	56	3
-	+	33	33
-	+	62	13
-	+	62	0
-	+	60	47
-	+	62	0
-	+	71	5
-	+	18	11
-	+	20	0
-	+	33	108
-	+	64	0
-	+	78	0
-	+	24	0
-	+	84	18
-	+	87	24
-	+	112	24
-	+	89	0
-	+	88	0
-	+	81	0
-	+	80	15
-	+	82	9
-	+	92	14
-	+	111	0
-	+	110	9
-	+	107	0
-	+	104	0
-	+	109	20
-	+	42	0
-	+	45	26
-
 > ~/git/dots/zsh/.config/zsh/.zshrc
 	*	1596975579	0
 	"	14	18
@@ -1410,13 +1653,6 @@ $
 	+	8	103
 	+	8	0
 
-> ~/test.tex
-	*	1596962314	0
-	"	1	0
-	^	1	0
-	.	1	0
-	+	1	0
-
 > ~/.vim/UltiSnips/plaintex.snippets
 	*	1596784771	0
 	"	71	8
@@ -1440,13 +1676,6 @@ $
 > ~/.scripts/randback
 	*	1596701203	0
 	"	1	0
-
-> ~/.scripts/chbg
-	*	1596701193	0
-	"	13	0
-	.	13	0
-	+	15	0
-	+	13	0
 
 > ~/.zprofile
 	*	1596679883	0

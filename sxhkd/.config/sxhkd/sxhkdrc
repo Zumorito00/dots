@@ -1,5 +1,5 @@
 #
-# wm independent hotkeys
+# wm independent binds
 #
 
 # terminal emulator
@@ -15,22 +15,22 @@ super + d
 	rofi -show run
 
 # browser
-super + shift + f
+super + F2
     $BROWSER
 
-# vscode
-super + backslash
-    vscodium
+# vimwiki
+super + v
+    $TERMINAL -e "zsh" -c "vim ~/vimwiki/index.wiki"
 
 # # make sxhkd reload its configuration files:
 # super + Escape
 # 	pkill -USR1 -x sxhkd
 
-# # gap change
-# super + shift + d
-#     bspc config window_gap 12; bspc config border_width 2
-# super + shift + w
-#     bspc config window_gap 0; bspc config border_width 1
+# gap change
+super + shift + d
+    bspc config window_gap 30; bspc config border_width 3
+super + shift + w
+    bspc config window_gap 0; bspc config border_width 1
 
 # volume controls
 XF86Audio{Lower,Raise}Volume
@@ -48,3 +48,47 @@ XF86MonBrightness{Down,Up}
 # bat check
 super + ctrl + b
     notify-send -r 1 "Battery Check" "$(acpi | cut -d " " -f 3-)"
+
+#
+# bspwm binds
+#
+
+# close/kill windows
+super + {_,shift + }q
+    bspc node -{c,k}
+
+# focus node in given direction
+super + {_,shift + }{h,j,k,l}
+    bspc node -{f,s} {west,south,north,east}
+
+# focus or send to given desktop
+super + {_,shift + } {1-9,0}
+    bspc {desktop -f,node -d} '^{1-9,10}'
+
+# focus last desktop
+super + Tab
+    bspc desktop -f last
+
+# set window state
+super + {t,shift + t,s,f}
+    bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+
+# alternate between tiled and monocle layout
+super + m
+    bspc desktop -l next
+
+# preselect window creation direction
+super + ctrl + {h,j,k,l}
+    bspc node -p {west,south,north,east}
+
+# cancel preselection
+super + ctrl + space
+    bspc node -p cancel
+
+# expand window in given direction
+super + alt + {h,j,k,l}
+    bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0}
+
+# expand window in given direction
+super + alt + shift + {h,j,k,l}
+    bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}

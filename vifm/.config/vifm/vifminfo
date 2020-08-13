@@ -54,30 +54,6 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/daffy/.config
-	vifm
-24
-d/home/daffy
-	.vim
-12
-d/home/daffy/.vim
-	autoload
-2
-d/home/daffy
-	.gnupg
-4
-d/home/daffy/.gnupg
-	private-keys-v1.d
-2
-d/home/daffy/.gnupg/private-keys-v1.d
-	..
-0
-d/home/daffy/.gnupg
-	trustdb.gpg
-5
-d/home/daffy
-	.java
-4
 d/home/daffy/.java
 	fonts
 1
@@ -354,6 +330,30 @@ d/home/daffy/documents/school/12/english
 d/home/daffy/documents/school/12/english/notes
 	20-07-24.pdf
 23
+d/home/daffy
+	downloads
+3
+d/home/daffy/downloads
+	vm_find_defs.sh
+7
+d/home/daffy
+	downloads
+3
+d/home/daffy/downloads
+	vladimir-manyukhin-4.jpg
+6
+d/home/daffy
+	documents
+2
+d/home/daffy/documents
+	school
+2
+d/home/daffy
+	documents
+2
+d/home/daffy/.config
+	dconf
+5
 d
 
 # Right window history (oldest to newest):
@@ -441,7 +441,7 @@ pessays.wiki
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/daffy/.local/share/vifm/Trash/002_vimwiki_html
+""/home/daffy/.local/share/vifm/Trash/000_78167001_p0.jpg
 
 # Directory stack (oldest to newest):
 
@@ -1044,6 +1044,8 @@ t/home/daffy/.local/share/vifm/Trash/000_Topic 2 – Infrared Spectroscopy.pdf
 	/home/daffy/downloads/Topic 2 – Infrared Spectroscopy.pdf
 t/home/daffy/.local/share/vifm/Trash/000_pdf.pdf
 	/home/daffy/vimwiki_html/chemistry/organic_chemistry/pdf.pdf
+t/home/daffy/.local/share/vifm/Trash/000_78167001_p0.jpg
+	/home/daffy/downloads/78167001_p0.jpg
 
 # State:
 f

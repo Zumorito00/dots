@@ -72,7 +72,7 @@ yay_setup() {
     echo Done!
 
     echo Installing yay packages...
-    yay -S libnotify-id compton-tryone-git
+    yay -S libnotify-id picom-ibhagwan-git
     echo Done!
 }
 
