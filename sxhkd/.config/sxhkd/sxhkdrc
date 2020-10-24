@@ -20,7 +20,7 @@ super + F2
 
 # vimwiki
 super + v
-    $TERMINAL -e "zsh" -c "vim ~/vimwiki/index.wiki"
+    $TERMINAL -e "zsh" -c "vim ~/vimwiki/index.md"
 
 # # make sxhkd reload its configuration files:
 # super + Escape
@@ -38,10 +38,10 @@ XF86Audio{Lower,Raise}Volume
 XF86AudioMute
     volcontrols mute
 # music controls
-XF86AudioPlay
+XF8_L6AudioPlay
     playerctl play-pause
-# XF86Audio{Prev,Next}
-#     playerctl {previous,next}
+alt + {Left,Right}
+    playerctl {previous,next}
 # brightness controls
 XF86MonBrightness{Down,Up}
     brightcontrols {down,up}
@@ -65,6 +65,10 @@ super + {_,shift + }{h,j,k,l}
 super + {_,shift + } {1-9,0}
     bspc {desktop -f,node -d} '^{1-9,10}'
 
+# focus monocle nodes
+super + {bracketleft,bracketright}
+    bspc node -f {prev,next}.local
+
 # focus last desktop
 super + Tab
     bspc desktop -f last
@@ -72,6 +76,14 @@ super + Tab
 # set window state
 super + {t,shift + t,s,f}
     bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+
+# toggle sticky windows
+super + a
+    bspc node -g sticky
+
+# toggle hidden windows
+super + F1
+    hiddentoggle
 
 # alternate between tiled and monocle layout
 super + m

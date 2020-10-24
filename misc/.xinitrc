@@ -2,7 +2,7 @@
 dunst &
 
 # Transparency
-# compton --config ~/.config/compton/compton.conf &
+# picom
 
 # Set wallpaper and colours
 wal -c

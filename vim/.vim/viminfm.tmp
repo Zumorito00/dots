@@ -21,7 +21,7 @@ $_
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1603319941,,"wq"
+|2,0,1603274457,,"wq"
 :W
 |2,0,1603274454,,"W"
 :Wq
@@ -235,97 +235,73 @@ $_
 
 # Registers:
 "0	LINE	0
-	## Checkpoints Chapter 2 ##
-|3,0,0,1,1,0,1603317603,"## Checkpoints Chapter 2 ##"
-""1	LINE	0
-	
-	## Checkpoints ##
-	- [Chapter 2](chapter_2)
-|3,1,1,1,3,0,1603319940,"","## Checkpoints ##","- [Chapter 2](chapter_2)"
-"2	LINE	0
-	## Checkpoints Chapter 2 ##
-|3,0,2,1,1,0,1603317516,"## Checkpoints Chapter 2 ##"
-"3	LINE	0
-	###  ###
-|3,0,3,1,1,0,1603317508,"###  ###"
-"4	LINE	0
-	#  #
-|3,0,4,1,1,0,1603317486,"#  #"
-"5	LINE	0
-	- Characters who have an obsession with class are transparent
-|3,0,5,1,1,0,1603070732,"- Characters who have an obsession with class are transparent"
-"6	LINE	0
 	    - 
-|3,0,6,1,1,0,1603069430,"    - "
-"7	LINE	0
+|3,0,0,1,1,0,1603069840,"    - "
+"1	LINE	0
+	- Characters who have an obsession with class are transparent
+|3,0,1,1,1,0,1603070732,"- Characters who have an obsession with class are transparent"
+"2	LINE	0
+	    - 
+|3,0,2,1,1,0,1603069430,"    - "
+"3	LINE	0
 	- [ ] Jane Bennet (Darcy)
-|3,0,7,1,1,0,1603069099,"- [ ] Jane Bennet (Darcy)"
-"8	BLOCK	1
+|3,0,3,1,1,0,1603069099,"- [ ] Jane Bennet (Darcy)"
+"4	BLOCK	1
 	# 
 	# 
-|3,0,8,2,2,1,1603021025,"# ","# "
-"9	LINE	0
+|3,0,4,2,2,1,1603021025,"# ","# "
+"5	LINE	0
 	The Dressmaker and The Crucible Note Bank Rohan.pdf
-|3,0,9,1,1,0,1603020524,"The Dressmaker and The Crucible Note Bank Rohan.pdf"
+|3,0,5,1,1,0,1603020524,"The Dressmaker and The Crucible Note Bank Rohan.pdf"
+"6	LINE	0
+	    placeholder
+|3,0,6,1,1,0,1602821425,"    placeholder"
+"7	LINE	0
+	    - 
+|3,0,7,1,1,0,1602806746,"    - "
+"8	LINE	0
+	s
+|3,0,8,1,1,0,1602806415,"s"
+"9	LINE	0
+	10. Lady Catherine objects
+|3,0,9,1,1,0,1602806350,"10. Lady Catherine objects"
 "j	CHAR	0
 	jjj
 |3,0,19,0,1,0,1597233078,"jjj"
 "z	CHAR	0
 	gqq
 |3,0,35,0,1,0,1601544822,"gqq"
-"-	CHAR	0
-	27,444
-|3,0,36,0,1,0,1603319254,"27,444"
+""-	CHAR	0
+	 
+|3,1,36,0,1,0,1603070695," "
 
 # File marks:
-'0  7  0  ~/vimwiki/chemistry/chemistry.md
-|4,48,7,0,1603319941,"~/vimwiki/chemistry/chemistry.md"
-'1  4  2  ~/vimwiki/chemistry/chemistry.md
-|4,49,4,2,1603277513,"~/vimwiki/chemistry/chemistry.md"
-'2  4  2  ~/vimwiki/chemistry/chemistry.md
-|4,50,4,2,1603277513,"~/vimwiki/chemistry/chemistry.md"
-'3  23  0  ~/git/dots/bspwm/.config/bspwm/bspwmrc
-|4,51,23,0,1603274457,"~/git/dots/bspwm/.config/bspwm/bspwmrc"
-'4  13  0  /tmp/vifm.rename_160160160166_00
-|4,52,13,0,1603188847,"/tmp/vifm.rename_160160160166_00"
-'5  1  18  /tmp/vifm.rename_160160160166_00
-|4,53,1,18,1603188831,"/tmp/vifm.rename_160160160166_00"
-'6  1  18  /tmp/vifm.rename_160160160166_00
-|4,54,1,18,1603188831,"/tmp/vifm.rename_160160160166_00"
-'7  10  2  ~/vimwiki/index.md
-|4,55,10,2,1603071571,"~/vimwiki/index.md"
+'0  4  2  ~/vimwiki/chemistry/chemistry.md
+|4,48,4,2,1603277513,"~/vimwiki/chemistry/chemistry.md"
+'1  23  0  ~/git/dots/bspwm/.config/bspwm/bspwmrc
+|4,49,23,0,1603274457,"~/git/dots/bspwm/.config/bspwm/bspwmrc"
+'2  13  0  /tmp/vifm.rename_160160160166_00
+|4,50,13,0,1603188847,"/tmp/vifm.rename_160160160166_00"
+'3  1  18  /tmp/vifm.rename_160160160166_00
+|4,51,1,18,1603188831,"/tmp/vifm.rename_160160160166_00"
+'4  1  18  /tmp/vifm.rename_160160160166_00
+|4,52,1,18,1603188831,"/tmp/vifm.rename_160160160166_00"
+'5  10  2  ~/vimwiki/index.md
+|4,53,10,2,1603071571,"~/vimwiki/index.md"
+'6  10  2  ~/vimwiki/index.md
+|4,54,10,2,1603071571,"~/vimwiki/index.md"
+'7  18  13  ~/vimwiki/english/first_impressions.md
+|4,55,18,13,1603071569,"~/vimwiki/english/first_impressions.md"
 '8  10  2  ~/vimwiki/index.md
-|4,56,10,2,1603071571,"~/vimwiki/index.md"
+|4,56,10,2,1603069427,"~/vimwiki/index.md"
 '9  10  2  ~/vimwiki/index.md
-|4,57,10,2,1603071571,"~/vimwiki/index.md"
+|4,57,10,2,1603069427,"~/vimwiki/index.md"
 
 # Jumplist (newest first):
--'  7  0  ~/vimwiki/chemistry/chemistry.md
-|4,39,7,0,1603319941,"~/vimwiki/chemistry/chemistry.md"
--'  12  6  ~/vimwiki/chemistry/chapter_2.md
-|4,39,12,6,1603319938,"~/vimwiki/chemistry/chapter_2.md"
--'  8  4  ~/vimwiki/chemistry/chapter_2.md
-|4,39,8,4,1603319252,"~/vimwiki/chemistry/chapter_2.md"
--'  1  22  ~/vimwiki/chemistry/chapter_2.md
-|4,39,1,22,1603317582,"~/vimwiki/chemistry/chapter_2.md"
--'  1  0  ~/vimwiki/chemistry/chemistry.md
-|4,39,1,0,1603317439,"~/vimwiki/chemistry/chemistry.md"
--'  7  2  ~/vimwiki/index.md
-|4,39,7,2,1603317369,"~/vimwiki/index.md"
--'  6  2  ~/vimwiki/index.md
-|4,39,6,2,1603317369,"~/vimwiki/index.md"
--'  1  0  ~/vimwiki/index.md
-|4,39,1,0,1603317350,"~/vimwiki/index.md"
--'  4  2  ~/vimwiki/chemistry/chemistry.md
-|4,39,4,2,1603277513,"~/vimwiki/chemistry/chemistry.md"
 -'  4  2  ~/vimwiki/chemistry/chemistry.md
 |4,39,4,2,1603277513,"~/vimwiki/chemistry/chemistry.md"
 -'  9  2  ~/vimwiki/chemistry/chemistry.md
 |4,39,9,2,1603277512,"~/vimwiki/chemistry/chemistry.md"
--'  9  2  ~/vimwiki/chemistry/chemistry.md
-|4,39,9,2,1603277512,"~/vimwiki/chemistry/chemistry.md"
--'  5  2  ~/vimwiki/chemistry/chemistry.md
-|4,39,5,2,1603277510,"~/vimwiki/chemistry/chemistry.md"
 -'  5  2  ~/vimwiki/chemistry/chemistry.md
 |4,39,5,2,1603277510,"~/vimwiki/chemistry/chemistry.md"
 -'  1  0  ~/vimwiki/chemistry/chemistry.md
@@ -336,22 +312,12 @@ $_
 |4,39,6,2,1603277509,"~/vimwiki/index.md"
 -'  5  2  ~/vimwiki/index.md
 |4,39,5,2,1603277508,"~/vimwiki/index.md"
--'  5  2  ~/vimwiki/index.md
-|4,39,5,2,1603277508,"~/vimwiki/index.md"
 -'  1  0  ~/vimwiki/index.md
 |4,39,1,0,1603277508,"~/vimwiki/index.md"
 -'  23  0  ~/git/dots/bspwm/.config/bspwm/bspwmrc
 |4,39,23,0,1603274457,"~/git/dots/bspwm/.config/bspwm/bspwmrc"
 -'  23  0  ~/git/dots/bspwm/.config/bspwm/bspwmrc
 |4,39,23,0,1603274457,"~/git/dots/bspwm/.config/bspwm/bspwmrc"
--'  23  0  ~/git/dots/bspwm/.config/bspwm/bspwmrc
-|4,39,23,0,1603274457,"~/git/dots/bspwm/.config/bspwm/bspwmrc"
--'  23  0  ~/git/dots/bspwm/.config/bspwm/bspwmrc
-|4,39,23,0,1603274457,"~/git/dots/bspwm/.config/bspwm/bspwmrc"
--'  1  0  ~/git/dots/bspwm/.config/bspwm/bspwmrc
-|4,39,1,0,1603274430,"~/git/dots/bspwm/.config/bspwm/bspwmrc"
--'  1  0  ~/git/dots/bspwm/.config/bspwm/bspwmrc
-|4,39,1,0,1603274430,"~/git/dots/bspwm/.config/bspwm/bspwmrc"
 -'  1  0  ~/git/dots/bspwm/.config/bspwm/bspwmrc
 |4,39,1,0,1603274430,"~/git/dots/bspwm/.config/bspwm/bspwmrc"
 -'  1  0  ~/git/dots/bspwm/.config/bspwm/bspwmrc
@@ -364,22 +330,6 @@ $_
 |4,39,13,0,1603188847,"/tmp/vifm.rename_160160160166_00"
 -'  13  0  /tmp/vifm.rename_160160160166_00
 |4,39,13,0,1603188847,"/tmp/vifm.rename_160160160166_00"
--'  13  0  /tmp/vifm.rename_160160160166_00
-|4,39,13,0,1603188847,"/tmp/vifm.rename_160160160166_00"
--'  13  0  /tmp/vifm.rename_160160160166_00
-|4,39,13,0,1603188847,"/tmp/vifm.rename_160160160166_00"
--'  13  0  /tmp/vifm.rename_160160160166_00
-|4,39,13,0,1603188847,"/tmp/vifm.rename_160160160166_00"
--'  13  0  /tmp/vifm.rename_160160160166_00
-|4,39,13,0,1603188847,"/tmp/vifm.rename_160160160166_00"
--'  1  0  /tmp/vifm.rename_160160160166_00
-|4,39,1,0,1603188844,"/tmp/vifm.rename_160160160166_00"
--'  1  0  /tmp/vifm.rename_160160160166_00
-|4,39,1,0,1603188844,"/tmp/vifm.rename_160160160166_00"
--'  1  0  /tmp/vifm.rename_160160160166_00
-|4,39,1,0,1603188844,"/tmp/vifm.rename_160160160166_00"
--'  1  0  /tmp/vifm.rename_160160160166_00
-|4,39,1,0,1603188844,"/tmp/vifm.rename_160160160166_00"
 -'  1  0  /tmp/vifm.rename_160160160166_00
 |4,39,1,0,1603188844,"/tmp/vifm.rename_160160160166_00"
 -'  1  0  /tmp/vifm.rename_160160160166_00
@@ -396,14 +346,6 @@ $_
 |4,39,1,18,1603188831,"/tmp/vifm.rename_160160160166_00"
 -'  1  18  /tmp/vifm.rename_160160160166_00
 |4,39,1,18,1603188831,"/tmp/vifm.rename_160160160166_00"
--'  1  18  /tmp/vifm.rename_160160160166_00
-|4,39,1,18,1603188831,"/tmp/vifm.rename_160160160166_00"
--'  1  18  /tmp/vifm.rename_160160160166_00
-|4,39,1,18,1603188831,"/tmp/vifm.rename_160160160166_00"
--'  1  18  /tmp/vifm.rename_160160160166_00
-|4,39,1,18,1603188831,"/tmp/vifm.rename_160160160166_00"
--'  1  18  /tmp/vifm.rename_160160160166_00
-|4,39,1,18,1603188831,"/tmp/vifm.rename_160160160166_00"
 -'  10  2  ~/vimwiki/index.md
 |4,39,10,2,1603071571,"~/vimwiki/index.md"
 -'  10  2  ~/vimwiki/index.md
@@ -422,40 +364,6 @@ $_
 |4,39,10,2,1603071571,"~/vimwiki/index.md"
 -'  10  2  ~/vimwiki/index.md
 |4,39,10,2,1603071571,"~/vimwiki/index.md"
--'  10  2  ~/vimwiki/index.md
-|4,39,10,2,1603071571,"~/vimwiki/index.md"
--'  18  13  ~/vimwiki/english/first_impressions.md
-|4,39,18,13,1603071569,"~/vimwiki/english/first_impressions.md"
--'  18  13  ~/vimwiki/english/first_impressions.md
-|4,39,18,13,1603071569,"~/vimwiki/english/first_impressions.md"
--'  18  13  ~/vimwiki/english/first_impressions.md
-|4,39,18,13,1603071569,"~/vimwiki/english/first_impressions.md"
--'  18  13  ~/vimwiki/english/first_impressions.md
-|4,39,18,13,1603071569,"~/vimwiki/english/first_impressions.md"
--'  18  13  ~/vimwiki/english/first_impressions.md
-|4,39,18,13,1603071569,"~/vimwiki/english/first_impressions.md"
--'  18  13  ~/vimwiki/english/first_impressions.md
-|4,39,18,13,1603071569,"~/vimwiki/english/first_impressions.md"
--'  18  13  ~/vimwiki/english/first_impressions.md
-|4,39,18,13,1603071569,"~/vimwiki/english/first_impressions.md"
--'  18  13  ~/vimwiki/english/first_impressions.md
-|4,39,18,13,1603071569,"~/vimwiki/english/first_impressions.md"
--'  18  13  ~/vimwiki/english/first_impressions.md
-|4,39,18,13,1603071569,"~/vimwiki/english/first_impressions.md"
--'  18  13  ~/vimwiki/english/first_impressions.md
-|4,39,18,13,1603071569,"~/vimwiki/english/first_impressions.md"
--'  18  13  ~/vimwiki/english/first_impressions.md
-|4,39,18,13,1603071569,"~/vimwiki/english/first_impressions.md"
--'  18  13  ~/vimwiki/english/first_impressions.md
-|4,39,18,13,1603071569,"~/vimwiki/english/first_impressions.md"
--'  18  13  ~/vimwiki/english/first_impressions.md
-|4,39,18,13,1603071569,"~/vimwiki/english/first_impressions.md"
--'  18  13  ~/vimwiki/english/first_impressions.md
-|4,39,18,13,1603071569,"~/vimwiki/english/first_impressions.md"
--'  18  13  ~/vimwiki/english/first_impressions.md
-|4,39,18,13,1603071569,"~/vimwiki/english/first_impressions.md"
--'  18  13  ~/vimwiki/english/first_impressions.md
-|4,39,18,13,1603071569,"~/vimwiki/english/first_impressions.md"
 -'  18  13  ~/vimwiki/english/first_impressions.md
 |4,39,18,13,1603071569,"~/vimwiki/english/first_impressions.md"
 -'  18  13  ~/vimwiki/english/first_impressions.md
@@ -500,45 +408,109 @@ $_
 |4,39,5,0,1603070629,"~/vimwiki/english/first_impressions.md"
 -'  5  0  ~/vimwiki/english/first_impressions.md
 |4,39,5,0,1603070629,"~/vimwiki/english/first_impressions.md"
+-'  5  0  ~/vimwiki/english/first_impressions.md
+|4,39,5,0,1603070629,"~/vimwiki/english/first_impressions.md"
+-'  5  0  ~/vimwiki/english/first_impressions.md
+|4,39,5,0,1603070629,"~/vimwiki/english/first_impressions.md"
+-'  5  0  ~/vimwiki/english/first_impressions.md
+|4,39,5,0,1603070629,"~/vimwiki/english/first_impressions.md"
+-'  5  0  ~/vimwiki/english/first_impressions.md
+|4,39,5,0,1603070629,"~/vimwiki/english/first_impressions.md"
+-'  5  0  ~/vimwiki/english/first_impressions.md
+|4,39,5,0,1603070629,"~/vimwiki/english/first_impressions.md"
+-'  5  0  ~/vimwiki/english/first_impressions.md
+|4,39,5,0,1603070629,"~/vimwiki/english/first_impressions.md"
+-'  5  0  ~/vimwiki/english/first_impressions.md
+|4,39,5,0,1603070629,"~/vimwiki/english/first_impressions.md"
+-'  5  0  ~/vimwiki/english/first_impressions.md
+|4,39,5,0,1603070629,"~/vimwiki/english/first_impressions.md"
+-'  5  0  ~/vimwiki/english/first_impressions.md
+|4,39,5,0,1603070629,"~/vimwiki/english/first_impressions.md"
+-'  5  0  ~/vimwiki/english/first_impressions.md
+|4,39,5,0,1603070629,"~/vimwiki/english/first_impressions.md"
+-'  4  20  ~/vimwiki/english/first_impressions.md
+|4,39,4,20,1603069840,"~/vimwiki/english/first_impressions.md"
+-'  4  20  ~/vimwiki/english/first_impressions.md
+|4,39,4,20,1603069840,"~/vimwiki/english/first_impressions.md"
+-'  4  20  ~/vimwiki/english/first_impressions.md
+|4,39,4,20,1603069840,"~/vimwiki/english/first_impressions.md"
+-'  4  20  ~/vimwiki/english/first_impressions.md
+|4,39,4,20,1603069840,"~/vimwiki/english/first_impressions.md"
+-'  4  20  ~/vimwiki/english/first_impressions.md
+|4,39,4,20,1603069840,"~/vimwiki/english/first_impressions.md"
+-'  4  20  ~/vimwiki/english/first_impressions.md
+|4,39,4,20,1603069840,"~/vimwiki/english/first_impressions.md"
+-'  4  20  ~/vimwiki/english/first_impressions.md
+|4,39,4,20,1603069840,"~/vimwiki/english/first_impressions.md"
+-'  4  20  ~/vimwiki/english/first_impressions.md
+|4,39,4,20,1603069840,"~/vimwiki/english/first_impressions.md"
+-'  4  20  ~/vimwiki/english/first_impressions.md
+|4,39,4,20,1603069840,"~/vimwiki/english/first_impressions.md"
+-'  4  20  ~/vimwiki/english/first_impressions.md
+|4,39,4,20,1603069840,"~/vimwiki/english/first_impressions.md"
+-'  4  20  ~/vimwiki/english/first_impressions.md
+|4,39,4,20,1603069840,"~/vimwiki/english/first_impressions.md"
+-'  4  20  ~/vimwiki/english/first_impressions.md
+|4,39,4,20,1603069840,"~/vimwiki/english/first_impressions.md"
+-'  4  20  ~/vimwiki/english/first_impressions.md
+|4,39,4,20,1603069840,"~/vimwiki/english/first_impressions.md"
+-'  4  20  ~/vimwiki/english/first_impressions.md
+|4,39,4,20,1603069840,"~/vimwiki/english/first_impressions.md"
+-'  4  20  ~/vimwiki/english/first_impressions.md
+|4,39,4,20,1603069840,"~/vimwiki/english/first_impressions.md"
+-'  4  20  ~/vimwiki/english/first_impressions.md
+|4,39,4,20,1603069840,"~/vimwiki/english/first_impressions.md"
+-'  11  0  ~/vimwiki/english/first_impressions.md
+|4,39,11,0,1603069812,"~/vimwiki/english/first_impressions.md"
+-'  11  0  ~/vimwiki/english/first_impressions.md
+|4,39,11,0,1603069812,"~/vimwiki/english/first_impressions.md"
+-'  11  0  ~/vimwiki/english/first_impressions.md
+|4,39,11,0,1603069812,"~/vimwiki/english/first_impressions.md"
+-'  11  0  ~/vimwiki/english/first_impressions.md
+|4,39,11,0,1603069812,"~/vimwiki/english/first_impressions.md"
+-'  11  0  ~/vimwiki/english/first_impressions.md
+|4,39,11,0,1603069812,"~/vimwiki/english/first_impressions.md"
+-'  11  0  ~/vimwiki/english/first_impressions.md
+|4,39,11,0,1603069812,"~/vimwiki/english/first_impressions.md"
+-'  11  0  ~/vimwiki/english/first_impressions.md
+|4,39,11,0,1603069812,"~/vimwiki/english/first_impressions.md"
+-'  11  0  ~/vimwiki/english/first_impressions.md
+|4,39,11,0,1603069812,"~/vimwiki/english/first_impressions.md"
+-'  11  0  ~/vimwiki/english/first_impressions.md
+|4,39,11,0,1603069812,"~/vimwiki/english/first_impressions.md"
+-'  11  0  ~/vimwiki/english/first_impressions.md
+|4,39,11,0,1603069812,"~/vimwiki/english/first_impressions.md"
+-'  11  0  ~/vimwiki/english/first_impressions.md
+|4,39,11,0,1603069812,"~/vimwiki/english/first_impressions.md"
+-'  11  0  ~/vimwiki/english/first_impressions.md
+|4,39,11,0,1603069812,"~/vimwiki/english/first_impressions.md"
+-'  11  0  ~/vimwiki/english/first_impressions.md
+|4,39,11,0,1603069812,"~/vimwiki/english/first_impressions.md"
+-'  11  0  ~/vimwiki/english/first_impressions.md
+|4,39,11,0,1603069812,"~/vimwiki/english/first_impressions.md"
+-'  11  0  ~/vimwiki/english/first_impressions.md
+|4,39,11,0,1603069812,"~/vimwiki/english/first_impressions.md"
+-'  11  0  ~/vimwiki/english/first_impressions.md
+|4,39,11,0,1603069812,"~/vimwiki/english/first_impressions.md"
+-'  7  2  ~/vimwiki/index.md
+|4,39,7,2,1603069484,"~/vimwiki/index.md"
+-'  6  2  ~/vimwiki/index.md
+|4,39,6,2,1603069484,"~/vimwiki/index.md"
+-'  5  2  ~/vimwiki/index.md
+|4,39,5,2,1603069484,"~/vimwiki/index.md"
 
 # History of marks within files (newest to oldest):
 
 > ~/vimwiki/chemistry/chemistry.md
-	*	1603319940	0
-	"	7	0
-	.	7	0
+	*	1603277512	0
+	"	4	2
+	^	6	48
+	.	6	2
 	+	1	0
 	+	6	2
-	+	7	0
-	+	7	17
-	+	7	0
-
-> ~/vimwiki/chemistry/chapter_2.md
-	*	1603319938	0
-	"	12	6
-	^	12	7
-	.	12	6
-	+	1	27
-	+	2	0
-	+	3	0
-	+	1	23
-	+	3	17
-	+	4	4
-	+	5	5
-	+	6	5
-	+	7	5
-	+	8	5
-	+	8	0
-	+	9	5
-	+	10	5
-	+	11	5
-	+	12	5
-	+	13	0
-	+	11	6
-	+	12	6
 
 > ~/vimwiki/index.md
-	*	1603317369	0
+	*	1603277509	0
 	"	7	2
 	^	17	68
 	.	17	2
@@ -1296,1047 +1268,4 @@ $_
 	+	17	0
 	+	17	818
 	+	17	0
-	+	17	917
-	+	17	0
-	+	17	936
-	+	17	0
-	+	17	943
-	+	17	0
-	+	17	1013
-	+	17	677
-	+	22	0
-	+	17	0
-	+	17	677
-	+	20	0
-	+	21	0
-	+	17	1030
-	+	17	0
-	+	17	1150
-	+	17	0
-	+	17	1417
-	+	17	0
-	+	17	1500
-	+	17	0
-	+	17	1617
-	+	17	1469
-	+	17	0
-	+	17	1604
-	+	18	0
-	+	17	139
-	+	19	0
-	+	18	1187
-	+	19	284
-
-> /tmp/vifm.rename_377746377752_00
-	*	1601891861	0
-	"	13	0
-	.	1	0
-	+	1	0
-
-> ~/documents/tv/Devious_Maids_Season_1/Devious_Maids_S01E01
-	*	1601891803	0
-	"	1	0
-
-> /usr/share/vim/vim82/doc/help.txt
-	*	1601801385	0
-	"	1	0
-
-> /tmp/vifm.rename_308169308175_00
-	*	1601778839	0
-	"	1	30
-	.	1	30
-	+	1	30
-
-> ~/vimwiki/essays/judgement_and_justice.tex
-	*	1601718715	0
-	"	8	0
-	.	8	0
-	+	1	0
-	+	7	0
-	+	1	19
-	+	3	39
-	+	4	109
-	+	5	0
-	+	7	10
-	+	8	0
-
-> ~/vimwiki/chemistry/poster_plan.md
-	*	1601636352	0
-	"	4	0
-	^	135	2
-	.	4	0
-	+	99	62
-	+	101	22
-	+	96	0
-	+	101	0
-	+	148	95
-	+	147	50
-	+	148	14
-	+	147	119
-	+	120	15
-	+	122	9
-	+	121	69
-	+	107	33
-	+	104	77
-	+	105	71
-	+	106	78
-	+	111	0
-	+	110	25
-	+	109	69
-	+	9	0
-	+	126	20
-	+	127	73
-	+	128	60
-	+	129	88
-	+	130	46
-	+	131	0
-	+	130	0
-	+	132	86
-	+	132	0
-	+	86	20
-	+	133	0
-	+	136	23
-	+	127	0
-	+	136	24
-	+	128	0
-	+	136	45
-	+	46	42
-	+	37	0
-	+	38	52
-	+	39	63
-	+	40	50
-	+	41	56
-	+	42	40
-	+	43	50
-	+	44	29
-	+	38	1
-	+	39	0
-	+	38	0
-	+	44	0
-	+	47	6
-	+	47	48
-	+	49	64
-	+	38	0
-	+	51	10
-	+	50	38
-	+	52	23
-	+	40	0
-	+	39	0
-	+	53	40
-	+	43	0
-	+	54	25
-	+	53	73
-	+	56	72
-	+	57	0
-	+	44	0
-	+	42	0
-	+	41	0
-	+	39	0
-	+	135	31
-	+	139	2
-	+	129	0
-	+	139	47
-	+	137	66
-	+	149	180
-	+	150	70
-	+	149	210
-	+	150	96
-	+	139	72
-	+	122	11
-	+	120	46
-	+	124	64
-	+	122	79
-	+	124	0
-	+	122	79
-	+	138	50
-	+	140	50
-	+	138	31
-	+	140	62
-	+	130	0
-	+	141	59
-	+	140	53
-	+	143	30
-	+	142	79
-	+	143	73
-	+	132	0
-	+	131	0
-	+	6	0
-	+	10	0
-	+	135	0
-	+	4	0
-	n	8	6
-
-> ~/.cache/rofi-3.runcache
-	*	1601550365	0
-	"	12	0
-
-> ~/plot.tex
-	*	1601550244	0
-	"	1	27
-	^	1	26
-	.	1	25
-	+	1	0
-	+	6	0
-	+	1	25
-	+	3	17
-	+	6	17
-	+	1	25
-
-> ~/Rplots.tex
-	*	1601550096	0
-	"	222	114
-
-> /tmp/vifm.rename_7740077406_00
-	*	1601541670	0
-	"	2	9
-	^	2	10
-	.	2	9
-	+	1	4
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	10
-	+	2	0
-	+	1	12
-	+	2	9
-
-> /tmp/vifm.rename_6372963735_00
-	*	1601537396	0
-	"	2	0
-	^	1	1
-	.	1	0
-	+	1	0
-
-> /tmp/vifm.rename_3896338969_00
-	*	1601525573	0
-	"	24	0
-	.	1	0
-	+	1	0
-
-> /tmp/vifm.rename_7575975766_00
-	*	1600651622	0
-	"	1	0
-
-> ~/git/dots/vifm/.config/vifm/vifmrc
-	*	1600651619	0
-	"	455	22
-	^	455	23
-	.	455	22
-	+	452	0
-	+	455	22
-
-> /tmp/vifm.rename_7420874214_00
-	*	1600651516	0
-	"	1	0
-
-> /tmp/vifm.cmdline_7420874214_00
-	*	1600651495	0
-	"	1	39
-	^	1	40
-	.	1	39
-	+	1	39
-	+	2	0
-	+	1	39
-
-> ~/downloads/Comparative (Appearance and Reality).p
-	*	1600651476	0
-	"	1	0
-
-> ~/documents/school/12/essays/notes/20-05-29.tex
-	*	1600588655	0
-	"	1	0
-
-> ~/vimwiki/chemistry/organic_chemistry/topic_3.md
-	*	1600563792	0
-	"	64	13
-	^	5	90
-	.	15	0
-	+	1	0
-	+	5	2
-	+	15	0
-
-> ~/vimwiki/chemistry/organic_chemistry/organic_chemistry.md
-	*	1600563751	0
-	"	5	2
-	^	6	40
-	.	6	2
-	+	1	0
-	+	6	2
-
-> ~/vimwiki/chemistry/food_chemistry/food_chemistry.md
-	*	1600563747	0
-	"	5	2
-	^	8	33
-	.	8	2
-	+	1	0
-	+	8	2
-
-> ~/vimwiki/chemistry/food_chemistry/topic_3.md
-	*	1600563538	0
-	"	4	2
-	^	5	86
-	.	5	2
-	+	1	0
-	+	5	2
-
-> ~/vimwiki/chemistry/food_chemistry/topic_1.md
-	*	1600563531	0
-	"	4	2
-	^	5	81
-	.	5	2
-	+	1	0
-	+	40	0
-	+	5	2
-
-> ~/vimwiki/chemistry/food_chemistry/topic_2.md
-	*	1600563522	0
-	"	4	2
-	^	5	80
-	.	5	2
-	+	2	0
-	+	1	0
-	+	5	2
-
-> ~/downloads/vm_find_defs.sh
-	*	1600404645	0
-	"	63	0
-	^	73	25
-	.	73	24
-	+	73	24
-
-> ~/downloads/Octopath Traveler [NSP]/Russian Language Mod (20.12.19)/ReadMe_rus.txt
-	*	1600404525	0
-	"	1	0
-
-> ~/downloads/fusee-launcher/fusee-launcher.py
-	*	1600262203	0
-	"	133	15
-
-> ~/vimwiki/essays/responses_to_adversity.tex
-	*	1599285830	0
-	"	1	0
-	.	10	0
-	+	10	0
-
-> ~/vimwiki/essays/roles_of_women.tex
-	*	1599285804	0
-	"	7	9
-	^	7	10
-	.	7	10
-	+	1	0
-	+	11	0
-	+	1	19
-	+	3	32
-	+	4	111
-	+	5	0
-	+	6	16
-	+	6	98
-	+	6	16
-	+	13	84
-	+	13	12
-	+	13	15
-	+	6	16
-	+	11	0
-	+	8	0
-	+	8	910
-	+	8	35
-	+	9	0
-	+	10	0
-	+	7	10
-
-> ~/vimwiki/chemistry/organic_chemistry/topic_4.md
-	*	1599221093	0
-	"	1	0
-	^	5	90
-	.	5	2
-	+	1	0
-	+	5	2
-
-> ~/vimwiki/chemistry/food_chemistry/topic_5.md
-	*	1599221086	0
-	"	4	2
-	^	5	84
-	.	5	2
-	+	1	0
-	+	5	2
-
-> ~/vimwiki/chemistry/food_chemistry/topic_4.md
-	*	1599221081	0
-	"	6	0
-	^	5	86
-	.	5	2
-	+	1	0
-	+	5	2
-
-> ~/vimwiki/chemistry/analysis_of_organic_molecules/analysis_of_organic_molecules.md
-	*	1599221060	0
-	"	8	2
-	^	8	41
-	.	8	2
-	+	1	0
-	+	8	2
-
-> ~/vimwiki/chemistry/analysis_of_organic_molecules/topic_6.md
-	*	1599221060	0
-	"	5	2
-	^	5	92
-	.	5	2
-	+	1	0
-	+	5	2
-
-> ~/vimwiki/chemistry/analysis_of_organic_molecules/topic_5.md
-	*	1599221057	0
-	"	6	0
-	^	5	87
-	.	5	2
-	+	1	0
-	+	5	2
-
-> ~/vimwiki/chemistry/analysis_of_organic_molecules/topic_4.md
-	*	1599221052	0
-	"	4	2
-	^	4	99
-	.	4	2
-	+	1	0
-	+	4	2
-
-> ~/vimwiki/chemistry/analysis_of_organic_molecules/topic_3.md
-	*	1599221049	0
-	"	6	0
-	^	5	89
-	.	5	2
-	+	1	0
-	+	5	2
-
-> ~/vimwiki/chemistry/analysis_of_organic_molecules/topic_2.md
-	*	1599221045	0
-	"	6	0
-	^	5	94
-	.	5	2
-	+	1	0
-	+	5	2
-
-> ~/vimwiki/chemistry/organic_chemistry/topic_1.md
-	*	1599221020	0
-	"	6	0
-	^	5	85
-	.	5	2
-	+	1	0
-	+	5	2
-
-> ~/vimwiki/english/Authority.md
-	*	1599220542	0
-	"	1	0
-
-> ~/git/dots/vim/.vim/UltiSnips/vimwiki.snippets
-	*	1599213518	0
-	"	22	0
-	^	93	0
-	.	2	0
-	+	42	7
-	+	43	10
-	+	45	0
-	+	44	0
-	+	42	3
-	+	41	10
-	+	45	9
-	+	46	0
-	+	45	24
-	+	41	25
-	+	51	10
-	+	37	24
-	+	38	0
-	+	55	10
-	+	56	0
-	+	60	0
-	+	64	0
-	+	68	0
-	+	72	0
-	+	57	22
-	+	58	0
-	+	61	0
-	+	65	0
-	+	69	0
-	+	73	0
-	+	76	0
-	+	80	0
-	+	84	0
-	+	88	0
-	+	77	0
-	+	81	0
-	+	85	0
-	+	89	0
-	+	92	0
-	+	94	0
-	+	93	0
-	+	94	0
-	+	90	0
-	+	86	0
-	+	82	0
-	+	78	0
-	+	74	0
-	+	70	0
-	+	66	0
-	+	62	0
-	+	2	0
-
-> ~/git/dots/zsh/.config/zsh/.zshrc
-	*	1599213178	0
-	"	1	0
-
-> ~/vimwiki/index.wiki
-	*	1599213161	0
-	"	1	0
-	^	11	155
-	.	11	0
-	+	7	0
-	+	4	2
-	+	6	26
-	+	17	0
-	+	11	0
-
-> ~/vimwiki/chemistry/chemistry.wiki
-	*	1599213143	0
-	"	1	0
-
-> /tmp/vifm.rename_239452239458_00
-	*	1599213138	0
-	"	4	0
-	.	1	0
-	+	1	0
-
-> ~/git/dots/vim/.vim/plugged/vimwiki/doc/vimwiki.txt
-	*	1599212922	0
-	"	2477	0
-
-> ~/vimwiki/essays/essays.wiki
-	*	1599124226	0
-	"	8	2
-	^	10	31
-	.	10	30
-	+	10	113
-	+	10	30
-
-> ~/vimwiki/english/comparative/authority.wiki
-	*	1599120356	0
-	"	1	0
-
-> ~/vimwiki/english/english.wiki
-	*	1599120338	0
-	"	1	0
-	^	14	38
-	.	14	37
-	+	11	38
-	+	12	47
-	+	13	63
-	+	14	37
-
-> ~/vimwiki/chemistry/food_chemistry/topic_1.wiki
-	*	1599107554	0
-	"	41	0
-	^	41	0
-	.	41	0
-	+	15	19
-	+	16	58
-	+	17	0
-	+	17	93
-	+	18	0
-	+	19	157
-	+	20	0
-	+	21	95
-	+	22	0
-	+	23	0
-	+	24	0
-	+	26	0
-	+	26	42
-	+	26	0
-	+	27	0
-	+	28	0
-	+	29	0
-	+	28	0
-	+	29	0
-	+	30	0
-	+	31	29
-	+	32	32
-	+	33	84
-	+	34	142
-	+	35	0
-	+	36	24
-	+	37	0
-	+	36	29
-	+	38	0
-	+	39	39
-	+	40	0
-	+	41	0
-
-> ~/vimwiki/chemistry/food_chemistry/food_chemistry.wiki
-	*	1599107369	0
-	"	4	2
-
-> ~/vimwiki/chemistry/food_chemistry/topic_2.wiki
-	*	1599106774	0
-	"	42	0
-	.	43	0
-	+	10	62
-	+	11	94
-	+	12	0
-	+	13	20
-	+	14	81
-	+	15	0
-	+	16	31
-	+	17	13
-	+	18	30
-	+	19	16
-	+	16	59
-	+	20	0
-	+	21	51
-	+	22	0
-	+	23	0
-	+	24	40
-	+	25	41
-	+	26	32
-	+	27	54
-	+	28	0
-	+	29	39
-	+	30	35
-	+	31	63
-	+	32	47
-	+	33	54
-	+	34	31
-	+	35	0
-	+	35	96
-	+	35	0
-	+	36	0
-	+	37	37
-	+	38	13
-	+	39	10
-	+	40	4
-	+	41	13
-	+	42	12
-	+	43	0
-
-> ~/vimwiki/chemistry/food_chemistry/topic_4.wiki
-	*	1599106038	0
-	"	1	0
-	^	59	8
-	.	59	7
-	+	10	14
-	+	11	33
-	+	12	37
-	+	13	11
-	+	12	11
-	+	14	0
-	+	15	31
-	+	16	24
-	+	17	15
-	+	18	38
-	+	19	24
-	+	20	0
-	+	21	40
-	+	22	92
-	+	23	0
-	+	24	19
-	+	25	27
-	+	26	25
-	+	27	0
-	+	28	30
-	+	29	23
-	+	30	31
-	+	31	67
-	+	32	24
-	+	33	47
-	+	34	0
-	+	35	38
-	+	36	0
-	+	35	32
-	+	28	25
-	+	36	23
-	+	37	29
-	+	38	89
-	+	39	31
-	+	40	7
-	+	39	13
-	+	40	52
-	+	41	0
-	+	42	0
-	+	40	6
-	+	42	37
-	+	43	1
-	+	35	9
-	+	43	23
-	+	44	38
-	+	45	89
-	+	46	68
-	+	45	0
-	+	47	52
-	+	48	0
-	+	49	20
-	+	50	63
-	+	51	92
-	+	52	90
-	+	53	0
-	+	54	34
-	+	55	55
-	+	56	69
-	+	55	54
-	+	57	0
-	+	58	28
-	+	60	32
-	+	61	61
-	+	62	94
-	+	60	0
-	+	59	7
-
-> ~/vimwiki/chemistry/food_chemistry/topic_3.wiki
-	*	1599105865	0
-	"	87	2
-	^	87	53
-	.	87	2
-	+	10	68
-	+	11	40
-	+	12	46
-	+	13	0
-	+	14	23
-	+	15	0
-	+	11	27
-	+	17	0
-	+	17	30
-	+	18	9
-	+	19	10
-	+	20	11
-	+	21	0
-	+	22	21
-	+	23	101
-	+	24	78
-	+	25	41
-	+	26	45
-	+	27	46
-	+	28	35
-	+	29	0
-	+	30	28
-	+	31	9
-	+	32	56
-	+	33	9
-	+	34	56
-	+	35	9
-	+	36	56
-	+	37	94
-	+	38	0
-	+	39	23
-	+	40	56
-	+	41	0
-	+	16	0
-	+	42	40
-	+	43	8
-	+	44	38
-	+	45	45
-	+	46	15
-	+	47	35
-	+	48	39
-	+	55	0
-	+	59	10
-	+	49	20
-	+	52	24
-	+	50	17
-	+	51	52
-	+	52	24
-	+	53	19
-	+	54	44
-	+	56	46
-	+	57	84
-	+	58	121
-	+	61	55
-	+	62	0
-	+	60	59
-	+	62	64
-	+	63	41
-	+	64	75
-	+	65	95
-	+	66	0
-	+	67	35
-	+	67	84
-	+	67	0
-	+	67	21
-	+	67	31
-	+	67	32
-	+	67	44
-	+	67	43
-	+	67	0
-	+	67	27
-	+	67	47
-	+	67	49
-	+	67	90
-	+	67	0
-	+	67	101
-	+	67	0
-	+	67	107
-	+	67	55
-	+	67	0
-	+	67	46
-	+	67	21
-	+	67	61
-	+	67	0
-	+	67	15
-	+	67	0
-	+	87	2
-
-> ~/git/dots/vim/.vim/spell/en.utf-8.add
-	*	1599048858	0
-	"	1	0
-	.	59	0
-	+	59	0
-
-> ~/vimwiki/chemistry/food_chemistry/topic_5.wiki
-	*	1599045586	0
-	"	40	63
-	^	40	64
-	.	40	63
-	+	9	11
-	+	10	29
-	+	11	31
-	+	12	52
-	+	13	94
-	+	14	68
-	+	15	0
-	+	16	27
-	+	17	53
-	+	18	68
-	+	19	31
-	+	20	95
-	+	21	93
-	+	22	0
-	+	23	29
-	+	24	11
-	+	25	10
-	+	26	16
-	+	27	0
-	+	27	23
-	+	28	16
-	+	29	0
-	+	30	18
-	+	31	68
-	+	33	72
-	+	34	0
-	+	33	2
-	+	31	69
-	+	33	71
-	+	27	0
-	+	34	0
-	+	32	55
-	+	34	64
-	+	35	0
-	+	36	45
-	+	37	86
-	+	38	72
-	+	39	50
-	+	40	63
-
-> ~/downloads/bryan_scary_music/mama_waits.tex
-	*	1599043165	0
-	"	1	1
-	^	10	24
-	.	10	23
-	+	9	18
-	+	9	0
-	+	2	23
-	+	8	0
-	+	9	0
-	+	11	0
-	+	98	0
-	+	11	42
-	+	1	0
-	+	99	0
-	+	12	0
-	+	15	0
-	+	13	35
-	+	14	55
-	+	13	14
-	+	17	0
-	+	29	0
-	+	20	40
-	+	22	8
-	+	20	30
-	+	24	52
-	+	23	0
-	+	18	0
-	+	21	0
-	+	19	0
-	+	18	12
-	+	20	28
-	+	13	0
-	+	20	33
-	+	22	19
-	+	12	0
-	+	24	59
-	+	28	53
-	+	31	0
-	+	98	0
-	+	31	0
-	+	37	0
-	+	36	25
-	+	39	0
-	+	51	0
-	+	44	49
-	+	50	53
-	+	61	0
-	+	69	0
-	+	68	43
-	+	71	0
-	+	75	0
-	+	73	0
-	+	75	15
-	+	77	0
-	+	89	0
-	+	80	50
-	+	88	46
-	+	91	12
-	+	26	57
-	+	28	47
-	+	32	17
-	+	35	0
-	+	32	17
-	+	34	0
-	+	36	52
-	+	40	18
-	+	42	37
-	+	44	17
-	+	46	43
-	+	48	66
-	+	50	44
-	+	60	0
-	+	53	0
-	+	91	0
-	+	62	54
-	+	64	48
-	+	66	50
-	+	68	58
-	+	78	17
-	+	80	41
-	+	82	18
-	+	84	36
-	+	86	50
-	+	88	51
-	+	2	0
-	+	8	35
-	+	8	6
-	+	11	12
-	+	9	11
-	+	11	30
-	+	8	0
-	+	3	0
-	+	11	13
-	+	7	6
-	+	10	9
-	+	5	21
-	+	6	0
-	+	5	22
-	+	10	23
-
-> ~/downloads/bryan_scary_music/mama_waits.
-	*	1599043161	0
-	"	1	0
-
-> ~/downloads/SCARY CHARTS upload/Fligh of the Knife Chords:Lyrics.rtf
-	*	1599006009	0
-	"	1	0
-
-> ~/vimwiki/english/comparative/appearance_and_reality.wiki
-	*	1598944125	0
-	"	21	0
-	^	22	68
-	.	22	95
-	+	1	26
-	+	2	0
-	+	3	12
-	+	4	118
-	+	5	0
-	+	6	179
-	+	7	0
-	+	8	119
-	+	9	0
-	+	4	0
-	+	4	113
-	+	6	0
-	+	6	173
-	+	8	37
-	+	10	0
-	+	6	36
-	+	10	10
-	+	11	19
-	+	15	0
-	+	16	19
-	+	20	0
-	+	21	14
-	+	12	195
-	+	17	222
-	+	12	195
-	+	22	164
-	+	22	171
-	+	22	0
-	+	13	203
-	+	14	183
-	+	18	9
-	+	19	10
-	+	23	243
-	+	24	0
-	+	23	139
-	+	23	9
-	+	24	7
-	+	23	64
-	+	24	8
-	+	17	116
-	+	23	146
-	+	24	20
-	+	22	95
-
-> ~/vimwiki/english/comparative/judgement_and_justice.wiki
-	*	1598942795	0
-	"	1	0
-	^	7	0
-	.	7	0
-	+	1	25
-	+	2	0
-	+	3	12
-	+	4	20
-	+	5	0
-	+	6	22
-	+	7	0
-
-> ~/git/dots/picom/.config/picom/picom.conf
-	*	1598775380	0
-	"	13	7
-	^	13	8
-	.	13	7
-	+	13	7
-
-> ~/documents/school/12/english/notes/20-06-19.tex
-	*	1598535636	0
-	"	1	0
-
-> ~/documents/school/12/english/notes/20-06-18.tex
-	*	1598535542	0
-	"	1	0
-
-> ~/documents/school/12/english/notes/20-07-27.tex
-	*	1598535531	0
-	"	1	0
-
-> ~/git/dots/vim/.vim/viminf
-	*	1598534669	0
-	"	1	0
-
-> ~/NERD_tree_1
-	*	1598518540	0
-	"	14	0
-	.	1	0
-	+	1	0
-
-> ~/NERD_tree_8
-	*	1598518286	0
-	"	18	0
-	.	1	0
-	+	1	0
-
-> ~/vimwiki/chemistry/analysis_of_organic_molecules/analysis_of_organic_molecules.wiki
-	*	1598517567	0
-	"	1	0
+	+	17

@@ -11,35 +11,41 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/\s
+~MSle0~/cruc
 
 # Last Substitute Search Pattern:
-~MSle0~&\s
+~MSle0&\.
 
 # Last Substitute String:
 $_
 
 # Command Line History (newest to oldest):
+:WE
+|2,0,1602542595,,"WE"
+:noh
+|2,0,1602498629,,"noh"
 :wq
-|2,0,1601891861,,"wq"
+|2,0,1602245038,,"wq"
+:Wq
+|2,0,1602245037,,"Wq"
+:s/\./_/g
+|2,0,1602245022,,"s/\\./_/g"
+:q!
+|2,0,1602143892,,"q!"
+:q
+|2,0,1602143890,,"q"
+:Q
+|2,0,1602143890,,"Q"
 :W
 |2,0,1601891861,,"W"
 :%s/\s/_/g
 |2,0,1601891860,,"%s/\\s/_/g"
 :'<,'>%s/\s/_/g
 |2,0,1601891848,,"'<,'>%s/\\s/_/g"
-:q
-|2,0,1601891810,,"q"
-:Wq
-|2,0,1601891759,,"Wq"
 :s/\s/_/g
 |2,0,1601891758,,"s/\\s/_/g"
 :LL
 |2,0,1601804226,,"LL"
-:WE
-|2,0,1601804214,,"WE"
-:noh
-|2,0,1601807561,,"noh"
 :s/\s/_//g
 |2,0,1601778811,,"s/\\s/_//g"
 :s/\s/_/\g
@@ -56,12 +62,8 @@ $_
 |2,0,1601525509,,"'<,'>s/\\s\\[.*\\]//"
 :'<,'>s/\#/=
 |2,0,1600563788,,"'<,'>s/\\#/="
-:q!
-|2,0,1600483604,,"q!"
 :QW
 |2,0,1600474922,,"QW"
-:Q
-|2,0,1600404641,,"Q"
 :WQ
 |2,0,1599353502,,"WQ"
 :s/\[\[/\[/ | s/|/\]\(/ | s/\]\]/\)/
@@ -118,10 +120,14 @@ $_
 |2,0,1599046392,,"s/0/n/g"
 :s/0/9/g
 |2,0,1599046360,,"s/0/9/g"
-:s/0/8/g
-|2,0,1599046354,,"s/0/8/g"
 
 # Search String History (newest to oldest):
+?/cruc
+|2,1,1602498626,47,"cruc"
+? \.
+|2,1,1602245022,,"\\."
+?/simi
+|2,1,1601892156,47,"simi"
 ? \s
 |2,1,1601891860,,"\\s"
 ?/against
@@ -216,12 +222,6 @@ $_
 |2,1,1599120574,47,"doc"
 ? 0
 |2,1,1599046392,,"0"
-?/che
-|2,1,1599043237,47,"che"
-? intro
-|2,1,1599040013,,"intro"
-? \^
-|2,1,1599039676,,"\\^"
 
 # Expression History (newest to oldest):
 
@@ -237,7 +237,7 @@ $_
 "0	CHAR	0
 	This can be seen in his reaction to the discovery of Faith O'Brien's affair, taking advantage of his authority as sole medical practitioner in Dungatar. The act of mixing 
 |3,0,0,0,1,0,1601808748,"This can be seen in his reaction to the discovery of Faith O'Brien's affair, taking advantage of his authority as sole medical practitioner in Dungatar. The act of mixing "
-""1	BLOCK	13
+"1	BLOCK	13
 	 HDTV.XviD-AFG
 	 HDTV.XviD-FUM
 	 HDTV.XviD-AFG
@@ -251,7 +251,7 @@ $_
 	 HDTV.XviD-AFG
 	 HDTV.XviD-AFG
 	 HDTV.XviD-AFG
-|3,1,1,2,13,13,1601891839," HDTV.XviD-AFG"," HDTV.XviD-FUM"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"
+|3,0,1,2,13,13,1601891839," HDTV.XviD-AFG"," HDTV.XviD-FUM"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"
 "2	BLOCK	0
 	 
 	 
@@ -333,128 +333,151 @@ $_
 "z	CHAR	0
 	gqq
 |3,0,35,0,1,0,1601544822,"gqq"
-"-	CHAR	0
-	 HDTV.XviD[Pawulon]
-|3,0,36,0,1,0,1601891752," HDTV.XviD[Pawulon]"
+""-	CHAR	0
+	_BRRip_x264_AAC-ETRG_mp4
+|3,1,36,0,1,0,1602245026,"_BRRip_x264_AAC-ETRG_mp4"
 
 # File marks:
-'0  11  2  ~/vimwiki/index.md
-|4,48,11,2,1601980536,"~/vimwiki/index.md"
-'1  13  0  /tmp/vifm.rename_377746377752_00
-|4,49,13,0,1601891861,"/tmp/vifm.rename_377746377752_00"
-'2  1  0  ~/documents/tv/Devious_Maids_Season_1/Devious_Maids_S01E01
-|4,50,1,0,1601891810,"~/documents/tv/Devious_Maids_Season_1/Devious_Maids_S01E01"
-'3  13  0  /tmp/vifm.rename_377746377752_00
-|4,51,13,0,1601891797,"/tmp/vifm.rename_377746377752_00"
-'4  1  0  /tmp/vifm.rename_377746377752_00
-|4,52,1,0,1601891760,"/tmp/vifm.rename_377746377752_00"
-'5  1  0  /tmp/vifm.rename_377746377752_00
-|4,53,1,0,1601891760,"/tmp/vifm.rename_377746377752_00"
-'6  1  0  /tmp/vifm.rename_377746377752_00
-|4,54,1,0,1601891760,"/tmp/vifm.rename_377746377752_00"
-'7  1  0  /tmp/vifm.rename_377746377752_00
-|4,55,1,0,1601891760,"/tmp/vifm.rename_377746377752_00"
-'8  7  0  ~/vimwiki/essays/essays.md
-|4,56,7,0,1601814989,"~/vimwiki/essays/essays.md"
-'9  1  0  ~/vimwiki/essays/appearance_and_reality.tex
-|4,57,1,0,1601814984,"~/vimwiki/essays/appearance_and_reality.tex"
+'0  1  0  ~/vimwiki/index.md
+|4,48,1,0,1602559691,"~/vimwiki/index.md"
+'1  10  2  ~/vimwiki/index.md
+|4,49,10,2,1602558407,"~/vimwiki/index.md"
+'2  10  2  ~/vimwiki/index.md
+|4,50,10,2,1602558407,"~/vimwiki/index.md"
+'3  1  0  ~/vimwiki/essays/appearance_and_reality.tex
+|4,51,1,0,1602542622,"~/vimwiki/essays/appearance_and_reality.tex"
+'4  11  2  ~/vimwiki/index.md
+|4,52,11,2,1602498858,"~/vimwiki/index.md"
+'5  11  2  ~/vimwiki/index.md
+|4,53,11,2,1602498858,"~/vimwiki/index.md"
+'6  11  2  ~/vimwiki/index.md
+|4,54,11,2,1602498858,"~/vimwiki/index.md"
+'7  11  2  ~/vimwiki/index.md
+|4,55,11,2,1602498858,"~/vimwiki/index.md"
+'8  11  2  ~/vimwiki/index.md
+|4,56,11,2,1602498858,"~/vimwiki/index.md"
+'9  11  2  ~/vimwiki/index.md
+|4,57,11,2,1602498858,"~/vimwiki/index.md"
 
 # Jumplist (newest first):
--'  11  2  ~/vimwiki/index.md
-|4,39,11,2,1601980536,"~/vimwiki/index.md"
--'  12  2  ~/vimwiki/index.md
-|4,39,12,2,1601892197,"~/vimwiki/index.md"
--'  13  2  ~/vimwiki/index.md
-|4,39,13,2,1601892197,"~/vimwiki/index.md"
--'  10  2  ~/vimwiki/index.md
-|4,39,10,2,1601892195,"~/vimwiki/index.md"
--'  7  2  ~/vimwiki/index.md
-|4,39,7,2,1601892195,"~/vimwiki/index.md"
--'  6  2  ~/vimwiki/index.md
-|4,39,6,2,1601892195,"~/vimwiki/index.md"
--'  5  2  ~/vimwiki/index.md
-|4,39,5,2,1601892194,"~/vimwiki/index.md"
 -'  1  0  ~/vimwiki/index.md
-|4,39,1,0,1601892193,"~/vimwiki/index.md"
--'  13  0  /tmp/vifm.rename_377746377752_00
-|4,39,13,0,1601891861,"/tmp/vifm.rename_377746377752_00"
--'  13  0  /tmp/vifm.rename_377746377752_00
-|4,39,13,0,1601891861,"/tmp/vifm.rename_377746377752_00"
--'  1  0  /tmp/vifm.rename_377746377752_00
-|4,39,1,0,1601891853,"/tmp/vifm.rename_377746377752_00"
--'  1  0  /tmp/vifm.rename_377746377752_00
-|4,39,1,0,1601891853,"/tmp/vifm.rename_377746377752_00"
--'  1  0  ~/documents/tv/Devious_Maids_Season_1/Devious_Maids_S01E01
-|4,39,1,0,1601891810,"~/documents/tv/Devious_Maids_Season_1/Devious_Maids_S01E01"
--'  1  0  ~/documents/tv/Devious_Maids_Season_1/Devious_Maids_S01E01
-|4,39,1,0,1601891810,"~/documents/tv/Devious_Maids_Season_1/Devious_Maids_S01E01"
--'  1  0  ~/documents/tv/Devious_Maids_Season_1/Devious_Maids_S01E01
-|4,39,1,0,1601891810,"~/documents/tv/Devious_Maids_Season_1/Devious_Maids_S01E01"
--'  1  0  ~/documents/tv/Devious_Maids_Season_1/Devious_Maids_S01E01
-|4,39,1,0,1601891810,"~/documents/tv/Devious_Maids_Season_1/Devious_Maids_S01E01"
--'  13  0  /tmp/vifm.rename_377746377752_00
-|4,39,13,0,1601891797,"/tmp/vifm.rename_377746377752_00"
--'  13  0  /tmp/vifm.rename_377746377752_00
-|4,39,13,0,1601891797,"/tmp/vifm.rename_377746377752_00"
--'  13  0  /tmp/vifm.rename_377746377752_00
-|4,39,13,0,1601891797,"/tmp/vifm.rename_377746377752_00"
--'  13  0  /tmp/vifm.rename_377746377752_00
-|4,39,13,0,1601891797,"/tmp/vifm.rename_377746377752_00"
--'  1  19  /tmp/vifm.rename_377746377752_00
-|4,39,1,19,1601891794,"/tmp/vifm.rename_377746377752_00"
--'  1  19  /tmp/vifm.rename_377746377752_00
-|4,39,1,19,1601891794,"/tmp/vifm.rename_377746377752_00"
--'  1  19  /tmp/vifm.rename_377746377752_00
-|4,39,1,19,1601891794,"/tmp/vifm.rename_377746377752_00"
--'  1  19  /tmp/vifm.rename_377746377752_00
-|4,39,1,19,1601891794,"/tmp/vifm.rename_377746377752_00"
--'  1  0  /tmp/vifm.rename_377746377752_00
-|4,39,1,0,1601891760,"/tmp/vifm.rename_377746377752_00"
--'  1  0  /tmp/vifm.rename_377746377752_00
-|4,39,1,0,1601891760,"/tmp/vifm.rename_377746377752_00"
--'  1  0  /tmp/vifm.rename_377746377752_00
-|4,39,1,0,1601891760,"/tmp/vifm.rename_377746377752_00"
--'  1  0  /tmp/vifm.rename_377746377752_00
-|4,39,1,0,1601891760,"/tmp/vifm.rename_377746377752_00"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/
+|4,39,1,0,1602559691,"~/vimwiki/index.md"
+-'  10  2  ~/vimwiki/index.md
+|4,39,10,2,1602558407,"~/vimwiki/index.md"
+-'  10  2  ~/vimwiki/index.md
+|4,39,10,2,1602558407,"~/vimwiki/index.md"
+-'  1  0  ~/vimwiki/essays/appearance_and_reality.tex
+|4,39,1,0,1602542622,"~/vimwiki/essays/appearance_and_reality.tex"
+-'  1  0  ~/vimwiki/essays/appearance_and_reality.tex
+|4,39,1,0,1602542622,"~/vimwiki/essays/appearance_and_reality.tex"
+-'  11  2  ~/vimwiki/essays/essays.md
+|4,39,11,2,1602542592,"~/vimwiki/essays/essays.md"
+-'  11  2  ~/vimwiki/essays/essays.md
+|4,39,11,2,1602542592,"~/vimwiki/essays/essays.md"
+-'  1  0  ~/vimwiki/essays/love.tex
+|4,39,1,0,1602542589,"~/vimwiki/essays/love.tex"
+-'  1  0  ~/vimwiki/essays/love.tex
+|4,39,1,0,1602542589,"~/vimwiki/essays/love.tex"
+-'  13  2  ~/vimwiki/essays/essays.md
+|4,39,13,2,1602542587,"~/vimwiki/essays/essays.md"
+-'  13  2  ~/vimwiki/essays/essays.md
+|4,39,13,2,1602542587,"~/vimwiki/essays/essays.md"
+-'  1  0  ~/vimwiki/essays/essays.md
+|4,39,1,0,1602542583,"~/vimwiki/essays/essays.md"
+-'  1  0  ~/vimwiki/essays/essays.md
+|4,39,1,0,1602542583,"~/vimwiki/essays/essays.md"
+-'  6  2  ~/vimwiki/index.md
+|4,39,6,2,1602542582,"~/vimwiki/index.md"
+-'  5  2  ~/vimwiki/index.md
+|4,39,5,2,1602542582,"~/vimwiki/index.md"
+-'  6  2  ~/vimwiki/index.md
+|4,39,6,2,1602542582,"~/vimwiki/index.md"
+-'  5  2  ~/vimwiki/index.md
+|4,39,5,2,1602542582,"~/vimwiki/index.md"
+-'  1  0  ~/vimwiki/index.md
+|4,39,1,0,1602542580,"~/vimwiki/index.md"
+-'  7  2  ~/vimwiki/index.md
+|4,39,7,2,1602541657,"~/vimwiki/index.md"
+-'  7  2  ~/vimwiki/index.md
+|4,39,7,2,1602541657,"~/vimwiki/index.md"
+-'  6  2  ~/vimwiki/index.md
+|4,39,6,2,1602541657,"~/vimwiki/index.md"
+-'  5  2  ~/vimwiki/index.md
+|4,39,5,2,1602541657,"~/vimwiki/index.md"
+-'  1  0  ~/vimwiki/index.md
+|4,39,1,0,1602541657,"~/vimwiki/index.md"
+-'  11  2  ~/vimwiki/index.md
+|4,39,11,2,1602498858,"~/vimwiki/index.md"
+-'  11  2  ~/vimwiki/index.md
+|4,39,11,2,1602498858,"~/vimwiki/index.md"
+-'  11  2  ~/vimwiki/index.md
+|4,39,11,2,1602498858,"~/vimwiki/index.md"
+-'  11  2  ~/vimwiki/index.md
+|4,39,11,2,1602498858,"~/vimwiki/index.md"
+-'  11  2  ~/vimwiki/index.md
+|4,39,11,2,1602498858,"~/vimwiki/index.md"
+-'  1  0  ~/vimwiki/index.md
+|4,39,1,0,1602498626,"~/vimwiki/index.md"
+-'  1  0  ~/vimwiki/index.md
+|4,39,1,0,1602498626,"~/vimwiki/index.md"
+-'  11  2  ~/vimwiki/index.md
+|4,39,11,2,1602463305,"~/vimwiki/index.md"
+-'  10  2  ~/vimwiki/index.md
+|4,39,10,2,1602455745,"~/vimwiki/index.md"
+-'  10  2  ~/vimwiki/index.md
+|4,39,10,2,1602455745,"~/vimwiki/index.md"
+-'  10  2  ~/vimwiki/index.md
+|4,39,10,2,1602455745,"~/vimwiki/index.md"
+-'  10  2  ~/vimwiki/index.md
+|4,39,10,2,1602455745,"~/vimwiki/index.md"
+-'  7  2  ~/vimwiki/index.md
+|4,39,7,2,1602455744,"~/vimwiki/index.md"
+-'  7  2  ~/vimwiki/index.md
+|4,39,7,2,1602455744,"~/vimwiki/index.md"
+-'  6  2  ~/vimwiki/index.md
+|4,39,6,2,1602455744,"~/vimwiki/index.md"
+-'  5  2  ~/vimwiki/index.md
+|4,39,5,2,1602455744,"~/vimwiki/index.md"
+-'  7  2  ~/vimwiki/index.md
+|4,39,7,2,1602455744,"~/vimwiki/index.md"
+-'  6  2  ~/vimwiki/index.md
+|4,39,6,2,1602455744,"~/vimwiki/index.md"
+-'  5  2  ~/vimwiki/index.md
+|4,39,5,2,1602455744,"~/vimwiki/index.md"
+-'  7  2  ~/vimwiki/index.md
+|4,39,7,2,1602455744,"~/vimwiki/index.md"
+-'  6  2  ~/vimwiki/index.md
+|4,39,6,2,1602455744,"~/vimwiki/index.md"
+-'  5  2  ~/vimwiki/index.md
+|4,39,5,2,1602455744,"~/vimwiki/index.md"
+-'  1  0  ~/vimwiki/index.md
+|4,39,1,0,1602455744,"~/vimwiki/index.md"
+-'  1  27  /tmp/vifm.rename_25482554_00
+|4,39,1,27,1602245038,"/tmp/vifm.rename_25482554_00"
+-'  1  27  /tmp/vifm.rename_25482554_00
+|4,39,1,27,1602245038,"/tmp/vifm.rename_25482554_00"
+-'  1  27  /tmp/vifm.rename_25482554_00
+|4,39,1,27,1602245038,"/tmp/vifm.rename_25482554_00"
+-'  1  27  /tmp/vifm.rename_25482554_00
+|4,39,1,27,1602245038,"/tmp/vifm.rename_25482554_00"
+-'  1  27  /tmp/vifm.rename_25482554_00
+|4,39,1,27,1602245038,"/tmp/vifm.rename_25482554_00"
+-'  1  27  /tmp/vifm.rename_25482554_00
+|4,39,1,27,1602245038,"/tmp/vifm.rename_25482554_00"
+-'  1  27  /tmp/vifm.rename_25482554_00
+|4,39,1,27,1602245038,"/tmp/vifm.rename_25482554_00"
+-'  1  27  /tmp/vifm.rename_25482554_00
+|4,39,1,27,1602245038,"/tmp/vifm.rename_25482554_00"
+-'  1  27  /tmp/vifm.rename_25482554_00
+|4,39,1,27,1602245038,"/tmp/vifm.rename_25482554_00"
+-'  1  27  /tmp/vifm.rename_25482554_00
+|4,39,1,27,1602245038,"/tmp/vifm.rename_25482554_00"
+-'  1  27  /tmp/vifm.rename_25482554_00
+|4,39,1,27,1602245038,"/tmp/vifm.rename_25482554_00"
+-'  1  27  /tmp/vifm.rename_25482554_00
+|4,39,1,27,1602245038,"/tmp/vifm.rename_25482554_00"
+-'  1  27  /tmp/vifm.rename_25482554_00
+|4,39,1,27,1602245038,"/tmp/vifm.rename_25482554_00"
+-'  1  27  /tmp/vifm.rename_25482554_00
+|4,39,1,27,1602245038,"/tmp/vifm.rename_25482554_00"
+-'  1  27  /t

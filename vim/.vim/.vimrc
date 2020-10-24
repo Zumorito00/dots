@@ -20,7 +20,8 @@ Plug 'dylanaraps/wal.vim'
 " Vimwiki
 Plug 'vimwiki/vimwiki'
 let g:vimwiki_table_mappings = 0
-
+let g:vimwiki_list = [{'path': '~/vimwiki/',
+                      \ 'syntax': 'markdown', 'ext': '.md'}]
 " Latex live preview
 Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 let g:livepreview_previewer = 'zth'
@@ -28,6 +29,18 @@ let g:livepreview_previewer = 'zth'
 " Auto save on exit insert mode
 Plug '907th/vim-auto-save'
 let g:auto_save = 0
+
+" Goyo
+Plug 'junegunn/goyo.vim'
+let g:goyo_width = 150
+let g:goyo_height = "100%"
+let g:goyo_linenr = 0
+nnoremap <leader>g :Goyo<CR>
+
+Plug 'dbmrq/vim-ditto'
+let g:ditto_mode = "paragraph"
+let g:ditto_min_repetitions = 3
+nnoremap <leader>d :ToggleDitto<CR>
 
 call plug#end()
 
@@ -41,7 +54,9 @@ set relativenumber
 set linebreak
 set showmatch
 set visualbell
+set showcmd
 set viminfo+=n~/.vim/viminfo
+let mapleader = "\\"
 
 " Searching
 set hlsearch
@@ -87,12 +102,12 @@ au BufWritePost *.vimrc :so ~/.vim/.vimrc
 " restart sxhkd after write
 au BufWritePost *sxhkdrc silent !killall sxhkd; setsid sxhkd &
 " restart compton after write
-au BufWritePost *compton.conf silent !killall compton; setsid compton --config *compton.conf &
+au BufWritePost *picom.conf silent !killall picom; setsid picom &
 " make install after write to config.h
 au BufWritePost *config.*h silent !sudo make install
 " restart bspwm after write
 au BufWritePost *bspwmrc silent !bspc wm -r
 " auto save on latex documents
-au BufRead,BufReadPre,BufNewFile *.tex let g:auto_save = 1
+au BufRead,BufReadPre,BufNewFile ~/vimwiki/* let g:auto_save = 1
 " bind == to compile latex
 au BufRead,BufReadPre,BufNewFile *.tex map == :w <CR> :!pdflatex '%'; rm *.log *.aux <CR>

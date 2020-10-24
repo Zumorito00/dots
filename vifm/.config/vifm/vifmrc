@@ -243,7 +243,7 @@ fileviewer *.[1-8] man ./%c | col -b
 " Images
 filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
         \ {View in sxiv}
-        \ sxiv -b %f,
+        \ sxiv -b %f &,
         \ {View in gpicview}
         \ gpicview %c,
         \ {View in shotwell}
@@ -452,6 +452,7 @@ endif
 nnoremap I cw<c-a>
 nnoremap cc cw<c-u>
 nnoremap A cw
+nnoremap cv :rename<CR>
 
 " Open console in current directory
 nnoremap ,t :!xterm &<cr>

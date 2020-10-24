@@ -25,6 +25,10 @@
 	/home/daffy/
 	..
 1595163703
+'m
+	/home
+	..
+1602568750
 's
 	/home/daffy/.scripts
 	..
@@ -40,7 +44,7 @@
 'z
 	/home/daffy/.config/vifm
 	..
-1595163703
+1602586125
 
 # Bookmarks:
 
@@ -54,273 +58,105 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/daffy/.java
-	fonts
-1
-d/home/daffy/.java/fonts
-	14.0.2
-1
-d/home/daffy/.java/fonts/14.0.2
-	fcinfo-1-daffysElixer-Arch-rolling-en-AU.properties
-1
-d/home/daffy/.java/fonts
-	14.0.2
-1
-d/home/daffy/.java
-	fonts
-1
-d/home/daffy
-	vimwiki
-6
-d/home/daffy/vimwiki
-	..
-0
-d/home/daffy
-	vimwiki
-6
-d/home/daffy/vimwiki
-	essays
-3
-d/home/daffy/vimwiki/essays
-	authority.tex
-1
-d/home/daffy/vimwiki
-	essays
-3
-d/home/daffy/vimwiki/essays
-	essays.wiki
-2
-d/home/daffy
-	vimwiki
-6
-d/home/daffy/documents/school/12
-	chemistry
-2
-d/home/daffy/documents/school/12/chemistry
-	workbooks
-3
-d/home/daffy/documents/school/12/chemistry/workbooks
-	..
-0
-d/home/daffy/documents/school/12/chemistry
-	powerpoints
-2
-d/home/daffy/documents/school/12/chemistry/powerpoints
-	..
-0
-d/home/daffy/documents/school/12/chemistry
-	powerpoints
-2
-d/home/daffy/documents/school/12/chemistry/powerpoints
-	hydrocarbons_powerpoint.pdf
-2
-d/home/daffy/documents/school/12/chemistry
-	workbooks
-3
-d/home/daffy/documents/school/12/chemistry/workbooks
-	..
-0
-d/home/daffy/documents/school/12/chemistry
-	powerpoints
-2
-d/home/daffy/documents/school/12/chemistry/powerpoints
-	hydrocarbons_powerpoint.pdf
-2
-d/home/daffy/documents/school/12/chemistry
-	powerpoints
-2
-d/home/daffy
-	vimwiki
-6
-d/home/daffy/.config
-	vifm
-25
-d/home/daffy/.scripts
-	randback
-8
-d/home/daffy
-	vimwiki
-6
-d/home/daffy/documents/school/12
-	chemistry
-1
-d/home/daffy/documents/school/12/chemistry
-	notes
-1
-d/home/daffy/documents/school/12/chemistry/notes
-	20-07-27.tex
-3
-d/home/daffy/documents/school/12/chemistry
-	powerpoints
-1
-d/home/daffy/documents/school/12
-	methods
-4
-d/home/daffy/documents/school/12/methods
-	..
-0
-d/home/daffy/documents/school/12
-	physics
-4
-d/home/daffy/documents/school/12/physics
-	notes
-1
-d/home/daffy/documents/school/12/physics/notes
-	20-07-23.pdf
-3
-d/home/daffy/documents/school/12/physics
-	notes
-1
-d/home/daffy/documents/school/12
-	physics
-4
-d/home/daffy/documents/school/12/physics
-	formula_sheet.pdf
-1
-d/home/daffy/documents/school/12
-	essays
-3
-d/home/daffy/documents/school/12/essays
-	notes
-1
-d/home/daffy/documents/school/12/essays/notes
-	20-05-05.pdf
-3
-d/home/daffy/documents/school/12/essays
-	notes
-1
-d/home/daffy/documents/school/12
-	chemistry
-1
-d/home/daffy
-	git
-4
-d/home/daffy/.config
-	fontconfig
-6
-d/home/daffy/.config/fontconfig
-	fonts.conf
-1
-d/home/daffy/.config
-	dunst
-5
-d/home/daffy/.config/dunst
-	..
-0
-d/home/daffy/.config
-	compton
-3
-d/home/daffy/.config/compton
-	..
-0
-d/home/daffy/.config
-	compton
-3
-d/home/daffy
-	git
-4
-d/home/daffy/git
-	scripts
-2
-d/home/daffy/git/scripts
-	..
-0
-d/home/daffy/git
-	scripts
-2
-d/home/daffy
-	git
-4
-d/home/daffy/git
-	dots
-1
-d/home/daffy/git/dots
-	dunst
-2
-d/home/daffy/git
-	dots
-1
-d/home/daffy/git/dots
-	dunst
-2
 d/home/daffy
 	downloads
 3
 d/home/daffy/downloads
-	2. Infrared Spectroscopy.pptx
+	Acing Chemistry Practical Reports and Posters.pdf
+4
+d/home/daffy
+	downloads
+3
+d/home/daffy/downloads
+	photos
+3
+d/home/daffy/downloads/photos
+	..
+0
+d/home/daffy/downloads
+	photos
+3
+d/home/daffy/downloads/photos
+	out.pdf
+8
+d/home/daffy
+	downloads
+3
+d/home/daffy/downloads
+	Acing Chemistry Practical Reports and Posters.pdf
+6
+d/home/daffy
+	downloads
+3
+d/home/daffy/downloads
+	bryan_scary_music
+1
+d/home/daffy
+	documents
 2
+d/home/daffy/documents
+	tv
+6
+d/home/daffy/documents/tv
+	Kaiji_-_Ultimate_Survivor
+3
+d/home/daffy/documents/tv/Kaiji_-_Ultimate_Survivor
+	Kaiji - Ultimate Survivor - 01.mkv
+1
+d/home/daffy/documents/tv
+	Kaiji_-_Ultimate_Survivor
+3
+d/home/daffy
+	downloads
+3
+d/home/daffy/downloads
+	pokemon
+3
 d/home/daffy
 	downloads
 3
 d/home/daffy/documents/school/12
-	chemistry
-1
-d/home/daffy/documents/school/12/chemistry
-	powerpoints
-1
-d/home/daffy/documents/school/12/chemistry/powerpoints
-	hydrocarbons_powerpoint.pdf
-3
-d/home/daffy/documents/school/12/chemistry
-	workbooks
-2
+	..
+0
 d/home/daffy
-	vimwiki_html
-7
-d/home/daffy/vimwiki_html
-	chemistry
-1
-d/home/daffy/vimwiki_html/chemistry
-	organic_chemistry
-2
-d/home/daffy/vimwiki_html
-	chemistry
-1
-d/home/daffy/vimwiki_html/chemistry
-	organic_chemistry
-2
-d/home/daffy/vimwiki_html/chemistry/organic_chemistry
-	topic_4.html
-4
-d/home/daffy/vimwiki_html/chemistry
-	analysis_of_organic_molecules
-1
-d/home/daffy/vimwiki_html/chemistry/analysis_of_organic_molecules
-	topic_3.html
+	downloads
 3
-d/home/daffy/vimwiki_html/chemistry
-	analysis_of_organic_molecules
+d/home/daffy/downloads
+	bryan_scary_music
 1
-d/home/daffy/vimwiki_html/chemistry/analysis_of_organic_molecules
-	topic_3.html
-3
-d/home/daffy/vimwiki_html/chemistry
-	organic_chemistry
-2
-d/home/daffy/vimwiki_html/chemistry/organic_chemistry
-	topic_4.html
-4
 d/home/daffy
-	vimwiki_html
-7
-d/home/daffy/vimwiki_html
-	chemistry
-1
-d/home/daffy/vimwiki_html/chemistry
-	organic_chemistry
+	documents
 2
-d/home/daffy/vimwiki_html/chemistry/organic_chemistry
-	topic_1.html
-2
-d/home/daffy
-	vimwiki
+d/home/daffy/documents
+	tv
 6
-d/home/daffy/documents/school/12
-	chemistry
+d/home/daffy/documents/tv
+	Devious_Maids_Season_1
+2
+d/home/daffy/documents/tv/Devious_Maids_Season_1
+	Devious_Maids_S01E08.avi
+8
+d/home/daffy
+	documents
+2
+d/home/daffy/downloads
+	english
+2
+d/home/daffy/downloads/english
+	authority.pdf
+5
+d/home/daffy/downloads
+	pill_testing.pdf
+6
+d/home/daffy
+	downloads
+3
+d/home/daffy/downloads
+	bryan_scary_music
 1
-d/home/daffy/documents/school
-	12
-1
+d/home/daffy
+	downloads
+3
 d/home/daffy/documents/school/12
 	english
 2
@@ -328,32 +164,200 @@ d/home/daffy/documents/school/12/english
 	notes
 1
 d/home/daffy/documents/school/12/english/notes
-	20-07-24.pdf
-23
+	..
+0
 d/home/daffy
 	downloads
 3
 d/home/daffy/downloads
-	vm_find_defs.sh
-7
-d/home/daffy
-	downloads
-3
+	The.Dressmaker.2015.720p.BRRip.x264.AAC-ETRG
+2
+d/home/daffy/downloads/The.Dressmaker.2015.720p.BRRip.x264.AAC-ETRG
+	The.Dressmaker.2015.720p.BRRip.x264.AAC-ETRG.mp4
+1
 d/home/daffy/downloads
-	vladimir-manyukhin-4.jpg
+	The Dressmaker 2015 1080p BluRay x264 DTS-JYK
+1
+d/home/daffy/downloads/The Dressmaker 2015 1080p BluRay x264 DTS-JYK
+	..
+0
+d/home/daffy/downloads
+	The Dressmaker 2015 1080p BluRay x264 DTS-JYK
+1
+d/home/daffy/downloads/The Dressmaker 2015 1080p BluRay x264 DTS-JYK
+	The Dressmaker 2015 1080p BluRay x264 DTS-JYK.mkv
+1
+d/home/daffy/downloads
+	The_Dressmaker_2015_720p
+1
+d/home/daffy/downloads/The_Dressmaker_2015_720p
+	The_Dressmaker_2015_720p.mp4
+1
+d/home/daffy/downloads
+	bryan_scary_music
+1
+d/home/daffy/.scripts
+	2048
+1
+d/home/daffy/documents
+	tv
 6
+d/home/daffy/documents/tv
+	The_Boys_-_Season_1_[1080p]
+7
+d/home/daffy/documents
+	tv
+6
+d/home/daffy/downloads
+	bryan_scary_music
+1
+d/home/daffy/downloads/bryan_scary_music
+	SCARY CHARTS upload.zip
+5
+d/home/daffy/downloads
+	english
+2
+d/home/daffy/downloads/english
+	authority.pdf
+5
+d/home/daffy/downloads
+	english
+2
+d/home/daffy/downloads/english
+	Dressmaker Vs Crucible Quote Bank.pdf
+3
+d/home/daffy/downloads
+	english
+2
+d/home/daffy/downloads/english
+	Authority Liontos.pdf
+1
+d/home/daffy
+	downloads
+3
+d/home/daffy/downloads
+	meth
+3
+d/home/daffy/downloads/meth
+	2018 TE_MM1_Q&A_final_3May18.pdf
+1
+d/home/daffy
+	downloads
+3
+d/home/daffy/downloads
+	english
+2
+d/home/daffy/downloads/english
+	Sample MBPs (Fear and Hysteria).pdf
+5
+d/home/daffy
+	texmf
+6
+d/home/daffy/texmf
+	doc
+1
+d/home/daffy
+	vimwiki
+6
+d/home/daffy/downloads
+	mtheme
+3
+d/home/daffy/downloads/mtheme
+	metropolis
+4
+d/home/daffy/downloads/mtheme/metropolis
+	beamercolorthememetropolis-highcontrast.sty
+1
+d/home/daffy/downloads/mtheme
+	demo
+1
+d/home/daffy/downloads/mtheme/demo
+	logo.pdf
+4
+d/home/daffy/downloads/mtheme
+	metropolis
+4
+d/home/daffy
+	downloads
+3
+d/home/daffy/downloads
+	pokemon
+3
+d/home/daffy
+	downloads
+3
+d/home/daffy/documents/school/12
+	physics
+4
+d/home/daffy/documents/school/12/physics
+	..
+0
+d/home/daffy
+	downloads
+3
+d/home/daffy/downloads
+	mouth_dreams
+3
+d/home/daffy/downloads/mouth_dreams
+	Cover.jpg
+27
+d/home/daffy/downloads
+	pokemon
+3
 d/home/daffy
 	documents
 2
 d/home/daffy/documents
-	school
-2
+	music
+5
+d/home/daffy/documents/music
+	mouth_dreams
+1
+d/home/daffy/documents/music/mouth_dreams
+	01 - Yahoo.mp3
+1
+d/home/daffy
+	downloads
+3
+d/home/daffy/downloads
+	pokemon
+3
 d/home/daffy
 	documents
 2
-d/home/daffy/.config
-	dconf
+d/home/daffy/documents
+	music
 5
+d/home/daffy/documents/music
+	mouth_dreams
+1
+d/home/daffy/documents/music/mouth_dreams
+	08 - My Mouth.mp3
+8
+d/home/daffy
+	documents
+2
+d/home/daffy/documents
+	music
+5
+d/home/daffy/documents/music
+	mouth_dreams
+1
+d/home/daffy/documents/music/mouth_dreams
+	03 - Spongerock.mp3
+3
+d/home/daffy
+	vimwiki
+6
+d/home/daffy/documents/school/12
+	physics
+4
+d/home/daffy/documents/school/12/physics
+	poster_sac
+1
+d/home/daffy/documents/school/12/physics/poster_sac
+	poster_sac.tex
+9
 d
 
 # Right window history (oldest to newest):
@@ -366,6 +370,9 @@ D/home
 D
 
 # Command line history (oldest to newest):
+:!vim plot.tex
+:!mkdir poster_sac
+:!mkdir firmware
 :!echo %f
 :!wal -c; wal -i %f; xrdb ~/.Xresourses; kill -HUP $(pidof dwm); cp %f /home/hey/.config/back.png
 :help
@@ -390,18 +397,45 @@ D
 :delmarks H
 :delmarks p
 :cd .local/
-:q
 :cd .mozilla/
 :cd .cache/
+:cd .vim
+:rename
+:!mkdir english
+:!unrar %f
+:!unrar e %f
+:!mkdir 
+:!mkdir "Spiritfarer [NSP]"
+:!mpv %
+:!%s
+:!echo %s
+:!convert %s mcq.pdf
+:!convert %f mcq.pdf
+:!convert %f short_answer.pdf
+:q
+:!mogrify -rotate "90" %f %f
+:!mogrify -rotate "45" %f %f
+:!unzip %f
+:!convert -rotate "90" %f %f-0
+:!convert -rotate "90" %f
+:!convert -rotate "90" %f %f
+:!unoconv -f pdf %f
+:!mkdir meth
+:!mkdir metropolis
+:!mkdir music
+:!mpv %f
+:!gimp %f
 
 # Search history (oldest to newest):
+/as
+/gimp
+/plu
 /aio
 /20
 /con
 /sc
 /sero
 /b900
-/mnt
 /st
 /home/hey/
 /tex
@@ -416,8 +450,25 @@ D
 /robby
 //wal
 /wal
+/mel
+/mnt
+/physi
+/cru
+/en
+/jojo
 
 # Prompt history (oldest to newest):
+pgraph.tex
+p2020-10-13-214841_1920x1200_scrot.png
+pphet_coloarado.png
+pphet_colorado.png
+pThe\ Dressmaker.mobi
+pThe Dressmaker.mobi
+pMiller, Arthur - The Crucible.mobi
+pThe Crucible.mobi
+p-3.
+pbig_fish.jpg
+pmilotic_under_the_sea.png
 pNEAP 2017.pdf
 pdocuments
 pBooster 2 (Vaccination Comparative).pd
@@ -437,11 +488,33 @@ psolaris_dolphins_wall.png
 pparty.png
 penglish.wiki
 pessays.wiki
+p[Underwater] Panty and Stocking with Garterbelt OVA - In Sanitarybox (BD 720p) [3525A622].mkv
+pPanty_and_Stocking_with_Garterbelt_OVA_-_In_Sanitarybox.mkv
+pPanty_and_Stocking_with_Garterbelt_-_01-13_+_OVA
+pDororo Season 1
+pDororo_Season_1U
+pbryan_scary_msuic
+pbryan_scary_musmic
+pbryan_scary_music
+pbryan_scary_music/
+pindex.md
+pessays.md
+penglish.md
+pchemistry.md
+pdownloads
+pComparative (Appearance and Reality).pdf
+pComparative (Appearance and Reality).p
+pscene_2_line_1.mp3
+pDressmaker Vs Crucible Quote Bank.pdf
+pDressmaker Vs Crucible Quote Bank Philippa.pdf
+pAuthority Liontos
+pComparativeAuthority Liontos.pdf
+pAuthority Liontos.pdf
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/daffy/.local/share/vifm/Trash/000_78167001_p0.jpg
+""/home/daffy/.local/share/vifm/Trash/000_2020-10-13-214737_1920x1200_scrot.png
 
 # Directory stack (oldest to newest):
 
@@ -1046,6 +1119,460 @@ t/home/daffy/.local/share/vifm/Trash/000_pdf.pdf
 	/home/daffy/vimwiki_html/chemistry/organic_chemistry/pdf.pdf
 t/home/daffy/.local/share/vifm/Trash/000_78167001_p0.jpg
 	/home/daffy/downloads/78167001_p0.jpg
+t/home/daffy/.local/share/vifm/Trash/000_wallhaven-dgrrkl.jpg
+	/home/daffy/downloads/wallhaven-dgrrkl.jpg
+t/home/daffy/.local/share/vifm/Trash/000_melonbar
+	/home/daffy/.scripts/melonbar
+t/home/daffy/.local/share/vifm/Trash/000_astero-20200620_waifu2x_art_noise1_scale_tta_1.png
+	/home/daffy/downloads/astero-20200620_waifu2x_art_noise1_scale_tta_1.png
+t/home/daffy/.local/share/vifm/Trash/000_astero-20200620.jpg
+	/home/daffy/downloads/astero-20200620.jpg
+t/home/daffy/.local/share/vifm/Trash/000_The-God-of-High-School-Episode-06-1080p-The-God-of-High-School-Episode-06-1080p.mp4
+	/home/daffy/downloads/The-God-of-High-School-Episode-06-1080p-The-God-of-High-School-Episode-06-1080p.mp4
+t/home/daffy/.local/share/vifm/Trash/000_no_game_no_life_vol_1.html
+	/home/daffy/documents/books/no_game_no_life/no_game_no_life_vol_1.html
+t/home/daffy/.local/share/vifm/Trash/000_backs
+	/home/daffy/downloads/backs
+t/home/daffy/.local/share/vifm/Trash/000_no_game_no_life_vol_1.mobi
+	/home/daffy/downloads/no_game_no_life_vol_1.mobi
+t/home/daffy/.local/share/vifm/Trash/000_kali-linux-2020.2-live-amd64.iso.torrent
+	/home/daffy/downloads/kali-linux-2020.2-live-amd64.iso.torrent
+t/home/daffy/.local/share/vifm/Trash/000_Panty_and_Stocking_with_Garterbelt_02_-_The_Turmoil_of_the_Beehive_-_Sex_and_the_Daten_City.mp4
+	/home/daffy/documents/tv/Panty_and_Stocking_with_Garterbelt_-_01-13_+_OVA/Panty_and_Stocking_with_Garterbelt_02_-_The_Turmoil_of_the_Beehive_-_Sex_and_the_Daten_City.mp4
+t/home/daffy/.local/share/vifm/Trash/000_UNIT 4 Physics SAC 1 test 2018 solutions.docx
+	/home/daffy/downloads/UNIT 4 Physics SAC 1 test 2018 solutions.docx
+t/home/daffy/.local/share/vifm/Trash/000_2020 Topic 1 Proteins.pdf
+	/home/daffy/downloads/2020 Topic 1 Proteins.pdf
+t/home/daffy/.local/share/vifm/Trash/000_2020 Topic 1a – Proteins.pdf
+	/home/daffy/downloads/2020 Topic 1a – Proteins.pdf
+t/home/daffy/.local/share/vifm/Trash/000_UNIT 4 Physics SAC 1 test 2018 solutions.pdf
+	/home/daffy/downloads/UNIT 4 Physics SAC 1 test 2018 solutions.pdf
+t/home/daffy/.local/share/vifm/Trash/000_Documents
+	/home/daffy/Documents
+t/home/daffy/.local/share/vifm/Trash/000_Panty_and_Stocking_with_Garterbelt_01_-_Excretion_Without_Honor_and_Humanity_-_Death_Race_2010.mp4
+	/home/daffy/documents/tv/Panty_and_Stocking_with_Garterbelt_-_01-13_+_OVA/Panty_and_Stocking_with_Garterbelt_01_-_Excretion_Without_Honor_and_Humanity_-_Death_Race_2010.mp4
+t/home/daffy/.local/share/vifm/Trash/000_panty_and_stocking
+	/home/daffy/documents/tv/panty_and_stocking
+t/home/daffy/.local/share/vifm/Trash/000_[TGx]Downloaded from torrentgalaxy.to .txt
+	/home/daffy/documents/tv/Dororo (Season 1) (BD 1080p)(HEVC x265 10bit)(Eng-Subs)-Judas[TGx]/[TGx]Downloaded from torrentgalaxy.to .txt
+t/home/daffy/.local/share/vifm/Trash/000_Cover.jpg
+	/home/daffy/documents/tv/Mr Robot Season 2/Cover.jpg
+t/home/daffy/.local/share/vifm/Trash/000_Mr.Robot.Season.2.Complete.720p.WEB-DL.EN-SUB.x264-[MULVAcoded].nfo
+	/home/daffy/documents/tv/Mr Robot Season 2/Mr.Robot.Season.2.Complete.720p.WEB-DL.EN-SUB.x264-[MULVAcoded].nfo
+t/home/daffy/.local/share/vifm/Trash/000_Dororo_-_Ending_01.mkv
+	/home/daffy/documents/tv/Dororo Season 1/Dororo_-_Ending_01.mkv
+t/home/daffy/.local/share/vifm/Trash/000_Dororo_-_Ending_02.mkv
+	/home/daffy/documents/tv/Dororo Season 1/Dororo_-_Ending_02.mkv
+t/home/daffy/.local/share/vifm/Trash/000_Dororo_-_Opening_01.mkv
+	/home/daffy/documents/tv/Dororo Season 1/Dororo_-_Opening_01.mkv
+t/home/daffy/.local/share/vifm/Trash/000_Dororo_-_Opening_02.mkv
+	/home/daffy/documents/tv/Dororo Season 1/Dororo_-_Opening_02.mkv
+t/home/daffy/.local/share/vifm/Trash/000_2015mmcas1-w.pdf
+	/home/daffy/downloads/2015mmcas1-w.pdf
+t/home/daffy/.local/share/vifm/Trash/000_2016MM1-w.pdf
+	/home/daffy/downloads/2016MM1-w.pdf
+t/home/daffy/.local/share/vifm/Trash/000_2016MM2-w.pdf
+	/home/daffy/downloads/2016MM2-w.pdf
+t/home/daffy/.local/share/vifm/Trash/000_Comparative (Appearance and Reality) - Copy.docx
+	/home/daffy/downloads/Comparative (Appearance and Reality) - Copy.docx
+t/home/daffy/.local/share/vifm/Trash/000_Sample MBPs (Fear and Hysteria).docx
+	/home/daffy/downloads/Sample MBPs (Fear and Hysteria).docx
+t/home/daffy/.local/share/vifm/Trash/000_12MM Practice exam MC 2nd Sept.docx
+	/home/daffy/downloads/12MM Practice exam MC 2nd Sept.docx
+t/home/daffy/.local/share/vifm/Trash/000_12MM Practice exam MC 2nd Sept.pdf
+	/home/daffy/downloads/12MM Practice exam MC 2nd Sept.pdf
+t/home/daffy/.local/share/vifm/Trash/000_Comparative (Presentation of Women).pdf
+	/home/daffy/downloads/Comparative (Presentation of Women).pdf
+t/home/daffy/.local/share/vifm/Trash/000_Comparative (Presentation of Women).docx
+	/home/daffy/downloads/Comparative (Presentation of Women).docx
+t/home/daffy/.local/share/vifm/Trash/000_kali-linux-2020-2-live-amd64-iso
+	/home/daffy/downloads/kali-linux-2020-2-live-amd64-iso
+t/home/daffy/.local/share/vifm/Trash/000___MACOSX
+	/home/daffy/downloads/__MACOSX
+t/home/daffy/.local/share/vifm/Trash/000_Comparative (Love).docx
+	/home/daffy/downloads/Comparative (Love).docx
+t/home/daffy/.local/share/vifm/Trash/000_appearance_and_reality.pdf
+	/home/daffy/appearance_and_reality.pdf
+t/home/daffy/.local/share/vifm/Trash/000_18 Particle properties of light notes 2020.docx
+	/home/daffy/downloads/18 Particle properties of light notes 2020.docx
+t/home/daffy/.local/share/vifm/Trash/000_2014mmcas1-w.pdf
+	/home/daffy/downloads/2014mmcas1-w.pdf
+t/home/daffy/.local/share/vifm/Trash/000_2014mmcas2-w.pdf
+	/home/daffy/downloads/2014mmcas2-w.pdf
+t/home/daffy/.local/share/vifm/Trash/000_2015mmcas2-w.pdf
+	/home/daffy/downloads/2015mmcas2-w.pdf
+t/home/daffy/.local/share/vifm/Trash/000_Probability .doc
+	/home/daffy/downloads/Probability .doc
+t/home/daffy/.local/share/vifm/Trash/000_Probability .pdf
+	/home/daffy/downloads/Probability .pdf
+t/home/daffy/.local/share/vifm/Trash/000_Prob-test.pdf
+	/home/daffy/downloads/Prob-test.pdf
+t/home/daffy/.local/share/vifm/Trash/000_18 Particle properties of light notes 2020.pdf
+	/home/daffy/downloads/18 Particle properties of light notes 2020.pdf
+t/home/daffy/.local/share/vifm/Trash/000_2013mmcas1-w.pdf
+	/home/daffy/downloads/2013mmcas1-w.pdf
+t/home/daffy/.local/share/vifm/Trash/000_2013mmcas2-w.pdf
+	/home/daffy/downloads/2013mmcas2-w.pdf
+t/home/daffy/.local/share/vifm/Trash/000_Practice SAC 2.pdf
+	/home/daffy/downloads/Practice SAC 2.pdf
+t/home/daffy/.local/share/vifm/Trash/000_joiner_scripts_for_windows_linux_macos.zip
+	/home/daffy/downloads/joiner_scripts_for_windows_linux_macos.zip
+t/home/daffy/.local/share/vifm/Trash/000_TegraRcmGUI_v2.6_portable.zip
+	/home/daffy/downloads/TegraRcmGUI_v2.6_portable.zip
+t/home/daffy/.local/share/vifm/Trash/000_README.txt
+	/home/daffy/downloads/README.txt
+t/home/daffy/.local/share/vifm/Trash/000_ThirdParty.txt
+	/home/daffy/downloads/ThirdParty.txt
+t/home/daffy/.local/share/vifm/Trash/000_Firmware 10.1.0.zip
+	/home/daffy/downloads/firmware/Firmware 10.1.0.zip
+t/home/daffy/.local/share/vifm/Trash/000_ChoiDujourNXv102.zip
+	/home/daffy/downloads/ChoiDujourNXv102.zip
+t/home/daffy/.local/share/vifm/Trash/000_bootloader
+	/home/daffy/downloads/bootloader
+t/home/daffy/.local/share/vifm/Trash/000_ChoiDujourNX.nro
+	/home/daffy/downloads/ChoiDujourNX.nro
+t/home/daffy/.local/share/vifm/Trash/000_firmware
+	/home/daffy/downloads/firmware
+t/home/daffy/.local/share/vifm/Trash/000_hekate_ctcaer_5.3.3_Nyx_0.9.4.zip
+	/home/daffy/downloads/hekate_ctcaer_5.3.3_Nyx_0.9.4.zip
+t/home/daffy/.local/share/vifm/Trash/000_atmosphere-0.14.3-master-28ceedb5+hbl-2.3.4+hbmenu-3.3.0.zip
+	/home/daffy/downloads/a/atmosphere-0.14.3-master-28ceedb5+hbl-2.3.4+hbmenu-3.3.0.zip
+t/home/daffy/.local/share/vifm/Trash/000_fusee-primary.bin
+	/home/daffy/downloads/fusee-primary.bin
+t/home/daffy/.local/share/vifm/Trash/000_a
+	/home/daffy/downloads/a
+t/home/daffy/.local/share/vifm/Trash/000_Super Mario 3D All-Stars [NSP]
+	/home/daffy/downloads/Super Mario 3D All-Stars [NSP]
+t/home/daffy/.local/share/vifm/Trash/000_Minecraft [NSP]
+	/home/daffy/downloads/Minecraft [NSP]
+t/home/daffy/.local/share/vifm/Trash/000_sig
+	/home/daffy/downloads/sig
+t/home/daffy/.local/share/vifm/Trash/000_Minecraft Dungeons [NSZ]
+	/home/daffy/downloads/Minecraft Dungeons [NSZ]
+t/home/daffy/.local/share/vifm/Trash/000_Russian Language Mod (20.12.19)
+	/home/daffy/downloads/Octopath Traveler [NSP]/Russian Language Mod (20.12.19)
+t/home/daffy/.local/share/vifm/Trash/000_minecraft
+	/home/daffy/downloads/minecraft
+t/home/daffy/.local/share/vifm/Trash/000_Exam Q and A booklet.pdf
+	/home/daffy/downloads/Exam Q and A booklet.pdf
+t/home/daffy/.local/share/vifm/Trash/000_SADCATT (Reminders and Example).docx
+	/home/daffy/downloads/SADCATT (Reminders and Example).docx
+t/home/daffy/.local/share/vifm/Trash/000_ME SCRIPT (UPDATED DUE TO PANDEMIC).docx
+	/home/daffy/downloads/ME SCRIPT (UPDATED DUE TO PANDEMIC).docx
+t/home/daffy/.local/share/vifm/Trash/000_voice recordings
+	/home/daffy/downloads/voice recordings
+t/home/daffy/.local/share/vifm/Trash/000_voice recordings.zip
+	/home/daffy/downloads/voice recordings.zip
+t/home/daffy/.local/share/vifm/Trash/000_SADCATT (Reminders and Example).pdf
+	/home/daffy/downloads/SADCATT (Reminders and Example).pdf
+t/home/daffy/.local/share/vifm/Trash/000_ME SCRIPT (UPDATED DUE TO PANDEMIC).pdf
+	/home/daffy/downloads/ME SCRIPT (UPDATED DUE TO PANDEMIC).pdf
+t/home/daffy/.local/share/vifm/Trash/000_2012mmcas2-w.pdf
+	/home/daffy/downloads/2012mmcas2-w.pdf
+t/home/daffy/.local/share/vifm/Trash/000_2017chem-w.pdf
+	/home/daffy/downloads/2017chem-w.pdf
+t/home/daffy/.local/share/vifm/Trash/000_2017physics-w.pdf
+	/home/daffy/downloads/2017physics-w.pdf
+t/home/daffy/.local/share/vifm/Trash/000_chemistry_examrep17.pdf
+	/home/daffy/downloads/chemistry_examrep17.pdf
+t/home/daffy/.local/share/vifm/Trash/000_Ori and the Will of the Wisps [NSP]
+	/home/daffy/downloads/Ori and the Will of the Wisps [NSP]
+t/home/daffy/.local/share/vifm/Trash/000_Spiritfarer [0100BD400DC52000][v0].nsp.rar
+	/home/daffy/downloads/Spiritfarer [0100BD400DC52000][v0].nsp.rar
+t/home/daffy/.local/share/vifm/Trash/000_Spiritfarer [0100BD400DC52800][v131072].nsp.rar
+	/home/daffy/downloads/Spiritfarer [0100BD400DC52800][v131072].nsp.rar
+t/home/daffy/.local/share/vifm/Trash/000_[smplstc] ReːCREATORS (BD 1080p x265 10-Bit Opus)
+	/home/daffy/downloads/[smplstc] ReːCREATORS (BD 1080p x265 10-Bit Opus)
+t/home/daffy/.local/share/vifm/Trash/000_Miller, Arthur - The Crucible.epub
+	/home/daffy/downloads/Miller, Arthur - The Crucible.epub
+t/home/daffy/.local/share/vifm/Trash/000_books
+	/home/daffy/documents/books
+t/home/daffy/.local/share/vifm/Trash/000_Arthur Miller
+	/home/daffy/documents/cailbre_library/Arthur Miller
+t/home/daffy/.local/share/vifm/Trash/000_exam.pdf
+	/home/daffy/downloads/photos/exam.pdf
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-0.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-0.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-1.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-1.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-2.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-2.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-3.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-3.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-4.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-4.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-5.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-5.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-6.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-6.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-7.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-7.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-8.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-8.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-9.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-9.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-10.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-10.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-11.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-11.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-12.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-12.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-13.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-13.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-14.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-14.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-15.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-15.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-16.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-16.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-17.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-17.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-18.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-18.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-19.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-19.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-20.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-20.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-21.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-21.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-22.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-22.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-23.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-23.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-24.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-24.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-25.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-25.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-26.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-26.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-27.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-27.JPG
+t/home/daffy/.local/share/vifm/Trash/000_photo sep 27, 9 19 36 pm-28.JPG
+	/home/daffy/downloads/photos/photo sep 27, 9 19 36 pm-28.JPG
+t/home/daffy/.local/share/vifm/Trash/000_9-0.jpg
+	/home/daffy/downloads/photos/9-0.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-1.jpg
+	/home/daffy/downloads/photos/9-1.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-2.jpg
+	/home/daffy/downloads/photos/9-2.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-3.jpg
+	/home/daffy/downloads/photos/9-3.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-4.jpg
+	/home/daffy/downloads/photos/9-4.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-5.jpg
+	/home/daffy/downloads/photos/9-5.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-6.jpg
+	/home/daffy/downloads/photos/9-6.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-7.jpg
+	/home/daffy/downloads/photos/9-7.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-8.jpg
+	/home/daffy/downloads/photos/9-8.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-9.jpg
+	/home/daffy/downloads/photos/9-9.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-10.jpg
+	/home/daffy/downloads/photos/9-10.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-11.jpg
+	/home/daffy/downloads/photos/9-11.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-12.jpg
+	/home/daffy/downloads/photos/9-12.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-13.jpg
+	/home/daffy/downloads/photos/9-13.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-14.jpg
+	/home/daffy/downloads/photos/9-14.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-15.jpg
+	/home/daffy/downloads/photos/9-15.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-16.jpg
+	/home/daffy/downloads/photos/9-16.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-17.jpg
+	/home/daffy/downloads/photos/9-17.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-18.jpg
+	/home/daffy/downloads/photos/9-18.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-19.jpg
+	/home/daffy/downloads/photos/9-19.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-20.jpg
+	/home/daffy/downloads/photos/9-20.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-21.jpg
+	/home/daffy/downloads/photos/9-21.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-22.jpg
+	/home/daffy/downloads/photos/9-22.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-23.jpg
+	/home/daffy/downloads/photos/9-23.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-24.jpg
+	/home/daffy/downloads/photos/9-24.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-25.jpg
+	/home/daffy/downloads/photos/9-25.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-26.jpg
+	/home/daffy/downloads/photos/9-26.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-27.jpg
+	/home/daffy/downloads/photos/9-27.jpg
+t/home/daffy/.local/share/vifm/Trash/000_9-28.jpg
+	/home/daffy/downloads/photos/9-28.jpg
+t/home/daffy/.local/share/vifm/Trash/000_photos
+	/home/daffy/downloads/photos
+t/home/daffy/.local/share/vifm/Trash/000_Panty_and_Stocking_with_Garterbelt_-_01-13_+_OVA
+	/home/daffy/documents/tv/Panty_and_Stocking_with_Garterbelt_-_01-13_+_OVA
+t/home/daffy/.local/share/vifm/Trash/000_Bokurano - NCED01.mkv
+	/home/daffy/documents/tv/Bokurano_(2007)/Bokurano - NCED01.mkv
+t/home/daffy/.local/share/vifm/Trash/000_Bokurano - NCED02.mkv
+	/home/daffy/documents/tv/Bokurano_(2007)/Bokurano - NCED02.mkv
+t/home/daffy/.local/share/vifm/Trash/000_Bokurano - NCOP.mkv
+	/home/daffy/documents/tv/Bokurano_(2007)/Bokurano - NCOP.mkv
+t/home/daffy/.local/share/vifm/Trash/000_2020 MAV Maths Methods Trial Exam 2.pdf
+	/home/daffy/downloads/2020 MAV Maths Methods Trial Exam 2.pdf
+t/home/daffy/.local/share/vifm/Trash/000_Heffernan 2018 Exam 2.pdf
+	/home/daffy/downloads/exams/methods/Heffernan 2018 Exam 2.pdf
+t/home/daffy/.local/share/vifm/Trash/000_Heffernan_2018_Exam_1.pdf
+	/home/daffy/downloads/exams/methods/Heffernan_2018_Exam_1.pdf
+t/home/daffy/.local/share/vifm/Trash/000_exams
+	/home/daffy/downloads/exams
+t/home/daffy/.local/share/vifm/Trash/000_Experimental Research Investigation Poster Template 2.pptx
+	/home/daffy/downloads/Experimental Research Investigation Poster Template 2.pptx
+t/home/daffy/.local/share/vifm/Trash/000_Experimental research investigation poster template.pptx
+	/home/daffy/downloads/Experimental research investigation poster template.pptx
+t/home/daffy/.local/share/vifm/Trash/000_Rplots.pdf
+	/home/daffy/Rplots.pdf
+t/home/daffy/.local/share/vifm/Trash/000_Rplots.log
+	/home/daffy/Rplots.log
+t/home/daffy/.local/share/vifm/Trash/000_plot.tex
+	/home/daffy/plot.tex
+t/home/daffy/.local/share/vifm/Trash/000_Rplots.tex
+	/home/daffy/Rplots.tex
+t/home/daffy/.local/share/vifm/Trash/000_.Rhistory
+	/home/daffy/.Rhistory
+t/home/daffy/.local/share/vifm/Trash/000_.RData
+	/home/daffy/.RData
+t/home/daffy/.local/share/vifm/Trash/000_.aux
+	/home/daffy/.aux
+t/home/daffy/.local/share/vifm/Trash/000_.fdb_latexmk
+	/home/daffy/.fdb_latexmk
+t/home/daffy/.local/share/vifm/Trash/000_.fls
+	/home/daffy/.fls
+t/home/daffy/.local/share/vifm/Trash/000_.lesshst
+	/home/daffy/.lesshst
+t/home/daffy/.local/share/vifm/Trash/000_.log
+	/home/daffy/.log
+t/home/daffy/.local/share/vifm/Trash/000_.Genymobile
+	/home/daffy/.Genymobile
+t/home/daffy/.local/share/vifm/Trash/000_Genymobile
+	/home/daffy/.cache/Genymobile
+t/home/daffy/.local/share/vifm/Trash/000_filezilla
+	/home/daffy/.cache/filezilla
+t/home/daffy/.local/share/vifm/Trash/000_IMG_0843-0.jpg
+	/home/daffy/downloads/photos/IMG_0843-0.jpg
+t/home/daffy/.local/share/vifm/Trash/000_IMG_0843-1.jpg
+	/home/daffy/downloads/photos/IMG_0843-1.jpg
+t/home/daffy/.local/share/vifm/Trash/000_IMG_0843-2.jpg
+	/home/daffy/downloads/photos/IMG_0843-2.jpg
+t/home/daffy/.local/share/vifm/Trash/000_IMG_0843-3.jpg
+	/home/daffy/downloads/photos/IMG_0843-3.jpg
+t/home/daffy/.local/share/vifm/Trash/000_IMG_0843-4.jpg
+	/home/daffy/downloads/photos/IMG_0843-4.jpg
+t/home/daffy/.local/share/vifm/Trash/000_IMG_0843-5.jpg
+	/home/daffy/downloads/photos/IMG_0843-5.jpg
+t/home/daffy/.local/share/vifm/Trash/000_IMG_0843-6.jpg
+	/home/daffy/downloads/photos/IMG_0843-6.jpg
+t/home/daffy/.local/share/vifm/Trash/000_IMG_0843-7.jpg
+	/home/daffy/downloads/photos/IMG_0843-7.jpg
+t/home/daffy/.local/share/vifm/Trash/000_IMG_0843-8.jpg
+	/home/daffy/downloads/photos/IMG_0843-8.jpg
+t/home/daffy/.local/share/vifm/Trash/000_IMG_0843-9.jpg
+	/home/daffy/downloads/photos/IMG_0843-9.jpg
+t/home/daffy/.local/share/vifm/Trash/000_IMG_0843-10.jpg
+	/home/daffy/downloads/photos/IMG_0843-10.jpg
+t/home/daffy/.local/share/vifm/Trash/000_IMG_0843-11.jpg
+	/home/daffy/downloads/photos/IMG_0843-11.jpg
+t/home/daffy/.local/share/vifm/Trash/000_IMG_0843-12.jpg
+	/home/daffy/downloads/photos/IMG_0843-12.jpg
+t/home/daffy/.local/share/vifm/Trash/000_IMG_0837.jpg
+	/home/daffy/downloads/photos/IMG_0837.jpg
+t/home/daffy/.local/share/vifm/Trash/000_IMG_0838.jpg
+	/home/daffy/downloads/photos/IMG_0838.jpg
+t/home/daffy/.local/share/vifm/Trash/000_IMG_0839.jpg
+	/home/daffy/downloads/photos/IMG_0839.jpg
+t/home/daffy/.local/share/vifm/Trash/000_IMG_0840.jpg
+	/home/daffy/downloads/photos/IMG_0840.jpg
+t/home/daffy/.local/share/vifm/Trash/000_IMG_0841.jpg
+	/home/daffy/downloads/photos/IMG_0841.jpg
+t/home/daffy/.local/share/vifm/Trash/000_IMG_0842.jpg
+	/home/daffy/downloads/photos/IMG_0842.jpg
+t/home/daffy/.local/share/vifm/Trash/000_IMG_0843.jpg
+	/home/daffy/downloads/photos/IMG_0843.jpg
+t/home/daffy/.local/share/vifm/Trash/000_attachments.zip
+	/home/daffy/downloads/photos/attachments.zip
+t/home/daffy/.local/share/vifm/Trash/000_IMG_0843.jpg-0
+	/home/daffy/downloads/photos/IMG_0843.jpg-0
+t/home/daffy/.local/share/vifm/Trash/000_Acing Chemistry Practical Reports and Posters(1).docx
+	/home/daffy/downloads/Acing Chemistry Practical Reports and Posters(1).docx
+t/home/daffy/.local/share/vifm/Trash/000_Acing Chemistry Practical Reports and Posters.docx
+	/home/daffy/downloads/Acing Chemistry Practical Reports and Posters.docx
+t/home/daffy/.local/share/vifm/Trash/000_Acing Chemistry Practical Reports and Posters.pdf
+	/home/daffy/downloads/Acing Chemistry Practical Reports and Posters.pdf
+t/home/daffy/.local/share/vifm/Trash/000_Experimental Research Investigation Poster Template 2.pdf
+	/home/daffy/downloads/Experimental Research Investigation Poster Template 2.pdf
+t/home/daffy/.local/share/vifm/Trash/000_Experimental research investigation poster template.pdf
+	/home/daffy/downloads/Experimental research investigation poster template.pdf
+t/home/daffy/.local/share/vifm/Trash/000_https _www.livestrong.com_article_13720774-best-weight-loss-programs_.htm
+	/home/daffy/downloads/https _www.livestrong.com_article_13720774-best-weight-loss-programs_.htm
+t/home/daffy/.local/share/vifm/Trash/000_jfnr06-2-p055-061-steskova.pdf
+	/home/daffy/downloads/jfnr06-2-p055-061-steskova.pdf
+t/home/daffy/.local/share/vifm/Trash/000_Polish Subs
+	/home/daffy/documents/tv/Devious_Maids_Season_1/Polish Subs
+t/home/daffy/.local/share/vifm/Trash/000_Torrent Downloaded From ExtraTorrent.com.txt
+	/home/daffy/documents/tv/Devious_Maids_Season_1/Torrent Downloaded From ExtraTorrent.com.txt
+t/home/daffy/.local/share/vifm/Trash/000_Wallpaper.jpg
+	/home/daffy/documents/tv/Devious_Maids_Season_1/Wallpaper.jpg
+t/home/daffy/.local/share/vifm/Trash/000_upload Pawulon.txt
+	/home/daffy/documents/tv/Devious_Maids_Season_1/upload Pawulon.txt
+t/home/daffy/.local/share/vifm/Trash/000_The Crucible Quotes and Notes (Evange).docx
+	/home/daffy/downloads/The Crucible Quotes and Notes (Evange).docx
+t/home/daffy/.local/share/vifm/Trash/000_The Dressmaker 2015 1080p BluRay x264 DTS-JYK
+	/home/daffy/downloads/The Dressmaker 2015 1080p BluRay x264 DTS-JYK
+t/home/daffy/.local/share/vifm/Trash/000_Dressmaker Vs Crucible Quote Bank(1).docx
+	/home/daffy/downloads/Dressmaker Vs Crucible Quote Bank(1).docx
+t/home/daffy/.local/share/vifm/Trash/000_Dressmaker Vs Crucible Quote Bank.docx
+	/home/daffy/downloads/Dressmaker Vs Crucible Quote Bank.docx
+t/home/daffy/.local/share/vifm/Trash/000_Torrent Downloaded From ExtraTorrent.cc.txt
+	/home/daffy/downloads/The_Dressmaker_2015_720p/Torrent Downloaded From ExtraTorrent.cc.txt
+t/home/daffy/.local/share/vifm/Trash/000_MOST BASIC THINGS ABOUT EITHER TEXT.docx
+	/home/daffy/downloads/MOST BASIC THINGS ABOUT EITHER TEXT.docx
+t/home/daffy/.local/share/vifm/Trash/000_Comparative (Appearance and Reality).pdf
+	/home/daffy/downloads/english/Comparative (Appearance and Reality).pdf
+t/home/daffy/.local/share/vifm/Trash/000_Comparative (Love).pdf
+	/home/daffy/downloads/english/Comparative (Love).pdf
+t/home/daffy/.local/share/vifm/Trash/000_MM SAC .docx
+	/home/daffy/downloads/MM SAC .docx
+t/home/daffy/.local/share/vifm/Trash/000_MM SAC .pdf
+	/home/daffy/downloads/MM SAC .pdf
+t/home/daffy/.local/share/vifm/Trash/000_2018 Maths Methods Units 3 & 4 Exam 1.doc
+	/home/daffy/downloads/2018 Maths Methods Units 3 & 4 Exam 1.doc
+t/home/daffy/.local/share/vifm/Trash/000_2018 Maths Methods Units 3 & 4 Exam 2.doc
+	/home/daffy/downloads/2018 Maths Methods Units 3 & 4 Exam 2.doc
+t/home/daffy/.local/share/vifm/Trash/000_2018 Maths Methods Units 3 & 4 Exam 2.pdf
+	/home/daffy/downloads/2018 Maths Methods Units 3 & 4 Exam 2.pdf
+t/home/daffy/.local/share/vifm/Trash/000_texmf
+	/home/daffy/texmf
+t/home/daffy/.local/share/vifm/Trash/000_.ncftp
+	/home/daffy/.ncftp
+t/home/daffy/.local/share/vifm/Trash/000_mtheme
+	/home/daffy/downloads/mtheme
+t/home/daffy/.local/share/vifm/Trash/000_Neil Cicierega - Mouth Dreams - MP3.zip
+	/home/daffy/downloads/mouth_dreams/Neil Cicierega - Mouth Dreams - MP3.zip
+t/home/daffy/.local/share/vifm/Trash/000_2020-10-13-214737_1920x1200_scrot.png
+	/home/daffy/2020-10-13-214737_1920x1200_scrot.png
+t/home/daffy/.local/share/vifm/Trash/000_2020-10-13-214654_1920x1200_scrot.png
+	/home/daffy/2020-10-13-214654_1920x1200_scrot.png
+t/home/daffy/.local/share/vifm/Trash/000_2020-10-13-214703_1920x1200_scrot.png
+	/home/daffy/2020-10-13-214703_1920x1200_scrot.png
+t/home/daffy/.local/share/vifm/Trash/000_poster_sac.nav
+	/home/daffy/documents/school/12/physics/poster_sac.nav
+t/home/daffy/.local/share/vifm/Trash/000_poster_sac.out
+	/home/daffy/documents/school/12/physics/poster_sac.out
+t/home/daffy/.local/share/vifm/Trash/000_poster_sac.snm
+	/home/daffy/documents/school/12/physics/poster_sac.snm
+t/home/daffy/.local/share/vifm/Trash/000_poster_sac.toc
+	/home/daffy/documents/school/12/physics/poster_sac.toc
+t/home/daffy/.local/share/vifm/Trash/000_graph.log
+	/home/daffy/documents/school/12/physics/poster_sac/graph.log
 
 # State:
 f
