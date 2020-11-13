@@ -1,12 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =0
-let g:netrw_dirhist_0='/home/daffy/.scripts'
-let g:netrw_dirhist_9='/home/daffy/git/dots/sxhkd/.config/sxhkd'
-let g:netrw_dirhist_8='/home/daffy/git/dots/sxhkd/.config'
-let g:netrw_dirhist_7='/home/daffy/git/dots/sxhkd'
-let g:netrw_dirhist_6='/home/daffy/.config/sxhkd'
-let g:netrw_dirhist_5='/home/daffy/.scripts'
-let g:netrw_dirhist_4='/home/daffy'
-let g:netrw_dirhist_3='/home/daffy/documents/school/12/textbooks'
-let g:netrw_dirhist_2='/home/daffy/.config/latexmk'
-let g:netrw_dirhist_1='/home/daffy/.scripts'
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/mad/git/dots/zsh/.config/zsh'

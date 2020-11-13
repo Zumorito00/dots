@@ -22,6 +22,10 @@ super + F2
 super + v
     $TERMINAL -e "zsh" -c "vim ~/vimwiki/index.md"
 
+# font awesome icon menu
+Print
+    font-awesome-select
+
 # # make sxhkd reload its configuration files:
 # super + Escape
 # 	pkill -USR1 -x sxhkd
@@ -45,6 +49,8 @@ alt + {Left,Right}
 # brightness controls
 XF86MonBrightness{Down,Up}
     brightcontrols {down,up}
+shift + XF86MonBrightnessDown
+    sudo light -S 1
 # bat check
 super + ctrl + b
     notify-send -r 1 "Battery Check" "$(acpi | cut -d " " -f 3-)"

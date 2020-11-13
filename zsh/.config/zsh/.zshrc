@@ -1,6 +1,10 @@
 # Theme
 source ~/.config/zsh/robbyrussell.zsh
 
+# History
+SAVEHIST=100
+HISTFILE=~/.config/zsh/.zsh_history
+
 # Autocomplete
 autoload -U compinit
 zstyle ':completion:*' menu select

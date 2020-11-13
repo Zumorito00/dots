@@ -5,12 +5,12 @@ dunst &
 # picom
 
 # Set wallpaper and colours
-wal -c
-wal -i ~/.config/back.png
-xrdb ${HOME}/.cache/wal/xresources
+chbg ~/.config/back.png
+# xrdb ${HOME}/.cache/wal/xresources
 
 # Status Bar
-bar &
+polybar bar &
+xdo lower -N Polybar
 
 # Key Daemon
 sxhkd &

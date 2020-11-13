@@ -64,7 +64,7 @@ git_setup() {
 
 yay_setup() {
     echo Installing yay...
-    cd build
+    cd ~/build
     git clone https://aur.archlinux.org/yay.git
     cd yay
     makepkg -si

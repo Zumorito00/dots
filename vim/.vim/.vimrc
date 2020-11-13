@@ -22,6 +22,11 @@ Plug 'vimwiki/vimwiki'
 let g:vimwiki_table_mappings = 0
 let g:vimwiki_list = [{'path': '~/vimwiki/',
                       \ 'syntax': 'markdown', 'ext': '.md'}]
+
+" Vimtex
+Plug 'lervag/vimtex'
+let g:tex_flavor = 'latex'
+
 " Latex live preview
 Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 let g:livepreview_previewer = 'zth'
@@ -37,6 +42,7 @@ let g:goyo_height = "100%"
 let g:goyo_linenr = 0
 nnoremap <leader>g :Goyo<CR>
 
+" Ditto
 Plug 'dbmrq/vim-ditto'
 let g:ditto_mode = "paragraph"
 let g:ditto_min_repetitions = 3
@@ -46,6 +52,7 @@ call plug#end()
 
 " General
 set nocompatible
+set noesckeys
 filetype plugin on
 syntax on
 colorscheme wal
@@ -75,9 +82,12 @@ set softtabstop=4
 " line numbers
 inoremap <F5> <C-O>:set nu! rnu! <CR>
 nnoremap <F5> :set nu! rnu! <CR>
-" spell Check
+" spell check
 inoremap <F7> <C-\><C-O>:setlocal spelllang=en_au spell! spell?<CR>
 nnoremap <F7> :setlocal spell! spelllang=en_au<CR>
+" redraw screen
+inoremap <F9> <C-O>:silent redraw! <CR>
+nnoremap <F9> :silent redraw! <CR>
 " save
 nnoremap == :w<CR>
 " vim shell
@@ -101,8 +111,10 @@ command VH :Vimwiki2HTML
 au BufWritePost *.vimrc :so ~/.vim/.vimrc
 " restart sxhkd after write
 au BufWritePost *sxhkdrc silent !killall sxhkd; setsid sxhkd &
-" restart compton after write
+" restart picom after write
 au BufWritePost *picom.conf silent !killall picom; setsid picom &
+" restart polybar after write
+au BufWritePost *polybar/config silent !killall polybar; setsid polybar bar &; xdo lower -N Polybar &
 " make install after write to config.h
 au BufWritePost *config.*h silent !sudo make install
 " restart bspwm after write

@@ -11,450 +11,793 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/\s
+~MSle0~/set
 
 # Last Substitute Search Pattern:
-~MSle0~&\s
+~MSle0&\s
 
 # Last Substitute String:
-$_
+$
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1601891861,,"wq"
-:W
-|2,0,1601891861,,"W"
-:%s/\s/_/g
-|2,0,1601891860,,"%s/\\s/_/g"
-:'<,'>%s/\s/_/g
-|2,0,1601891848,,"'<,'>%s/\\s/_/g"
 :q
-|2,0,1601891810,,"q"
-:Wq
-|2,0,1601891759,,"Wq"
-:s/\s/_/g
-|2,0,1601891758,,"s/\\s/_/g"
-:LL
-|2,0,1601804226,,"LL"
-:WE
-|2,0,1601804214,,"WE"
-:noh
-|2,0,1601807561,,"noh"
-:s/\s/_//g
-|2,0,1601778811,,"s/\\s/_//g"
-:s/\s/_/\g
-|2,0,1601778806,,"s/\\s/_/\\g"
-:w
-|2,0,1601550173,,"w"
-:'<,'>s/Exam/Chemistry
-|2,0,1601537394,,"'<,'>s/Exam/Chemistry"
-:T
-|2,0,1601525867,,"T"
-:'<,'>s/\s/_/g
-|2,0,1601525573,,"'<,'>s/\\s/_/g"
-:'<,'>s/\s\[.*\]//
-|2,0,1601525509,,"'<,'>s/\\s\\[.*\\]//"
-:'<,'>s/\#/=
-|2,0,1600563788,,"'<,'>s/\\#/="
+|2,0,1603953970,,"q"
+:wq
+|2,0,1603760286,,"wq"
 :q!
-|2,0,1600483604,,"q!"
-:QW
-|2,0,1600474922,,"QW"
-:Q
-|2,0,1600404641,,"Q"
-:WQ
-|2,0,1599353502,,"WQ"
-:s/\[\[/\[/ | s/|/\]\(/ | s/\]\]/\)/
-|2,0,1599220540,,"s/\\[\\[/\\[/ | s/|/\\]\\(/ | s/\\]\\]/\\)/"
-:s/\[\[/\[/ | s/|/\]\(/
-|2,0,1599220519,,"s/\\[\\[/\\[/ | s/|/\\]\\(/"
-:s/\[\[/\[/ | s/\|/\]\(/
-|2,0,1599220506,,"s/\\[\\[/\\[/ | s/\\|/\\]\\(/"
-:s/\[\[/\[/ | s/a
-|2,0,1599220489,,"s/\\[\\[/\\[/ | s/a"
-:s/\[\[/\[
-|2,0,1599220479,,"s/\\[\\[/\\["
-:s/[[/[
-|2,0,1599220472,,"s/[[/["
-:s/\[\[/\[ | s/\|/\]\( | s/\]\]/\)/
-|2,0,1599213862,,"s/\\[\\[/\\[ | s/\\|/\\]\\( | s/\\]\\]/\\)/"
-:s/[[/[ | s/\|/]( | s/]]/\)/
-|2,0,1599213844,,"s/[[/[ | s/\\|/]( | s/]]/\\)/"
-:s/[[/[ | s/\|/]( | s/]]/\)
-|2,0,1599213842,,"s/[[/[ | s/\\|/]( | s/]]/\\)"
-:s/[[/[ | s/\|/]( | s/]]/)
-|2,0,1599213835,,"s/[[/[ | s/\\|/]( | s/]]/)"
-:%s/=/#/g
-|2,0,1599213677,,"%s/=/#/g"
-:'<,'>s/=/#/g
-|2,0,1599213518,,"'<,'>s/=/#/g"
-:UltiSnipsEdit
-|2,0,1599213506,,"UltiSnipsEdit"
-:s/wiki/md/c
-|2,0,1599213450,,"s/wiki/md/c"
-:s/wiki/md/e
-|2,0,1599213215,,"s/wiki/md/e"
-:s/wiki/md
-|2,0,1599213197,,"s/wiki/md"
-:%s/wiki/md
-|2,0,1599213138,,"%s/wiki/md"
-:qw
-|2,0,1599213077,,"qw"
-:%s/wiki.md
-|2,0,1599213070,,"%s/wiki.md"
-:h vimwiki-option-custom_wiki2html
-|2,0,1599212808,,"h vimwiki-option-custom_wiki2html"
-:10
-|2,0,1599124760,,"10"
-:5
-|2,0,1599124756,,"5"
-:3
-|2,0,1599124754,,"3"
-:2,3
-|2,0,1599124752,,"2,3"
-:2-3
-|2,0,1599124747,,"2-3"
-:s/0/n/g
-|2,0,1599046392,,"s/0/n/g"
-:s/0/9/g
-|2,0,1599046360,,"s/0/9/g"
-:s/0/8/g
-|2,0,1599046354,,"s/0/8/g"
+|2,0,1603715200,,"q!"
+:set noesckeys
+|2,0,1603715191,,"set noesckeys"
+:WE
+|2,0,1603714671,,"WE"
+:wq!
+|2,0,1603712937,,"wq!"
+:w
+|2,0,1603711805,,"w"
+:s/\s/_/g
+|2,0,1603703248,,"s/\\s/_/g"
+:'<,'>s/\s/_/g
+|2,0,1603703229,,"'<,'>s/\\s/_/g"
+:%s/\[\w*\]\s//
+|2,0,1603703218,,"%s/\\[\\w*\\]\\s//"
+:s/\[\w*\]\s//
+|2,0,1603703212,,"s/\\[\\w*\\]\\s//"
+:s/\[\w\]//
+|2,0,1603703197,,"s/\\[\\w\\]//"
+:'<,'>s/hey/mad
+|2,0,1603701503,,"'<,'>s/hey/mad"
+:s/\./_/g
+|2,0,1603634234,,"s/\\./_/g"
+:%s/\s/_/g
+|2,0,1603632585,,"%s/\\s/_/g"
+:%s/_mkv/\.mkv/
+|2,0,1603632487,,"%s/_mkv/\\.mkv/"
+:%s/\./_/g
+|2,0,1603632469,,"%s/\\./_/g"
+:%s/\.WEB.*]//
+|2,0,1603632449,,"%s/\\.WEB.*]//"
+:noh
+|2,0,1603631942,,"noh"
+:redraw!
+|2,0,1603630713,,"redraw!"
+:redraw
+|2,0,1603630687,,"redraw"
+:W
+|2,0,1603621755,,"W"
+:wq font-awesome
+|2,0,1603621430,,"wq font-awesome"
+:Wq
+|2,0,1603577277,,"Wq"
+:e
+|2,0,1603576913,,"e"
+:PlugInstall
+|2,0,1603574247,,"PlugInstall"
 
 # Search String History (newest to oldest):
-? \s
-|2,1,1601891860,,"\\s"
-?/against
-|2,1,1601807828,47,"against"
-?/remorse
-|2,1,1601807735,47,"remorse"
-? \v.(\n\n|\n*%$)
-|2,1,1601636352,,"\\v.(\\n\\n|\\n*%$)"
-?/geny
-|2,1,1601550365,47,"geny"
-?/aged
-|2,1,1601550092,47,"aged"
-?/`
-|2,1,1601542940,47,"`"
-?/auto
-|2,1,1601544922,47,"auto"
-?/au
-|2,1,1601544428,47,"au"
-?/autocmd
-|2,1,1601544423,47,"autocmd"
-? Exam
-|2,1,1601537394,,"Exam"
-?/references
-|2,1,1601530862,47,"references"
-?/method
-|2,1,1601530847,47,"method"
-?/results
-|2,1,1601528209,47,"results"
-?/Require
-|2,1,1601526773,47,"Require"
-? \s\[.*\]
-|2,1,1601525509,,"\\s\\[.*\\]"
-?/chem
-|2,1,1601524962,47,"chem"
-?/cru
-|2,1,1600651749,47,"cru"
-?/cw
-|2,1,1600651579,47,"cw"
-?/map
-|2,1,1600651553,47,"map"
-?/key bin
-|2,1,1600651549,47,"key bin"
-?/key
-|2,1,1600651542,47,"key"
-? \#
-|2,1,1600563788,,"\\#"
-?/usb
-|2,1,1600262202,47,"usb"
-?/phys
-|2,1,1600225604,47,"phys"
+?/poll
+|2,1,1603953751,47,"poll"
+?/battery
+|2,1,1603953744,47,"battery"
 ?/set
-|2,1,1599353490,47,"set"
-?/status
-|2,1,1599352738,47,"status"
-??precon
-|2,1,1599352346,63,"precon"
-??,\s\w*ing
-|2,1,1599352197,63,",\\s\\w*ing"
-?/\[
-|2,1,1599350967,47,"\\["
-?/[
-|2,1,1599350948,47,"["
-? \<end\>
-|2,1,1599285700,,"\\<end\\>"
-? \]\]
-|2,1,1599220540,,"\\]\\]"
-? |
-|2,1,1599220540,,"|"
-? \[\[
-|2,1,1599220540,,"\\[\\["
-? \|
-|2,1,1599220506,,"\\|"
-? a
-|2,1,1599220489,,"a"
-? [[/[
-|2,1,1599220472,,"[[/["
-? =
-|2,1,1599213677,,"="
-? wiki
-|2,1,1599213450,,"wiki"
-?/super + v
-|2,1,1599213190,47,"super + v"
-? wiki.md
-|2,1,1599213070,,"wiki.md"
-?/ultim
-|2,1,1599127483,47,"ultim"
-??explore
-|2,1,1599124211,63,"explore"
-?/both
-|2,1,1599124124,47,"both"
-?/doc
-|2,1,1599120574,47,"doc"
-? 0
-|2,1,1599046392,,"0"
-?/che
-|2,1,1599043237,47,"che"
-? intro
-|2,1,1599040013,,"intro"
-? \^
-|2,1,1599039676,,"\\^"
+|2,1,1603715213,47,"set"
+?/iommu
+|2,1,1603712926,47,"iommu"
+? @$
+|2,1,1603711764,,"@$"
+?/arch linux
+|2,1,1603711530,47,"arch linux"
+?/arch
+|2,1,1603711527,47,"arch"
+?/mark
+|2,1,1603704371,47,"mark"
+? \s
+|2,1,1603703248,,"\\s"
+? \[\w*\]\s
+|2,1,1603703218,,"\\[\\w*\\]\\s"
+? \[\w\]
+|2,1,1603703197,,"\\[\\w\\]"
+? hey
+|2,1,1603701503,,"hey"
+?/hey
+|2,1,1603701482,47,"hey"
+?/blu
+|2,1,1603634250,47,"blu"
+?/bku
+|2,1,1603634248,47,"bku"
+?/bli
+|2,1,1603634245,47,"bli"
+?/blue
+|2,1,1603634241,47,"blue"
+? \.
+|2,1,1603634234,,"\\."
+? _mkv
+|2,1,1603632487,,"_mkv"
+? \.WEB.*]
+|2,1,1603632449,,"\\.WEB.*]"
+?/\/bspw
+|2,1,1603631940,47,"\\/bspw"
+?//bspwm
+|2,1,1603631928,47,"/bspwm"
+?/content
+|2,1,1603631380,47,"content"
+?/padding
+|2,1,1603631368,47,"padding"
+?/modules
+|2,1,1603631238,47,"modules"
+?/occu
+|2,1,1603631204,47,"occu"
+?/separa
+|2,1,1603631012,47,"separa"
+?/percentage
+|2,1,1603630996,47,"percentage"
+?/module-margin
+|2,1,1603630916,47,"module-margin"
+?/redraw
+|2,1,1603630863,47,"redraw"
+?/silent :
+|2,1,1603630814,47,"silent :"
+??|
+|2,1,1603630702,63,"|"
+?/right
+|2,1,1603630638,47,"right"
+?/bind
+|2,1,1603630725,47,"bind"
+?/polybar
+|2,1,1603623861,47,"polybar"
+?/mono
+|2,1,1603623993,47,"mono"
+?/font
+|2,1,1603623974,47,"font"
+?/compton
+|2,1,1603623729,47,"compton"
+?/xrdb
+|2,1,1603622672,47,"xrdb"
+?/awesome
+|2,1,1603622593,47,"awesome"
+?/module
+|2,1,1603622397,47,"module"
+?/bspwm
+|2,1,1603622386,47,"bspwm"
+?/font-awesome
+|2,1,1603622143,47,"font-awesome"
+?/font awesome
+|2,1,1603622138,47,"font awesome"
+?/glo
+|2,1,1603577243,47,"glo"
+?/margin
+|2,1,1603577181,47,"margin"
+?/batter
+|2,1,1603576665,47,"batter"
+?/fire
+|2,1,1603574356,47,"fire"
 
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
-@y
-|2,3,1598535199,,"y"
-@n
-|2,3,1596967858,,"n"
 
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	This can be seen in his reaction to the discovery of Faith O'Brien's affair, taking advantage of his authority as sole medical practitioner in Dungatar. The act of mixing 
-|3,0,0,0,1,0,1601808748,"This can be seen in his reaction to the discovery of Faith O'Brien's affair, taking advantage of his authority as sole medical practitioner in Dungatar. The act of mixing "
-""1	BLOCK	13
-	 HDTV.XviD-AFG
-	 HDTV.XviD-FUM
-	 HDTV.XviD-AFG
-	 HDTV.XviD-AFG
-	 HDTV.XviD-AFG
-	 HDTV.XviD-AFG
-	 HDTV.XviD-AFG
-	 HDTV.XviD-AFG
-	 HDTV.XviD-AFG
-	 HDTV.XviD-AFG
-	 HDTV.XviD-AFG
-	 HDTV.XviD-AFG
-	 HDTV.XviD-AFG
-|3,1,1,2,13,13,1601891839," HDTV.XviD-AFG"," HDTV.XviD-FUM"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"," HDTV.XviD-AFG"
-"2	BLOCK	0
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-|3,0,2,2,13,0,1601891787," "," "," "," "," "," "," "," "," "," "," "," "," "
-"3	BLOCK	16
-	HDTV.XviD-AFG.avi
-	HDTV.XviD-FUM.avi
-	HDTV.XviD-AFG.avi
-	HDTV.XviD-AFG.avi
-	HDTV.XviD-AFG.avi
-	HDTV.XviD-AFG.avi
-	HDTV.XviD-AFG.avi
-	HDTV.XviD-AFG.avi
-	HDTV.XviD-AFG.avi
-	HDTV.XviD-AFG.avi
-	HDTV.XviD-AFG.avi
-	HDTV.XviD-AFG.avi
-	HDTV.XviD-AFG.avi
-|3,0,3,2,13,16,1601891783,"HDTV.XviD-AFG.avi","HDTV.XviD-FUM.avi","HDTV.XviD-AFG.avi","HDTV.XviD-AFG.avi","HDTV.XviD-AFG.avi","HDTV.XviD-AFG.avi","HDTV.XviD-AFG.avi","HDTV.XviD-AFG.avi","HDTV.XviD-AFG.avi","HDTV.XviD-AFG.avi","HDTV.XviD-AFG.avi","HDTV.XviD-AFG.avi","HDTV.XviD-AFG.avi"
-"4	LINE	0
-	p
-|3,0,4,1,1,0,1601807211,"p"
-"5	LINE	0
+"0	LINE	0
+	mark m ~/media
+|3,0,0,1,1,0,1603711766,"mark m ~/media"
+"1	LINE	0
+	alias win10='qemu-system-x86_64 -enable-kvm -machine q35 -device intel-iommu -vga virtio -m 8G -boot order=d -drive file=${HOME}/documents/virt/win10,format=raw'
+|3,0,1,1,1,0,1603714663,"alias win10='qemu-system-x86_64 -enable-kvm -machine q35 -device intel-iommu -vga virtio -m 8G -boot order=d -drive file=${HOME}/documents/virt/win10,format=raw'"
+"2	LINE	0
+	mark m ~/media
+|3,0,2,1,1,0,1603704392,"mark m ~/media"
+"3	LINE	0
 	
-|3,0,5,1,1,0,1601803988,""
+	### Timetable ###
+	- [Corona Timetable](file:~/documents/school/12/corona_timetable.pdf)
+|3,0,3,1,3,0,1603701973,"","### Timetable ###","- [Corona Timetable](file:~/documents/school/12/corona_timetable.pdf)"
+"4	BLOCK	31
+	_(Dual Audio_10bit_DVD480p_x265)
+	_(Dual Audio_10bit_DVD480p_x265)
+	_(Dual Audio_10bit_DVD480p_x265)
+	_(Dual Audio_10bit_DVD480p_x265)
+	_(Dual Audio_10bit_DVD480p_x265)
+	_(Dual Audio_10bit_DVD480p_x265)
+	_(Dual Audio_10bit_DVD480p_x265)
+	_(Dual Audio_10bit_DVD480p_x265)
+	_(Dual Audio_10bit_DVD480p_x265)
+	_(Dual Audio_10bit_DVD480p_x265)
+	_(Dual Audio_10bit_DVD480p_x265)
+	_(Dual Audio_10bit_DVD480p_x265)
+	_(Dual Audio_10bit_DVD480p_x265)
+	_(Dual Audio_10bit_DVD480p_x265)
+	_(Dual Audio_10bit_DVD480p_x265)
+	_(Dual Audio_10bit_DVD480p_x265)
+	_(Dual Audio_10bit_DVD480p_x265)
+	_(Dual Audio_10bit_DVD480p_x265)
+	_(Dual Audio_10bit_DVD480p_x265)
+	_(Dual Audio_10bit_DVD480p_x265)
+	_(Dual Audio_10bit_DVD480p_x265)
+	_(Dual Audio_10bit_DVD480p_x265)
+	_(Dual Audio_10bit_DVD480p_x265)
+	_(Dual Audio_10bit_DVD480p_x265)
+|3,0,4,2,24,31,1603632205,"_(Dual Audio_10bit_DVD480p_x265)","_(Dual Audio_10bit_DVD480p_x265)","_(Dual Audio_10bit_DVD480p_x265)","_(Dual Audio_10bit_DVD480p_x265)","_(Dual Audio_10bit_DVD480p_x265)","_(Dual Audio_10bit_DVD480p_x265)","_(Dual Audio_10bit_DVD480p_x265)","_(Dual Audio_10bit_DVD480p_x265)","_(Dual Audio_10bit_DVD480p_x265)","_(Dual Audio_10bit_DVD480p_x265)","_(Dual Audio_10bit_DVD480p_x265)","_(Dual Audio_10bit_DVD480p_x265)",>34
+|<"_(Dual Audio_10bit_DVD480p_x265)","_(Dual Audio_10bit_DVD480p_x265)","_(Dual Audio_10bit_DVD480p_x265)","_(Dual Audio_10bit_DVD480p_x265)","_(Dual Audio_10bit_DVD480p_x265)","_(Dual Audio_10bit_DVD480p_x265)","_(Dual Audio_10bit_DVD480p_x265)","_(Dual Audio_10bit_DVD480p_x265)","_(Dual Audio_10bit_DVD480p_x265)","_(Dual Audio_10bit_DVD480p_x265)","_(Dual Audio_10bit_DVD480p_x265)","_(Dual Audio_10bit_DVD480p_x265)"
+"5	BLOCK	5
+	[Cleo]
+	[Cleo]
+	[Cleo]
+	[Cleo]
+	[Cleo]
+	[Cleo]
+	[Cleo]
+	[Cleo]
+	[Cleo]
+	[Cleo]
+	[Cleo]
+	[Cleo]
+	[Cleo]
+	[Cleo]
+	[Cleo]
+	[Cleo]
+	[Cleo]
+	[Cleo]
+	[Cleo]
+	[Cleo]
+	[Cleo]
+	[Cleo]
+	[Cleo]
+	[Cleo]
+|3,0,5,2,24,5,1603632195,"[Cleo]","[Cleo]","[Cleo]","[Cleo]","[Cleo]","[Cleo]","[Cleo]","[Cleo]","[Cleo]","[Cleo]","[Cleo]","[Cleo]","[Cleo]","[Cleo]","[Cleo]","[Cleo]","[Cleo]","[Cleo]","[Cleo]","[Cleo]","[Cleo]","[Cleo]","[Cleo]","[Cleo]"
 "6	LINE	0
-	634
-<people of influence whom are complacent, and actively take part in the pre-established power structures existent in both of their respective towns, in an unflattering light, while praising those who act to subvert it. Both writers investigate how authority figures attempt to justify the forced imposition of their will onto others, using religion as the catalyst for the actions they take. The texts also draw focus to the fate of corrupt leaders, their downfalls praised by both authors in order to reflect the light in which they are seen by the audience. Furthermore, this concept is explored through the how women are able to 
-|3,0,6,1,1,0,1601803988,>633
-|<"people of influence whom are complacent, and actively take part in the pre-established power structures existent in both of their respective towns, in an unflattering light, while praising those who act to subvert it. Both writers investigate how authority figures attempt to justify the forced imposition of their will onto others, using religion as the catalyst for the actions they take. The texts also draw focus to the fate of corrupt leaders, their downfalls praised by both authors i
-|<n order to reflect the light in which they are seen by the audience. Furthermore, this concept is explored through the how women are able to "
-"7	LINE	0
 	
-|3,0,7,1,1,0,1601802446,""
+	separator = "|"
+|3,0,6,1,2,0,1603631135,"","separator = \"|\""
+"7	LINE	0
+	ilent :redraw! 
+|3,0,7,1,1,0,1603630801,"ilent :redraw! "
 "8	LINE	0
 	
-	
-	
-|3,0,8,1,3,0,1601802298,"","",""
-"9	LINE	0
-	% Both authors condemn the pre-established power structure in their respective texts through the unflattering portrayal of the authority figures that uphold them, and endorse those willing to subvert them
-	
-	902
-<Exploring the interactions between authority figures and society, Arthur Miller's ``The Crucible'' and Rosalie Ham's ``The Dressmaker'' present people of influence whom are complacent, and actively take part in the pre-established power structures existent in both of their respective towns, in an unflattering light, while praising those who act to subvert it. Both writers investigate how authority figures attempt to justify the forced imposition of their will onto others, using religion as the catalyst for the actions they take. The texts also draw focus to the fate of corrupt leaders, their downfalls praised by both authors in order to reflect the light in which they are seen by the audience. Furthermore, this concept is explored through the how women become authority figures, their presentation to the audience based on their methods for obtaining power over their respective societies.
-	
-	% AGREE: Characteristics/traits OR beliefs (How authority figures exploit and justify their actions, this time with religion)
-	% Almanac
-	% Danforth
-	
-	
-	
-	% AGREE: Their behaviours are unfavourable and their downfalls are favourable
-	% Pettyman
-	% Parris
-	
-	
-	
-	% CONTRAST: For those women who become authority figures, how are their methods of gaining authority presented?
-	% Tilly
-	% Abigail
-|3,0,9,1,19,0,1601802296,"% Both authors condemn the pre-established power structure in their respective texts through the unflattering portrayal of the authority figures that uphold them, and endorse those willing to subvert them","",>901
-|<"Exploring the interactions between authority figures and society, Arthur Miller's ``The Crucible'' and Rosalie Ham's ``The Dressmaker'' present people of influence whom are complacent, and actively take part in the pre-established power structures existent in both of their respective towns, in an unflattering light, while praising those who act to subvert it. Both writers investigate how authority figures attempt to justify the forced imposition of their will onto others, using religio
-|<n as the catalyst for the actions they take. The texts also draw focus to the fate of corrupt leaders, their downfalls praised by both authors in order to reflect the light in which they are seen by the audience. Furthermore, this concept is explored through the how women become authority figures, their presentation to the audience based on their methods for obtaining power over their respective societies.","",>127
-|<"% AGREE: Characteristics/traits OR beliefs (How authority figures exploit and justify their actions, this time with religion)","% Almanac","% Danforth","","","","% AGREE: Their behaviours are unfavourable and their downfalls are favourable","% Pettyman","% Parris","","","","% CONTRAST: For those women who become authority figures, how are their methods of gaining authority presented?","% Tilly","% Abigail"
-"j	CHAR	0
-	jjj
-|3,0,19,0,1,0,1597233078,"jjj"
-"z	CHAR	0
-	gqq
-|3,0,35,0,1,0,1601544822,"gqq"
-"-	CHAR	0
-	 HDTV.XviD[Pawulon]
-|3,0,36,0,1,0,1601891752," HDTV.XviD[Pawulon]"
+|3,0,8,1,1,0,1603630776,""
+"9	BLOCK	1
+	75
+	75
+	75
+	75
+	75
+	75
+	75
+|3,0,9,2,7,1,1603623193,"75","75","75","75","75","75","75"
+"q@	CHAR	0
+	0dwJwi JDjdd
+|3,2,26,0,1,0,1603621363,"0dwJwi JDjdd"
+""-	CHAR	0
+	 intel_iommu=on
+|3,1,36,0,1,0,1603712930," intel_iommu=on"
 
 # File marks:
-'0  11  2  ~/vimwiki/index.md
-|4,48,11,2,1601980536,"~/vimwiki/index.md"
-'1  13  0  /tmp/vifm.rename_377746377752_00
-|4,49,13,0,1601891861,"/tmp/vifm.rename_377746377752_00"
-'2  1  0  ~/documents/tv/Devious_Maids_Season_1/Devious_Maids_S01E01
-|4,50,1,0,1601891810,"~/documents/tv/Devious_Maids_Season_1/Devious_Maids_S01E01"
-'3  13  0  /tmp/vifm.rename_377746377752_00
-|4,51,13,0,1601891797,"/tmp/vifm.rename_377746377752_00"
-'4  1  0  /tmp/vifm.rename_377746377752_00
-|4,52,1,0,1601891760,"/tmp/vifm.rename_377746377752_00"
-'5  1  0  /tmp/vifm.rename_377746377752_00
-|4,53,1,0,1601891760,"/tmp/vifm.rename_377746377752_00"
-'6  1  0  /tmp/vifm.rename_377746377752_00
-|4,54,1,0,1601891760,"/tmp/vifm.rename_377746377752_00"
-'7  1  0  /tmp/vifm.rename_377746377752_00
-|4,55,1,0,1601891760,"/tmp/vifm.rename_377746377752_00"
-'8  7  0  ~/vimwiki/essays/essays.md
-|4,56,7,0,1601814989,"~/vimwiki/essays/essays.md"
-'9  1  0  ~/vimwiki/essays/appearance_and_reality.tex
-|4,57,1,0,1601814984,"~/vimwiki/essays/appearance_and_reality.tex"
+'0  12  2  ~/vimwiki/index.md
+|4,48,12,2,1603961780,"~/vimwiki/index.md"
+'1  138  16  ~/git/dots/polybar/.config/polybar/config
+|4,49,138,16,1603953970,"~/git/dots/polybar/.config/polybar/config"
+'2  1  0  /etc/pacman.conf
+|4,50,1,0,1603760338,"/etc/pacman.conf"
+'3  6  5  ~/git/dots/picom/.config/picom/picom.conf
+|4,51,6,5,1603760286,"~/git/dots/picom/.config/picom/picom.conf"
+'4  10  2  ~/vimwiki/index.md
+|4,52,10,2,1603759741,"~/vimwiki/index.md"
+'5  10  2  ~/vimwiki/index.md
+|4,53,10,2,1603759741,"~/vimwiki/index.md"
+'6  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,54,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+'7  3  0  ~/git/scripts/scripts/.scripts/win10
+|4,55,3,0,1603714677,"~/git/scripts/scripts/.scripts/win10"
+'8  23  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,56,23,0,1603714664,"~/git/dots/zsh/.config/zsh/.zshrc"
+'9  1  0  ~/git/dots/zsh/.config/zsh/.szhrc
+|4,57,1,0,1603714656,"~/git/dots/zsh/.config/zsh/.szhrc"
 
 # Jumplist (newest first):
--'  11  2  ~/vimwiki/index.md
-|4,39,11,2,1601980536,"~/vimwiki/index.md"
 -'  12  2  ~/vimwiki/index.md
-|4,39,12,2,1601892197,"~/vimwiki/index.md"
--'  13  2  ~/vimwiki/index.md
-|4,39,13,2,1601892197,"~/vimwiki/index.md"
+|4,39,12,2,1603961780,"~/vimwiki/index.md"
+-'  138  16  ~/git/dots/polybar/.config/polybar/config
+|4,39,138,16,1603953970,"~/git/dots/polybar/.config/polybar/config"
+-'  125  16  ~/git/dots/polybar/.config/polybar/config
+|4,39,125,16,1603953751,"~/git/dots/polybar/.config/polybar/config"
+-'  124  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,124,8,1603953745,"~/git/dots/polybar/.config/polybar/config"
+-'  60  25  ~/git/dots/polybar/.config/polybar/config
+|4,39,60,25,1603953744,"~/git/dots/polybar/.config/polybar/config"
+-'  1  0  ~/git/dots/polybar/.config/polybar/config
+|4,39,1,0,1603953744,"~/git/dots/polybar/.config/polybar/config"
+-'  11  2  ~/vimwiki/index.md
+|4,39,11,2,1603844068,"~/vimwiki/index.md"
 -'  10  2  ~/vimwiki/index.md
-|4,39,10,2,1601892195,"~/vimwiki/index.md"
+|4,39,10,2,1603844067,"~/vimwiki/index.md"
 -'  7  2  ~/vimwiki/index.md
-|4,39,7,2,1601892195,"~/vimwiki/index.md"
+|4,39,7,2,1603844067,"~/vimwiki/index.md"
 -'  6  2  ~/vimwiki/index.md
-|4,39,6,2,1601892195,"~/vimwiki/index.md"
+|4,39,6,2,1603844066,"~/vimwiki/index.md"
 -'  5  2  ~/vimwiki/index.md
-|4,39,5,2,1601892194,"~/vimwiki/index.md"
+|4,39,5,2,1603844066,"~/vimwiki/index.md"
+-'  4  0  ~/vimwiki/index.md
+|4,39,4,0,1603844066,"~/vimwiki/index.md"
 -'  1  0  ~/vimwiki/index.md
-|4,39,1,0,1601892193,"~/vimwiki/index.md"
--'  13  0  /tmp/vifm.rename_377746377752_00
-|4,39,13,0,1601891861,"/tmp/vifm.rename_377746377752_00"
--'  13  0  /tmp/vifm.rename_377746377752_00
-|4,39,13,0,1601891861,"/tmp/vifm.rename_377746377752_00"
--'  1  0  /tmp/vifm.rename_377746377752_00
-|4,39,1,0,1601891853,"/tmp/vifm.rename_377746377752_00"
--'  1  0  /tmp/vifm.rename_377746377752_00
-|4,39,1,0,1601891853,"/tmp/vifm.rename_377746377752_00"
--'  1  0  ~/documents/tv/Devious_Maids_Season_1/Devious_Maids_S01E01
-|4,39,1,0,1601891810,"~/documents/tv/Devious_Maids_Season_1/Devious_Maids_S01E01"
--'  1  0  ~/documents/tv/Devious_Maids_Season_1/Devious_Maids_S01E01
-|4,39,1,0,1601891810,"~/documents/tv/Devious_Maids_Season_1/Devious_Maids_S01E01"
--'  1  0  ~/documents/tv/Devious_Maids_Season_1/Devious_Maids_S01E01
-|4,39,1,0,1601891810,"~/documents/tv/Devious_Maids_Season_1/Devious_Maids_S01E01"
--'  1  0  ~/documents/tv/Devious_Maids_Season_1/Devious_Maids_S01E01
-|4,39,1,0,1601891810,"~/documents/tv/Devious_Maids_Season_1/Devious_Maids_S01E01"
--'  13  0  /tmp/vifm.rename_377746377752_00
-|4,39,13,0,1601891797,"/tmp/vifm.rename_377746377752_00"
--'  13  0  /tmp/vifm.rename_377746377752_00
-|4,39,13,0,1601891797,"/tmp/vifm.rename_377746377752_00"
--'  13  0  /tmp/vifm.rename_377746377752_00
-|4,39,13,0,1601891797,"/tmp/vifm.rename_377746377752_00"
--'  13  0  /tmp/vifm.rename_377746377752_00
-|4,39,13,0,1601891797,"/tmp/vifm.rename_377746377752_00"
--'  1  19  /tmp/vifm.rename_377746377752_00
-|4,39,1,19,1601891794,"/tmp/vifm.rename_377746377752_00"
--'  1  19  /tmp/vifm.rename_377746377752_00
-|4,39,1,19,1601891794,"/tmp/vifm.rename_377746377752_00"
--'  1  19  /tmp/vifm.rename_377746377752_00
-|4,39,1,19,1601891794,"/tmp/vifm.rename_377746377752_00"
--'  1  19  /tmp/vifm.rename_377746377752_00
-|4,39,1,19,1601891794,"/tmp/vifm.rename_377746377752_00"
--'  1  0  /tmp/vifm.rename_377746377752_00
-|4,39,1,0,1601891760,"/tmp/vifm.rename_377746377752_00"
--'  1  0  /tmp/vifm.rename_377746377752_00
-|4,39,1,0,1601891760,"/tmp/vifm.rename_377746377752_00"
--'  1  0  /tmp/vifm.rename_377746377752_00
-|4,39,1,0,1601891760,"/tmp/vifm.rename_377746377752_00"
--'  1  0  /tmp/vifm.rename_377746377752_00
-|4,39,1,0,1601891760,"/tmp/vifm.rename_377746377752_00"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/essays.md"
--'  7  0  ~/vimwiki/essays/essays.md
-|4,39,7,0,1601814989,"~/vimwiki/essays/
+|4,39,1,0,1603844064,"~/vimwiki/index.md"
+-'  1  0  /etc/pacman.conf
+|4,39,1,0,1603760338,"/etc/pacman.conf"
+-'  1  0  /etc/pacman.conf
+|4,39,1,0,1603760338,"/etc/pacman.conf"
+-'  1  0  /etc/pacman.conf
+|4,39,1,0,1603760338,"/etc/pacman.conf"
+-'  6  5  ~/git/dots/picom/.config/picom/picom.conf
+|4,39,6,5,1603760286,"~/git/dots/picom/.config/picom/picom.conf"
+-'  6  5  ~/git/dots/picom/.config/picom/picom.conf
+|4,39,6,5,1603760286,"~/git/dots/picom/.config/picom/picom.conf"
+-'  6  5  ~/git/dots/picom/.config/picom/picom.conf
+|4,39,6,5,1603760286,"~/git/dots/picom/.config/picom/picom.conf"
+-'  6  5  ~/git/dots/picom/.config/picom/picom.conf
+|4,39,6,5,1603760286,"~/git/dots/picom/.config/picom/picom.conf"
+-'  6  5  ~/git/dots/picom/.config/picom/picom.conf
+|4,39,6,5,1603760286,"~/git/dots/picom/.config/picom/picom.conf"
+-'  6  5  ~/git/dots/picom/.config/picom/picom.conf
+|4,39,6,5,1603760286,"~/git/dots/picom/.config/picom/picom.conf"
+-'  1  0  ~/git/dots/picom/.config/picom/picom.conf
+|4,39,1,0,1603760274,"~/git/dots/picom/.config/picom/picom.conf"
+-'  1  0  ~/git/dots/picom/.config/picom/picom.conf
+|4,39,1,0,1603760274,"~/git/dots/picom/.config/picom/picom.conf"
+-'  1  0  ~/git/dots/picom/.config/picom/picom.conf
+|4,39,1,0,1603760274,"~/git/dots/picom/.config/picom/picom.conf"
+-'  1  0  ~/git/dots/picom/.config/picom/picom.conf
+|4,39,1,0,1603760274,"~/git/dots/picom/.config/picom/picom.conf"
+-'  1  0  ~/git/dots/picom/.config/picom/picom.conf
+|4,39,1,0,1603760274,"~/git/dots/picom/.config/picom/picom.conf"
+-'  1  0  ~/git/dots/picom/.config/picom/picom.conf
+|4,39,1,0,1603760274,"~/git/dots/picom/.config/picom/picom.conf"
+-'  10  2  ~/vimwiki/index.md
+|4,39,10,2,1603759741,"~/vimwiki/index.md"
+-'  10  2  ~/vimwiki/index.md
+|4,39,10,2,1603759741,"~/vimwiki/index.md"
+-'  10  2  ~/vimwiki/index.md
+|4,39,10,2,1603759741,"~/vimwiki/index.md"
+-'  10  2  ~/vimwiki/index.md
+|4,39,10,2,1603759741,"~/vimwiki/index.md"
+-'  10  2  ~/vimwiki/index.md
+|4,39,10,2,1603759741,"~/vimwiki/index.md"
+-'  10  2  ~/vimwiki/index.md
+|4,39,10,2,1603759741,"~/vimwiki/index.md"
+-'  10  2  ~/vimwiki/index.md
+|4,39,10,2,1603759741,"~/vimwiki/index.md"
+-'  10  2  ~/vimwiki/index.md
+|4,39,10,2,1603759741,"~/vimwiki/index.md"
+-'  11  2  ~/vimwiki/index.md
+|4,39,11,2,1603756332,"~/vimwiki/index.md"
+-'  11  2  ~/vimwiki/index.md
+|4,39,11,2,1603756332,"~/vimwiki/index.md"
+-'  11  2  ~/vimwiki/index.md
+|4,39,11,2,1603756332,"~/vimwiki/index.md"
+-'  11  2  ~/vimwiki/index.md
+|4,39,11,2,1603756332,"~/vimwiki/index.md"
+-'  11  2  ~/vimwiki/index.md
+|4,39,11,2,1603756332,"~/vimwiki/index.md"
+-'  11  2  ~/vimwiki/index.md
+|4,39,11,2,1603756332,"~/vimwiki/index.md"
+-'  11  2  ~/vimwiki/index.md
+|4,39,11,2,1603756332,"~/vimwiki/index.md"
+-'  11  2  ~/vimwiki/index.md
+|4,39,11,2,1603756332,"~/vimwiki/index.md"
+-'  7  2  ~/vimwiki/index.md
+|4,39,7,2,1603756331,"~/vimwiki/index.md"
+-'  6  2  ~/vimwiki/index.md
+|4,39,6,2,1603756331,"~/vimwiki/index.md"
+-'  5  2  ~/vimwiki/index.md
+|4,39,5,2,1603756331,"~/vimwiki/index.md"
+-'  7  2  ~/vimwiki/index.md
+|4,39,7,2,1603756331,"~/vimwiki/index.md"
+-'  6  2  ~/vimwiki/index.md
+|4,39,6,2,1603756331,"~/vimwiki/index.md"
+-'  5  2  ~/vimwiki/index.md
+|4,39,5,2,1603756331,"~/vimwiki/index.md"
+-'  7  2  ~/vimwiki/index.md
+|4,39,7,2,1603756331,"~/vimwiki/index.md"
+-'  6  2  ~/vimwiki/index.md
+|4,39,6,2,1603756331,"~/vimwiki/index.md"
+-'  5  2  ~/vimwiki/index.md
+|4,39,5,2,1603756331,"~/vimwiki/index.md"
+-'  7  2  ~/vimwiki/index.md
+|4,39,7,2,1603756331,"~/vimwiki/index.md"
+-'  6  2  ~/vimwiki/index.md
+|4,39,6,2,1603756331,"~/vimwiki/index.md"
+-'  5  2  ~/vimwiki/index.md
+|4,39,5,2,1603756331,"~/vimwiki/index.md"
+-'  7  2  ~/vimwiki/index.md
+|4,39,7,2,1603756331,"~/vimwiki/index.md"
+-'  6  2  ~/vimwiki/index.md
+|4,39,6,2,1603756331,"~/vimwiki/index.md"
+-'  5  2  ~/vimwiki/index.md
+|4,39,5,2,1603756331,"~/vimwiki/index.md"
+-'  7  2  ~/vimwiki/index.md
+|4,39,7,2,1603756331,"~/vimwiki/index.md"
+-'  6  2  ~/vimwiki/index.md
+|4,39,6,2,1603756331,"~/vimwiki/index.md"
+-'  5  2  ~/vimwiki/index.md
+|4,39,5,2,1603756331,"~/vimwiki/index.md"
+-'  7  2  ~/vimwiki/index.md
+|4,39,7,2,1603756331,"~/vimwiki/index.md"
+-'  6  2  ~/vimwiki/index.md
+|4,39,6,2,1603756331,"~/vimwiki/index.md"
+-'  5  2  ~/vimwiki/index.md
+|4,39,5,2,1603756331,"~/vimwiki/index.md"
+-'  7  2  ~/vimwiki/index.md
+|4,39,7,2,1603756331,"~/vimwiki/index.md"
+-'  6  2  ~/vimwiki/index.md
+|4,39,6,2,1603756331,"~/vimwiki/index.md"
+-'  5  2  ~/vimwiki/index.md
+|4,39,5,2,1603756331,"~/vimwiki/index.md"
+-'  1  0  ~/vimwiki/index.md
+|4,39,1,0,1603756330,"~/vimwiki/index.md"
+-'  1  0  ~/vimwiki/index.md
+|4,39,1,0,1603756330,"~/vimwiki/index.md"
+-'  1  0  ~/vimwiki/index.md
+|4,39,1,0,1603756330,"~/vimwiki/index.md"
+-'  1  0  ~/vimwiki/index.md
+|4,39,1,0,1603756330,"~/vimwiki/index.md"
+-'  1  0  ~/vimwiki/index.md
+|4,39,1,0,1603756330,"~/vimwiki/index.md"
+-'  1  0  ~/vimwiki/index.md
+|4,39,1,0,1603756330,"~/vimwiki/index.md"
+-'  1  0  ~/vimwiki/index.md
+|4,39,1,0,1603756330,"~/vimwiki/index.md"
+-'  1  0  ~/vimwiki/index.md
+|4,39,1,0,1603756330,"~/vimwiki/index.md"
+-'  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,39,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+-'  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,39,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+-'  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,39,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+-'  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,39,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+-'  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,39,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+-'  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,39,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+-'  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,39,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+-'  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,39,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+-'  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,39,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+-'  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,39,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+-'  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,39,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+-'  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,39,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+-'  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,39,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+-'  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,39,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+-'  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,39,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+-'  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,39,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+-'  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,39,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+-'  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,39,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+-'  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,39,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+-'  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,39,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+-'  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,39,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+-'  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,39,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+-'  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,39,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+-'  49  12  ~/git/dots/vim/.vim/.vimrc
+|4,39,49,12,1603715220,"~/git/dots/vim/.vim/.vimrc"
+
+# History of marks within files (newest to oldest):
+
+> ~/git/dots/polybar/.config/polybar/config
+	*	1603953753	0
+	"	138	16
+	^	144	19
+	.	144	18
+	+	133	0
+	+	146	0
+	+	162	0
+	+	152	18
+	+	156	21
+	+	150	12
+	+	162	0
+	+	137	4
+	+	136	4
+	+	138	0
+	+	136	0
+	+	137	0
+	+	138	0
+	+	123	19
+	+	136	8
+	+	76	33
+	+	75	17
+	+	74	20
+	+	58	12
+	+	101	24
+	+	105	25
+	+	109	23
+	+	113	22
+	+	101	24
+	+	105	25
+	+	109	23
+	+	113	22
+	+	70	32
+	+	99	16
+	+	103	17
+	+	105	0
+	+	103	17
+	+	107	16
+	+	111	14
+	+	103	17
+	+	107	15
+	+	99	16
+	+	151	0
+	+	155	0
+	+	152	0
+	+	154	0
+	+	158	40
+	+	160	16
+	+	67	21
+	+	68	22
+	+	171	13
+	+	172	16
+	+	67	21
+	+	46	7
+	+	65	16
+	+	64	15
+	+	65	16
+	+	64	15
+	+	67	21
+	+	64	15
+	+	68	22
+	+	67	21
+	+	72	0
+	+	71	21
+	+	71	0
+	+	103	20
+	+	105	0
+	+	103	20
+	+	105	0
+	+	99	19
+	+	100	0
+	+	105	0
+	+	71	23
+	+	107	18
+	+	108	0
+	+	111	17
+	+	112	0
+	+	71	42
+	+	101	0
+	+	100	24
+	+	104	41
+	+	112	37
+	+	126	0
+	+	133	0
+	+	132	0
+	+	138	0
+	+	71	42
+	+	70	32
+	+	76	21
+	+	1	15
+	+	15	16
+	+	16	15
+	+	132	29
+	+	116	0
+	+	154	0
+	+	116	0
+	+	143	35
+	+	144	18
+	+	60	36
+	+	52	22
+	+	48	15
+	+	49	16
+	+	132	47
+	+	136	50
+	+	144	18
+	o	74	26
+
+> ~/vimwiki/index.md
+	*	1603844782	0
+	"	12	2
+	.	16	0
+	+	16	0
+
+> /etc/pacman.conf
+	*	1603760337	0
+	"	1	0
+
+> ~/git/dots/picom/.config/picom/picom.conf
+	*	1603760283	0
+	"	6	5
+	^	13	7
+	.	6	0
+	+	7	26
+	+	7	0
+	+	13	6
+	+	6	0
+
+> ~/git/dots/vim/.vim/.vimrc
+	*	1603715219	0
+	"	49	12
+	^	49	13
+	.	49	12
+	+	108	15
+	+	111	78
+	+	112	0
+	+	79	8
+	+	83	28
+	+	84	0
+	+	83	33
+	+	84	33
+	+	83	21
+	+	84	21
+	+	83	18
+	+	49	12
+
+> ~/git/scripts/scripts/.scripts/win10
+	*	1603714671	0
+	"	3	0
+	^	3	147
+	.	3	147
+	+	3	147
+
+> ~/git/dots/zsh/.config/zsh/.zshrc
+	*	1603714663	0
+	"	23	0
+	.	24	0
+	+	6	34
+	+	24	160
+	+	24	0
+
+> ~/git/dots/zsh/.config/zsh/.szhrc
+	*	1603714655	0
+	"	1	0
+
+> /boot/efi/EFI/BOOT/refind.conf
+	*	1603712940	0
+	"	599	82
+	^	599	65
+	.	599	0
+	+	599	82
+	+	599	0
+
+> ~/.zprofile
+	*	1603711710	0
+	"	1	0
+
+> ~/git/dots/vifm/.config/vifm/vifmrc
+	*	1603704395	0
+	"	125	0
+	.	125	0
+	+	131	0
+	+	125	0
+	m	83	65
+
+> ~/.xinitrc
+	*	1603704187	0
+	"	1	0
+	^	13	20
+	.	13	20
+	+	8	23
+	+	12	12
+	+	13	20
+
+> /tmp/vifm.rename_4161841623_00
+	*	1603703248	0
+	"	1	0
+	.	1	0
+	+	1	0
+	+	2	0
+	+	1	0
+
+> ~/vimwiki/essays/essays.md
+	*	1603701984	0
+	"	12	2
+
+> ~/vimwiki/essays/judgement_and_justice.tex
+	*	1603701984	0
+	"	1	0
+
+> ~/.local/share/applications/zth.desktop
+	*	1603701751	0
+	"	5	7
+	^	5	8
+	.	5	7
+	+	5	7
+
+> ~/git/scripts/scripts/.scripts/scho
+	*	1603701503	0
+	"	49	4
+	.	36	0
+	+	36	0
+
+> ~/vimwiki/english/pnp/divisions.md
+	*	1603663721	0
+	"	3	58
+	^	3	59
+	.	3	58
+	+	1	13
+	+	2	0
+	+	3	58
+
+> ~/vimwiki/english/english.md
+	*	1603663618	0
+	"	6	26
+	^	6	27
+	.	6	26
+	+	6	26
+
+> /tmp/vifm.rename_2974529750_00
+	*	1603634258	0
+	"	1	38
+	^	1	39
+	.	2	0
+	+	1	39
+	+	2	0
+
+> /tmp/vifm.rename_2880928814_00
+	*	1603632660	0
+	"	1	26
+	^	1	27
+	.	1	26
+	+	1	0
+	+	13	31
+	+	1	26
+
+> ~/media/tv/Mr_Robot_Season_2_Complete_720p/Mr_Robot_Season_2_Complete_720p.nfo
+	*	1603632508	0
+	"	9	0
+
+> ~/git/dots/bspwm/.config/bspwm/bspwmrc
+	*	1603623315	0
+	"	1	0
+	^	8	2
+	.	2	0
+	+	20	13
+	+	2	1
+	+	8	1
+	+	2	0
+
+> ~/git/scripts/scripts/.scripts/font-awesome-select
+	*	1603622360	0
+	"	5	27
+	^	5	28
+	.	5	27
+	+	1	8
+	+	6	46
+	+	3	73
+	+	5	27
+
+> ~/git/dots/dunst/.config/dunst/dunstrc
+	*	1603622195	0
+	"	89	23
+	^	89	26
+	.	89	23
+	+	89	23
+
+> ~/git/dots/sxhkd/.config/sxhkd/sxhkdrc
+	*	1603622099	0
+	"	27	22
+	^	27	23
+	.	27	22
+	+	27	22
+
+> ~/.cache/wal/colors.sh
+	*	1603575554	0
+	"	1	0
+
+> ~/git/dots/bspwm/.config/bspwm/.bs
+	*	1603574458	0
+	"	1	0
+
+> ~/git/dots/vim/.vim/Ditto/dittofile.txt
+	*	1603574200	0
+	"	1	0
