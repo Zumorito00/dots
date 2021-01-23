@@ -1,8 +1,8 @@
-# Notification Manager
+a Notification Manager
 dunst &
 
-# Transparency
-# picom
+# Picom
+picom &
 
 # Set wallpaper and colours
 chbg ~/.config/back.png

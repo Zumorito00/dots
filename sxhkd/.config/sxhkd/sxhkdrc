@@ -32,7 +32,7 @@ Print
 
 # gap change
 super + shift + d
-    bspc config window_gap 30; bspc config border_width 3
+    bspc config window_gap 30; bspc config border_width 2
 super + shift + w
     bspc config window_gap 0; bspc config border_width 1
 
@@ -42,7 +42,7 @@ XF86Audio{Lower,Raise}Volume
 XF86AudioMute
     volcontrols mute
 # music controls
-XF8_L6AudioPlay
+XF86AudioPlay
     playerctl play-pause
 alt + {Left,Right}
     playerctl {previous,next}

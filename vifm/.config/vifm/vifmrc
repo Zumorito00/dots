@@ -122,7 +122,7 @@ mark u /usr
 mark h ~/
 mark d ~/documents
 mark D ~/downloads
-mark m ~/media
+mark m /media
 mark y ~/documents/school/12
 mark b ~/pictures/backgrounds
 mark s ~/.scripts

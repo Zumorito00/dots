@@ -11,523 +11,1236 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/chbg
+~MSle0~/battery
 
 # Last Substitute Search Pattern:
-~MSle0~&\s
+~MSle0&}
 
 # Last Substitute String:
-$_
+$
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1605254499,,"wq"
-:s/\s/_/g
-|2,0,1605218286,,"s/\\s/_/g"
-:%s/\s/_/g
-|2,0,1605217967,,"%s/\\s/_/g"
-:Wq
-|2,0,1605217926,,"Wq"
-:w
-|2,0,1605217877,,"w"
-:q
-|2,0,1605217811,,"q"
-:qw
-|2,0,1605217614,,"qw"
-:s/\./_/g
-|2,0,1605217613,,"s/\\./_/g"
-:%s/\s\[.*\]//
-|2,0,1605217537,,"%s/\\s\\[.*\\]//"
-:s/\./_
-|2,0,1605217362,,"s/\\./_"
-:WE
-|2,0,1605154745,,"WE"
-:LL
-|2,0,1605154702,,"LL"
-:W
-|2,0,1605150254,,"W"
-:WQ
-|2,0,1605150151,,"WQ"
-:Q
-|2,0,1605150111,,"Q"
-:bind
-|2,0,1605095988,,"bind"
-:help vimtex-tex-flavor
-|2,0,1605091609,,"help vimtex-tex-flavor"
-:UltiSnipsEdit
-|2,0,1605091691,,"UltiSnipsEdit"
-:help vi
-|2,0,1605091598,,"help vi"
-:PlugInstall
-|2,0,1605091553,,"PlugInstall"
-:L
-|2,0,1605091471,,"L"
-:noh
-|2,0,1605091450,,"noh"
-:%s/_\[.*\]//g
-|2,0,1604980475,,"%s/_\\[.*\\]//g"
-:%s/\./_/g
-|2,0,1604980087,,"%s/\\./_/g"
 :q!
-|2,0,1603715200,,"q!"
-:set noesckeys
-|2,0,1603715191,,"set noesckeys"
+|2,0,1610978144,,"q!"
+:q
+|2,0,1610978142,,"q"
 :wq!
-|2,0,1603712937,,"wq!"
-:'<,'>s/\s/_/g
-|2,0,1603703229,,"'<,'>s/\\s/_/g"
-:%s/\[\w*\]\s//
-|2,0,1603703218,,"%s/\\[\\w*\\]\\s//"
-:s/\[\w*\]\s//
-|2,0,1603703212,,"s/\\[\\w*\\]\\s//"
-:s/\[\w\]//
-|2,0,1603703197,,"s/\\[\\w\\]//"
-:'<,'>s/hey/mad
-|2,0,1603701503,,"'<,'>s/hey/mad"
-:%s/_mkv/\.mkv/
-|2,0,1603632487,,"%s/_mkv/\\.mkv/"
-:%s/\.WEB.*]//
-|2,0,1603632449,,"%s/\\.WEB.*]//"
-:redraw!
-|2,0,1603630713,,"redraw!"
-:redraw
-|2,0,1603630687,,"redraw"
-:wq font-awesome
-|2,0,1603621430,,"wq font-awesome"
-:e
-|2,0,1603576913,,"e"
+|2,0,1610978141,,"wq!"
+:wq
+|2,0,1610978138,,"wq"
+:Q
+|2,0,1610880936,,"Q"
+:noh
+|2,0,1610665462,,"noh"
+:Wq
+|2,0,1610665714,,"Wq"
+:w
+|2,0,1610665705,,"w"
+:nog
+|2,0,1610665420,,"nog"
+:oh
+|2,0,1610561532,,"oh"
+:'<,'>s/}/}}/
+|2,0,1610466435,,"'<,'>s/}/}}/"
+:'<,'>s/{/{{
+|2,0,1610466428,,"'<,'>s/{/{{"
+:'<,'>s
+|2,0,1610466361,,"'<,'>s"
+:%s/\./_/g
+|2,0,1610206409,,"%s/\\./_/g"
+:s/\s/_/g
+|2,0,1610206311,,"s/\\s/_/g"
+:s/\./_/g
+|2,0,1610206287,,"s/\\./_/g"
+:W
+|2,0,1607056735,,"W"
+:LL
+|2,0,1606808474,,"LL"
+:'<,'>s/tabular/tabularx/
+|2,0,1606793788,,"'<,'>s/tabular/tabularx/"
+:s/\\\\//
+|2,0,1606789191,,"s/\\\\\\\\//"
+:'<,'>s/75/6
+|2,0,1606788973,,"'<,'>s/75/6"
+:'<,'>s/25/2
+|2,0,1606788949,,"'<,'>s/25/2"
+:set list!
+|2,0,1606556668,,"set list!"
+:WE
+|2,0,1606127207,,"WE"
+:set nu!
+|2,0,1605830768,,"set nu!"
+:nu!
+|2,0,1605830765,,"nu!"
+:colorscheme koehler
+|2,0,1605606600,,"colorscheme koehler"
+:UltiSnipsEdit
+|2,0,1605493001,,"UltiSnipsEdit"
+:pwd
+|2,0,1605492787,,"pwd"
+:'<,'>s/\\\\/\\\\\[1ex\]/g
+|2,0,1605434763,,"'<,'>s/\\\\\\\\/\\\\\\\\\\[1ex\\]/g"
+:'<,'>s/|/\&/g
+|2,0,1605434502,,"'<,'>s/|/\\&/g"
+:colorscheme desert
+|2,0,1605434364,,"colorscheme desert"
+:help listchars
+|2,0,1605433627,,"help listchars"
+:no
+|2,0,1605433983,,"no"
+:set listchars=eol:$,tab:>
+|2,0,1605433926,,"set listchars=eol:$,tab:>"
+:set listchars=eol:$
+|2,0,1605433918,,"set listchars=eol:$"
+:set list
+|2,0,1605433899,,"set list"
+:set nolist
+|2,0,1605433571,,"set nolist"
+:unset list
+|2,0,1605433563,,"unset list"
+:set listchars+=space:·
+|2,0,1605433541,,"set listchars+=space:·"
+:list
+|2,0,1605433512,,"list"
+:s
+|2,0,1605433413,,"s"
+:help list
+|2,0,1605433326,,"help list"
+:'<,'>s/flalign\*/gather\*/
+|2,0,1605433087,,"'<,'>s/flalign\\*/gather\\*/"
+:PlugInstall
+|2,0,1605355995,,"PlugInstall"
+:PlugClean
+|2,0,1605355886,,"PlugClean"
+:U
+|2,0,1605355684,,"U"
+:PlugUpgrade
+|2,0,1605355430,,"PlugUpgrade"
+:PlugUpdate
+|2,0,1605355418,,"PlugUpdate"
+:colorscheme default
+|2,0,1605354035,,"colorscheme default"
 
 # Search String History (newest to oldest):
-? \s
-|2,1,1605218286,,"\\s"
-? \.
-|2,1,1605217613,,"\\."
-? \s\[.*\]
-|2,1,1605217537,,"\\s\\[.*\\]"
+?/battery
+|2,1,1610665460,47,"battery"
+?/full
+|2,1,1610665416,47,"full"
 ? @$
-|2,1,1605150513,,"@$"
-?/chbg
-|2,1,1605096133,47,"chbg"
-?/wal
-|2,1,1605096130,47,"wal"
-?/cv
-|2,1,1605095993,47,"cv"
-?/cW
-|2,1,1605095991,47,"cW"
-?/vim
-|2,1,1605091449,47,"vim"
-?/bright
-|2,1,1605006372,47,"bright"
-? _\[.*\]
-|2,1,1604980475,,"_\\[.*\\]"
-?/cw
-|2,1,1604821182,47,"cw"
-?/rename
-|2,1,1604821170,47,"rename"
-?/set
-|2,1,1603715213,47,"set"
-?/iommu
-|2,1,1603712926,47,"iommu"
-?/arch linux
-|2,1,1603711530,47,"arch linux"
-?/arch
-|2,1,1603711527,47,"arch"
-?/mark
-|2,1,1603704371,47,"mark"
-? \[\w*\]\s
-|2,1,1603703218,,"\\[\\w*\\]\\s"
-? \[\w\]
-|2,1,1603703197,,"\\[\\w\\]"
-? hey
-|2,1,1603701503,,"hey"
-?/hey
-|2,1,1603701482,47,"hey"
-?/blu
-|2,1,1603634250,47,"blu"
-?/bku
-|2,1,1603634248,47,"bku"
-?/bli
-|2,1,1603634245,47,"bli"
-?/blue
-|2,1,1603634241,47,"blue"
-? _mkv
-|2,1,1603632487,,"_mkv"
-? \.WEB.*]
-|2,1,1603632449,,"\\.WEB.*]"
-?/\/bspw
-|2,1,1603631940,47,"\\/bspw"
-?//bspwm
-|2,1,1603631928,47,"/bspwm"
-?/content
-|2,1,1603631380,47,"content"
-?/padding
-|2,1,1603631368,47,"padding"
-?/modules
-|2,1,1603631238,47,"modules"
-?/occu
-|2,1,1603631204,47,"occu"
-?/separa
-|2,1,1603631012,47,"separa"
-?/percentage
-|2,1,1603630996,47,"percentage"
-?/module-margin
-|2,1,1603630916,47,"module-margin"
-?/redraw
-|2,1,1603630863,47,"redraw"
-?/silent :
-|2,1,1603630814,47,"silent :"
-?/bind
-|2,1,1603630725,47,"bind"
-??|
-|2,1,1603630702,63,"|"
-?/right
-|2,1,1603630638,47,"right"
-?/mono
-|2,1,1603623993,47,"mono"
-?/font
-|2,1,1603623974,47,"font"
-?/polybar
-|2,1,1603623861,47,"polybar"
-?/compton
-|2,1,1603623729,47,"compton"
-?/xrdb
-|2,1,1603622672,47,"xrdb"
-?/awesome
-|2,1,1603622593,47,"awesome"
+|2,1,1610665410,,"@$"
+?/title
+|2,1,1610610576,47,"title"
+??window
+|2,1,1610610868,63,"window"
 ?/module
-|2,1,1603622397,47,"module"
+|2,1,1610610728,47,"module"
 ?/bspwm
-|2,1,1603622386,47,"bspwm"
+|2,1,1610610536,47,"bspwm"
+?/color8
+|2,1,1610610332,47,"color8"
+?/empty
+|2,1,1610610274,47,"empty"
+?/margin
+|2,1,1610592193,47,"margin"
+?/padding
+|2,1,1610592182,47,"padding"
+?/wlan
+|2,1,1610562043,47,"wlan"
+?/date
+|2,1,1610561527,47,"date"
+?/made
+|2,1,1610561523,47,"made"
+?/height
+|2,1,1610560850,47,"height"
+?/fill
+|2,1,1610559647,47,"fill"
+?/batter
+|2,1,1610558033,47,"batter"
+?/50
+|2,1,1610467054,47,"50"
+?/border
+|2,1,1610466567,47,"border"
+? }
+|2,1,1610466435,,"}"
+? {
+|2,1,1610466428,,"{"
+? \.
+|2,1,1610206409,,"\\."
+? \s
+|2,1,1610206311,,"\\s"
+?/1d6b
+|2,1,1607042735,47,"1d6b"
+?/host
+|2,1,1607042228,47,"host"
+?/usb
+|2,1,1607041191,47,"usb"
+?/:
+|2,1,1607040080,47,":"
+?/vga
+|2,1,1607002531,47,"vga"
+?/mydisk
+|2,1,1607000264,47,"mydisk"
+?/M
+|2,1,1607000261,47,"M"
+?/closed
+|2,1,1606808548,47,"closed"
+?/larx
+|2,1,1606796275,47,"larx"
+?/x
+|2,1,1606796270,47,"x"
+? tabular
+|2,1,1606793788,,"tabular"
+?/hello
+|2,1,1606793392,47,"hello"
+?/#1
+|2,1,1606792783,47,"#1"
+?/6
+|2,1,1606789304,47,"6"
+? \\\\
+|2,1,1606789191,,"\\\\\\\\"
+? 75
+|2,1,1606788973,,"75"
+? 25
+|2,1,1606788949,,"25"
+?/text
+|2,1,1606654693,47,"text"
+?/13
+|2,1,1606564301,47,"13"
+?/12
+|2,1,1606564300,47,"12"
+?/certain
+|2,1,1606564221,47,"certain"
+?/remember
+|2,1,1606564193,47,"remember"
+?/enough
+|2,1,1606564157,47,"enough"
+?/how hard
+|2,1,1606563991,47,"how hard"
+?/you have
+|2,1,1606563965,47,"you have"
+?/i know
+|2,1,1606563907,47,"i know"
+?/integration
+|2,1,1606563882,47,"integration"
 
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
 @y
-|2,3,1605150045,,"y"
+|2,3,1605355888,,"y"
 
 # Debug Line History (newest to oldest):
 
 # Registers:
 "0	LINE	0
-	    \begin{flalign}
-	        maskdmaks \\
-	        amsdkmsakd
-	    \end{flalign}
-|3,0,0,1,4,0,1605154712,"    \\begin{flalign}","        maskdmaks \\\\","        amsdkmsakd","    \\end{flalign}"
-""1	LINE	0
-	(Infinite Triptych 1) McKechnie, Alex - Exurbia_ A Novel About Caterpillars.mobi
-|3,1,1,1,1,0,1605218259,"(Infinite Triptych 1) McKechnie, Alex - Exurbia_ A Novel About Caterpillars.mobi"
-"2	BLOCK	9
-	 x265 FLAC
-	 x265 FLAC
-|3,0,2,2,2,9,1605217961," x265 FLAC"," x265 FLAC"
-"3	BLOCK	19
-	 BluRay x265 Silence
-	 BluRay x265 Silence
-	 BluRay x265 Silence
-	 BluRay x265 Silence
-	 BluRay x265 Silence
-	 BluRay x265 Silence
-|3,0,3,2,6,19,1605217900," BluRay x265 Silence"," BluRay x265 Silence"," BluRay x265 Silence"," BluRay x265 Silence"," BluRay x265 Silence"," BluRay x265 Silence"
-"4	BLOCK	27
-	 (1080p BluRay x265 Silence)
-	 (1080p BluRay x265 Silence)
-	 (1080p BluRay x265 Silence)
-	 (1080p BluRay x265 Silence)
-	 (1080p BluRay x265 Silence)
-	 (1080p BluRay x265 Silence)
-|3,0,4,2,6,27,1605217831," (1080p BluRay x265 Silence)"," (1080p BluRay x265 Silence)"," (1080p BluRay x265 Silence)"," (1080p BluRay x265 Silence)"," (1080p BluRay x265 Silence)"," (1080p BluRay x265 Silence)"
+	format-full-overline = ${xrdb:color0}
+|3,0,0,1,1,0,1610665697,"format-full-overline = ${xrdb:color0}"
+"1	LINE	0
+	[module/title]
+	type = internal/xwindow
+	
+	format = label
+	format-padding = 1
+	format-foreground = ${xrdb:color7}
+	
+	label-empty = 
+	
+|3,0,1,1,9,0,1610610898,"[module/title]","type = internal/xwindow","","format = label","format-padding = 1","format-foreground = ${xrdb:color7}","","label-empty = ",""
+"2	BLOCK	7
+	occupied
+	occupied
+|3,0,2,2,2,7,1610592154,"occupied","occupied"
+"3	BLOCK	7
+	occupied
+	occupied
+|3,0,3,2,2,7,1610592147,"occupied","occupied"
+"4	BLOCK	6
+	focused
+	focused
+|3,0,4,2,2,6,1610592121,"focused","focused"
 "5	LINE	0
-	    \begin{flalign}
-	        maskdmaks \\
-	        amsdkmsakd
-	    \end{flalign}
-|3,0,5,1,4,0,1605154710,"    \\begin{flalign}","        maskdmaks \\\\","        amsdkmsakd","    \\end{flalign}"
+	
+|3,0,5,1,1,0,1610591896,""
 "6	LINE	0
-	    \section{Hello}
-|3,0,6,1,1,0,1605154664,"    \\section{Hello}"
+	; Separator in between workspaces
+	; label-separator = |
+|3,0,6,1,2,0,1610591894,"; Separator in between workspaces","; label-separator = |"
 "7	LINE	0
-	    amskdmsa
-|3,0,7,1,1,0,1605150662,"    amskdmsa"
+	
+|3,0,7,1,1,0,1610589082,""
 "8	LINE	0
-	\usepackage{}
-|3,0,8,1,1,0,1605150170,"\\usepackage{}"
+	
+	format-disconnected = <label-disconnected>
+	label-disconncted = disconnected
+	
+	format-disconnected-prefix = 
+|3,0,8,1,5,0,1610589081,"","format-disconnected = <label-disconnected>","label-disconncted = disconnected","","format-disconnected-prefix = "
 "9	LINE	0
-	- [Chapter 1](chapter_1)
-|3,0,9,1,1,0,1605150119,"- [Chapter 1](chapter_1)"
-"q@	CHAR	0
-	0dwJwi JDjdd
-|3,2,26,0,1,0,1603621363,"0dwJwi JDjdd"
-"-	CHAR	0
-	Mp4 
-|3,0,36,0,1,0,1605217919,"Mp4 "
+	# bspc config top_padding         22
+|3,0,9,1,1,0,1610467073,"# bspc config top_padding         22"
+""-	CHAR	0
+	rEFInd-glassy/theme.conf
+|3,1,36,0,1,0,1610978123,"rEFInd-glassy/theme.conf"
 
 # File marks:
-'0  15  3  ~/vimwiki/physics/cheatsheet.tex
-|4,48,15,3,1605254499,"~/vimwiki/physics/cheatsheet.tex"
-'1  1  0  /tmp/vifm.rename_120903120908_00
-|4,49,1,0,1605218287,"/tmp/vifm.rename_120903120908_00"
-'2  2  0  /tmp/vifm.rename_120903120908_00
-|4,50,2,0,1605217968,"/tmp/vifm.rename_120903120908_00"
-'3  2  0  /tmp/vifm.rename_120903120908_00
-|4,51,2,0,1605217968,"/tmp/vifm.rename_120903120908_00"
-'4  1  0  /tmp/vifm.rename_119880119885_00
-|4,52,1,0,1605217928,"/tmp/vifm.rename_119880119885_00"
-'5  6  0  /tmp/vifm.rename_119880119885_00
-|4,53,6,0,1605217906,"/tmp/vifm.rename_119880119885_00"
-'6  6  0  /tmp/vifm.rename_119880119885_00
-|4,54,6,0,1605217906,"/tmp/vifm.rename_119880119885_00"
-'7  1  0  /tmp/vifm.rename_119880119885_00
-|4,55,1,0,1605217888,"/tmp/vifm.rename_119880119885_00"
-'8  1  0  /tmp/vifm.rename_119880119885_00
-|4,56,1,0,1605217888,"/tmp/vifm.rename_119880119885_00"
-'9  1  0  /tmp/vifm.rename_119880119885_00
-|4,57,1,0,1605217888,"/tmp/vifm.rename_119880119885_00"
+'0  657  51  /boot/efi/EFI/BOOT/refind.conf
+|4,48,657,51,1610978144,"/boot/efi/EFI/BOOT/refind.conf"
+'1  1  0  /boot/initramfs-linux-fallback.img
+|4,49,1,0,1610977900,"/boot/initramfs-linux-fallback.img"
+'2  1  0  ~/downloads/rEFInd-glassy/theme.conf
+|4,50,1,0,1610977857,"~/downloads/rEFInd-glassy/theme.conf"
+'3  3  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
+|4,51,3,0,1610881244,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
+'4  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,52,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+'5  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,53,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+'6  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,54,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+'7  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,55,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+'8  657  0  /boot/efi/EFI/BOOT/refind.conf
+|4,56,657,0,1610880978,"/boot/efi/EFI/BOOT/refind.conf"
+'9  657  0  /boot/efi/EFI/BOOT/refind.conf
+|4,57,657,0,1610880939,"/boot/efi/EFI/BOOT/refind.conf"
 
 # Jumplist (newest first):
--'  15  3  ~/vimwiki/physics/cheatsheet.tex
-|4,39,15,3,1605254499,"~/vimwiki/physics/cheatsheet.tex"
--'  1  0  ~/vimwiki/physics/cheatsheet.tex
-|4,39,1,0,1605218402,"~/vimwiki/physics/cheatsheet.tex"
--'  4  2  ~/vimwiki/physics/physics.md
-|4,39,4,2,1605218400,"~/vimwiki/physics/physics.md"
--'  2  0  ~/vimwiki/physics/physics.md
-|4,39,2,0,1605218400,"~/vimwiki/physics/physics.md"
--'  6  2  ~/vimwiki/index.md
-|4,39,6,2,1605218399,"~/vimwiki/index.md"
--'  9  2  ~/vimwiki/index.md
-|4,39,9,2,1605218396,"~/vimwiki/index.md"
--'  5  2  ~/vimwiki/index.md
-|4,39,5,2,1605218395,"~/vimwiki/index.md"
--'  1  0  ~/vimwiki/index.md
-|4,39,1,0,1605218394,"~/vimwiki/index.md"
--'  1  0  /tmp/vifm.rename_120903120908_00
-|4,39,1,0,1605218287,"/tmp/vifm.rename_120903120908_00"
--'  1  0  /tmp/vifm.rename_120903120908_00
-|4,39,1,0,1605218287,"/tmp/vifm.rename_120903120908_00"
--'  2  0  /tmp/vifm.rename_120903120908_00
-|4,39,2,0,1605217968,"/tmp/vifm.rename_120903120908_00"
--'  2  0  /tmp/vifm.rename_120903120908_00
-|4,39,2,0,1605217968,"/tmp/vifm.rename_120903120908_00"
--'  2  0  /tmp/vifm.rename_120903120908_00
-|4,39,2,0,1605217968,"/tmp/vifm.rename_120903120908_00"
--'  2  0  /tmp/vifm.rename_120903120908_00
-|4,39,2,0,1605217968,"/tmp/vifm.rename_120903120908_00"
--'  1  35  /tmp/vifm.rename_120903120908_00
-|4,39,1,35,1605217967,"/tmp/vifm.rename_120903120908_00"
--'  1  35  /tmp/vifm.rename_120903120908_00
-|4,39,1,35,1605217967,"/tmp/vifm.rename_120903120908_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217928,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217928,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217928,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217928,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217928,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217928,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217928,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217928,"/tmp/vifm.rename_119880119885_00"
--'  6  0  /tmp/vifm.rename_119880119885_00
-|4,39,6,0,1605217906,"/tmp/vifm.rename_119880119885_00"
--'  6  0  /tmp/vifm.rename_119880119885_00
-|4,39,6,0,1605217906,"/tmp/vifm.rename_119880119885_00"
--'  6  0  /tmp/vifm.rename_119880119885_00
-|4,39,6,0,1605217906,"/tmp/vifm.rename_119880119885_00"
--'  6  0  /tmp/vifm.rename_119880119885_00
-|4,39,6,0,1605217906,"/tmp/vifm.rename_119880119885_00"
--'  6  0  /tmp/vifm.rename_119880119885_00
-|4,39,6,0,1605217906,"/tmp/vifm.rename_119880119885_00"
--'  6  0  /tmp/vifm.rename_119880119885_00
-|4,39,6,0,1605217906,"/tmp/vifm.rename_119880119885_00"
--'  6  0  /tmp/vifm.rename_119880119885_00
-|4,39,6,0,1605217906,"/tmp/vifm.rename_119880119885_00"
--'  6  0  /tmp/vifm.rename_119880119885_00
-|4,39,6,0,1605217906,"/tmp/vifm.rename_119880119885_00"
--'  6  0  /tmp/vifm.rename_119880119885_00
-|4,39,6,0,1605217906,"/tmp/vifm.rename_119880119885_00"
--'  6  0  /tmp/vifm.rename_119880119885_00
-|4,39,6,0,1605217906,"/tmp/vifm.rename_119880119885_00"
--'  6  0  /tmp/vifm.rename_119880119885_00
-|4,39,6,0,1605217906,"/tmp/vifm.rename_119880119885_00"
--'  6  0  /tmp/vifm.rename_119880119885_00
-|4,39,6,0,1605217906,"/tmp/vifm.rename_119880119885_00"
--'  6  0  /tmp/vifm.rename_119880119885_00
-|4,39,6,0,1605217906,"/tmp/vifm.rename_119880119885_00"
--'  6  0  /tmp/vifm.rename_119880119885_00
-|4,39,6,0,1605217906,"/tmp/vifm.rename_119880119885_00"
--'  6  0  /tmp/vifm.rename_119880119885_00
-|4,39,6,0,1605217906,"/tmp/vifm.rename_119880119885_00"
--'  6  0  /tmp/vifm.rename_119880119885_00
-|4,39,6,0,1605217906,"/tmp/vifm.rename_119880119885_00"
--'  1  38  /tmp/vifm.rename_119880119885_00
-|4,39,1,38,1605217905,"/tmp/vifm.rename_119880119885_00"
--'  1  38  /tmp/vifm.rename_119880119885_00
-|4,39,1,38,1605217905,"/tmp/vifm.rename_119880119885_00"
--'  1  38  /tmp/vifm.rename_119880119885_00
-|4,39,1,38,1605217905,"/tmp/vifm.rename_119880119885_00"
--'  1  38  /tmp/vifm.rename_119880119885_00
-|4,39,1,38,1605217905,"/tmp/vifm.rename_119880119885_00"
--'  1  38  /tmp/vifm.rename_119880119885_00
-|4,39,1,38,1605217905,"/tmp/vifm.rename_119880119885_00"
--'  1  38  /tmp/vifm.rename_119880119885_00
-|4,39,1,38,1605217905,"/tmp/vifm.rename_119880119885_00"
--'  1  38  /tmp/vifm.rename_119880119885_00
-|4,39,1,38,1605217905,"/tmp/vifm.rename_119880119885_00"
--'  1  38  /tmp/vifm.rename_119880119885_00
-|4,39,1,38,1605217905,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217888,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217888,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217888,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217888,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217888,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217888,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217888,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217888,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  5  0  /tmp/vifm.rename_119880119885_00
-|4,39,5,0,1605217878,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217876,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217876,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217876,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217876,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217876,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217876,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217876,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217876,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217851,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217851,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217851,"/tmp/vifm.rename_119880119885_00"
--'  1  0  /tmp/vifm.rename_119880119885_00
-|4,39,1,0,1605217851,"/tmp/vifm.rename_119880119885_00"
+-'  657  51  /boot/efi/EFI/BOOT/refind.conf
+|4,39,657,51,1610978144,"/boot/efi/EFI/BOOT/refind.conf"
+-'  1  0  /boot/efi/EFI/BOOT/refind.conf
+|4,39,1,0,1610978120,"/boot/efi/EFI/BOOT/refind.conf"
+-'  1  0  /boot/initramfs-linux-fallback.img
+|4,39,1,0,1610977900,"/boot/initramfs-linux-fallback.img"
+-'  1  0  /boot/initramfs-linux-fallback.img
+|4,39,1,0,1610977900,"/boot/initramfs-linux-fallback.img"
+-'  1  0  ~/downloads/rEFInd-glassy/theme.conf
+|4,39,1,0,1610977857,"~/downloads/rEFInd-glassy/theme.conf"
+-'  1  0  ~/downloads/rEFInd-glassy/theme.conf
+|4,39,1,0,1610977857,"~/downloads/rEFInd-glassy/theme.conf"
+-'  1  0  ~/downloads/rEFInd-glassy/theme.conf
+|4,39,1,0,1610977857,"~/downloads/rEFInd-glassy/theme.conf"
+-'  1  0  ~/downloads/rEFInd-glassy/theme.conf
+|4,39,1,0,1610977857,"~/downloads/rEFInd-glassy/theme.conf"
+-'  3  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
+|4,39,3,0,1610881244,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
+-'  3  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
+|4,39,3,0,1610881244,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
+-'  3  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
+|4,39,3,0,1610881244,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
+-'  3  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
+|4,39,3,0,1610881244,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
+-'  3  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
+|4,39,3,0,1610881244,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
+-'  3  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
+|4,39,3,0,1610881244,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
+-'  3  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
+|4,39,3,0,1610881244,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
+-'  3  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
+|4,39,3,0,1610881244,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
+|4,39,1,0,1610881235,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
+|4,39,1,0,1610881235,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
+|4,39,1,0,1610881235,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
+|4,39,1,0,1610881235,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
+|4,39,1,0,1610881235,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
+|4,39,1,0,1610881235,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
+|4,39,1,0,1610881235,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
+|4,39,1,0,1610881235,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
+-'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
+-'  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+|4,39,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
 
 # History of marks within files (newest to oldest):
 
-> ~/vimwiki/physics/cheatsheet.tex
-	*	1605254498	0
-	"	15	3
-	^	15	4
-	.	15	4
+> /boot/efi/EFI/BOOT/refind.conf
+	*	1610978142	0
+	"	657	51
+	^	657	52
+	.	657	52
+	+	657	52
+
+> /boot/initramfs-linux-fallback.img
+	*	1610977899	0
+	"	1	0
+
+> ~/downloads/rEFInd-glassy/theme.conf
+	*	1610977854	0
+	"	1	0
+
+> /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
+	*	1610881243	0
+	"	3	0
+
+> /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+	*	1610881202	0
+	"	24	0
+
+> /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+	*	1610881192	0
+	"	1	0
+	.	5	0
+	+	5	0
+
+> ~/git/dots/polybar/.config/polybar/config
+	*	1610665715	0
+	"	200	16
+	^	200	17
+	.	200	17
+	+	134	0
+	+	87	0
+	+	89	24
+	+	115	0
+	+	96	24
+	+	110	21
+	+	89	0
+	+	90	39
+	+	96	0
+	+	97	0
+	+	104	0
+	+	111	10
+	+	104	11
+	+	97	14
+	+	91	38
+	+	92	19
+	+	93	24
+	+	98	14
+	+	99	0
+	+	107	0
+	+	105	0
+	+	112	0
+	+	106	0
+	+	113	0
+	+	52	22
+	+	51	21
+	+	48	15
+	+	89	0
+	+	96	0
+	+	103	0
+	+	110	0
+	+	114	0
+	+	110	0
+	+	123	41
+	+	142	31
+	+	169	41
+	+	183	44
+	+	204	13
+	+	204	33
+	+	204	13
+	+	61	22
+	+	204	0
+	+	61	17
+	+	202	16
+	+	199	36
+	+	200	17
+
+> ~/git/dots/polybar/.config/polybar/blocks/modules.ini
+	*	1610665544	0
+	"	188	0
+
+> ~/git/dots/polybar/.config/polybar/blocks/config.ini
+	*	1610610570	0
+	"	146	0
+
+> ~/git/dots/polybar/.config/polybar/blocks/bars.ini
+	*	1610610522	0
+	"	1	0
+
+> ~/.cache/wal/colors-wal-st.h
+	*	1610610304	0
+	"	1	0
+
+> ~/git/dots/bspwm/.config/bspwm/bspwmrc
+	*	1610592479	0
+	"	6	32
+	^	6	33
+	.	6	32
+	+	7	33
+	+	6	32
+	+	8	0
+	+	12	1
+	+	6	32
+
+> ~/git/dots/fontconfig/.config/fontconfig/fonts.conf
+	*	1610560360	0
+	"	1	1
+
+> ~/git/dots/zsh/.config/zsh/.zshrc
+	*	1610557300	0
+	"	26	17
+	^	26	18
+	.	26	17
+	+	24	52
+	+	25	0
+	+	23	18
+	+	26	17
+
+> ~/git/dots/zsh/.config/zsh/.zsh
+	*	1610557272	0
+	"	1	0
+
+> ~/.xinitrc
+	*	1610556902	0
+	"	1	0
+	^	5	7
+	.	1	0
+	+	5	0
+	+	4	6
+	+	5	6
 	+	1	0
-	+	11	0
-	+	1	21
-	+	3	35
-	+	4	20
-	+	5	20
-	+	11	3
-	+	6	21
-	+	8	47
-	+	11	17
-	+	8	37
-	+	11	23
-	+	12	0
-	+	16	0
-	+	16	20
-	+	16	17
-	+	16	0
-	+	12	0
+
+> ~/git/dots/sxhkd/.config/sxhkd/sxhkdrc
+	*	1610467067	0
+	"	35	56
+	^	35	29
+	.	35	56
+	+	52	29
+	+	53	18
+	+	35	28
+	+	45	3
+	+	35	56
+
+> ~/.bs
+	*	1610467028	0
+	"	1	0
+
+> ~/.config/wal/templates/slate
+	*	1610466642	0
+	"	1	0
+	^	22	23
+	.	42	26
+	+	1	2
+	+	7	1
+	+	9	9
+	+	12	1
 	+	14	0
-	+	13	9
-	+	15	4
+	+	19	0
+	+	17	0
+	+	26	0
+	+	24	0
+	+	43	1
+	+	3	22
+	+	22	22
+	+	42	26
+
+> ~/git/dots/rofi/.config/rofi/config.rasi
+	*	1610466485	0
+	"	2	29
+	^	2	30
+	.	2	29
+	+	2	0
+	+	4	0
+	+	3	0
+	+	2	1
+	+	4	0
+	+	2	29
+
+> ~/.config/wal/templates/slate.rasi
+	*	1610466234	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/git/dots/rofi/.config/rofi/themes/slate.rasi
+	*	1610466221	0
+	"	43	0
+	^	42	28
+	.	42	26
+	+	5	0
+	+	21	0
+	+	23	0
+	+	44	0
+	+	2	30
+	+	3	27
+	+	4	25
+	+	20	31
+	+	22	27
+	+	42	26
+
+> ~/.cache/wal/colors-rofi-dark.rasi
+	*	1610465884	0
+	"	1	0
+
+> /usr/share/rofi/themes/sidebar.rasi
+	*	1610465400	0
+	"	47	6
+
+> ~/git/dots/picom/.config/picom/picom.conf
+	*	1610206819	0
+	"	5	0
+	^	4	13
+	.	4	12
+	+	28	19
+	+	28	0
+	+	33	0
+	+	32	26
+	+	31	27
+	+	25	17
+	+	27	20
+	+	28	19
+	+	27	19
+	+	32	22
+	+	40	24
+	+	28	19
+	+	27	0
+	+	28	19
+	+	27	20
+	+	25	17
+	+	27	20
+	+	25	17
+	+	27	20
+	+	8	0
+	+	27	20
+	+	25	0
+	+	26	19
+	+	27	20
+	+	28	19
+	+	27	0
+	+	26	0
+	+	25	0
+	+	27	20
+	+	28	19
+	+	19	0
+	+	18	0
+	+	6	1
+	+	36	0
+	+	7	0
+	+	4	12
+
+> /tmp/vifm.rename_44314436_00
+	*	1610206421	0
+	"	1	27
+	^	1	27
+	.	1	27
+	+	1	27
+
+> /tmp/vifm.rename_80618066_00
+	*	1610161705	0
+	"	1	22
+	.	1	0
+	+	2	22
+	+	1	20
+	+	1	21
+	+	1	0
+
+> /tmp/vifm.rename_79627967_00
+	*	1610161399	0
+	"	1	27
+	.	1	28
+	+	1	28
+
+> /tmp/vifm.rename_14781483_00
+	*	1609316352	0
+	"	1	0
+	^	1	20
+	.	1	0
+	+	1	0
+
+> ~/documents/virt/macOS-Simple-KVM/basic.sh
+	*	1607056735	0
+	"	31	4
+	^	31	35
+	.	31	34
+	+	31	0
+	+	22	0
+	+	31	0
+	+	21	270
+	+	21	43
+	+	31	0
+	+	21	0
+	+	31	0
+	+	31	48
+	+	31	52
+	+	31	0
+	+	31	52
+	+	31	34
+
+> ~/downloads/macOS-Simple-KVM/basic.sh
+	*	1607003915	0
+	"	19	9
+	^	19	15
+	.	19	0
+	+	11	7
+	+	25	46
+	+	30	0
+	+	29	0
+	+	19	0
+
+> ~/git/scripts/scripts/.scripts/win10
+	*	1607002548	0
+	"	1	0
+	^	3	139
+	.	3	138
+	+	3	138
+
+> /tmp/vifm.rename_2622826233_00
+	*	1606998566	0
+	"	1	35
+	.	1	0
+	+	2	0
+	+	1	0
+	+	2	0
+	+	1	0
+	+	2	0
+	+	1	0
+
+> ~/downloads/resume.tex
+	*	1606814140	0
+	"	25	5
+	^	113	20
+	.	25	0
+	+	39	0
+	+	39	29
+	+	8	52
+	+	39	0
+	+	39	18
+	+	39	48
+	+	39	20
+	+	39	0
+	+	11	0
+	+	52	0
+	+	39	30
+	+	40	0
+	+	53	0
+	+	39	0
+	+	39	21
+	+	39	46
+	+	39	31
+	+	39	0
+	+	40	0
+	+	39	25
+	+	52	25
+	+	28	0
+	+	3	45
+	+	28	31
+	+	39	0
+	+	46	0
+	+	52	0
+	+	46	0
+	+	51	0
+	+	48	47
+	+	46	0
+	+	45	49
+	+	49	28
+	+	52	26
+	+	33	49
+	+	58	49
+	+	39	26
+	+	34	0
+	+	38	0
+	+	35	21
+	+	39	26
+	+	20	16
+	+	35	27
+	+	49	23
+	+	69	23
+	+	59	0
+	+	63	0
+	+	62	34
+	+	50	39
+	+	51	0
+	+	47	51
+	+	48	0
+	+	82	38
+	+	52	26
+	+	38	21
+	+	36	34
+	+	38	0
+	+	39	26
+	+	31	43
+	+	29	34
+	+	39	28
+	+	31	42
+	+	28	18
+	+	65	16
+	+	3	28
+	+	98	0
+	+	115	0
+	+	98	24
+	+	99	0
+	+	106	0
+	+	100	45
+	+	101	42
+	+	102	25
+	+	103	58
+	+	106	0
+	+	102	27
+	+	103	66
+	+	104	23
+	+	105	12
+	+	104	25
+	+	107	0
+	+	114	0
+	+	107	35
+	+	108	44
+	+	109	44
+	+	110	28
+	+	112	23
+	+	113	22
+	+	112	25
+	+	99	22
+	+	107	22
+	+	111	44
+	+	25	0
+	+	25	31
+	+	25	17
+	+	37	56
+	+	39	26
+	+	113	19
+	+	25	0
+
+> /tmp/vifm.rename_1585315858_00
+	*	1606813203	0
+	"	1	7
+	^	1	8
+	.	1	7
+	+	1	7
+
+> ~/documents/school/12/letter.tex
+	*	1606655104	0
+	"	1	0
+	^	19	453
+	.	19	452
+	+	1	0
+	+	7	0
+	+	1	22
+	+	2	21
+	+	7	8
+	+	2	22
+	+	1	22
+	+	2	11
+	+	29	5
+	+	7	24
+	+	2	35
+	+	3	21
+	+	4	17
+	+	4	12
+	+	4	11
+	+	4	33
+	+	4	21
+	+	4	0
+	+	4	11
+	+	3	20
+	+	7	15
+	+	4	0
+	+	3	0
+	+	7	25
+	+	11	257
+	+	11	71
+	+	11	714
+	+	12	4
+	+	11	266
+	+	13	434
+	+	13	246
+	+	13	862
+	+	15	55
+	+	29	31
+	+	29	0
+	+	29	30
+	+	29	39
+	+	9	0
+	+	13	864
+	+	9	164
+	+	9	51
+	+	9	197
+	+	15	709
+	+	13	709
+	+	13	469
+	+	13	0
+	+	13	828
+	+	15	521
+	+	15	966
+	+	17	636
+	+	21	355
+	+	21	350
+	+	21	86
+	+	21	560
+	+	21	0
+	+	23	73
+	+	29	0
+	+	23	511
+	+	28	0
+	+	25	13
+	+	25	30
+	+	26	0
+	+	25	0
+	+	4	23
+	+	11	162
+	+	11	0
+	+	11	268
+	+	13	485
+	+	13	614
+	+	15	471
+	+	15	617
+	+	21	314
+	+	21	698
+	+	23	97
+	+	23	238
+	+	4	25
+	+	19	381
+	+	19	0
+	+	19	381
+	+	19	0
+	+	19	389
+	+	19	0
+	+	19	398
+	+	19	0
+	+	19	452
+
+> ~/documents/school/12/letter_cover.tex
+	*	1606654731	0
+	"	10	25
+	^	10	25
+	.	10	24
+	+	1	0
+	+	13	0
+	+	1	22
+	+	2	21
+	+	13	0
+	+	13	21
+	+	13	13
+	+	13	14
+	+	1	32
+	+	13	0
+	+	5	16
+	+	13	21
+	+	13	0
+	+	8	18
+	+	13	0
+	+	8	0
+	+	9	0
+	+	12	0
+	+	8	0
+	+	1	18
+	+	10	17
+	+	3	22
+	+	10	24
+
+> ~/git/dots/vim/.vim/.vimrc
+	*	1606556711	0
+	"	92	0
+	.	92	0
+	+	42	6
+	+	25	0
+	+	31	19
+	+	31	25
+	+	55	19
+	+	25	0
+	+	31	0
+	+	12	0
+	+	3	0
+	+	5	0
+	+	4	0
+	+	127	28
+	+	125	11
+	+	127	23
+	+	127	16
+	+	126	0
+	+	130	31
+	+	125	10
+	+	87	0
+	+	79	14
+	+	80	28
+	+	80	0
+	+	55	17
+	+	62	0
+	+	131	1
+	+	131	0
+	+	107	0
+	+	80	18
+	+	86	63
+	+	86	46
+	+	86	19
+	+	87	0
+	+	80	0
+	+	84	0
+	+	86	0
+	+	88	0
+	+	92	0
+
+> /usr/share/vifm/vim-doc/doc/vifm-app.txt
+	*	1606395856	0
+	"	5659	7
+
+> ~/git/dots/vifm/.config/vifm/vifminfo
+	*	1606395775	0
+	"	1586	0
+
+> ~/git/scripts/scripts/.scripts/wifitoggle
+	*	1606386489	0
+	"	1	12
+
+> ~/vimwiki/physics/cheatsheet/cheatsheet.tex
+	*	1606130403	0
+	"	16	4
+	.	16	0
+	+	38	56
+	+	39	21
+	+	38	58
+	+	39	31
+	+	38	63
+	+	59	22
+	+	60	61
+	+	59	24
+	+	9	20
+	+	9	0
+	+	1	60
+	+	116	0
+	+	1	81
+	+	63	23
+	+	64	0
+	+	72	0
+	+	65	26
+	+	66	25
+	+	67	31
+	+	68	35
+	+	69	43
+	+	70	34
+	+	71	57
+	+	72	0
+	+	71	54
+	+	17	24
+	+	74	23
+	+	75	0
+	+	116	0
+	+	75	0
+	+	80	0
+	+	76	46
+	+	1	23
+	+	1	59
+	+	1	80
+	+	1	0
+	+	77	49
+	+	76	48
+	+	77	68
+	+	78	30
+	+	79	16
+	+	82	23
+	+	83	0
+	+	116	0
+	+	83	33
+	+	116	36
+	+	116	0
+	+	84	32
+	+	85	139
+	+	86	33
+	+	87	142
+	+	89	0
+	+	91	0
+	+	90	26
+	+	90	46
+	+	91	17
+	+	93	23
+	+	94	0
+	+	116	0
+	+	94	41
+	+	95	19
+	+	96	40
+	+	97	35
+	+	99	24
+	+	112	0
+	+	115	0
+	+	113	29
+	+	101	33
+	+	102	109
+	+	103	29
+	+	104	123
+	+	107	34
+	+	108	10
+	+	100	38
+	+	106	36
+	+	111	0
+	+	108	105
+	+	109	58
+	+	110	109
+	+	110	0
+	+	110	159
+	+	114	32
+	+	114	30
+	+	115	0
+	+	16	36
+	+	16	0
+	+	16	86
+	+	16	0
+	+	16	14
+	+	16	0
 
 > ~/vimwiki/physics/physics.md
-	*	1605218400	0
+	*	1606127205	0
 	"	4	2
-	^	4	29
-	.	5	0
+	.	1	0
 	+	1	11
 	+	2	0
 	+	3	16
 	+	4	29
-	+	5	0
+	+	4	0
+	+	4	25
+	+	1	0
+	+	4	231
+	+	4	255
+	+	4	273
+	+	4	143
+	+	4	250
+	+	4	232
+	+	1	0
 
 > ~/vimwiki/index.md
-	*	1605218398	0
+	*	1606127204	0
 	"	6	2
 	^	6	27
 	.	6	26
@@ -535,6 +1248,324 @@ $_
 	+	5	0
 	+	9	0
 	+	6	26
+
+> /tmp/vifm.rename_6535065355_00
+	*	1606124474	0
+	"	1	29
+	.	1	0
+	+	2	0
+	+	1	0
+
+> ~/downloads/anki.tex
+	*	1606044267	0
+	"	3	39
+	^	3	40
+	.	3	39
+	+	1	0
+	+	5	0
+	+	5	81
+	+	5	0
+	+	1	0
+	+	4	0
+	+	4	47
+	+	4	0
+	+	2	37
+	+	3	39
+
+> ~/downloads/test.tex
+	*	1605650613	0
+	"	1	0
+	^	2	23
+	.	2	19
+	+	14	0
+	+	14	15
+	+	14	0
+	+	12	0
+	+	11	13
+	+	7	26
+	+	7	19
+	+	7	0
+	+	4	1
+	+	5	18
+	+	1	32
+	+	2	19
+
+> ~/downloads/test.
+	*	1605650610	0
+	"	1	0
+
+> ~/git/dots/vim/.vim/UltiSnips/tex.snippets
+	*	1605493013	0
+	"	132	0
+	^	25	26
+	.	19	0
+	+	26	0
+	+	25	0
+	+	24	0
+	+	23	0
+	+	22	0
+	+	21	0
+	+	20	0
+	+	19	0
+	+	18	0
+	+	17	0
+	+	16	0
+	+	18	0
+	+	24	0
+	+	18	0
+	+	19	0
+	+	18	0
+	+	19	0
+
+> ~/vimwiki/physics/cheatsheet.tex
+	*	1605492659	0
+	"	37	23
+	^	37	24
+	.	37	23
+	+	58	10
+	+	26	73
+	+	58	0
+	+	58	15
+	+	58	82
+	+	58	0
+	+	58	88
+	+	58	0
+	+	58	91
+	+	58	0
+	+	58	97
+	+	58	0
+	+	58	104
+	+	58	0
+	+	58	111
+	+	58	0
+	+	58	117
+	+	58	0
+	+	58	120
+	+	58	0
+	+	58	126
+	+	58	0
+	+	58	132
+	+	58	0
+	+	58	33
+	+	58	111
+	+	58	138
+	+	58	73
+	+	58	8
+	+	58	31
+	+	58	51
+	+	58	80
+	+	58	0
+	+	58	90
+	+	58	0
+	+	58	97
+	+	58	0
+	+	58	104
+	+	58	0
+	+	58	114
+	+	58	0
+	+	58	127
+	+	58	0
+	+	58	58
+	+	26	81
+	+	58	81
+	+	26	0
+	+	27	0
+	+	34	0
+	+	40	23
+	+	42	0
+	+	45	0
+	+	43	31
+	+	44	0
+	+	41	33
+	+	44	74
+	+	12	0
+	+	10	0
+	+	11	0
+	+	10	16
+	+	11	19
+	+	10	41
+	+	11	0
+	+	41	19
+	+	44	74
+	+	58	0
+	+	43	40
+	+	44	84
+	+	47	0
+	+	51	0
+	+	48	40
+	+	51	0
+	+	49	48
+	+	49	74
+	+	49	47
+	+	50	0
+	+	49	47
+	+	51	0
+	+	50	28
+	+	53	23
+	+	54	0
+	+	58	0
+	+	54	0
+	+	57	0
+	+	55	32
+	+	56	21
+	+	36	0
+	+	39	0
+	+	36	0
+	+	7	19
+	+	36	0
+	+	38	0
+	+	37	23
+
+> /tmp/tmpxdovsyj6.tex
+	*	1605492429	0
+	"	1	0
+
+> /tmp/tmpi8oyg8tg.tex
+	*	1605492414	0
+	"	1	0
+
+> /tmp/tmpe6flr5sl.tex
+	*	1605492387	0
+	"	1	0
+
+> /tmp/tmplqnbt5wh.tex
+	*	1605492373	0
+	"	1	0
+
+> /tmp/tmp0osyi9vg.tex
+	*	1605492364	0
+	"	1	0
+
+> /tmp/tmpha3kxoxh.tex
+	*	1605492346	0
+	"	1	0
+
+> /tmp/tmplwblk8vb.tex
+	*	1605492208	0
+	"	1	4
+	^	1	5
+	.	1	4
+	+	1	4
+
+> /tmp/tmpxj4psle2.tex
+	*	1605492201	0
+	"	1	6
+	^	1	7
+	.	1	7
+	+	1	7
+
+> /tmp/tmp7nj3afep.tex
+	*	1605492191	0
+	"	1	4
+	^	1	5
+	.	1	4
+	+	1	4
+
+> /tmp/tmpnzfb_sko.tex
+	*	1605492169	0
+	"	1	5
+	^	1	6
+	.	1	5
+	+	1	5
+
+> /tmp/tmpk3uo_vxf.tex
+	*	1605492133	0
+	"	1	5
+	^	1	6
+	.	2	0
+	+	2	0
+
+> /tmp/tmp1vfaw6t_.tex
+	*	1605492118	0
+	"	1	5
+	^	1	6
+	.	2	0
+	+	2	0
+
+> ~/build/inkscape-shortcut-manager/config.py
+	*	1605492079	0
+	"	8	14
+	^	7	11
+	.	8	11
+	+	7	10
+	+	9	11
+	+	8	11
+
+> ~/build/inkscape-shortcut-manager/main.py
+	*	1605491929	0
+	"	1	0
+
+> ~/build/inkscape-shortcut-manager/text.py
+	*	1605491920	0
+	"	1	0
+
+> /tmp/vifm.rename_1555115556_00
+	*	1605478090	0
+	"	1	13
+	^	1	14
+	.	1	13
+	+	1	13
+
+> ~/vimwiki/chemistry/chemistry.md
+	*	1605434080	0
+	"	1	0
+
+> /usr/share/vim/vim82/doc/options.txt
+	*	1605433698	0
+	"	4861	0
+
+> /usr/share/vim/vim82/doc/eval.txt
+	*	1605433332	0
+	"	266	33
+
+> ~/git/scripts/scripts/.scripts/brightcontrols
+	*	1605395169	0
+	"	10	8
+	.	10	8
+	+	6	8
+	+	10	8
+
+> ~/.local/share/Steam/steamapps/common/Spelunky 2/spelunky.log
+	*	1605373104	0
+	"	202	0
+
+> ~/.local/share/Steam/steamapps/common/Spelunky 2/spel2_crashdump_2020_11_15T03_54_31.dmp
+	*	1605373025	0
+	"	47	0
+
+> ~/cd
+	*	1605355893	0
+	"	1	0
+
+> ~/git/dots/vim/.vim/UltiSnips/plaintex.snippets
+	*	1605355578	0
+	"	1	0
+
+> /boot/efi/EFI/BOOT/themes/refind-theme-circle/theme.conf
+	*	1605353849	0
+	"	23	0
+	.	3	0
+	+	3	0
+
+> /tmp/vifm.rename_90029007_00
+	*	1605310114	0
+	"	10	0
+	.	1	0
+	+	1	0
+
+> /media/movies/Dr_Strangelove_1964/eng-sdh.srt
+	*	1605261441	0
+	"	4	0
+	.	4	0
+	+	4	0
+
+> ~/git/dots/vifm/.config/vifm/vifmrc
+	*	1605261399	0
+	"	125	7
+	^	504	25
+	.	125	7
+	+	504	24
+	+	125	7
 
 > /tmp/vifm.rename_120903120908_00
 	*	1605218286	0
@@ -558,42 +1589,9 @@ $_
 	.	1	0
 	+	1	0
 
-> ~/git/dots/vifm/.config/vifm/vifmrc
-	*	1605096150	0
-	"	504	24
-	^	504	25
-	.	504	24
-	+	504	24
-
-> ~/downloads/test.tex
-	*	1605091739	0
-	"	10	0
-	.	10	0
-	+	10	0
-	+	10	15
-	+	10	0
-
-> ~/git/dots/vim/.vim/UltiSnips/tex.snippets
-	*	1605091695	0
-	"	9	0
-
-> ~/git/dots/vim/.vim/.vimrc
-	*	1605091634	0
-	"	28	25
-	^	28	26
-	.	28	25
-	+	45	6
-	+	19	0
-	+	27	19
-	+	28	25
-
 > ~/git/dots/vim/.vim/plugged/vimtex/doc/vimtex.txt
 	*	1605091617	0
 	"	130	60
-
-> ~/downloads/test.
-	*	1605091576	0
-	"	1	0
 
 > ~/test.tex
 	*	1605082449	0
@@ -613,14 +1611,6 @@ $_
 	+	4	0
 	+	3	0
 
-> ~/git/dots/sxhkd/.config/sxhkd/sxhkdrc
-	*	1605006428	0
-	"	53	18
-	^	53	19
-	.	53	18
-	+	52	29
-	+	53	18
-
 > /tmp/vifm.rename_46314636_00
 	*	1604997301	0
 	"	1	0
@@ -637,7 +1627,3 @@ $_
 	+	1	20
 	+	2	0
 	+	1	0
-
-> ~/git/scripts/scripts/.scripts/win10
-	*	1604980118	0
-	"	1	0
