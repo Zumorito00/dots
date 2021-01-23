@@ -1,6 +1,6 @@
 # dots
 ### Window Manager
-* dwm
+* bspwm
 * colours with pywal
 
 ### Package Manager
