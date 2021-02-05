@@ -22,6 +22,10 @@ super + F2
 super + v
     $TERMINAL -e "zsh" -c "vim ~/vimwiki/index.md"
 
+# calcurse
+super + c
+    $TERMINAL -e calcurse
+
 # font awesome icon menu
 Print
     font-awesome-select
@@ -32,7 +36,7 @@ Print
 
 # gap change
 super + shift + d
-    bspc config window_gap 30; bspc config border_width 2
+    bspc config window_gap 30; bspc config border_width 3
 super + shift + w
     bspc config window_gap 0; bspc config border_width 1
 

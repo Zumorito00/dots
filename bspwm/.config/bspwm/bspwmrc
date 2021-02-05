@@ -19,5 +19,6 @@ bspc rule -a Gimp           desktop='^8'        state=tiled     follow=on
 bspc rule -a firefox        desktop='^1'        follow=off
 bspc rule -a "Tor Browser"  state=floating
 bspc rule -a Zathura        state=tiled
-bspc rule -a Steam          desktop='^7'
+bspc rule -a Steam          desktop='^7'        follow=on
+bspc rule -a gzdoom         desktop='^7'        follow=on
 bspc rule -a qBittorrent    desktop='^10'

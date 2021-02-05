@@ -1,4 +1,4 @@
-a Notification Manager
+# Notification Manager
 dunst &
 
 # Picom

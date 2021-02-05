@@ -24,7 +24,7 @@ folder_setup() {
 
 xorg_setup() {
     echo Installing xorg...
-    sudo pacman -Sy xorg xorg-xinit --noconfirm
+    sudo pacman -Sy xorg xorg-xinit xf86-video-nouveau --noconfirm
     echo Done!
 }
 

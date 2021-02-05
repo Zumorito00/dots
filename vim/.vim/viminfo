@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/battery
+~MSle0~/ceil
 
 # Last Substitute Search Pattern:
 ~MSle0&}
@@ -20,22 +20,34 @@
 $
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1612436352,,"wq"
+:w
+|2,0,1612436351,,"w"
+:q
+|2,0,1612436322,,"q"
+:W
+|2,0,1612400788,,"W"
+:!st &
+|2,0,1612392900,,"!st &"
+:s
+|2,0,1612392884,,"s"
+:!st 
+|2,0,1612392884,,"!st "
+:noh
+|2,0,1612391094,,"noh"
+:Wq
+|2,0,1612227277,,"Wq"
+:WE
+|2,0,1612226974,,"WE"
+:Q
+|2,0,1611919904,,"Q"
+:no
+|2,0,1611873975,,"no"
 :q!
 |2,0,1610978144,,"q!"
-:q
-|2,0,1610978142,,"q"
 :wq!
 |2,0,1610978141,,"wq!"
-:wq
-|2,0,1610978138,,"wq"
-:Q
-|2,0,1610880936,,"Q"
-:noh
-|2,0,1610665462,,"noh"
-:Wq
-|2,0,1610665714,,"Wq"
-:w
-|2,0,1610665705,,"w"
 :nog
 |2,0,1610665420,,"nog"
 :oh
@@ -52,8 +64,6 @@ $
 |2,0,1610206311,,"s/\\s/_/g"
 :s/\./_/g
 |2,0,1610206287,,"s/\\./_/g"
-:W
-|2,0,1607056735,,"W"
 :LL
 |2,0,1606808474,,"LL"
 :'<,'>s/tabular/tabularx/
@@ -66,8 +76,6 @@ $
 |2,0,1606788949,,"'<,'>s/25/2"
 :set list!
 |2,0,1606556668,,"set list!"
-:WE
-|2,0,1606127207,,"WE"
 :set nu!
 |2,0,1605830768,,"set nu!"
 :nu!
@@ -86,8 +94,6 @@ $
 |2,0,1605434364,,"colorscheme desert"
 :help listchars
 |2,0,1605433627,,"help listchars"
-:no
-|2,0,1605433983,,"no"
 :set listchars=eol:$,tab:>
 |2,0,1605433926,,"set listchars=eol:$,tab:>"
 :set listchars=eol:$
@@ -102,8 +108,6 @@ $
 |2,0,1605433541,,"set listchars+=space:·"
 :list
 |2,0,1605433512,,"list"
-:s
-|2,0,1605433413,,"s"
 :help list
 |2,0,1605433326,,"help list"
 :'<,'>s/flalign\*/gather\*/
@@ -116,18 +120,30 @@ $
 |2,0,1605355684,,"U"
 :PlugUpgrade
 |2,0,1605355430,,"PlugUpgrade"
-:PlugUpdate
-|2,0,1605355418,,"PlugUpdate"
-:colorscheme default
-|2,0,1605354035,,"colorscheme default"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1612436320,,"@$"
+??ceil
+|2,1,1612391088,63,"ceil"
+?/spot
+|2,1,1612237704,47,"spot"
+?/aug
+|2,1,1612147115,47,"aug"
+?/aug 2020
+|2,1,1612147112,47,"aug 2020"
+?/\s$
+|2,1,1611873966,47,"\\s$"
+?/super + c$
+|2,1,1611873934,47,"super + c$"
+?/super + c
+|2,1,1611873928,47,"super + c"
+?/shift + w
+|2,1,1611873370,47,"shift + w"
 ?/battery
 |2,1,1610665460,47,"battery"
 ?/full
 |2,1,1610665416,47,"full"
-? @$
-|2,1,1610665410,,"@$"
 ?/title
 |2,1,1610610576,47,"title"
 ??window
@@ -206,22 +222,6 @@ $
 |2,1,1606654693,47,"text"
 ?/13
 |2,1,1606564301,47,"13"
-?/12
-|2,1,1606564300,47,"12"
-?/certain
-|2,1,1606564221,47,"certain"
-?/remember
-|2,1,1606564193,47,"remember"
-?/enough
-|2,1,1606564157,47,"enough"
-?/how hard
-|2,1,1606563991,47,"how hard"
-?/you have
-|2,1,1606563965,47,"you have"
-?/i know
-|2,1,1606563907,47,"i know"
-?/integration
-|2,1,1606563882,47,"integration"
 
 # Expression History (newest to oldest):
 
@@ -232,314 +232,385 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	format-full-overline = ${xrdb:color0}
-|3,0,0,1,1,0,1610665697,"format-full-overline = ${xrdb:color0}"
+""0	CHAR	0
+	a
+|3,1,0,0,1,0,1612436320,"a"
 "1	LINE	0
-	[module/title]
-	type = internal/xwindow
+	hello = 'hello'
 	
-	format = label
-	format-padding = 1
-	format-foreground = ${xrdb:color7}
+	inc = 'x' in hello
 	
-	label-empty = 
+	print (inc)
+|3,0,1,1,5,0,1612409399,"hello = 'hello'","","inc = 'x' in hello","","print (inc)"
+"2	LINE	0
+	numbers = range(1,100)
 	
-|3,0,1,1,9,0,1610610898,"[module/title]","type = internal/xwindow","","format = label","format-padding = 1","format-foreground = ${xrdb:color7}","","label-empty = ",""
-"2	BLOCK	7
-	occupied
-	occupied
-|3,0,2,2,2,7,1610592154,"occupied","occupied"
-"3	BLOCK	7
-	occupied
-	occupied
-|3,0,3,2,2,7,1610592147,"occupied","occupied"
-"4	BLOCK	6
-	focused
-	focused
-|3,0,4,2,2,6,1610592121,"focused","focused"
+	print (numbers[8:10])
+|3,0,2,1,3,0,1612409307,"numbers = range(1,100)","","print (numbers[8:10])"
+"3	LINE	0
+	print (str[-1])
+|3,0,3,1,1,0,1612408940,"print (str[-1])"
+"4	LINE	0
+	str = "mdksamd"
+|3,0,4,1,1,0,1612408930,"str = \"mdksamd\""
 "5	LINE	0
-	
-|3,0,5,1,1,0,1610591896,""
+	str = mdksamd
+|3,0,5,1,1,0,1612400928,"str = mdksamd"
 "6	LINE	0
-	; Separator in between workspaces
-	; label-separator = |
-|3,0,6,1,2,0,1610591894,"; Separator in between workspaces","; label-separator = |"
+	print ("Test".encode("UTF-8"))
+|3,0,6,1,1,0,1612400884,"print (\"Test\".encode(\"UTF-8\"))"
 "7	LINE	0
 	
-|3,0,7,1,1,0,1610589082,""
+	for i in range(1,7):
+	    print(i)
+|3,0,7,1,3,0,1612392877,"","for i in range(1,7):","    print(i)"
 "8	LINE	0
-	
-	format-disconnected = <label-disconnected>
-	label-disconncted = disconnected
-	
-	format-disconnected-prefix = 
-|3,0,8,1,5,0,1610589081,"","format-disconnected = <label-disconnected>","label-disconncted = disconnected","","format-disconnected-prefix = "
+	print(range(1,7))
+|3,0,8,1,1,0,1612392855,"print(range(1,7))"
 "9	LINE	0
-	# bspc config top_padding         22
-|3,0,9,1,1,0,1610467073,"# bspc config top_padding         22"
-""-	CHAR	0
-	rEFInd-glassy/theme.conf
-|3,1,36,0,1,0,1610978123,"rEFInd-glassy/theme.conf"
+	print(len(dict))
+|3,0,9,1,1,0,1612392810,"print(len(dict))"
+"-	CHAR	0
+	a
+|3,0,36,0,1,0,1612431467,"a"
 
 # File marks:
-'0  657  51  /boot/efi/EFI/BOOT/refind.conf
-|4,48,657,51,1610978144,"/boot/efi/EFI/BOOT/refind.conf"
-'1  1  0  /boot/initramfs-linux-fallback.img
-|4,49,1,0,1610977900,"/boot/initramfs-linux-fallback.img"
-'2  1  0  ~/downloads/rEFInd-glassy/theme.conf
-|4,50,1,0,1610977857,"~/downloads/rEFInd-glassy/theme.conf"
-'3  3  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
-|4,51,3,0,1610881244,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
-'4  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,52,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
-'5  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,53,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
-'6  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,54,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
-'7  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,55,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
-'8  657  0  /boot/efi/EFI/BOOT/refind.conf
-|4,56,657,0,1610880978,"/boot/efi/EFI/BOOT/refind.conf"
-'9  657  0  /boot/efi/EFI/BOOT/refind.conf
-|4,57,657,0,1610880939,"/boot/efi/EFI/BOOT/refind.conf"
+'0  27  54  ~/git/dots/setup.sh
+|4,48,27,54,1612436352,"~/git/dots/setup.sh"
+'1  8  0  ~/git/dots
+|4,49,8,0,1612436322,"~/git/dots"
+'2  1  0  ~/.xinitrc
+|4,50,1,0,1612431472,"~/.xinitrc"
+'3  3  0  ~/documents/code/python/test.py
+|4,51,3,0,1612428799,"~/documents/code/python/test.py"
+'4  4  7  ~/documents/code/python/test.py
+|4,52,4,7,1612409374,"~/documents/code/python/test.py"
+'5  5  7  ~/documents/code/python/test.py
+|4,53,5,7,1612409374,"~/documents/code/python/test.py"
+'6  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,54,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
+'7  126  0  ~/git/dots/polybar/.config/polybar/config
+|4,55,126,0,1612400610,"~/git/dots/polybar/.config/polybar/config"
+'8  4  4  ~/documents/code/python/test.py
+|4,56,4,4,1612392921,"~/documents/code/python/test.py"
+'9  11  4  ~/documents/code/python/test.py
+|4,57,11,4,1612392921,"~/documents/code/python/test.py"
 
 # Jumplist (newest first):
--'  657  51  /boot/efi/EFI/BOOT/refind.conf
-|4,39,657,51,1610978144,"/boot/efi/EFI/BOOT/refind.conf"
--'  1  0  /boot/efi/EFI/BOOT/refind.conf
-|4,39,1,0,1610978120,"/boot/efi/EFI/BOOT/refind.conf"
--'  1  0  /boot/initramfs-linux-fallback.img
-|4,39,1,0,1610977900,"/boot/initramfs-linux-fallback.img"
--'  1  0  /boot/initramfs-linux-fallback.img
-|4,39,1,0,1610977900,"/boot/initramfs-linux-fallback.img"
--'  1  0  ~/downloads/rEFInd-glassy/theme.conf
-|4,39,1,0,1610977857,"~/downloads/rEFInd-glassy/theme.conf"
--'  1  0  ~/downloads/rEFInd-glassy/theme.conf
-|4,39,1,0,1610977857,"~/downloads/rEFInd-glassy/theme.conf"
--'  1  0  ~/downloads/rEFInd-glassy/theme.conf
-|4,39,1,0,1610977857,"~/downloads/rEFInd-glassy/theme.conf"
--'  1  0  ~/downloads/rEFInd-glassy/theme.conf
-|4,39,1,0,1610977857,"~/downloads/rEFInd-glassy/theme.conf"
--'  3  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
-|4,39,3,0,1610881244,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
--'  3  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
-|4,39,3,0,1610881244,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
--'  3  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
-|4,39,3,0,1610881244,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
--'  3  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
-|4,39,3,0,1610881244,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
--'  3  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
-|4,39,3,0,1610881244,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
--'  3  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
-|4,39,3,0,1610881244,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
--'  3  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
-|4,39,3,0,1610881244,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
--'  3  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
-|4,39,3,0,1610881244,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
-|4,39,1,0,1610881235,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
-|4,39,1,0,1610881235,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
-|4,39,1,0,1610881235,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
-|4,39,1,0,1610881235,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
-|4,39,1,0,1610881235,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
-|4,39,1,0,1610881235,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
-|4,39,1,0,1610881235,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
-|4,39,1,0,1610881235,"/boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf"
--'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  24  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,24,0,1610881207,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,1,0,1610881200,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  1  0  /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-|4,39,1,0,1610881193,"/boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf"
--'  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
--'  42  0  /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-|4,39,42,0,1610881186,"/boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf"
+-'  27  54  ~/git/dots/setup.sh
+|4,39,27,54,1612436352,"~/git/dots/setup.sh"
+-'  1  0  ~/git/dots/setup.sh
+|4,39,1,0,1612436333,"~/git/dots/setup.sh"
+-'  8  0  ~/git/dots
+|4,39,8,0,1612436322,"~/git/dots"
+-'  8  0  ~/git/dots
+|4,39,8,0,1612436322,"~/git/dots"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1612431472,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1612431472,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1612431472,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1612431472,"~/.xinitrc"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  4  7  ~/documents/code/python/test.py
+|4,39,4,7,1612409374,"~/documents/code/python/test.py"
+-'  5  7  ~/documents/code/python/test.py
+|4,39,5,7,1612409374,"~/documents/code/python/test.py"
+-'  4  7  ~/documents/code/python/test.py
+|4,39,4,7,1612409374,"~/documents/code/python/test.py"
+-'  5  7  ~/documents/code/python/test.py
+|4,39,5,7,1612409374,"~/documents/code/python/test.py"
+-'  4  7  ~/documents/code/python/test.py
+|4,39,4,7,1612409374,"~/documents/code/python/test.py"
+-'  5  7  ~/documents/code/python/test.py
+|4,39,5,7,1612409374,"~/documents/code/python/test.py"
+-'  4  7  ~/documents/code/python/test.py
+|4,39,4,7,1612409374,"~/documents/code/python/test.py"
+-'  5  7  ~/documents/code/python/test.py
+|4,39,5,7,1612409374,"~/documents/code/python/test.py"
+-'  4  7  ~/documents/code/python/test.py
+|4,39,4,7,1612409374,"~/documents/code/python/test.py"
+-'  5  7  ~/documents/code/python/test.py
+|4,39,5,7,1612409374,"~/documents/code/python/test.py"
+-'  4  7  ~/documents/code/python/test.py
+|4,39,4,7,1612409374,"~/documents/code/python/test.py"
+-'  5  7  ~/documents/code/python/test.py
+|4,39,5,7,1612409374,"~/documents/code/python/test.py"
+-'  4  7  ~/documents/code/python/test.py
+|4,39,4,7,1612409374,"~/documents/code/python/test.py"
+-'  5  7  ~/documents/code/python/test.py
+|4,39,5,7,1612409374,"~/documents/code/python/test.py"
+-'  4  7  ~/documents/code/python/test.py
+|4,39,4,7,1612409374,"~/documents/code/python/test.py"
+-'  5  7  ~/documents/code/python/test.py
+|4,39,5,7,1612409374,"~/documents/code/python/test.py"
+-'  3  13  ~/documents/code/python/test.py
+|4,39,3,13,1612409306,"~/documents/code/python/test.py"
+-'  3  13  ~/documents/code/python/test.py
+|4,39,3,13,1612409306,"~/documents/code/python/test.py"
+-'  3  13  ~/documents/code/python/test.py
+|4,39,3,13,1612409306,"~/documents/code/python/test.py"
+-'  3  13  ~/documents/code/python/test.py
+|4,39,3,13,1612409306,"~/documents/code/python/test.py"
+-'  3  13  ~/documents/code/python/test.py
+|4,39,3,13,1612409306,"~/documents/code/python/test.py"
+-'  3  13  ~/documents/code/python/test.py
+|4,39,3,13,1612409306,"~/documents/code/python/test.py"
+-'  3  13  ~/documents/code/python/test.py
+|4,39,3,13,1612409306,"~/documents/code/python/test.py"
+-'  3  13  ~/documents/code/python/test.py
+|4,39,3,13,1612409306,"~/documents/code/python/test.py"
+-'  4  12  ~/documents/code/python/test.py
+|4,39,4,12,1612409035,"~/documents/code/python/test.py"
+-'  4  12  ~/documents/code/python/test.py
+|4,39,4,12,1612409035,"~/documents/code/python/test.py"
+-'  4  12  ~/documents/code/python/test.py
+|4,39,4,12,1612409035,"~/documents/code/python/test.py"
+-'  4  12  ~/documents/code/python/test.py
+|4,39,4,12,1612409035,"~/documents/code/python/test.py"
+-'  4  12  ~/documents/code/python/test.py
+|4,39,4,12,1612409035,"~/documents/code/python/test.py"
+-'  4  12  ~/documents/code/python/test.py
+|4,39,4,12,1612409035,"~/documents/code/python/test.py"
+-'  4  12  ~/documents/code/python/test.py
+|4,39,4,12,1612409035,"~/documents/code/python/test.py"
+-'  4  12  ~/documents/code/python/test.py
+|4,39,4,12,1612409035,"~/documents/code/python/test.py"
+-'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,1,0,1612401086,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,1,0,1612401086,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,1,0,1612401086,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,1,0,1612401086,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,1,0,1612401086,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,1,0,1612401086,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,1,0,1612401086,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,1,0,1612401086,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,1,0,1612401086,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,1,0,1612401086,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,1,0,1612401086,"~/git/dots/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,39,1,0,1612401086,"~/git/dots/zsh/.config/zsh/.zshrc"
 
 # History of marks within files (newest to oldest):
 
-> /boot/efi/EFI/BOOT/refind.conf
-	*	1610978142	0
-	"	657	51
-	^	657	52
-	.	657	52
-	+	657	52
+> ~/git/dots/setup.sh
+	*	1612436351	0
+	"	27	54
+	^	27	55
+	.	27	54
+	+	27	54
 
-> /boot/initramfs-linux-fallback.img
-	*	1610977899	0
+> ~/.xinitrc
+	*	1612431471	0
 	"	1	0
-
-> ~/downloads/rEFInd-glassy/theme.conf
-	*	1610977854	0
-	"	1	0
-
-> /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
-	*	1610881243	0
-	"	3	0
-
-> /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
-	*	1610881202	0
-	"	24	0
-
-> /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
-	*	1610881192	0
-	"	1	0
-	.	5	0
+	^	1	1
+	.	1	1
 	+	5	0
+	+	4	6
+	+	5	6
+	+	1	1
+
+> ~/documents/code/python/test.py
+	*	1612428798	0
+	"	3	0
+	^	3	0
+	.	3	0
+	+	4	0
+	+	4	19
+	+	4	29
+	+	4	14
+	+	4	16
+	+	4	15
+	+	4	14
+	+	4	20
+	+	1	17
+	+	4	6
+	+	4	20
+	+	2	0
+	+	4	0
+	+	2	0
+	+	4	12
+	+	2	20
+	+	4	14
+	+	4	22
+	+	4	17
+	+	4	18
+	+	4	12
+	+	4	0
+	+	4	7
+	+	4	13
+	+	4	11
+	+	4	9
+	+	4	0
+	+	4	49
+	+	4	0
+	+	3	8
+	+	4	40
+	+	3	12
+	+	4	7
+	+	4	10
+	+	4	0
+	+	4	15
+	+	4	19
+	+	4	8
+	+	4	0
+	+	4	7
+	+	4	0
+	+	4	7
+	+	4	18
+	+	4	7
+	+	4	10
+	+	3	12
+	+	4	22
+	+	4	13
+	+	4	7
+	+	4	26
+	+	4	10
+	+	4	11
+	+	4	14
+	+	4	66
+	+	5	0
+	+	4	29
+	+	5	19
+	+	5	0
+	+	4	0
+	+	5	0
+	+	1	17
+	+	3	13
+	+	4	14
+	+	3	6
+	+	4	0
+	+	3	21
+	+	4	11
+	+	4	12
+	+	4	7
+	+	4	11
+	+	4	0
+	+	4	10
+	+	4	0
+	+	3	0
+
+> ~/git/dots/zsh/.config/zsh/.zshrc
+	*	1612401858	0
+	"	27	47
+	^	27	48
+	.	27	47
+	+	24	52
+	+	25	0
+	+	23	18
+	+	26	17
+	+	27	47
 
 > ~/git/dots/polybar/.config/polybar/config
-	*	1610665715	0
-	"	200	16
+	*	1612400610	0
+	"	126	0
 	^	200	17
 	.	200	17
 	+	134	0
@@ -589,6 +660,195 @@ $
 	+	199	36
 	+	200	17
 
+> ~/documents/code/cpp/test.cpp
+	*	1612390919	0
+	"	13	17
+	^	2	23
+	.	11	17
+	+	7	0
+	+	2	16
+	+	9	19
+	+	10	0
+	+	11	0
+	+	13	32
+	+	2	22
+	+	10	17
+	+	11	17
+
+> ~/git/scripts/scripts/.scripts/randback
+	*	1612390421	0
+	"	1	8
+	^	1	9
+	.	1	8
+	+	1	8
+
+> ~/git/dots/bspwm/.config/bspwm/bspwmrc
+	*	1612237754	0
+	"	24	0
+	.	25	0
+	+	7	33
+	+	6	32
+	+	8	0
+	+	12	1
+	+	6	32
+	+	22	56
+	+	23	27
+	+	25	0
+
+> ~/git/scripts/scripts/.scripts/win10
+	*	1612227349	0
+	"	2	0
+	^	1	11
+	.	1	10
+	+	3	138
+	+	1	10
+
+> ~/git/scripts/scripts/.scripts/wifitest
+	*	1612227339	0
+	"	1	10
+	^	1	11
+	.	1	10
+	+	1	10
+
+> ~/git/scripts/scripts/.scripts/volcontrols
+	*	1612227331	0
+	"	1	10
+	^	1	11
+	.	1	0
+	+	1	0
+
+> ~/git/scripts/scripts/.scripts/font-awesome-select
+	*	1612227284	0
+	"	1	10
+	^	1	11
+	.	1	10
+	+	1	10
+
+> ~/git/scripts/scripts/.scripts/dwmbar
+	*	1612227277	0
+	"	1	10
+	^	1	11
+	.	1	10
+	+	1	10
+
+> ~/git/scripts/scripts/.scripts/dprop
+	*	1612227258	0
+	"	1	0
+	.	1	0
+	+	1	10
+	+	1	0
+
+> ~/git/scripts/scripts/.scripts/chbg
+	*	1612227235	0
+	"	1	10
+	^	1	11
+	.	1	10
+	+	1	10
+
+> ~/git/scripts/scripts/.scripts/brightcontrols
+	*	1612227218	0
+	"	1	10
+	^	1	11
+	.	1	10
+	+	6	8
+	+	10	8
+	+	1	10
+
+> ~/git/scripts/scripts/.scripts/sink
+	*	1612227200	0
+	"	3	7
+	^	3	7
+	.	3	6
+	+	1	11
+	+	3	6
+
+> ~/documents/tex/resume.tex
+	*	1612147140	0
+	"	1	1
+	^	54	35
+	.	54	34
+	+	54	34
+
+> /etc/modprobe.d/iwlwifi.conf
+	*	1611921482	0
+	"	1	16
+
+> /sys/module/iwlwifi/parameters/bt_coex_active
+	*	1611921410	0
+	"	1	0
+
+> ~/documents/code/opy
+	*	1611920362	0
+	"	1	0
+
+> ~/vimwiki/index.md
+	*	1611919975	0
+	"	1	0
+	^	6	27
+	.	6	26
+	+	12	0
+	+	5	0
+	+	9	0
+	+	6	26
+
+> ~/vimwiki/chemistry/organic_chemistry/topic_1.md
+	*	1611919904	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	4
+	+	1	0
+
+> ~/vimwiki/chemistry/organic_chemistry/organic_chemistry.md
+	*	1611919898	0
+	"	4	2
+
+> ~/vimwiki/chemistry/chemistry.md
+	*	1611919897	0
+	"	4	2
+
+> ~/git/dots/sxhkd/.config/sxhkd/sxhkdrc
+	*	1611874004	0
+	"	27	16
+	^	27	17
+	.	27	16
+	+	56	29
+	+	57	18
+	+	39	28
+	+	49	3
+	+	39	56
+	+	26	9
+	+	27	16
+
+> /boot/efi/EFI/BOOT/refind.conf
+	*	1610978142	0
+	"	657	51
+	^	657	52
+	.	657	52
+	+	657	52
+
+> /boot/initramfs-linux-fallback.img
+	*	1610977899	0
+	"	1	0
+
+> ~/downloads/rEFInd-glassy/theme.conf
+	*	1610977854	0
+	"	1	0
+
+> /boot/efi/EFI/BOOT/themes/dm-refind-theme/theme.conf
+	*	1610881243	0
+	"	3	0
+
+> /boot/efi/EFI/BOOT/themes/ursamajor-rEFInd/theme.conf
+	*	1610881202	0
+	"	24	0
+
+> /boot/efi/EFI/BOOT/themes/refind-theme-regular-black/theme.conf
+	*	1610881192	0
+	"	1	0
+	.	5	0
+	+	5	0
+
 > ~/git/dots/polybar/.config/polybar/blocks/modules.ini
 	*	1610665544	0
 	"	188	0
@@ -605,55 +865,13 @@ $
 	*	1610610304	0
 	"	1	0
 
-> ~/git/dots/bspwm/.config/bspwm/bspwmrc
-	*	1610592479	0
-	"	6	32
-	^	6	33
-	.	6	32
-	+	7	33
-	+	6	32
-	+	8	0
-	+	12	1
-	+	6	32
-
 > ~/git/dots/fontconfig/.config/fontconfig/fonts.conf
 	*	1610560360	0
 	"	1	1
 
-> ~/git/dots/zsh/.config/zsh/.zshrc
-	*	1610557300	0
-	"	26	17
-	^	26	18
-	.	26	17
-	+	24	52
-	+	25	0
-	+	23	18
-	+	26	17
-
 > ~/git/dots/zsh/.config/zsh/.zsh
 	*	1610557272	0
 	"	1	0
-
-> ~/.xinitrc
-	*	1610556902	0
-	"	1	0
-	^	5	7
-	.	1	0
-	+	5	0
-	+	4	6
-	+	5	6
-	+	1	0
-
-> ~/git/dots/sxhkd/.config/sxhkd/sxhkdrc
-	*	1610467067	0
-	"	35	56
-	^	35	29
-	.	35	56
-	+	52	29
-	+	53	18
-	+	35	28
-	+	45	3
-	+	35	56
 
 > ~/.bs
 	*	1610467028	0
@@ -820,13 +1038,6 @@ $
 	+	30	0
 	+	29	0
 	+	19	0
-
-> ~/git/scripts/scripts/.scripts/win10
-	*	1607002548	0
-	"	1	0
-	^	3	139
-	.	3	138
-	+	3	138
 
 > /tmp/vifm.rename_2622826233_00
 	*	1606998566	0
@@ -1239,16 +1450,6 @@ $
 	+	4	232
 	+	1	0
 
-> ~/vimwiki/index.md
-	*	1606127204	0
-	"	6	2
-	^	6	27
-	.	6	26
-	+	12	0
-	+	5	0
-	+	9	0
-	+	6	26
-
 > /tmp/vifm.rename_6535065355_00
 	*	1606124474	0
 	"	1	29
@@ -1506,10 +1707,6 @@ $
 	.	1	13
 	+	1	13
 
-> ~/vimwiki/chemistry/chemistry.md
-	*	1605434080	0
-	"	1	0
-
 > /usr/share/vim/vim82/doc/options.txt
 	*	1605433698	0
 	"	4861	0
@@ -1517,13 +1714,6 @@ $
 > /usr/share/vim/vim82/doc/eval.txt
 	*	1605433332	0
 	"	266	33
-
-> ~/git/scripts/scripts/.scripts/brightcontrols
-	*	1605395169	0
-	"	10	8
-	.	10	8
-	+	6	8
-	+	10	8
 
 > ~/.local/share/Steam/steamapps/common/Spelunky 2/spelunky.log
 	*	1605373104	0
@@ -1610,20 +1800,3 @@ $
 	+	9	14
 	+	4	0
 	+	3	0
-
-> /tmp/vifm.rename_46314636_00
-	*	1604997301	0
-	"	1	0
-	^	8	1
-	.	1	0
-	+	8	0
-	+	1	0
-
-> /tmp/vifm.rename_22522257_00
-	*	1604980475	0
-	"	26	0
-	^	1	21
-	.	1	0
-	+	1	20
-	+	2	0
-	+	1	0
