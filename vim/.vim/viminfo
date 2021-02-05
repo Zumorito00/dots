@@ -20,12 +20,12 @@
 $
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1612506223,,"q"
 :wq
-|2,0,1612436352,,"wq"
+|2,0,1612506208,,"wq"
 :w
 |2,0,1612436351,,"w"
-:q
-|2,0,1612436322,,"q"
 :W
 |2,0,1612400788,,"W"
 :!st &
@@ -275,36 +275,84 @@ $
 |3,0,36,0,1,0,1612431467,"a"
 
 # File marks:
-'0  27  54  ~/git/dots/setup.sh
-|4,48,27,54,1612436352,"~/git/dots/setup.sh"
-'1  8  0  ~/git/dots
-|4,49,8,0,1612436322,"~/git/dots"
-'2  1  0  ~/.xinitrc
-|4,50,1,0,1612431472,"~/.xinitrc"
-'3  3  0  ~/documents/code/python/test.py
-|4,51,3,0,1612428799,"~/documents/code/python/test.py"
-'4  4  7  ~/documents/code/python/test.py
-|4,52,4,7,1612409374,"~/documents/code/python/test.py"
-'5  5  7  ~/documents/code/python/test.py
-|4,53,5,7,1612409374,"~/documents/code/python/test.py"
-'6  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,54,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
-'7  126  0  ~/git/dots/polybar/.config/polybar/config
-|4,55,126,0,1612400610,"~/git/dots/polybar/.config/polybar/config"
-'8  4  4  ~/documents/code/python/test.py
-|4,56,4,4,1612392921,"~/documents/code/python/test.py"
-'9  11  4  ~/documents/code/python/test.py
-|4,57,11,4,1612392921,"~/documents/code/python/test.py"
+'0  1  0  ~/git/dots/setup.sh
+|4,48,1,0,1612506223,"~/git/dots/setup.sh"
+'1  1  0  ~/git/dots/.git/MERGE_MSG
+|4,49,1,0,1612506208,"~/git/dots/.git/MERGE_MSG"
+'2  27  54  ~/git/dots/setup.sh
+|4,50,27,54,1612436352,"~/git/dots/setup.sh"
+'3  27  54  ~/git/dots/setup.sh
+|4,51,27,54,1612436352,"~/git/dots/setup.sh"
+'4  8  0  ~/git/dots
+|4,52,8,0,1612436322,"~/git/dots"
+'5  1  0  ~/.xinitrc
+|4,53,1,0,1612431472,"~/.xinitrc"
+'6  3  0  ~/documents/code/python/test.py
+|4,54,3,0,1612428799,"~/documents/code/python/test.py"
+'7  4  7  ~/documents/code/python/test.py
+|4,55,4,7,1612409374,"~/documents/code/python/test.py"
+'8  5  7  ~/documents/code/python/test.py
+|4,56,5,7,1612409374,"~/documents/code/python/test.py"
+'9  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
+|4,57,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
 
 # Jumplist (newest first):
+-'  1  0  ~/git/dots/setup.sh
+|4,39,1,0,1612506223,"~/git/dots/setup.sh"
+-'  1  0  ~/git/dots/.git/MERGE_MSG
+|4,39,1,0,1612506208,"~/git/dots/.git/MERGE_MSG"
+-'  1  0  ~/git/dots/.git/MERGE_MSG
+|4,39,1,0,1612506208,"~/git/dots/.git/MERGE_MSG"
 -'  27  54  ~/git/dots/setup.sh
 |4,39,27,54,1612436352,"~/git/dots/setup.sh"
+-'  27  54  ~/git/dots/setup.sh
+|4,39,27,54,1612436352,"~/git/dots/setup.sh"
+-'  27  54  ~/git/dots/setup.sh
+|4,39,27,54,1612436352,"~/git/dots/setup.sh"
+-'  1  0  ~/git/dots/setup.sh
+|4,39,1,0,1612436333,"~/git/dots/setup.sh"
 -'  1  0  ~/git/dots/setup.sh
 |4,39,1,0,1612436333,"~/git/dots/setup.sh"
 -'  8  0  ~/git/dots
 |4,39,8,0,1612436322,"~/git/dots"
 -'  8  0  ~/git/dots
 |4,39,8,0,1612436322,"~/git/dots"
+-'  8  0  ~/git/dots
+|4,39,8,0,1612436322,"~/git/dots"
+-'  8  0  ~/git/dots
+|4,39,8,0,1612436322,"~/git/dots"
+-'  8  0  ~/git/dots
+|4,39,8,0,1612436322,"~/git/dots"
+-'  8  0  ~/git/dots
+|4,39,8,0,1612436322,"~/git/dots"
+-'  8  0  ~/git/dots
+|4,39,8,0,1612436322,"~/git/dots"
+-'  8  0  ~/git/dots
+|4,39,8,0,1612436322,"~/git/dots"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1612431472,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1612431472,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1612431472,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1612431472,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1612431472,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1612431472,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1612431472,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1612431472,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1612431472,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1612431472,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1612431472,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1612431472,"~/.xinitrc"
 -'  1  0  ~/.xinitrc
 |4,39,1,0,1612431472,"~/.xinitrc"
 -'  1  0  ~/.xinitrc
@@ -329,6 +377,102 @@ $
 |4,39,3,0,1612428799,"~/documents/code/python/test.py"
 -'  3  0  ~/documents/code/python/test.py
 |4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  3  0  ~/documents/code/python/test.py
+|4,39,3,0,1612428799,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
+-'  1  0  ~/documents/code/python/test.py
+|4,39,1,0,1612409394,"~/documents/code/python/test.py"
 -'  1  0  ~/documents/code/python/test.py
 |4,39,1,0,1612409394,"~/documents/code/python/test.py"
 -'  1  0  ~/documents/code/python/test.py
@@ -353,159 +497,19 @@ $
 |4,39,4,7,1612409374,"~/documents/code/python/test.py"
 -'  5  7  ~/documents/code/python/test.py
 |4,39,5,7,1612409374,"~/documents/code/python/test.py"
--'  4  7  ~/documents/code/python/test.py
-|4,39,4,7,1612409374,"~/documents/code/python/test.py"
--'  5  7  ~/documents/code/python/test.py
-|4,39,5,7,1612409374,"~/documents/code/python/test.py"
--'  4  7  ~/documents/code/python/test.py
-|4,39,4,7,1612409374,"~/documents/code/python/test.py"
--'  5  7  ~/documents/code/python/test.py
-|4,39,5,7,1612409374,"~/documents/code/python/test.py"
--'  4  7  ~/documents/code/python/test.py
-|4,39,4,7,1612409374,"~/documents/code/python/test.py"
--'  5  7  ~/documents/code/python/test.py
-|4,39,5,7,1612409374,"~/documents/code/python/test.py"
--'  4  7  ~/documents/code/python/test.py
-|4,39,4,7,1612409374,"~/documents/code/python/test.py"
--'  5  7  ~/documents/code/python/test.py
-|4,39,5,7,1612409374,"~/documents/code/python/test.py"
--'  4  7  ~/documents/code/python/test.py
-|4,39,4,7,1612409374,"~/documents/code/python/test.py"
--'  5  7  ~/documents/code/python/test.py
-|4,39,5,7,1612409374,"~/documents/code/python/test.py"
--'  4  7  ~/documents/code/python/test.py
-|4,39,4,7,1612409374,"~/documents/code/python/test.py"
--'  5  7  ~/documents/code/python/test.py
-|4,39,5,7,1612409374,"~/documents/code/python/test.py"
--'  3  13  ~/documents/code/python/test.py
-|4,39,3,13,1612409306,"~/documents/code/python/test.py"
--'  3  13  ~/documents/code/python/test.py
-|4,39,3,13,1612409306,"~/documents/code/python/test.py"
--'  3  13  ~/documents/code/python/test.py
-|4,39,3,13,1612409306,"~/documents/code/python/test.py"
--'  3  13  ~/documents/code/python/test.py
-|4,39,3,13,1612409306,"~/documents/code/python/test.py"
--'  3  13  ~/documents/code/python/test.py
-|4,39,3,13,1612409306,"~/documents/code/python/test.py"
--'  3  13  ~/documents/code/python/test.py
-|4,39,3,13,1612409306,"~/documents/code/python/test.py"
--'  3  13  ~/documents/code/python/test.py
-|4,39,3,13,1612409306,"~/documents/code/python/test.py"
--'  3  13  ~/documents/code/python/test.py
-|4,39,3,13,1612409306,"~/documents/code/python/test.py"
--'  4  12  ~/documents/code/python/test.py
-|4,39,4,12,1612409035,"~/documents/code/python/test.py"
--'  4  12  ~/documents/code/python/test.py
-|4,39,4,12,1612409035,"~/documents/code/python/test.py"
--'  4  12  ~/documents/code/python/test.py
-|4,39,4,12,1612409035,"~/documents/code/python/test.py"
--'  4  12  ~/documents/code/python/test.py
-|4,39,4,12,1612409035,"~/documents/code/python/test.py"
--'  4  12  ~/documents/code/python/test.py
-|4,39,4,12,1612409035,"~/documents/code/python/test.py"
--'  4  12  ~/documents/code/python/test.py
-|4,39,4,12,1612409035,"~/documents/code/python/test.py"
--'  4  12  ~/documents/code/python/test.py
-|4,39,4,12,1612409035,"~/documents/code/python/test.py"
--'  4  12  ~/documents/code/python/test.py
-|4,39,4,12,1612409035,"~/documents/code/python/test.py"
--'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  10  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,10,0,1612401158,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,1,0,1612401086,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,1,0,1612401086,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,1,0,1612401086,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,1,0,1612401086,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,1,0,1612401086,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,1,0,1612401086,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,1,0,1612401086,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,1,0,1612401086,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,1,0,1612401086,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,1,0,1612401086,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,1,0,1612401086,"~/git/dots/zsh/.config/zsh/.zshrc"
--'  1  0  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,39,1,0,1612401086,"~/git/dots/zsh/.config/zsh/.zshrc"
 
 # History of marks within files (newest to oldest):
 
 > ~/git/dots/setup.sh
-	*	1612436351	0
-	"	27	54
+	*	1612506221	0
+	"	1	0
 	^	27	55
 	.	27	54
 	+	27	54
+
+> ~/git/dots/.git/MERGE_MSG
+	*	1612506194	0
+	"	1	0
 
 > ~/.xinitrc
 	*	1612431471	0
@@ -1782,21 +1786,3 @@ $
 > ~/git/dots/vim/.vim/plugged/vimtex/doc/vimtex.txt
 	*	1605091617	0
 	"	130	60
-
-> ~/test.tex
-	*	1605082449	0
-	"	3	1
-	.	3	0
-	+	1	0
-	+	9	0
-	+	1	22
-	+	4	19
-	+	9	8
-	+	4	22
-	+	2	0
-	+	6	21
-	+	9	16
-	+	4	17
-	+	9	14
-	+	4	0
-	+	3	0
