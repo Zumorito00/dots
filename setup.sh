@@ -57,7 +57,7 @@ git_setup() {
     cd ~/build
     git clone https://github.com/GideonWolfe/Zathura-Pywal
     git clone https://github.com/Zumorito00/st
-    git clone https://github.com/Zumorito00/dwm
+    # git clone https://github.com/Zumorito00/dwm
     cd
     echo Done!
 }
@@ -72,7 +72,7 @@ yay_setup() {
     echo Done!
 
     echo Installing yay packages...
-    yay -S libnotify-id picom-ibhagwan-git
+    yay -S libnotify-id picom-ibhagwan-git polybar
     echo Done!
 }
 
@@ -101,7 +101,7 @@ case $1 in
     -y|--yay)
         yay_setup
         ;;
-    -all)
+    --all)
         xorg_setup
         essentials_setup
         audio_setup

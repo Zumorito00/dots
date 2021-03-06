@@ -25,8 +25,9 @@ Plug 'tpope/vim-surround'
 " Vimwiki
 Plug 'vimwiki/vimwiki'
 let g:vimwiki_table_mappings = 0
-let g:vimwiki_list = [{'path': '~/vimwiki/',
-                      \ 'syntax': 'markdown', 'ext': '.md'}]
+let g:vimwiki_list = [{'path': '/media/uni',
+                        \ 'path_html': '/media/uni/export',
+                        \ 'syntax': 'markdown', 'ext': '.md'}]
 
 " Auto save on exit insert mode
 Plug '907th/vim-auto-save'

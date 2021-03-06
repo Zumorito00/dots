@@ -11,41 +11,95 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/ceil
+~MSle0~/hl
 
 # Last Substitute Search Pattern:
-~MSle0&}
+~MSle0&xst
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1612506223,,"q"
 :wq
-|2,0,1612506208,,"wq"
-:w
-|2,0,1612436351,,"w"
+|2,0,1615032201,,"wq"
 :W
-|2,0,1612400788,,"W"
+|2,0,1615032195,,"W"
+:!zth week_1.pdf
+|2,0,1615020448,,"!zth week_1.pdf"
+:WE
+|2,0,1615020387,,"WE"
+:q
+|2,0,1615020147,,"q"
+:!zth test.pdf
+|2,0,1615019976,,"!zth test.pdf"
+:!
+|2,0,1615019966,,"!"
+:w
+|2,0,1615019961,,"w"
+:noh
+|2,0,1615019655,,"noh"
+:UltiSnipsEdit
+|2,0,1615019565,,"UltiSnipsEdit"
+:q!
+|2,0,1615016260,,"q!"
+:Q
+|2,0,1614623216,,"Q"
+:%s/}/}}
+|2,0,1614510158,,"%s/}/}}"
+:%s/{/{{/
+|2,0,1614510152,,"%s/{/{{/"
+:e
+|2,0,1614509068,,"e"
+:%s/xst/st/g
+|2,0,1614508596,,"%s/xst/st/g"
+:wq~
+|2,0,1614506910,,"wq~"
+:%s/!/\\!/g
+|2,0,1614065032,,"%s/!/\\\\!/g"
 :!st &
-|2,0,1612392900,,"!st &"
+|2,0,1614079879,,"!st &"
+:st &
+|2,0,1614079874,,"st &"
+:%s/;/\n/g
+|2,0,1614065640,,"%s/;/\\n/g"
+:%s/\\//
+|2,0,1614064952,,"%s/\\\\//"
+:'<,'>s/:/\\:/
+|2,0,1614064803,,"'<,'>s/:/\\\\:/"
+:'<,'>s/:/:\t/
+|2,0,1614064234,,"'<,'>s/:/:\\t/"
+:'<,'>s/\s//g
+|2,0,1614064229,,"'<,'>s/\\s//g"
+:'<,'>s/\s/\t/
+|2,0,1614064173,,"'<,'>s/\\s/\\t/"
+:'<,'>s/\s/\t/g
+|2,0,1614064164,,"'<,'>s/\\s/\\t/g"
+:!zth text.pdf
+|2,0,1613102216,,"!zth text.pdf"
+:'<,'>s/0.25/0.2/g
+|2,0,1613102080,,"'<,'>s/0.25/0.2/g"
+:s/0.33/0.25/g
+|2,0,1613099266,,"s/0.33/0.25/g"
+:%s/1ex/1em/g
+|2,0,1613098725,,"%s/1ex/1em/g"
+:%s/\$\s/\$/g
+|2,0,1613098704,,"%s/\\$\\s/\\$/g"
+:s/\\backslash/\$\\backslash\$/g
+|2,0,1613098453,,"s/\\\\backslash/\\$\\\\backslash\\$/g"
+:LL
+|2,0,1613096761,,"LL"
+:PlugInstall
+|2,0,1612794101,,"PlugInstall"
+:UseVimball
+|2,0,1612794063,,"UseVimball"
 :s
 |2,0,1612392884,,"s"
 :!st 
 |2,0,1612392884,,"!st "
-:noh
-|2,0,1612391094,,"noh"
 :Wq
 |2,0,1612227277,,"Wq"
-:WE
-|2,0,1612226974,,"WE"
-:Q
-|2,0,1611919904,,"Q"
 :no
 |2,0,1611873975,,"no"
-:q!
-|2,0,1610978144,,"q!"
 :wq!
 |2,0,1610978141,,"wq!"
 :nog
@@ -64,164 +118,110 @@ $
 |2,0,1610206311,,"s/\\s/_/g"
 :s/\./_/g
 |2,0,1610206287,,"s/\\./_/g"
-:LL
-|2,0,1606808474,,"LL"
 :'<,'>s/tabular/tabularx/
 |2,0,1606793788,,"'<,'>s/tabular/tabularx/"
-:s/\\\\//
-|2,0,1606789191,,"s/\\\\\\\\//"
-:'<,'>s/75/6
-|2,0,1606788973,,"'<,'>s/75/6"
-:'<,'>s/25/2
-|2,0,1606788949,,"'<,'>s/25/2"
-:set list!
-|2,0,1606556668,,"set list!"
-:set nu!
-|2,0,1605830768,,"set nu!"
-:nu!
-|2,0,1605830765,,"nu!"
-:colorscheme koehler
-|2,0,1605606600,,"colorscheme koehler"
-:UltiSnipsEdit
-|2,0,1605493001,,"UltiSnipsEdit"
-:pwd
-|2,0,1605492787,,"pwd"
-:'<,'>s/\\\\/\\\\\[1ex\]/g
-|2,0,1605434763,,"'<,'>s/\\\\\\\\/\\\\\\\\\\[1ex\\]/g"
-:'<,'>s/|/\&/g
-|2,0,1605434502,,"'<,'>s/|/\\&/g"
-:colorscheme desert
-|2,0,1605434364,,"colorscheme desert"
-:help listchars
-|2,0,1605433627,,"help listchars"
-:set listchars=eol:$,tab:>
-|2,0,1605433926,,"set listchars=eol:$,tab:>"
-:set listchars=eol:$
-|2,0,1605433918,,"set listchars=eol:$"
-:set list
-|2,0,1605433899,,"set list"
-:set nolist
-|2,0,1605433571,,"set nolist"
-:unset list
-|2,0,1605433563,,"unset list"
-:set listchars+=space:·
-|2,0,1605433541,,"set listchars+=space:·"
-:list
-|2,0,1605433512,,"list"
-:help list
-|2,0,1605433326,,"help list"
-:'<,'>s/flalign\*/gather\*/
-|2,0,1605433087,,"'<,'>s/flalign\\*/gather\\*/"
-:PlugInstall
-|2,0,1605355995,,"PlugInstall"
-:PlugClean
-|2,0,1605355886,,"PlugClean"
-:U
-|2,0,1605355684,,"U"
-:PlugUpgrade
-|2,0,1605355430,,"PlugUpgrade"
 
 # Search String History (newest to oldest):
+?/hl
+|2,1,1615019649,47,"hl"
+?/subsub
+|2,1,1615019575,47,"subsub"
+?/doc
+|2,1,1615016892,47,"doc"
 ? @$
-|2,1,1612436320,,"@$"
-??ceil
-|2,1,1612391088,63,"ceil"
-?/spot
-|2,1,1612237704,47,"spot"
-?/aug
-|2,1,1612147115,47,"aug"
-?/aug 2020
-|2,1,1612147112,47,"aug 2020"
-?/\s$
-|2,1,1611873966,47,"\\s$"
-?/super + c$
-|2,1,1611873934,47,"super + c$"
-?/super + c
-|2,1,1611873928,47,"super + c"
-?/shift + w
-|2,1,1611873370,47,"shift + w"
-?/battery
-|2,1,1610665460,47,"battery"
-?/full
-|2,1,1610665416,47,"full"
-?/title
-|2,1,1610610576,47,"title"
-??window
-|2,1,1610610868,63,"window"
-?/module
-|2,1,1610610728,47,"module"
-?/bspwm
-|2,1,1610610536,47,"bspwm"
-?/color8
-|2,1,1610610332,47,"color8"
-?/empty
-|2,1,1610610274,47,"empty"
-?/margin
-|2,1,1610592193,47,"margin"
-?/padding
-|2,1,1610592182,47,"padding"
-?/wlan
-|2,1,1610562043,47,"wlan"
-?/date
-|2,1,1610561527,47,"date"
-?/made
-|2,1,1610561523,47,"made"
-?/height
-|2,1,1610560850,47,"height"
-?/fill
-|2,1,1610559647,47,"fill"
-?/batter
-|2,1,1610558033,47,"batter"
-?/50
-|2,1,1610467054,47,"50"
-?/border
-|2,1,1610466567,47,"border"
+|2,1,1615016490,,"@$"
+?/back
+|2,1,1614510590,47,"back"
 ? }
-|2,1,1610466435,,"}"
+|2,1,1614510158,,"}"
 ? {
-|2,1,1610466428,,"{"
-? \.
-|2,1,1610206409,,"\\."
-? \s
-|2,1,1610206311,,"\\s"
-?/1d6b
-|2,1,1607042735,47,"1d6b"
-?/host
-|2,1,1607042228,47,"host"
-?/usb
-|2,1,1607041191,47,"usb"
-?/:
-|2,1,1607040080,47,":"
-?/vga
-|2,1,1607002531,47,"vga"
-?/mydisk
-|2,1,1607000264,47,"mydisk"
-?/M
-|2,1,1607000261,47,"M"
-?/closed
-|2,1,1606808548,47,"closed"
-?/larx
-|2,1,1606796275,47,"larx"
-?/x
-|2,1,1606796270,47,"x"
-? tabular
-|2,1,1606793788,,"tabular"
-?/hello
-|2,1,1606793392,47,"hello"
-?/#1
-|2,1,1606792783,47,"#1"
+|2,1,1614510152,,"{"
 ?/6
-|2,1,1606789304,47,"6"
-? \\\\
-|2,1,1606789191,,"\\\\\\\\"
-? 75
-|2,1,1606788973,,"75"
-? 25
-|2,1,1606788949,,"25"
-?/text
-|2,1,1606654693,47,"text"
-?/13
-|2,1,1606564301,47,"13"
+|2,1,1614509449,47,"6"
+?/c
+|2,1,1614509339,47,"c"
+?/xst
+|2,1,1614508632,47,"xst"
+? xst
+|2,1,1614508596,,"xst"
+?/usr
+|2,1,1614506532,47,"usr"
+?/signal
+|2,1,1614506524,47,"signal"
+?/ch
+|2,1,1614064604,47,"ch"
+?/chbh
+|2,1,1614064601,47,"chbh"
+? !
+|2,1,1614065032,,"!"
+?/drw
+|2,1,1614080031,47,"drw"
+?/xrdb
+|2,1,1614079850,47,"xrdb"
+?/re
+|2,1,1614079815,47,"re"
+?/resource
+|2,1,1614079683,47,"resource"
+?/int resource
+|2,1,1614079676,47,"int resource"
+?/resourse
+|2,1,1614079655,47,"resourse"
+?/load_x
+|2,1,1614079579,47,"load_x"
+?/xload
+|2,1,1614079566,47,"xload"
+? ;
+|2,1,1614065620,,";"
+?/usage
+|2,1,1614066348,47,"usage"
+?/Xflush
+|2,1,1614066343,47,"Xflush"
+??\a
+|2,1,1614066240,63,"\\a"
+? \\
+|2,1,1614064952,,"\\\\"
+? :
+|2,1,1614064803,,":"
+? \s
+|2,1,1614064229,,"\\s"
+?/Keys
+|2,1,1614062829,47,"Keys"
+?/urxvt
+|2,1,1614062433,47,"urxvt"
+?/st
+|2,1,1614062431,47,"st"
+?/F5
+|2,1,1614062377,47,"F5"
+?/config
+|2,1,1614062361,47,"config"
+?/ipc
+|2,1,1613519402,47,"ipc"
+?/calcu
+|2,1,1613518968,47,"calcu"
+?/cal
+|2,1,1613446444,47,"cal"
+?/\/\s
+|2,1,1613102112,47,"\\/\\s"
+?/pay em
+|2,1,1613102099,47,"pay em"
+? 0.25
+|2,1,1613102080,,"0.25"
+??custom
+|2,1,1613100355,63,"custom"
+?/end of
+|2,1,1613100291,47,"end of"
+?/Tax
+|2,1,1613099873,47,"Tax"
+? 0.33
+|2,1,1613099266,,"0.33"
+? 1ex
+|2,1,1613098725,,"1ex"
+? \$\s
+|2,1,1613098704,,"\\$\\s"
+? \\backslash
+|2,1,1613098453,,"\\\\backslash"
+?/^HO
+|2,1,1612908680,47,"^HO"
 
 # Expression History (newest to oldest):
 
@@ -232,287 +232,699 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	CHAR	0
-	a
-|3,1,0,0,1,0,1612436320,"a"
+""0	LINE	0
+	! *.foreground:	#F8F8F2
+|3,1,0,1,1,0,1615032448,"! *.foreground:	#F8F8F2"
 "1	LINE	0
-	hello = 'hello'
-	
-	inc = 'x' in hello
-	
-	print (inc)
-|3,0,1,1,5,0,1612409399,"hello = 'hello'","","inc = 'x' in hello","","print (inc)"
+	let g:vimwiki_list = [{'path': '/media/uni',
+	                      \ 'syntax': 'markdown', 'ext': '.md'}]
+|3,0,1,1,2,0,1615025344,"let g:vimwiki_list = [{'path': '/media/uni',","                      \\ 'syntax': 'markdown', 'ext': '.md'}]"
 "2	LINE	0
-	numbers = range(1,100)
-	
-	print (numbers[8:10])
-|3,0,2,1,3,0,1612409307,"numbers = range(1,100)","","print (numbers[8:10])"
+	let g:vimwiki_list = [{'path': '/media/uni',
+	                      \ 'syntax': 'markdown', 'ext': '.md'}]
+|3,0,2,1,2,0,1615025344,"let g:vimwiki_list = [{'path': '/media/uni',","                      \\ 'syntax': 'markdown', 'ext': '.md'}]"
 "3	LINE	0
-	print (str[-1])
-|3,0,3,1,1,0,1612408940,"print (str[-1])"
+	let g:vimwiki_list = [{'path': '/media/uni',
+	                      \ 'syntax': 'markdown', 'ext': '.md'}]
+|3,0,3,1,2,0,1615025344,"let g:vimwiki_list = [{'path': '/media/uni',","                      \\ 'syntax': 'markdown', 'ext': '.md'}]"
 "4	LINE	0
-	str = "mdksamd"
-|3,0,4,1,1,0,1612408930,"str = \"mdksamd\""
+	let g:vimwiki_list = [{'path': '/media/uni',
+	                      \ 'syntax': 'markdown', 'ext': '.md'}]
+|3,0,4,1,2,0,1615025344,"let g:vimwiki_list = [{'path': '/media/uni',","                      \\ 'syntax': 'markdown', 'ext': '.md'}]"
 "5	LINE	0
-	str = mdksamd
-|3,0,5,1,1,0,1612400928,"str = mdksamd"
+	let g:vimwiki_list = [{'path': '/media/uni',
+	                      \ 'syntax': 'markdown', 'ext': '.md'}]
+|3,0,5,1,2,0,1615025344,"let g:vimwiki_list = [{'path': '/media/uni',","                      \\ 'syntax': 'markdown', 'ext': '.md'}]"
 "6	LINE	0
-	print ("Test".encode("UTF-8"))
-|3,0,6,1,1,0,1612400884,"print (\"Test\".encode(\"UTF-8\"))"
+	let g:vimwiki_list = [{'path': '/media/uni',
+	                      \ 'syntax': 'markdown', 'ext': '.md'}]
+|3,0,6,1,2,0,1615025344,"let g:vimwiki_list = [{'path': '/media/uni',","                      \\ 'syntax': 'markdown', 'ext': '.md'}]"
 "7	LINE	0
-	
-	for i in range(1,7):
-	    print(i)
-|3,0,7,1,3,0,1612392877,"","for i in range(1,7):","    print(i)"
+	let g:vimwiki_list = [{'path': '/media/uni',
+	                      \ 'syntax': 'markdown', 'ext': '.md'}]
+|3,0,7,1,2,0,1615025344,"let g:vimwiki_list = [{'path': '/media/uni',","                      \\ 'syntax': 'markdown', 'ext': '.md'}]"
 "8	LINE	0
-	print(range(1,7))
-|3,0,8,1,1,0,1612392855,"print(range(1,7))"
+	let g:vimwiki_list = [{'path': '/media/uni',
+	                      \ 'syntax': 'markdown', 'ext': '.md'}]
+|3,0,8,1,2,0,1615025344,"let g:vimwiki_list = [{'path': '/media/uni',","                      \\ 'syntax': 'markdown', 'ext': '.md'}]"
 "9	LINE	0
-	print(len(dict))
-|3,0,9,1,1,0,1612392810,"print(len(dict))"
+	let g:vimwiki_list = [{'path': '/media/uni',
+	                      \ 'syntax': 'markdown', 'ext': '.md'}]
+|3,0,9,1,2,0,1615025344,"let g:vimwiki_list = [{'path': '/media/uni',","                      \\ 'syntax': 'markdown', 'ext': '.md'}]"
+"q@	CHAR	0
+	dwdwj
+|3,2,26,0,1,0,1614509231,"dwdwj"
 "-	CHAR	0
-	a
-|3,0,36,0,1,0,1612431467,"a"
+	#F8F8F2
+|3,0,36,0,1,0,1615032451,"#F8F8F2"
 
 # File marks:
-'0  1  0  ~/git/dots/setup.sh
-|4,48,1,0,1612506223,"~/git/dots/setup.sh"
-'1  1  0  ~/git/dots/.git/MERGE_MSG
-|4,49,1,0,1612506208,"~/git/dots/.git/MERGE_MSG"
-'2  27  54  ~/git/dots/setup.sh
-|4,50,27,54,1612436352,"~/git/dots/setup.sh"
-'3  27  54  ~/git/dots/setup.sh
-|4,51,27,54,1612436352,"~/git/dots/setup.sh"
-'4  8  0  ~/git/dots
-|4,52,8,0,1612436322,"~/git/dots"
-'5  1  0  ~/.xinitrc
-|4,53,1,0,1612431472,"~/.xinitrc"
-'6  3  0  ~/documents/code/python/test.py
-|4,54,3,0,1612428799,"~/documents/code/python/test.py"
-'7  4  7  ~/documents/code/python/test.py
-|4,55,4,7,1612409374,"~/documents/code/python/test.py"
-'8  5  7  ~/documents/code/python/test.py
-|4,56,5,7,1612409374,"~/documents/code/python/test.py"
-'9  27  47  ~/git/dots/zsh/.config/zsh/.zshrc
-|4,57,27,47,1612401879,"~/git/dots/zsh/.config/zsh/.zshrc"
+'0  4  25  ~/.config/wal/templates/colors.Xresources
+|4,48,4,25,1615032476,"~/.config/wal/templates/colors.Xresources"
+'1  1  0  ~/.config/wal/templates/slate.rasi
+|4,49,1,0,1615032409,"~/.config/wal/templates/slate.rasi"
+'2  8  5  /media/uni/engineering_mathematics_math2393/week_1.tex
+|4,50,8,5,1615032201,"/media/uni/engineering_mathematics_math2393/week_1.tex"
+'3  4  25  ~/.config/wal/templates/colors.Xresources
+|4,51,4,25,1615032476,"~/.config/wal/templates/colors.Xresources"
+'4  1  0  ~/.config/wal/templates/slate.rasi
+|4,52,1,0,1615032409,"~/.config/wal/templates/slate.rasi"
+'5  29  24  ~/git/dots/vim/.vim/.vimrc
+|4,53,29,24,1615025360,"~/git/dots/vim/.vim/.vimrc"
+'6  1  0  /media/uni/index.md
+|4,54,1,0,1615025351,"/media/uni/index.md"
+'7  1  0  /media/uni/index.md
+|4,55,1,0,1615025351,"/media/uni/index.md"
+'8  1  0  /media/uni/index.wiki
+|4,56,1,0,1615025218,"/media/uni/index.wiki"
+'9  1  0  /media/uni/index.wiki
+|4,57,1,0,1615025214,"/media/uni/index.wiki"
 
 # Jumplist (newest first):
--'  1  0  ~/git/dots/setup.sh
-|4,39,1,0,1612506223,"~/git/dots/setup.sh"
--'  1  0  ~/git/dots/.git/MERGE_MSG
-|4,39,1,0,1612506208,"~/git/dots/.git/MERGE_MSG"
--'  1  0  ~/git/dots/.git/MERGE_MSG
-|4,39,1,0,1612506208,"~/git/dots/.git/MERGE_MSG"
--'  27  54  ~/git/dots/setup.sh
-|4,39,27,54,1612436352,"~/git/dots/setup.sh"
--'  27  54  ~/git/dots/setup.sh
-|4,39,27,54,1612436352,"~/git/dots/setup.sh"
--'  27  54  ~/git/dots/setup.sh
-|4,39,27,54,1612436352,"~/git/dots/setup.sh"
--'  1  0  ~/git/dots/setup.sh
-|4,39,1,0,1612436333,"~/git/dots/setup.sh"
--'  1  0  ~/git/dots/setup.sh
-|4,39,1,0,1612436333,"~/git/dots/setup.sh"
--'  8  0  ~/git/dots
-|4,39,8,0,1612436322,"~/git/dots"
--'  8  0  ~/git/dots
-|4,39,8,0,1612436322,"~/git/dots"
--'  8  0  ~/git/dots
-|4,39,8,0,1612436322,"~/git/dots"
--'  8  0  ~/git/dots
-|4,39,8,0,1612436322,"~/git/dots"
--'  8  0  ~/git/dots
-|4,39,8,0,1612436322,"~/git/dots"
--'  8  0  ~/git/dots
-|4,39,8,0,1612436322,"~/git/dots"
--'  8  0  ~/git/dots
-|4,39,8,0,1612436322,"~/git/dots"
--'  8  0  ~/git/dots
-|4,39,8,0,1612436322,"~/git/dots"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1612431472,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1612431472,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1612431472,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1612431472,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1612431472,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1612431472,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1612431472,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1612431472,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1612431472,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1612431472,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1612431472,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1612431472,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1612431472,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1612431472,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1612431472,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1612431472,"~/.xinitrc"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  3  0  ~/documents/code/python/test.py
-|4,39,3,0,1612428799,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  1  0  ~/documents/code/python/test.py
-|4,39,1,0,1612409394,"~/documents/code/python/test.py"
--'  4  7  ~/documents/code/python/test.py
-|4,39,4,7,1612409374,"~/documents/code/python/test.py"
--'  5  7  ~/documents/code/python/test.py
-|4,39,5,7,1612409374,"~/documents/code/python/test.py"
--'  4  7  ~/documents/code/python/test.py
-|4,39,4,7,1612409374,"~/documents/code/python/test.py"
--'  5  7  ~/documents/code/python/test.py
-|4,39,5,7,1612409374,"~/documents/code/python/test.py"
+-'  4  25  ~/.config/wal/templates/colors.Xresources
+|4,39,4,25,1615032476,"~/.config/wal/templates/colors.Xresources"
+-'  23  21  ~/.config/wal/templates/colors.Xresources
+|4,39,23,21,1615032446,"~/.config/wal/templates/colors.Xresources"
+-'  1  0  ~/.config/wal/templates/slate.rasi
+|4,39,1,0,1615032409,"~/.config/wal/templates/slate.rasi"
+-'  1  0  ~/.config/wal/templates/slate.rasi
+|4,39,1,0,1615032409,"~/.config/wal/templates/slate.rasi"
+-'  8  0  ~/.config/wal/templates
+|4,39,8,0,1615032408,"~/.config/wal/templates"
+-'  8  5  /media/uni/engineering_mathematics_math2393/week_1.tex
+|4,39,8,5,1615032201,"/media/uni/engineering_mathematics_math2393/week_1.tex"
+-'  29  24  ~/git/dots/vim/.vim/.vimrc
+|4,39,29,24,1615025360,"~/git/dots/vim/.vim/.vimrc"
+-'  29  24  ~/git/dots/vim/.vim/.vimrc
+|4,39,29,24,1615025360,"~/git/dots/vim/.vim/.vimrc"
+-'  29  24  ~/git/dots/vim/.vim/.vimrc
+|4,39,29,24,1615025360,"~/git/dots/vim/.vim/.vimrc"
+-'  29  24  ~/git/dots/vim/.vim/.vimrc
+|4,39,29,24,1615025360,"~/git/dots/vim/.vim/.vimrc"
+-'  1  0  /media/uni/index.md
+|4,39,1,0,1615025351,"/media/uni/index.md"
+-'  1  0  /media/uni/index.md
+|4,39,1,0,1615025351,"/media/uni/index.md"
+-'  1  0  /media/uni/index.md
+|4,39,1,0,1615025351,"/media/uni/index.md"
+-'  1  0  /media/uni/index.md
+|4,39,1,0,1615025351,"/media/uni/index.md"
+-'  1  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,1,0,1615025230,"~/git/dots/vim/.vim/.vimrc"
+-'  1  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,1,0,1615025230,"~/git/dots/vim/.vim/.vimrc"
+-'  1  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,1,0,1615025230,"~/git/dots/vim/.vim/.vimrc"
+-'  1  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,1,0,1615025230,"~/git/dots/vim/.vim/.vimrc"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025218,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025218,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025218,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025218,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025218,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025218,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025218,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025218,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025218,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025218,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025218,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025218,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025214,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025214,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025214,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025214,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025214,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025214,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025214,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025214,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025214,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025214,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025214,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025214,"/media/uni/index.wiki"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  28  41  ~/git/dots/vim/.vim/.vimrc
+|4,39,28,41,1615025206,"~/git/dots/vim/.vim/.vimrc"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025191,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025191,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025191,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025191,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025191,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025191,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025191,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025191,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025191,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025191,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025191,"/media/uni/index.wiki"
+-'  1  0  /media/uni/index.wiki
+|4,39,1,0,1615025191,"/media/uni/index.wiki"
+-'  1  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,1,0,1615024556,"~/git/dots/vim/.vim/.vimrc"
+-'  1  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,1,0,1615024556,"~/git/dots/vim/.vim/.vimrc"
+-'  1  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,1,0,1615024556,"~/git/dots/vim/.vim/.vimrc"
+-'  1  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,1,0,1615024556,"~/git/dots/vim/.vim/.vimrc"
+-'  1  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,1,0,1615024556,"~/git/dots/vim/.vim/.vimrc"
+-'  1  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,1,0,1615024556,"~/git/dots/vim/.vim/.vimrc"
+-'  1  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,1,0,1615024556,"~/git/dots/vim/.vim/.vimrc"
+-'  1  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,1,0,1615024556,"~/git/dots/vim/.vim/.vimrc"
+-'  1  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,1,0,1615024556,"~/git/dots/vim/.vim/.vimrc"
+-'  3  0  /media/uni/engineering_mathematics_math2393/week_1.tex
+|4,39,3,0,1615020389,"/media/uni/engineering_mathematics_math2393/week_1.tex"
 
 # History of marks within files (newest to oldest):
 
-> ~/git/dots/setup.sh
-	*	1612506221	0
-	"	1	0
-	^	27	55
-	.	27	54
-	+	27	54
+> ~/.config/wal/templates/colors.Xresources
+	*	1615032457	0
+	"	4	25
+	^	4	26
+	.	4	25
+	+	3	0
+	+	8	1
+	+	3	0
+	+	8	0
+	+	1	0
+	+	5	25
+	+	9	0
+	+	25	0
+	+	8	0
+	+	9	0
+	+	10	0
+	+	24	0
+	+	25	0
+	+	8	21
+	+	22	20
+	+	3	0
+	+	5	0
+	+	3	1
+	+	22	1
+	+	23	21
+	+	4	25
 
-> ~/git/dots/.git/MERGE_MSG
-	*	1612506194	0
+> ~/.config/wal/templates/slate.rasi
+	*	1615032408	0
 	"	1	0
+	^	22	24
+	.	20	31
+	+	1	0
+	+	7	0
+	+	2	27
+	+	4	25
+	+	2	31
+	+	42	27
+	+	3	23
+	+	20	31
+	+	22	23
+	+	20	31
+
+> /media/uni/engineering_mathematics_math2393/week_1.tex
+	*	1615032200	0
+	"	8	5
+	^	8	11
+	.	8	10
+	+	1	0
+	+	8	0
+	+	6	0
+	+	8	0
+	+	9	0
+	+	8	0
+	+	8	10
+
+> /media/uni/index.wiki
+	*	1615025217	0
+	"	1	0
+
+> /media/uni/engineering_mathematics_math2393/math2393.md
+	*	1615020383	0
+	"	7	2
+	^	7	21
+	.	8	0
+	+	1	27
+	+	2	0
+	+	3	14
+	+	4	1
+	+	3	14
+	+	4	0
+	+	5	0
+	+	6	11
+	+	7	0
+	+	7	10
+	+	7	0
+	+	7	21
+	+	8	0
+
+> /media/uni/index.md
+	*	1615020375	0
+	"	5	2
+	^	7	96
+	.	7	95
+	+	1	13
+	+	2	0
+	+	3	13
+	+	5	61
+	+	6	0
+	+	5	69
+	+	6	56
+	+	6	51
+	+	6	50
+	+	7	51
+	+	7	87
+	+	6	0
+	+	4	0
+	+	8	0
+	+	4	62
+	+	6	60
+	+	7	95
+
+> ~/test.tex
+	*	1615020113	0
+	"	3	0
+	^	5	8
+	.	5	7
+	+	1	0
+	+	10	0
+	+	9	0
+	+	8	0
+	+	10	18
+	+	11	21
+	+	12	24
+	+	14	0
+	+	10	16
+	+	12	7
+	+	8	15
+	+	9	0
+	+	8	0
+	+	1	0
+	+	5	0
+	+	4	0
+	+	3	0
+	+	5	7
+
+> ~/git/dots/vim/.vim/UltiSnips/tex.snippets
+	*	1615019661	0
+	"	93	8
+	^	92	14
+	.	92	13
+	+	26	0
+	+	25	0
+	+	24	0
+	+	23	0
+	+	22	0
+	+	21	0
+	+	20	0
+	+	19	0
+	+	18	0
+	+	17	0
+	+	16	0
+	+	18	0
+	+	24	0
+	+	18	0
+	+	19	0
+	+	18	0
+	+	19	0
+	+	130	10
+	+	65	22
+	+	92	13
+
+> ~/git/dots/vim/.vim/UltiSnips/plaintex.snippets
+	*	1615016931	0
+	"	66	16
+	^	66	17
+	.	66	16
+	+	65	28
+	+	66	16
+
+> ~/git/dots/sxhkd/.config/sxhkd/sxhkdrc
+	*	1615016512	0
+	"	61	0
+	^	27	11
+	.	27	11
+	+	56	29
+	+	57	18
+	+	39	28
+	+	49	3
+	+	39	56
+	+	26	9
+	+	27	16
+	+	25	8
+	+	27	11
+
+> ~/git/dots/vim/.vim/.vimrc
+	*	1615016233	0
+	"	1	0
+	^	30	26
+	.	28	0
+	+	43	6
+	+	25	0
+	+	32	19
+	+	32	25
+	+	56	19
+	+	25	0
+	+	32	0
+	+	12	0
+	+	3	0
+	+	5	0
+	+	4	0
+	+	128	28
+	+	126	11
+	+	128	23
+	+	128	16
+	+	127	0
+	+	131	31
+	+	126	10
+	+	88	0
+	+	80	14
+	+	81	28
+	+	81	0
+	+	56	17
+	+	63	0
+	+	132	1
+	+	132	0
+	+	108	0
+	+	81	18
+	+	87	63
+	+	87	46
+	+	87	19
+	+	88	0
+	+	81	0
+	+	85	0
+	+	87	0
+	+	89	0
+	+	93	0
+	+	28	74
+	+	28	41
+	+	29	23
+	+	28	43
+	+	29	25
+	+	28	30
+	+	29	59
+	+	30	26
+	+	28	0
+
+> ~/git/dots/vim/.vim/UltiSnips/vimwiki.snippets
+	*	1615016201	0
+	"	4	0
+	^	33	2
+	.	34	0
+	+	38	0
+	+	34	0
+
+> /media/uni/engineering_mathematics_math2393/week 1.md
+	*	1615016103	0
+	"	1	0
+
+> /media/uni/professional_engineering_oeng1166/oeng1166.md
+	*	1615016029	0
+	"	4	1
+	^	4	2
+	.	4	1
+	+	1	53
+	+	2	0
+	+	3	14
+	+	4	1
+
+> /media/uni/engineering_science_oeng1208/oeng1208.md
+	*	1615015917	0
+	"	4	1
+	^	4	2
+	.	4	1
+	+	1	23
+	+	2	0
+	+	3	15
+	+	4	1
+
+> /media/uni/digital_fundamentals_oeng1206/oeng1206.md
+	*	1615015874	0
+	"	4	1
+	^	4	2
+	.	4	1
+	+	1	24
+	+	2	0
+	+	3	14
+	+	4	1
+
+> ~/git/scripts/scripts/.scripts/chbg
+	*	1614993044	0
+	"	1	0
+	^	23	25
+	.	23	24
+	+	1	10
+	+	25	0
+	+	20	0
+	+	12	0
+	+	11	9
+	+	19	9
+	+	5	0
+	+	17	25
+	+	13	25
+	+	25	34
+	+	13	20
+	+	17	20
+	+	25	75
+	+	17	25
+	+	13	0
+	+	4	0
+	+	5	28
+	+	9	28
+	+	22	35
+	+	23	24
+
+> ~/git/dots/zsh/.config/zsh/.zshrc
+	*	1614652620	0
+	"	29	41
+	^	29	42
+	.	29	41
+	+	24	52
+	+	25	0
+	+	23	18
+	+	26	17
+	+	27	47
+	+	28	49
+	+	28	101
+	+	28	66
+	+	29	41
+
+> /etc/fstab
+	*	1614642682	0
+	"	1	0
+
+> /etc/grub.d/40_custom
+	*	1614623426	0
+	"	1	0
+
+> /etc/default/grub
+	*	1614623216	0
+	"	1	0
+	^	4	15
+	.	4	14
+	+	4	14
+
+> ~/git/dots/bspwm/.config/bspwm/bspwmrc
+	*	1614603689	0
+	"	12	0
+	.	12	0
+	+	7	33
+	+	6	32
+	+	8	0
+	+	12	1
+	+	6	32
+	+	22	56
+	+	23	27
+	+	25	0
+	+	12	0
+
+> ~/downloads/xresources/Xresources
+	*	1614510392	0
+	"	1	0
+
+> ~/.config/wal/templates/slate
+	*	1614510128	0
+	"	1	0
+	^	22	23
+	.	42	26
+	+	1	2
+	+	7	1
+	+	9	9
+	+	12	1
+	+	14	0
+	+	19	0
+	+	17	0
+	+	26	0
+	+	24	0
+	+	43	1
+	+	3	22
+	+	22	22
+	+	42	26
+
+> ~/git/dots/polybar/.config/polybar/config
+	*	1614509745	0
+	"	133	0
+	^	131	50
+	.	131	49
+	+	136	0
+	+	89	0
+	+	91	24
+	+	117	0
+	+	98	24
+	+	112	21
+	+	91	0
+	+	92	39
+	+	98	0
+	+	99	0
+	+	106	0
+	+	113	10
+	+	106	11
+	+	99	14
+	+	93	38
+	+	94	19
+	+	95	24
+	+	100	14
+	+	101	0
+	+	109	0
+	+	107	0
+	+	114	0
+	+	108	0
+	+	115	0
+	+	52	22
+	+	51	21
+	+	48	15
+	+	91	0
+	+	98	0
+	+	105	0
+	+	112	0
+	+	116	0
+	+	112	0
+	+	125	41
+	+	144	31
+	+	171	41
+	+	185	44
+	+	206	13
+	+	206	33
+	+	206	13
+	+	61	22
+	+	206	0
+	+	61	17
+	+	204	16
+	+	201	36
+	+	202	17
+	+	82	16
+	+	91	39
+	+	98	0
+	+	91	39
+	+	131	49
 
 > ~/.xinitrc
-	*	1612431471	0
+	*	1614509598	0
 	"	1	0
 	^	1	1
 	.	1	1
@@ -520,6 +932,444 @@ $
 	+	4	6
 	+	5	6
 	+	1	1
+
+> ~/.cache/wal/colors-wal-st.h
+	*	1614509393	0
+	"	2	0
+
+> ~/downloads/xst/config.def.h
+	*	1614508698	0
+	"	8	43
+	^	8	30
+	.	8	42
+	+	121	18
+	+	8	42
+
+> ~/downloads/xst/config.h
+	*	1614508670	0
+	"	1	0
+	.	121	18
+	+	121	18
+
+> ~/downloads/xst/Makefile
+	*	1614508599	0
+	"	63	1
+	.	31	0
+	+	31	0
+
+> ~/downloads/xst/x.c
+	*	1614508559	0
+	"	817	4
+
+> ~/downloads/xst/xst.c
+	*	1614508532	0
+	"	1	0
+
+> ~/downloads/xst/st.1
+	*	1614508510	0
+	"	1	0
+
+> ~/downloads/xs
+	*	1614506969	0
+	"	1	0
+
+> ~/downloads/xst/config.mk
+	*	1614506883	0
+	"	1	0
+
+> ~/build/st/x.c
+	*	1614506540	0
+	"	1863	0
+	^	1963	16
+	.	1963	0
+	+	1966	0
+	+	1959	0
+	+	1965	0
+	+	1960	0
+	+	1962	0
+	+	1959	0
+	+	1962	50
+	+	1963	0
+
+> ~/build/st/config.def.h
+	*	1614085772	0
+	"	9	0
+	.	8	42
+	+	258	1
+	+	258	0
+	+	1	0
+	+	228	0
+	+	8	42
+
+> ~/build/st/patches/xst-xresources-20200626.diff
+	*	1614085403	0
+	"	140	0
+
+> ~/build/st/xst-xresources-20200626.diff
+	*	1614085054	0
+	"	207	0
+
+> ~/build/st/config.h
+	*	1614084920	0
+	"	1	0
+	^	8	43
+	.	8	42
+	+	8	42
+
+> ~/build/st/st.h
+	*	1614079816	0
+	"	1	0
+
+> ~/build/st/x.o
+	*	1614079766	0
+	"	1	0
+
+> ~/.cache/wal/sequences
+	*	1614065642	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.cache/wal/colors.Xresources
+	*	1614064778	0
+	"	1	0
+
+> ~/git/dots/zsh/.config/zsh/.zsh
+	*	1614064688	0
+	"	1	0
+
+> ~/git/scripts/scripts/.scripts/lower
+	*	1614064675	0
+	"	1	0
+
+> ~/colors.Xresources
+	*	1614064512	0
+	"	40	16
+	^	15	18
+	.	39	0
+	+	7	0
+	+	9	0
+	+	8	0
+	+	9	0
+	+	41	11
+	+	3	0
+	+	41	0
+	+	3	24
+	+	5	24
+	+	6	25
+	+	6	0
+	+	4	0
+	+	10	0
+	+	12	0
+	+	14	0
+	+	16	0
+	+	17	0
+	+	19	0
+	+	37	0
+	+	39	0
+
+> ~/.cache/wal/colors-tty.sh
+	*	1614063522	0
+	"	1	0
+
+> ~/.Xresources
+	*	1614062349	0
+	"	4	15
+	^	4	21
+	.	4	0
+	+	2	0
+	+	4	0
+	+	3	1
+	+	4	20
+	+	3	0
+	+	4	1
+	+	5	0
+	+	4	0
+	+	1	23
+	+	1	0
+	+	20	0
+	+	1	0
+	+	4	20
+	+	20	0
+	+	4	0
+
+> ~/build/st/config.
+	*	1613520315	0
+	"	1	0
+
+> ~/.cache/yay/vcs.json
+	*	1613518927	0
+	"	1	0
+
+> ~/.cache/yay/completion.cache
+	*	1613518911	0
+	"	84309	0
+
+> ~/git/scripts/scripts/.scripts/roficmd
+	*	1613458099	0
+	"	3	63
+	^	3	64
+	.	3	63
+	+	4	9
+	+	4	23
+	+	2	4
+	+	4	6
+	+	2	39
+	+	5	0
+	+	4	0
+	+	3	63
+
+> ~/slate.rasi
+	*	1613451394	0
+	"	30	9
+	^	31	11
+	.	31	9
+	+	13	0
+	+	33	0
+	+	26	0
+	+	19	0
+	+	29	0
+	+	10	0
+	+	31	9
+
+> ~/.cache/wal/slate.rasi
+	*	1613450920	0
+	"	14	0
+
+> ~/test
+	*	1613449614	0
+	"	3	0
+	^	3	0
+	.	2	0
+	+	2	0
+
+> ~/downloads/spotify/PKGBUILD
+	*	1613438428	0
+	"	27	0
+
+> ~/documents/work/things_to_do.tex
+	*	1613342457	0
+	"	14	204
+	^	14	204
+	.	14	203
+	+	1	0
+	+	8	0
+	+	1	22
+	+	2	35
+	+	8	0
+	+	27	0
+	+	10	0
+	+	26	0
+	+	11	56
+	+	12	48
+	+	11	76
+	+	26	0
+	+	10	73
+	+	11	86
+	+	25	121
+	+	26	119
+	+	26	0
+	+	25	0
+	+	12	76
+	+	25	55
+	+	25	131
+	+	3	16
+	+	10	20
+	+	25	0
+	+	12	84
+	+	25	62
+	+	25	136
+	+	26	0
+	+	25	0
+	+	26	0
+	+	21	45
+	+	25	26
+	+	21	83
+	+	9	40
+	+	5	21
+	+	10	0
+	+	10	180
+	+	11	80
+	+	11	0
+	+	11	102
+	+	21	123
+	+	11	0
+	+	10	164
+	+	23	206
+	+	23	93
+	+	23	193
+	+	25	134
+	+	2	19
+	+	11	0
+	+	19	0
+	+	22	0
+	+	24	0
+	+	25	34
+	+	23	68
+	+	20	35
+	+	12	57
+	+	20	194
+	+	16	90
+	+	18	74
+	+	12	68
+	+	2	19
+	+	10	0
+	+	20	53
+	+	14	206
+	+	13	0
+	+	14	203
+
+> ~/text.tex
+	*	1613102247	0
+	"	5	0
+	^	4	55
+	.	4	54
+	+	1	0
+	+	4	0
+	+	1	22
+	+	4	54
+
+> ~/text
+	*	1613102182	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/downloads/fstab
+	*	1612928233	0
+	"	7	0
+
+> /etc/mkinitcpio.conf
+	*	1612908709	0
+	"	53	42
+	^	53	10
+	.	53	33
+	+	53	0
+	+	54	0
+	+	53	33
+
+> /etc/mkinitcpio.
+	*	1612863749	0
+	"	1	0
+
+> ~/git/dots/fontconfig/.config/fontconfig/fonts.conf
+	*	1612841356	0
+	"	6	22
+	^	6	23
+	.	6	23
+	+	6	23
+
+> ~/documents/tex/resume.tex
+	*	1612841105	0
+	"	1	0
+	^	74	27
+	.	74	26
+	+	54	34
+	+	74	25
+	+	75	38
+	+	76	0
+	+	80	0
+	+	77	43
+	+	78	28
+	+	79	72
+	+	74	26
+	+	77	40
+	+	74	26
+
+> ~/build/Zathura-Pywal/install.sh
+	*	1612793950	0
+	"	16	35
+	^	16	36
+	.	16	35
+	+	12	0
+	+	16	35
+
+> ~/documents/tex/letter.tex
+	*	1612793905	0
+	"	1	1
+
+> /boot/grub/themes/fallout-grub-theme/theme.txt
+	*	1612793087	0
+	"	18	0
+
+> /tmp/install.sh
+	*	1612756207	0
+	"	77	13
+
+> ~/downloads/ha03lpB.png
+	*	1612753708	0
+	"	1	0
+
+> ~/git/dots/picom/.config/picom/picom.conf
+	*	1612752674	0
+	"	1	0
+	^	4	13
+	.	4	12
+	+	28	19
+	+	28	0
+	+	33	0
+	+	32	26
+	+	31	27
+	+	25	17
+	+	27	20
+	+	28	19
+	+	27	19
+	+	32	22
+	+	40	24
+	+	28	19
+	+	27	0
+	+	28	19
+	+	27	20
+	+	25	17
+	+	27	20
+	+	25	17
+	+	27	20
+	+	8	0
+	+	27	20
+	+	25	0
+	+	26	19
+	+	27	20
+	+	28	19
+	+	27	0
+	+	26	0
+	+	25	0
+	+	27	20
+	+	28	19
+	+	19	0
+	+	18	0
+	+	6	1
+	+	36	0
+	+	7	0
+	+	4	12
+
+> /etc/pacman.conf
+	*	1612701682	0
+	"	1	0
+
+> ~/git/scripts/scripts/.scripts/brightcontrols
+	*	1612699428	0
+	"	10	8
+	^	1	11
+	.	10	8
+	+	6	8
+	+	10	8
+	+	1	10
+	+	6	8
+	+	10	8
+
+> ~/git/dots/setup.sh
+	*	1612696532	0
+	"	75	49
+	^	75	50
+	.	75	50
+	+	27	54
+	+	60	5
+	+	75	50
+
+> ~/git/dots/.git/MERGE_MSG
+	*	1612506194	0
+	"	1	0
 
 > ~/documents/code/python/test.py
 	*	1612428798	0
@@ -601,69 +1451,6 @@ $
 	+	4	0
 	+	3	0
 
-> ~/git/dots/zsh/.config/zsh/.zshrc
-	*	1612401858	0
-	"	27	47
-	^	27	48
-	.	27	47
-	+	24	52
-	+	25	0
-	+	23	18
-	+	26	17
-	+	27	47
-
-> ~/git/dots/polybar/.config/polybar/config
-	*	1612400610	0
-	"	126	0
-	^	200	17
-	.	200	17
-	+	134	0
-	+	87	0
-	+	89	24
-	+	115	0
-	+	96	24
-	+	110	21
-	+	89	0
-	+	90	39
-	+	96	0
-	+	97	0
-	+	104	0
-	+	111	10
-	+	104	11
-	+	97	14
-	+	91	38
-	+	92	19
-	+	93	24
-	+	98	14
-	+	99	0
-	+	107	0
-	+	105	0
-	+	112	0
-	+	106	0
-	+	113	0
-	+	52	22
-	+	51	21
-	+	48	15
-	+	89	0
-	+	96	0
-	+	103	0
-	+	110	0
-	+	114	0
-	+	110	0
-	+	123	41
-	+	142	31
-	+	169	41
-	+	183	44
-	+	204	13
-	+	204	33
-	+	204	13
-	+	61	22
-	+	204	0
-	+	61	17
-	+	202	16
-	+	199	36
-	+	200	17
-
 > ~/documents/code/cpp/test.cpp
 	*	1612390919	0
 	"	13	17
@@ -685,19 +1472,6 @@ $
 	^	1	9
 	.	1	8
 	+	1	8
-
-> ~/git/dots/bspwm/.config/bspwm/bspwmrc
-	*	1612237754	0
-	"	24	0
-	.	25	0
-	+	7	33
-	+	6	32
-	+	8	0
-	+	12	1
-	+	6	32
-	+	22	56
-	+	23	27
-	+	25	0
 
 > ~/git/scripts/scripts/.scripts/win10
 	*	1612227349	0
@@ -742,22 +1516,6 @@ $
 	+	1	10
 	+	1	0
 
-> ~/git/scripts/scripts/.scripts/chbg
-	*	1612227235	0
-	"	1	10
-	^	1	11
-	.	1	10
-	+	1	10
-
-> ~/git/scripts/scripts/.scripts/brightcontrols
-	*	1612227218	0
-	"	1	10
-	^	1	11
-	.	1	10
-	+	6	8
-	+	10	8
-	+	1	10
-
 > ~/git/scripts/scripts/.scripts/sink
 	*	1612227200	0
 	"	3	7
@@ -765,13 +1523,6 @@ $
 	.	3	6
 	+	1	11
 	+	3	6
-
-> ~/documents/tex/resume.tex
-	*	1612147140	0
-	"	1	1
-	^	54	35
-	.	54	34
-	+	54	34
 
 > /etc/modprobe.d/iwlwifi.conf
 	*	1611921482	0
@@ -811,19 +1562,6 @@ $
 	*	1611919897	0
 	"	4	2
 
-> ~/git/dots/sxhkd/.config/sxhkd/sxhkdrc
-	*	1611874004	0
-	"	27	16
-	^	27	17
-	.	27	16
-	+	56	29
-	+	57	18
-	+	39	28
-	+	49	3
-	+	39	56
-	+	26	9
-	+	27	16
-
 > /boot/efi/EFI/BOOT/refind.conf
 	*	1610978142	0
 	"	657	51
@@ -860,929 +1598,3 @@ $
 > ~/git/dots/polybar/.config/polybar/blocks/config.ini
 	*	1610610570	0
 	"	146	0
-
-> ~/git/dots/polybar/.config/polybar/blocks/bars.ini
-	*	1610610522	0
-	"	1	0
-
-> ~/.cache/wal/colors-wal-st.h
-	*	1610610304	0
-	"	1	0
-
-> ~/git/dots/fontconfig/.config/fontconfig/fonts.conf
-	*	1610560360	0
-	"	1	1
-
-> ~/git/dots/zsh/.config/zsh/.zsh
-	*	1610557272	0
-	"	1	0
-
-> ~/.bs
-	*	1610467028	0
-	"	1	0
-
-> ~/.config/wal/templates/slate
-	*	1610466642	0
-	"	1	0
-	^	22	23
-	.	42	26
-	+	1	2
-	+	7	1
-	+	9	9
-	+	12	1
-	+	14	0
-	+	19	0
-	+	17	0
-	+	26	0
-	+	24	0
-	+	43	1
-	+	3	22
-	+	22	22
-	+	42	26
-
-> ~/git/dots/rofi/.config/rofi/config.rasi
-	*	1610466485	0
-	"	2	29
-	^	2	30
-	.	2	29
-	+	2	0
-	+	4	0
-	+	3	0
-	+	2	1
-	+	4	0
-	+	2	29
-
-> ~/.config/wal/templates/slate.rasi
-	*	1610466234	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/git/dots/rofi/.config/rofi/themes/slate.rasi
-	*	1610466221	0
-	"	43	0
-	^	42	28
-	.	42	26
-	+	5	0
-	+	21	0
-	+	23	0
-	+	44	0
-	+	2	30
-	+	3	27
-	+	4	25
-	+	20	31
-	+	22	27
-	+	42	26
-
-> ~/.cache/wal/colors-rofi-dark.rasi
-	*	1610465884	0
-	"	1	0
-
-> /usr/share/rofi/themes/sidebar.rasi
-	*	1610465400	0
-	"	47	6
-
-> ~/git/dots/picom/.config/picom/picom.conf
-	*	1610206819	0
-	"	5	0
-	^	4	13
-	.	4	12
-	+	28	19
-	+	28	0
-	+	33	0
-	+	32	26
-	+	31	27
-	+	25	17
-	+	27	20
-	+	28	19
-	+	27	19
-	+	32	22
-	+	40	24
-	+	28	19
-	+	27	0
-	+	28	19
-	+	27	20
-	+	25	17
-	+	27	20
-	+	25	17
-	+	27	20
-	+	8	0
-	+	27	20
-	+	25	0
-	+	26	19
-	+	27	20
-	+	28	19
-	+	27	0
-	+	26	0
-	+	25	0
-	+	27	20
-	+	28	19
-	+	19	0
-	+	18	0
-	+	6	1
-	+	36	0
-	+	7	0
-	+	4	12
-
-> /tmp/vifm.rename_44314436_00
-	*	1610206421	0
-	"	1	27
-	^	1	27
-	.	1	27
-	+	1	27
-
-> /tmp/vifm.rename_80618066_00
-	*	1610161705	0
-	"	1	22
-	.	1	0
-	+	2	22
-	+	1	20
-	+	1	21
-	+	1	0
-
-> /tmp/vifm.rename_79627967_00
-	*	1610161399	0
-	"	1	27
-	.	1	28
-	+	1	28
-
-> /tmp/vifm.rename_14781483_00
-	*	1609316352	0
-	"	1	0
-	^	1	20
-	.	1	0
-	+	1	0
-
-> ~/documents/virt/macOS-Simple-KVM/basic.sh
-	*	1607056735	0
-	"	31	4
-	^	31	35
-	.	31	34
-	+	31	0
-	+	22	0
-	+	31	0
-	+	21	270
-	+	21	43
-	+	31	0
-	+	21	0
-	+	31	0
-	+	31	48
-	+	31	52
-	+	31	0
-	+	31	52
-	+	31	34
-
-> ~/downloads/macOS-Simple-KVM/basic.sh
-	*	1607003915	0
-	"	19	9
-	^	19	15
-	.	19	0
-	+	11	7
-	+	25	46
-	+	30	0
-	+	29	0
-	+	19	0
-
-> /tmp/vifm.rename_2622826233_00
-	*	1606998566	0
-	"	1	35
-	.	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	0
-
-> ~/downloads/resume.tex
-	*	1606814140	0
-	"	25	5
-	^	113	20
-	.	25	0
-	+	39	0
-	+	39	29
-	+	8	52
-	+	39	0
-	+	39	18
-	+	39	48
-	+	39	20
-	+	39	0
-	+	11	0
-	+	52	0
-	+	39	30
-	+	40	0
-	+	53	0
-	+	39	0
-	+	39	21
-	+	39	46
-	+	39	31
-	+	39	0
-	+	40	0
-	+	39	25
-	+	52	25
-	+	28	0
-	+	3	45
-	+	28	31
-	+	39	0
-	+	46	0
-	+	52	0
-	+	46	0
-	+	51	0
-	+	48	47
-	+	46	0
-	+	45	49
-	+	49	28
-	+	52	26
-	+	33	49
-	+	58	49
-	+	39	26
-	+	34	0
-	+	38	0
-	+	35	21
-	+	39	26
-	+	20	16
-	+	35	27
-	+	49	23
-	+	69	23
-	+	59	0
-	+	63	0
-	+	62	34
-	+	50	39
-	+	51	0
-	+	47	51
-	+	48	0
-	+	82	38
-	+	52	26
-	+	38	21
-	+	36	34
-	+	38	0
-	+	39	26
-	+	31	43
-	+	29	34
-	+	39	28
-	+	31	42
-	+	28	18
-	+	65	16
-	+	3	28
-	+	98	0
-	+	115	0
-	+	98	24
-	+	99	0
-	+	106	0
-	+	100	45
-	+	101	42
-	+	102	25
-	+	103	58
-	+	106	0
-	+	102	27
-	+	103	66
-	+	104	23
-	+	105	12
-	+	104	25
-	+	107	0
-	+	114	0
-	+	107	35
-	+	108	44
-	+	109	44
-	+	110	28
-	+	112	23
-	+	113	22
-	+	112	25
-	+	99	22
-	+	107	22
-	+	111	44
-	+	25	0
-	+	25	31
-	+	25	17
-	+	37	56
-	+	39	26
-	+	113	19
-	+	25	0
-
-> /tmp/vifm.rename_1585315858_00
-	*	1606813203	0
-	"	1	7
-	^	1	8
-	.	1	7
-	+	1	7
-
-> ~/documents/school/12/letter.tex
-	*	1606655104	0
-	"	1	0
-	^	19	453
-	.	19	452
-	+	1	0
-	+	7	0
-	+	1	22
-	+	2	21
-	+	7	8
-	+	2	22
-	+	1	22
-	+	2	11
-	+	29	5
-	+	7	24
-	+	2	35
-	+	3	21
-	+	4	17
-	+	4	12
-	+	4	11
-	+	4	33
-	+	4	21
-	+	4	0
-	+	4	11
-	+	3	20
-	+	7	15
-	+	4	0
-	+	3	0
-	+	7	25
-	+	11	257
-	+	11	71
-	+	11	714
-	+	12	4
-	+	11	266
-	+	13	434
-	+	13	246
-	+	13	862
-	+	15	55
-	+	29	31
-	+	29	0
-	+	29	30
-	+	29	39
-	+	9	0
-	+	13	864
-	+	9	164
-	+	9	51
-	+	9	197
-	+	15	709
-	+	13	709
-	+	13	469
-	+	13	0
-	+	13	828
-	+	15	521
-	+	15	966
-	+	17	636
-	+	21	355
-	+	21	350
-	+	21	86
-	+	21	560
-	+	21	0
-	+	23	73
-	+	29	0
-	+	23	511
-	+	28	0
-	+	25	13
-	+	25	30
-	+	26	0
-	+	25	0
-	+	4	23
-	+	11	162
-	+	11	0
-	+	11	268
-	+	13	485
-	+	13	614
-	+	15	471
-	+	15	617
-	+	21	314
-	+	21	698
-	+	23	97
-	+	23	238
-	+	4	25
-	+	19	381
-	+	19	0
-	+	19	381
-	+	19	0
-	+	19	389
-	+	19	0
-	+	19	398
-	+	19	0
-	+	19	452
-
-> ~/documents/school/12/letter_cover.tex
-	*	1606654731	0
-	"	10	25
-	^	10	25
-	.	10	24
-	+	1	0
-	+	13	0
-	+	1	22
-	+	2	21
-	+	13	0
-	+	13	21
-	+	13	13
-	+	13	14
-	+	1	32
-	+	13	0
-	+	5	16
-	+	13	21
-	+	13	0
-	+	8	18
-	+	13	0
-	+	8	0
-	+	9	0
-	+	12	0
-	+	8	0
-	+	1	18
-	+	10	17
-	+	3	22
-	+	10	24
-
-> ~/git/dots/vim/.vim/.vimrc
-	*	1606556711	0
-	"	92	0
-	.	92	0
-	+	42	6
-	+	25	0
-	+	31	19
-	+	31	25
-	+	55	19
-	+	25	0
-	+	31	0
-	+	12	0
-	+	3	0
-	+	5	0
-	+	4	0
-	+	127	28
-	+	125	11
-	+	127	23
-	+	127	16
-	+	126	0
-	+	130	31
-	+	125	10
-	+	87	0
-	+	79	14
-	+	80	28
-	+	80	0
-	+	55	17
-	+	62	0
-	+	131	1
-	+	131	0
-	+	107	0
-	+	80	18
-	+	86	63
-	+	86	46
-	+	86	19
-	+	87	0
-	+	80	0
-	+	84	0
-	+	86	0
-	+	88	0
-	+	92	0
-
-> /usr/share/vifm/vim-doc/doc/vifm-app.txt
-	*	1606395856	0
-	"	5659	7
-
-> ~/git/dots/vifm/.config/vifm/vifminfo
-	*	1606395775	0
-	"	1586	0
-
-> ~/git/scripts/scripts/.scripts/wifitoggle
-	*	1606386489	0
-	"	1	12
-
-> ~/vimwiki/physics/cheatsheet/cheatsheet.tex
-	*	1606130403	0
-	"	16	4
-	.	16	0
-	+	38	56
-	+	39	21
-	+	38	58
-	+	39	31
-	+	38	63
-	+	59	22
-	+	60	61
-	+	59	24
-	+	9	20
-	+	9	0
-	+	1	60
-	+	116	0
-	+	1	81
-	+	63	23
-	+	64	0
-	+	72	0
-	+	65	26
-	+	66	25
-	+	67	31
-	+	68	35
-	+	69	43
-	+	70	34
-	+	71	57
-	+	72	0
-	+	71	54
-	+	17	24
-	+	74	23
-	+	75	0
-	+	116	0
-	+	75	0
-	+	80	0
-	+	76	46
-	+	1	23
-	+	1	59
-	+	1	80
-	+	1	0
-	+	77	49
-	+	76	48
-	+	77	68
-	+	78	30
-	+	79	16
-	+	82	23
-	+	83	0
-	+	116	0
-	+	83	33
-	+	116	36
-	+	116	0
-	+	84	32
-	+	85	139
-	+	86	33
-	+	87	142
-	+	89	0
-	+	91	0
-	+	90	26
-	+	90	46
-	+	91	17
-	+	93	23
-	+	94	0
-	+	116	0
-	+	94	41
-	+	95	19
-	+	96	40
-	+	97	35
-	+	99	24
-	+	112	0
-	+	115	0
-	+	113	29
-	+	101	33
-	+	102	109
-	+	103	29
-	+	104	123
-	+	107	34
-	+	108	10
-	+	100	38
-	+	106	36
-	+	111	0
-	+	108	105
-	+	109	58
-	+	110	109
-	+	110	0
-	+	110	159
-	+	114	32
-	+	114	30
-	+	115	0
-	+	16	36
-	+	16	0
-	+	16	86
-	+	16	0
-	+	16	14
-	+	16	0
-
-> ~/vimwiki/physics/physics.md
-	*	1606127205	0
-	"	4	2
-	.	1	0
-	+	1	11
-	+	2	0
-	+	3	16
-	+	4	29
-	+	4	0
-	+	4	25
-	+	1	0
-	+	4	231
-	+	4	255
-	+	4	273
-	+	4	143
-	+	4	250
-	+	4	232
-	+	1	0
-
-> /tmp/vifm.rename_6535065355_00
-	*	1606124474	0
-	"	1	29
-	.	1	0
-	+	2	0
-	+	1	0
-
-> ~/downloads/anki.tex
-	*	1606044267	0
-	"	3	39
-	^	3	40
-	.	3	39
-	+	1	0
-	+	5	0
-	+	5	81
-	+	5	0
-	+	1	0
-	+	4	0
-	+	4	47
-	+	4	0
-	+	2	37
-	+	3	39
-
-> ~/downloads/test.tex
-	*	1605650613	0
-	"	1	0
-	^	2	23
-	.	2	19
-	+	14	0
-	+	14	15
-	+	14	0
-	+	12	0
-	+	11	13
-	+	7	26
-	+	7	19
-	+	7	0
-	+	4	1
-	+	5	18
-	+	1	32
-	+	2	19
-
-> ~/downloads/test.
-	*	1605650610	0
-	"	1	0
-
-> ~/git/dots/vim/.vim/UltiSnips/tex.snippets
-	*	1605493013	0
-	"	132	0
-	^	25	26
-	.	19	0
-	+	26	0
-	+	25	0
-	+	24	0
-	+	23	0
-	+	22	0
-	+	21	0
-	+	20	0
-	+	19	0
-	+	18	0
-	+	17	0
-	+	16	0
-	+	18	0
-	+	24	0
-	+	18	0
-	+	19	0
-	+	18	0
-	+	19	0
-
-> ~/vimwiki/physics/cheatsheet.tex
-	*	1605492659	0
-	"	37	23
-	^	37	24
-	.	37	23
-	+	58	10
-	+	26	73
-	+	58	0
-	+	58	15
-	+	58	82
-	+	58	0
-	+	58	88
-	+	58	0
-	+	58	91
-	+	58	0
-	+	58	97
-	+	58	0
-	+	58	104
-	+	58	0
-	+	58	111
-	+	58	0
-	+	58	117
-	+	58	0
-	+	58	120
-	+	58	0
-	+	58	126
-	+	58	0
-	+	58	132
-	+	58	0
-	+	58	33
-	+	58	111
-	+	58	138
-	+	58	73
-	+	58	8
-	+	58	31
-	+	58	51
-	+	58	80
-	+	58	0
-	+	58	90
-	+	58	0
-	+	58	97
-	+	58	0
-	+	58	104
-	+	58	0
-	+	58	114
-	+	58	0
-	+	58	127
-	+	58	0
-	+	58	58
-	+	26	81
-	+	58	81
-	+	26	0
-	+	27	0
-	+	34	0
-	+	40	23
-	+	42	0
-	+	45	0
-	+	43	31
-	+	44	0
-	+	41	33
-	+	44	74
-	+	12	0
-	+	10	0
-	+	11	0
-	+	10	16
-	+	11	19
-	+	10	41
-	+	11	0
-	+	41	19
-	+	44	74
-	+	58	0
-	+	43	40
-	+	44	84
-	+	47	0
-	+	51	0
-	+	48	40
-	+	51	0
-	+	49	48
-	+	49	74
-	+	49	47
-	+	50	0
-	+	49	47
-	+	51	0
-	+	50	28
-	+	53	23
-	+	54	0
-	+	58	0
-	+	54	0
-	+	57	0
-	+	55	32
-	+	56	21
-	+	36	0
-	+	39	0
-	+	36	0
-	+	7	19
-	+	36	0
-	+	38	0
-	+	37	23
-
-> /tmp/tmpxdovsyj6.tex
-	*	1605492429	0
-	"	1	0
-
-> /tmp/tmpi8oyg8tg.tex
-	*	1605492414	0
-	"	1	0
-
-> /tmp/tmpe6flr5sl.tex
-	*	1605492387	0
-	"	1	0
-
-> /tmp/tmplqnbt5wh.tex
-	*	1605492373	0
-	"	1	0
-
-> /tmp/tmp0osyi9vg.tex
-	*	1605492364	0
-	"	1	0
-
-> /tmp/tmpha3kxoxh.tex
-	*	1605492346	0
-	"	1	0
-
-> /tmp/tmplwblk8vb.tex
-	*	1605492208	0
-	"	1	4
-	^	1	5
-	.	1	4
-	+	1	4
-
-> /tmp/tmpxj4psle2.tex
-	*	1605492201	0
-	"	1	6
-	^	1	7
-	.	1	7
-	+	1	7
-
-> /tmp/tmp7nj3afep.tex
-	*	1605492191	0
-	"	1	4
-	^	1	5
-	.	1	4
-	+	1	4
-
-> /tmp/tmpnzfb_sko.tex
-	*	1605492169	0
-	"	1	5
-	^	1	6
-	.	1	5
-	+	1	5
-
-> /tmp/tmpk3uo_vxf.tex
-	*	1605492133	0
-	"	1	5
-	^	1	6
-	.	2	0
-	+	2	0
-
-> /tmp/tmp1vfaw6t_.tex
-	*	1605492118	0
-	"	1	5
-	^	1	6
-	.	2	0
-	+	2	0
-
-> ~/build/inkscape-shortcut-manager/config.py
-	*	1605492079	0
-	"	8	14
-	^	7	11
-	.	8	11
-	+	7	10
-	+	9	11
-	+	8	11
-
-> ~/build/inkscape-shortcut-manager/main.py
-	*	1605491929	0
-	"	1	0
-
-> ~/build/inkscape-shortcut-manager/text.py
-	*	1605491920	0
-	"	1	0
-
-> /tmp/vifm.rename_1555115556_00
-	*	1605478090	0
-	"	1	13
-	^	1	14
-	.	1	13
-	+	1	13
-
-> /usr/share/vim/vim82/doc/options.txt
-	*	1605433698	0
-	"	4861	0
-
-> /usr/share/vim/vim82/doc/eval.txt
-	*	1605433332	0
-	"	266	33
-
-> ~/.local/share/Steam/steamapps/common/Spelunky 2/spelunky.log
-	*	1605373104	0
-	"	202	0
-
-> ~/.local/share/Steam/steamapps/common/Spelunky 2/spel2_crashdump_2020_11_15T03_54_31.dmp
-	*	1605373025	0
-	"	47	0
-
-> ~/cd
-	*	1605355893	0
-	"	1	0
-
-> ~/git/dots/vim/.vim/UltiSnips/plaintex.snippets
-	*	1605355578	0
-	"	1	0
-
-> /boot/efi/EFI/BOOT/themes/refind-theme-circle/theme.conf
-	*	1605353849	0
-	"	23	0
-	.	3	0
-	+	3	0
-
-> /tmp/vifm.rename_90029007_00
-	*	1605310114	0
-	"	10	0
-	.	1	0
-	+	1	0
-
-> /media/movies/Dr_Strangelove_1964/eng-sdh.srt
-	*	1605261441	0
-	"	4	0
-	.	4	0
-	+	4	0
-
-> ~/git/dots/vifm/.config/vifm/vifmrc
-	*	1605261399	0
-	"	125	7
-	^	504	25
-	.	125	7
-	+	504	24
-	+	125	7
-
-> /tmp/vifm.rename_120903120908_00
-	*	1605218286	0
-	"	1	0
-	^	1	35
-	.	1	0
-	+	1	0
-
-> /tmp/vifm.rename_119880119885_00
-	*	1605217926	0
-	"	1	0
-	^	1	42
-	.	1	0
-	+	1	41
-	+	2	0
-	+	1	0
-
-> ~/vimwiki/physics/chapter_1.md
-	*	1605150111	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/git/dots/vim/.vim/plugged/vimtex/doc/vimtex.txt
-	*	1605091617	0
-	"	130	60

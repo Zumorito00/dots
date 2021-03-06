@@ -1,6 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =4
-let g:netrw_dirhist_4='/home/mad/git/dots'
-let g:netrw_dirhist_3='/home/mad/.config/polybar'
-let g:netrw_dirhist_2='/home/mad/.config/bspwm'
-let g:netrw_dirhist_1='/home/mad/git/dots/zsh/.config/zsh'
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/heph/.config/sxhkd'
+let g:netrw_dirhist_6='/home/heph/.config/wal/templates'
+let g:netrw_dirhist_5='/home/heph/downloads/xresources'
+let g:netrw_dirhist_4='/home/heph/.scripts'
+let g:netrw_dirhist_3='/home/heph/build/st'
+let g:netrw_dirhist_2='/home/heph/.vim'
+let g:netrw_dirhist_1='/home/heph/.vim/UltiSnips'
+let g:netrw_dirhist_0='/home/heph/.vim'
+let g:netrw_dirhist_9='/boot/grub/themes/fallout-grub-theme'
+let g:netrw_dirhist_8='/tmp'

@@ -62,7 +62,8 @@ snippet it "Italic Skeleton" w
 endsnippet
 
 snippet doc "Document Skeleton" b
-\documentclass{${1:basic}}
+\documentclass{${1:article}}
+\usepackage{base}
 ${2:Optional Packages}
 \begin{document}
 $0
@@ -88,7 +89,7 @@ endsnippet
 
 context "snip.visual_mode"
 snippet hl "Highlight Skeleton Visual" A
-\hl{${VISUAL}
+\hl{${VISUAL}}
 endsnippet
 
 snippet float "FloatBarrier" bA
@@ -123,6 +124,10 @@ endsnippet
 
 snippet -> "Right Arrow" iA
 $\rightarrow$
+endsnippet
+
+snippet |\ "Escaped Backslash" iA
+$\backslash$
 endsnippet
 
 context "math()"
