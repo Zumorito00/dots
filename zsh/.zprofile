@@ -4,6 +4,9 @@ export PATH="$PATH:${HOME}/.scripts/:${HOME}/.local/bin"
 # Language environment
 export LC_CTYPE="en_AU.UTF-8"
 
+# Make MATLAB work
+export _JAVA_AWT_WM_NONREPARENTING=1
+
 # ZSH config directory
 export ZDOTDIR="${HOME}/.config/zsh"
 

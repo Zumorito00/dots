@@ -122,8 +122,8 @@ mark u /usr
 mark h ~/
 mark d ~/documents
 mark D ~/downloads
-mark m /media
-mark y ~/documents/school/12
+mark m ~/media
+mark y ~/media/uni
 mark b ~/pictures/backgrounds
 mark s ~/.scripts
 mark c ~/.config

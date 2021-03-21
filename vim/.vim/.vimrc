@@ -1,9 +1,5 @@
 call plug#begin('~/.vim/plugged')
 
-" Vimtex
-Plug 'lervag/vimtex'
-let g:tex_flavor = 'latex'
-
 " Latex live preview
 Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 let g:livepreview_previewer = 'zth'
@@ -25,8 +21,8 @@ Plug 'tpope/vim-surround'
 " Vimwiki
 Plug 'vimwiki/vimwiki'
 let g:vimwiki_table_mappings = 0
-let g:vimwiki_list = [{'path': '/media/uni',
-                        \ 'path_html': '/media/uni/export',
+let g:vimwiki_list = [{'path': '~/media/uni',
+                        \ 'path_html': '~/media/uni/export',
                         \ 'syntax': 'markdown', 'ext': '.md'}]
 
 " Auto save on exit insert mode
@@ -49,11 +45,11 @@ nnoremap <leader>d :ToggleDitto<CR>
 call plug#end()
 
 " General
-set nocompatible
-set noesckeys
 filetype plugin on
 syntax on
-colorscheme desert
+colorscheme pablo
+set nocompatible
+set ttimeoutlen=100
 set number
 set relativenumber
 set linebreak
@@ -92,8 +88,10 @@ nnoremap == :w<CR>
 " vim shell
 nnoremap zS :shell<CR>
 " latex figures
-inoremap <C-f> <Esc>: silent exec '.!inkscape-figures create "'.getline('.').'" "'.b:vimtex.root.'/figures/"'<CR><CR>:w<CR>
-nnoremap <C-f> : silent exec '!inkscape-figures edit "'.b:vimtex.root.'/figures/" > /dev/null 2>&1 &'<CR><CR>:redraw!<CR>
+inoremap <C-f> <Esc>: silent exec '.!inkscape-figures create "'.getline('.').'" "figures"'<CR><CR>:w<CR>
+nnoremap <C-f> : silent exec '!inkscape-figures edit "figures" > /dev/null 2>&1 &'<CR><CR>:redraw!<CR>
+" latex pictures
+nnoremap <leader>f : silent exec '.!latex_diagrams'<CR><CR>:w<CR>f[
 
 " Commands
 " reload syntax highlighting

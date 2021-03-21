@@ -38,29 +38,6 @@ snippet inkfig "Inkscape figures preamble"
 \pdfsuppresswarningpagegroup=1
 endsnippet
 
-snippet .., "{}" iA
-{
-	$0
-}
-endsnippet
-
-snippet " "Quote Skeleton" iA
-\`\`$1''$0
-endsnippet
-
-context "snip.visual_mode"
-snippet " "Quote Skeleton Visual" A
-\`\`${VISUAL}''
-endsnippet
-
-snippet bf "Bold Skeleton" w
-\textbf{$1}$0
-endsnippet
-
-snippet it "Italic Skeleton" w
-\textit{$1}$0
-endsnippet
-
 snippet doc "Document Skeleton" b
 \documentclass{${1:article}}
 \usepackage{base}
@@ -87,9 +64,74 @@ snippet beg "Begin-End Skeleton Visual" A
 \end{$1}
 endsnippet
 
+snippet tab "Tabular Skeleton" bA
+\begin{center}
+	\begin{tabular}{$1}
+		$0
+	\end{tabular}
+\end{center}
+endsnippet
+
+snippet {{ "{}" iA
+{$1}$0
+endsnippet
+
+snippet (( "()" iA
+($1)$0
+endsnippet
+
+priority 1000
+context "math()"
+snippet (( "()" iA
+\left($1\right)$0
+endsnippet
+
+snippet [[ "[]" iA
+[$1]$0
+endsnippet
+
+snippet .., "{}" iA
+{
+	$0
+}
+endsnippet
+
+snippet " "Quote Skeleton" iA
+\`\`$1''$0
+endsnippet
+
 context "snip.visual_mode"
-snippet hl "Highlight Skeleton Visual" A
+snippet " "Quote Skeleton Visual" iA
+\`\`${VISUAL}''
+endsnippet
+
+snippet \bf "Bold Skeleton" iA
+\textbf{$1}$0
+endsnippet
+
+context "snip.visual_mode"
+snippet bf "Bold Skeleton" iA
+\textbf{${VISUAL}}
+endsnippet
+
+snippet \it "Italic Skeleton" iA
+\textit{$1}$0
+endsnippet
+
+context "snip.visual_mode"
+snippet it "Italic Skeleton" iA
+\textit{${VISUAL}}
+endsnippet
+
+context "snip.visual_mode"
+snippet hl "Highlight Skeleton Visual" iA
 \hl{${VISUAL}}
+endsnippet
+
+snippet fancy "Fancy Headers" bA
+\fancyhead[l]{\textbf{${1:Class}}}
+\fancyhead[r]{\textbf{Week $2}}
+$0
 endsnippet
 
 snippet float "FloatBarrier" bA
@@ -126,8 +168,12 @@ snippet -> "Right Arrow" iA
 $\rightarrow$
 endsnippet
 
-snippet |\ "Escaped Backslash" iA
+snippet \| "Escaped Backslash" iA
 $\backslash$
+endsnippet
+
+snippet \ce "Chem Env" iA
+\ce{$1}$0
 endsnippet
 
 context "math()"
