@@ -1,22 +1,31 @@
 #! /bin/sh
 . ${HOME}/.cache/wal/colors.sh
 
-bspc monitor -d 1 2 3 4 5 6 7 8 9 0
+mon=eDP1
+
+if [ $(xrandr -q | grep "\sconnected" | wc -l) = 1 ]; then
+    bspc monitor -d 1 2 3 4 5 6 7 8 9 0
+else
+    mon2=$(xrandr -q | grep "\sconnected" | cut -d" " -f1 | tail -1)
+    bspc monitor $mon -d 1 2 3 4 5
+    bspc monitor $mon2 -d  6 7 8 9 0
+    bspc monitor $mon -s $mon2
+fi
 
 bspc config border_width        3
-bspc config window_gap          30
+bspc config window_gap          40
 
 bspc config split_ratio         0.50
 bspc config borderless_monocle  true
 bspc config gapless_monocle     true
-bspc config single_monocle      true
+bspc config single_monocle      false
 
-bspc config normal_border_color "$background"
-bspc config focused_border_color "$color4"
-bspc config active_border_color "$color4"
+bspc config normal_border_color     "$background"
+bspc config focused_border_color    "$color6"
+bspc config active_border_color     "$color6"
 
 bspc rule -a Gimp           desktop='^8'        state=tiled     follow=on
-bspc rule -a firefox        desktop='^1'        follow=off
+bspc rule -a firefox        desktop='^1'        follow=on
 bspc rule -a "Tor Browser"  state=floating
 bspc rule -a Zathura        state=tiled
 bspc rule -a Steam          desktop='^7'        follow=on

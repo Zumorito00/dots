@@ -2,7 +2,7 @@
 dunst &
 
 # Picom
-picom &
+# picom &
 
 # Status Bar
 polybar bar &
@@ -18,5 +18,9 @@ sxhkd &
 inkscape-figures watch
 python ~/build/inkscape-shortcut-manager/main.py &
 
+# Hide Cursor After 3 Seconds
+unclutter --timeout 3 &
+
 # Start Window Manager
+xrandr --auto
 exec bspwm

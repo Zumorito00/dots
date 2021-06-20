@@ -11,217 +11,217 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/\\ce
+~MSle0~/notes
 
 # Last Substitute Search Pattern:
-~MSle0~&\s*$
+~MSle0&\s
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1616341035,,"wq"
-:colorscheme pablo
-|2,0,1616294209,,"colorscheme pablo"
-:colorscheme slate
-|2,0,1616294201,,"colorscheme slate"
-:colorscheme ron
-|2,0,1616294194,,"colorscheme ron"
-:colorscheme industry
-|2,0,1616294158,,"colorscheme industry"
-:colorscheme peachpuff
-|2,0,1616294148,,"colorscheme peachpuff"
-:colorscheme koehler
-|2,0,1616294104,,"colorscheme koehler"
-:colorscheme elflord
-|2,0,1616294098,,"colorscheme elflord"
-:colorscheme default
-|2,0,1616294093,,"colorscheme default"
-:colorscheme desert
-|2,0,1616294075,,"colorscheme desert"
-:WE
-|2,0,1616294059,,"WE"
-:w
-|2,0,1616294137,,"w"
-:W
-|2,0,1616294125,,"W"
-:LL
-|2,0,1616293457,,"LL"
-:noh
-|2,0,1616291174,,"noh"
-:%s/\s*$//g
-|2,0,1616291172,,"%s/\\s*$//g"
-:UltiSnipsEdit
-|2,0,1616290894,,"UltiSnipsEdit"
-:!zth week_3.pdf
-|2,0,1616286997,,"!zth week_3.pdf"
 :q
-|2,0,1616226621,,"q"
+|2,0,1624154180,,"q"
 :Q
-|2,0,1616226537,,"Q"
+|2,0,1624154179,,"Q"
+:wq
+|2,0,1624154175,,"wq"
 :Wq
-|2,0,1615954259,,"Wq"
-:WQ
-|2,0,1615983098,,"WQ"
-:!zth tutorial.pdf
-|2,0,1615267459,,"!zth tutorial.pdf"
-:'<,'>s/\s/\\ /g
-|2,0,1615261478,,"'<,'>s/\\s/\\\\ /g"
-:s/\s/\\\ /g
-|2,0,1615260826,,"s/\\s/\\\\\\ /g"
-:s/\s/\\\s/g
-|2,0,1615260817,,"s/\\s/\\\\\\s/g"
-:no
-|2,0,1615260793,,"no"
-:%s/^\s*$//
-|2,0,1615259858,,"%s/^\\s*$//"
-:!zth week_2.pdf
-|2,0,1615259266,,"!zth week_2.pdf"
-:nog
-|2,0,1615293049,,"nog"
-:'<,'>s/8/9
-|2,0,1615292105,,"'<,'>s/8/9"
-:'<,'>s/7/8
-|2,0,1615292095,,"'<,'>s/7/8"
-:'<,'>s/\\textwidth/0.7\\textwidth/
-|2,0,1615292081,,"'<,'>s/\\\\textwidth/0.7\\\\textwidth/"
+|2,0,1624154173,,"Wq"
+:w
+|2,0,1624154172,,"w"
+:noh
+|2,0,1624003155,,"noh"
+:s/\s/_/g
+|2,0,1624000326,,"s/\\s/_/g"
+:s/\s/_g
+|2,0,1624000315,,"s/\\s/_g"
+:Z
+|2,0,1623804106,,"Z"
+:UltiSnipsEdit
+|2,0,1623025990,,"UltiSnipsEdit"
+:'<,'>s/=/\&=/g | noh
+|2,0,1623025490,,"'<,'>s/=/\\&=/g | noh"
+:%s/\$l/\$\\ell/``
+|2,0,1622419184,,"%s/\\$l/\\$\\\\ell/``"
+:%s/\$l/\$\\ell/
+|2,0,1622419177,,"%s/\\$l/\\$\\\\ell/"
+:WE
+|2,0,1622418404,,"WE"
+:W
+|2,0,1622160535,,"W"
+:'<,'>s/=/\&=/ | noh
+|2,0,1622160402,,"'<,'>s/=/\\&=/ | noh"
+:s
+|2,0,1622160085,,"s"
+:E
+|2,0,1621920999,,"E"
+:colorscheme slate
+|2,0,1621901199,,"colorscheme slate"
+:colorscheme peachpuff
+|2,0,1621901190,,"colorscheme peachpuff"
+:colorscheme koehler
+|2,0,1621901180,,"colorscheme koehler"
+:colorscheme industry
+|2,0,1621901171,,"colorscheme industry"
+:colorscheme default
+|2,0,1621901164,,"colorscheme default"
 :q!
-|2,0,1615188922,,"q!"
-:!zth week_1.pdf
-|2,0,1615187870,,"!zth week_1.pdf"
-:!
-|2,0,1615187865,,"!"
-:.!echo hello
-|2,0,1615185792,,".!echo hello"
-:!ls figures | rofi -dmenu
-|2,0,1615186614,,"!ls figures | rofi -dmenu"
-:!echo $(ls -1 figures) | rofi -dmenu
-|2,0,1615185963,,"!echo $(ls -1 figures) | rofi -dmenu"
-:!echo $(ls -1 figures/) | rofi -dmenu
-|2,0,1615185955,,"!echo $(ls -1 figures/) | rofi -dmenu"
-:!echo $(ls figures/) | rofi -dmenu
-|2,0,1615185914,,"!echo $(ls figures/) | rofi -dmenu"
-:!rofi -dmenu $(ls figures/)
-|2,0,1615185893,,"!rofi -dmenu $(ls figures/)"
-:!rofi $(ls figures/)
-|2,0,1615185887,,"!rofi $(ls figures/)"
-:'<,'>s/=/\&=/g
-|2,0,1615101759,,"'<,'>s/=/\\&=/g"
-:'<,'>s/=/\%=/g
-|2,0,1615094493,,"'<,'>s/=/\\%=/g"
-:PlugClean
-|2,0,1615088153,,"PlugClean"
-:P
-|2,0,1615088146,,"P"
-:echo '.@%'
-|2,0,1615088028,,"echo '.@%'"
-:pwd
-|2,0,1615087433,,"pwd"
-:qk
-|2,0,1615087417,,"qk"
+|2,0,1621901016,,"q!"
+:%s/\s/_/g | %s/_BluR.*BONE//
+|2,0,1621849457,,"%s/\\s/_/g | %s/_BluR.*BONE//"
+:%s/\s/_/g
+|2,0,1621848275,,"%s/\\s/_/g"
+:&s/\s/_/g
+|2,0,1621848270,,"&s/\\s/_/g"
+:%s/_\l*$/\.mkv/
+|2,0,1621848084,,"%s/_\\l*$/\\.mkv/"
+:'<,'>s/\./_/g
+|2,0,1621848029,,"'<,'>s/\\./_/g"
+:%s/\.W.*\]//
+|2,0,1621848010,,"%s/\\.W.*\\]//"
+:s/
+|2,0,1621847988,,"s/"
+:s/\./_/g
+|2,0,1621847968,,"s/\\./_/g"
+:%s/\s/+/g
+|2,0,1621847875,,"%s/\\s/+/g"
+:'<,'>s/\s/_/g
+|2,0,1621847852,,"'<,'>s/\\s/_/g"
+:V
+|2,0,1621847847,,"V"
+:'<,'>s/\./ /g
+|2,0,1621847818,,"'<,'>s/\\./ /g"
+:s/\./\s/g
+|2,0,1621847802,,"s/\\./\\s/g"
+:set nu!
+|2,0,1621403568,,"set nu!"
+:'<,'>
+|2,0,1621384670,,"'<,'>"
+:LL
+|2,0,1621384376,,"LL"
+:U
+|2,0,1621322167,,"U"
+:colorscheme shine
+|2,0,1621297873,,"colorscheme shine"
+:colorscheme elflord
+|2,0,1621297834,,"colorscheme elflord"
+:'<,'>s/\\l/\&\\l/
+|2,0,1621252950,,"'<,'>s/\\\\l/\\&\\\\l/"
+:let g:tex_fast = "bMpr"
+|2,0,1621249934,,"let g:tex_fast = \"bMpr\""
+:let g:tex_fast "bMpr"
+|2,0,1621249927,,"let g:tex_fast \"bMpr\""
+:let g:tex_fast "bMpr
+|2,0,1621249925,,"let g:tex_fast \"bMpr"
+:h tex_fast
+|2,0,1621249883,,"h tex_fast"
+:syntime report
+|2,0,1621249700,,"syntime report"
+:syntime off
+|2,0,1621249695,,"syntime off"
 
 # Search String History (newest to oldest):
-?/col
-|2,1,1616294120,47,"col"
-? \s*$
-|2,1,1616291172,,"\\s*$"
-?/\\ce
-|2,1,1616290902,47,"\\\\ce"
-?/\ce
-|2,1,1616290896,47,"\\ce"
-?/4mol
-|2,1,1616289718,47,"4mol"
-?/pri
-|2,1,1616287979,47,"pri"
-?/prior
-|2,1,1616287943,47,"prior"
-?/symp
-|2,1,1616287918,47,"symp"
-?/xymp
-|2,1,1616287916,47,"xymp"
-?/bf
-|2,1,1616287280,47,"bf"
-?/ch
-|2,1,1616286841,47,"ch"
+?/notes
+|2,1,1624154168,47,"notes"
+?/battery
+|2,1,1624003103,47,"battery"
+?/border
+|2,1,1624001481,47,"border"
+?/[
+|2,1,1624001431,47,"["
+?/bar2
+|2,1,1624001422,47,"bar2"
+?/module
+|2,1,1624001366,47,"module"
+?/time
+|2,1,1624001356,47,"time"
+?/fixed
+|2,1,1624001339,47,"fixed"
+?/over
+|2,1,1624001284,47,"over"
+?/bspwm
+|2,1,1624000983,47,"bspwm"
+?/bswpm
+|2,1,1624000975,47,"bswpm"
+?/mod
+|2,1,1624000943,47,"mod"
+?/30
+|2,1,1624000804,47,"30"
 ? @$
-|2,1,1616226617,,"@$"
-?/wm
-|2,1,1616226542,47,"wm"
-?/zsh
-|2,1,1616226512,47,"zsh"
-??page
-|2,1,1616022085,63,"page"
-?/page
-|2,1,1616022074,47,"page"
-?/3
-|2,1,1616022062,47,"3"
-?/4.00
-|2,1,1615872683,47,"4.00"
-??low
-|2,1,1615850097,63,"low"
-?/length
-|2,1,1615270529,47,"length"
+|2,1,1624000801,,"@$"
+? ^$
+|2,1,1624000801,,"^$"
+?/false
+|2,1,1624000709,47,"false"
 ? \s
-|2,1,1615261478,,"\\s"
-?/math
-|2,1,1615260773,47,"math"
-? ^\s*$
-|2,1,1615259858,,"^\\s*$"
-?/avo
-|2,1,1615259730,47,"avo"
-?/2
-|2,1,1615258967,47,"2"
-?/w2
-|2,1,1615258966,47,"w2"
-?/tab
-|2,1,1615293048,47,"tab"
-?/beg
-|2,1,1615292921,47,"beg"
-? 8
-|2,1,1615292105,,"8"
-? 7
-|2,1,1615292095,,"7"
-? \\textwidth
-|2,1,1615292081,,"\\\\textwidth"
-?/vol
-|2,1,1615290617,47,"vol"
-?/oeng
-|2,1,1615190025,47,"oeng"
-?/subsection
-|2,1,1615189536,47,"subsection"
-?/latex
-|2,1,1615189171,47,"latex"
-?/fancy
-|2,1,1615188322,47,"fancy"
-?/visual
-|2,1,1615188089,47,"visual"
-?/media
-|2,1,1615188714,47,"media"
-?/OENG
-|2,1,1615188006,47,"OENG"
-?/:w
-|2,1,1615187120,47,":w"
-?/librar
-|2,1,1615114051,47,"librar"
+|2,1,1624000326,,"\\s"
+?/log
+|2,1,1623025991,47,"log"
 ? =
-|2,1,1615101759,,"="
-?/|\
-|2,1,1615099403,47,"|\\"
+|2,1,1623025490,,"="
+? \$l
+|2,1,1622419177,,"\\$l"
+?/text
+|2,1,1622418772,47,"text"
+?/item
+|2,1,1622418349,47,"item"
+?/fire
+|2,1,1622421273,47,"fire"
+?/section
+|2,1,1622336962,47,"section"
 ?/((
-|2,1,1615095690,47,"(("
-?/texnewmathzone
-|2,1,1615040740,47,"texnewmathzone"
-?/texnew
-|2,1,1615040733,47,"texnew"
-?/call
-|2,1,1615040717,47,"call"
-?/hl
-|2,1,1615019649,47,"hl"
-?/subsub
-|2,1,1615019575,47,"subsub"
-?/doc
-|2,1,1615016892,47,"doc"
+|2,1,1622160481,47,"(("
+?/[[
+|2,1,1622160451,47,"[["
+?/util
+|2,1,1621902463,47,"util"
+? _BluR.*BONE
+|2,1,1621849457,,"_BluR.*BONE"
+? _\l*$
+|2,1,1621848084,,"_\\l*$"
+? \.
+|2,1,1621848029,,"\\."
+? \.W.*\]
+|2,1,1621848010,,"\\.W.*\\]"
+?/10
+|2,1,1621384367,47,"10"
+?/version
+|2,1,1621323249,47,"version"
+?/exist
+|2,1,1621322051,47,"exist"
+??which
+|2,1,1621321656,63,"which"
+?/koh
+|2,1,1621297926,47,"koh"
+?/col
+|2,1,1621297904,47,"col"
+? \\l
+|2,1,1621252950,,"\\\\l"
+?/conceal
+|2,1,1621249562,47,"conceal"
+?/auto
+|2,1,1621249397,47,"auto"
+?/con
+|2,1,1621249364,47,"con"
+?/za
+|2,1,1621249116,47,"za"
+?/tex
+|2,1,1621249000,47,"tex"
+?/latex
+|2,1,1621248997,47,"latex"
+?/9
+|2,1,1621248866,47,"9"
+?/rnu
+|2,1,1621248405,47,"rnu"
+?/ru
+|2,1,1621248400,47,"ru"
+? frac
+|2,1,1621221340,,"frac"
+?/euler
+|2,1,1621220919,47,"euler"
+?/cause
+|2,1,1621156535,47,"cause"
 
 # Expression History (newest to oldest):
 =!echo hello
@@ -231,357 +231,1207 @@ $
 
 # Input Line History (newest to oldest):
 @y
-|2,3,1616294020,,"y"
+|2,3,1621469712,,"y"
 @n
 |2,3,1615183077,,"n"
 
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	    \section{Tutorial}
-|3,0,0,1,1,0,1616294217,"    \\section{Tutorial}"
-""1	LINE	0
-	1 torbrowser-launcher
-|3,1,1,1,1,0,1616296616,"1 torbrowser-launcher"
+"0	CHAR	0
+	0
+|3,0,0,0,1,0,1624154128,"0"
+"1	LINE	0
+	[bar/bar2]
+	monitor = ${env:MONITOR:DP3}
+	width = 100%
+	height = 34
+	;offset-x = 1%
+	;offset-y = 1%
+	radius = 0
+	fixed-center = false
+	
+	background = ${colors.background}
+	foreground = ${colors.foreground}
+	
+	line-size = 5
+	line-color = #f00
+	
+	border-size = 0
+	border-color = #00000000
+	
+	padding-left = 1
+	padding-right = 1
+	
+	module-margin-left = 0
+	module-margin-right = 0
+	
+	font-0 = monospace:pixelsize=11;3
+	font-1 = Font Awesome 5 Free Solid:pixelsize=10;2
+	font-2 = Font Awesome 5 Free Regular:pixelsize=10;2
+	font-3 = Font Awesome 5 Free Brands:pixelsize=10;2
+	font-4 = unifont:fontformat=truetype:size=8:antialias=false;0
+	
+	modules-left = bspwm
+	modules-center = 
+	modules-right = wlan battery date
+	
+	tray-position = right
+	tray-padding = 2
+	;tray-background = #0063ff
+	
+	;wm-restack = bspwm
+	;wm-restack = i3
+	
+	;override-redirect = true
+	
+	;scroll-up = bspwm-desknext
+	;scroll-down = bspwm-deskprev
+	
+	;scroll-up = i3wm-wsnext
+	;scroll-down = i3wm-wsprev
+	
+	cursor-click = pointer
+|3,0,1,1,50,0,1624001438,"[bar/bar2]","monitor = ${env:MONITOR:DP3}","width = 100%","height = 34",";offset-x = 1%",";offset-y = 1%","radius = 0","fixed-center = false","","background = ${colors.background}","foreground = ${colors.foreground}","","line-size = 5","line-color = #f00","","border-size = 0","border-color = #00000000","","padding-left = 1","padding-right = 1","","module-margin-left = 0","module-margin-right = 0","",>35
+|<"font-0 = monospace:pixelsize=11;3","font-1 = Font Awesome 5 Free Solid:pixelsize=10;2","font-2 = Font Awesome 5 Free Regular:pixelsize=10;2","font-3 = Font Awesome 5 Free Brands:pixelsize=10;2","font-4 = unifont:fontformat=truetype:size=8:antialias=false;0","","modules-left = bspwm","modules-center = ","modules-right = wlan battery date","","tray-position = right","tray-padding = 2",";tray-background = #0063ff","",";wm-restack = bspwm",";wm-restack = i3","",";override-redirect = true",>2
+|<"",";scroll-up = bspwm-desknext",";scroll-down = bspwm-deskprev","",";scroll-up = i3wm-wsnext",";scroll-down = i3wm-wsprev","","cursor-click = pointer"
 "2	LINE	0
-	1 setsid matlab
-|3,0,2,1,1,0,1616296614,"1 setsid matlab"
-"3	LINE	0
-	6 matlab
-|3,0,3,1,1,0,1616296607,"6 matlab"
+	        \mathrm{base} \times \mathrm{average\ height} = h \times \frac{(y_{i - 1} + y_i)}{2} = \frac{h}{2} (y_{i - 1} + y_i)
+|3,0,2,1,1,0,1623804298,"        \\mathrm{base} \\times \\mathrm{average\\ height} = h \\times \\frac{(y_{i - 1} + y_i)}{2} = \\frac{h}{2} (y_{i - 1} + y_i)"
+"3	BLOCK	0
+	 
+	 
+|3,0,3,2,2,0,1623026039," "," "
 "4	LINE	0
-	    \section{Tutorial}
-|3,0,4,1,1,0,1616293542,"    \\section{Tutorial}"
+	                
+|3,0,4,1,1,0,1623025894,"                "
 "5	LINE	0
-	    \newpage
-|3,0,5,1,1,0,1616293541,"    \\newpage"
+	                \frac{5x}{(x - 1)(x - 6)} &= -\frac{1}{x - 1} + \frac{1}{6(x - 6)}
+|3,0,5,1,1,0,1623025886,"                \\frac{5x}{(x - 1)(x - 6)} &= -\\frac{1}{x - 1} + \\frac{1}{6(x - 6)}"
 "6	LINE	0
-	    \section{Lecture}
-	    \subsection{Solubility and Precipitation Reactions}
-	    \paragraph{Solubility:} The maximum concentration of a substance that can be achieved under specified conditions
-	    \begin{itemize}
-	        \item Substances that have a relatively \textbf{large solubility} are said to be soluble
-	        \item A substance will precipitate when solution conditions are such that its concentration exceeds its solubility
-	        \item Substances that have a relatively \textbf{low solubility} are said to be insoluble, and these are the substances that readily precipitate from solution
-	    \end{itemize}
-	
-	    \subsubsection{Solubility rules}
-	    \begin{minipage}{0.5\textwidth}
-	        \textbf{Always Soluble}
-	        \begin{itemize}
-	            \item \textbf{N}itrates
-	            \item \textbf{A}cetates
-	            \item \textbf{G}roup 1
-	            \item \textbf{S}ulfates
-	            \item \textbf{A}mmonium
-	            \item \textbf{G}roup 17
-	        \end{itemize}
-	    \end{minipage}
-	    \begin{minipage}{0.5\textwidth}
-	        \textbf{Exceptions}
-	        \begin{enumerate}
-	            \item ``PMS''
-	                \begin{itemize}
-	                    \item P $\rightarrow$ Pb$^{2+}$ (Lead)
-	                    \item M $\rightarrow$ Mercury
-	                    \item S $\rightarrow$ Silver
-	                \end{itemize}
-	            \item Castro Bear
-	                \begin{itemize}
-	                    \item Ca$^{2+}$ Sr$^{2+}$ Ba$^{2+}$
-	                \end{itemize}
-	        \end{enumerate}
-	    \end{minipage}
-	
-	    \subsection{Acid-Base Reactions}
-	    \paragraph{Acid-base reaction:} A reaction in which a hydrogen ion is transferred from one chemical species to another
-	    \paragraph{Acid:} A substance that will dissolve in water to yield hydronium ions
-	    \paragraph{Weak acids:} Only partially react in acid base reactions
-	    \paragraph{Base:} A substance that will dissolve in water to yield hydroxide ions. The most common bases are ionic compounds made from group 1 or 2 metals combined with hydroxide ions
-	
-	    \subsubsection{Common strong acids}
-	    \begin{center}
-	        \begin{tabular}{c|c}
-	            \textbf{Compound Formula} & \textbf{Name in aqueous solution} \\ \hline
-	            HBr & hydrobromic acid \\
-	            HCl & hydrochloric acid \\
-	            HI & hydroiodic acid \\
-|3,0,6,1,50,0,1616293540,"    \\section{Lecture}","    \\subsection{Solubility and Precipitation Reactions}","    \\paragraph{Solubility:} The maximum concentration of a substance that can be achieved under specified conditions","    \\begin{itemize}","        \\item Substances that have a relatively \\textbf{large solubility} are said to be soluble",>125
-|<"        \\item A substance will precipitate when solution conditions are such that its concentration exceeds its solubility","        \\item Substances that have a relatively \\textbf{low solubility} are said to be insoluble, and these are the substances that readily precipitate from solution","    \\end{itemize}","","    \\subsubsection{Solubility rules}","    \\begin{minipage}{0.5\\textwidth}","        \\textbf{Always Soluble}","        \\begin{itemize}",>39
-|<"            \\item \\textbf{N}itrates","            \\item \\textbf{A}cetates","            \\item \\textbf{G}roup 1","            \\item \\textbf{S}ulfates","            \\item \\textbf{A}mmonium","            \\item \\textbf{G}roup 17","        \\end{itemize}","    \\end{minipage}","    \\begin{minipage}{0.5\\textwidth}","        \\textbf{Exceptions}","        \\begin{enumerate}","            \\item ``PMS''","                \\begin{itemize}",>62
-|<"                    \\item P $\\rightarrow$ Pb$^{2+}$ (Lead)","                    \\item M $\\rightarrow$ Mercury","                    \\item S $\\rightarrow$ Silver","                \\end{itemize}","            \\item Castro Bear","                \\begin{itemize}","                    \\item Ca$^{2+}$ Sr$^{2+}$ Ba$^{2+}$","                \\end{itemize}","        \\end{enumerate}","    \\end{minipage}","","    \\subsection{Acid-Base Reactions}",>125
-|<"    \\paragraph{Acid-base reaction:} A reaction in which a hydrogen ion is transferred from one chemical species to another","    \\paragraph{Acid:} A substance that will dissolve in water to yield hydronium ions","    \\paragraph{Weak acids:} Only partially react in acid base reactions","    \\paragraph{Base:} A substance that will dissolve in water to yield hydroxide ions. The most common bases are ionic compounds made from group 1 or 2 metals combined with hydroxide ions","",>42
-|<"    \\subsubsection{Common strong acids}","    \\begin{center}","        \\begin{tabular}{c|c}","            \\textbf{Compound Formula} & \\textbf{Name in aqueous solution} \\\\ \\hline","            HBr & hydrobromic acid \\\\","            HCl & hydrochloric acid \\\\","            HI & hydroiodic acid \\\\"
+	                \frac{5}{}
+|3,0,6,1,1,0,1623025801,"                \\frac{5}{}"
 "7	LINE	0
-	\fancyhead[l]{OENG1208}
-	\fancyhead[r]{Week 3}
-|3,0,7,1,2,0,1616293443,"\\fancyhead[l]{OENG1208}","\\fancyhead[r]{Week 3}"
+	                \frac{x_5}{}
+|3,0,7,1,1,0,1623025797,"                \\frac{x_5}{}"
 "8	LINE	0
 	
-|3,0,8,1,1,0,1616293325,""
+|3,0,8,1,1,0,1623025708,""
 "9	LINE	0
-	            9.6
-|3,0,9,1,1,0,1616292974,"            9.6"
+	                5 = -5A \quad\quad\quad A = -1 \\
+	                -30 = -5B \quad\quad\quad B = \frac{1}{6}
+|3,0,9,1,2,0,1623025705,"                5 = -5A \\quad\\quad\\quad A = -1 \\\\","                -30 = -5B \\quad\\quad\\quad B = \\frac{1}{6}"
 "j	CHAR	0
 	jkkjj"w
 |3,0,19,0,1,0,1615186620,"jkkjj\"w"
 "l	CHAR	0
 	llll€ýa€ýa
 |3,0,21,0,1,0,1615097196,"llll€ýa€ýa"
-"-	CHAR	0
-	koehler
-|3,0,36,0,1,0,1616294170,"koehler"
+"q@	CHAR	0
+	Idisp('€ýaA')€ýaj
+|3,2,26,0,1,0,1619778487,"Idisp('€ýaA')€ýaj"
+""-	CHAR	0
+	notes
+|3,1,36,0,1,0,1624154170,"notes"
 
 # File marks:
-'0  8  0  ~/.xinitrc
-|4,48,8,0,1616341035,"~/.xinitrc"
-'1  3  0  ~/.cache/rofi-3.runcache
-|4,49,3,0,1616296623,"~/.cache/rofi-3.runcache"
-'2  10  3  ~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex
-|4,50,10,3,1616296342,"~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex"
-'3  50  16  ~/git/dots/vim/.vim/.vimrc
-|4,51,50,16,1616294212,"~/git/dots/vim/.vim/.vimrc"
-'4  1  1  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,52,1,1,1616293572,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
-'5  132  32  ~/media/uni/engineering_science_oeng1208/week_3/week_3.tex
-|4,53,132,32,1616293350,"~/media/uni/engineering_science_oeng1208/week_3/week_3.tex"
-'6  98  11  ~/media/uni/engineering_science_oeng1208/week_3/week_3.tex
-|4,54,98,11,1616287984,"~/media/uni/engineering_science_oeng1208/week_3/week_3.tex"
-'7  98  11  ~/media/uni/engineering_science_oeng1208/week_3/week_3.tex
-|4,55,98,11,1616287984,"~/media/uni/engineering_science_oeng1208/week_3/week_3.tex"
-'8  8  0  /etc/xrdp
-|4,56,8,0,1616226621,"/etc/xrdp"
-'9  8  0  /etc/xrdp
-|4,57,8,0,1616226621,"/etc/xrdp"
+'0  1  0  ~/media/uni/index.md
+|4,48,1,0,1624154180,"~/media/uni/index.md"
+'1  24  43  ~/git/dots/vim/.vim/.vimrc
+|4,49,24,43,1624154175,"~/git/dots/vim/.vim/.vimrc"
+'2  1  4  ~/media/uni/index.md
+|4,50,1,4,1624154144,"~/media/uni/index.md"
+'3  1  0  ~/media/uni/index.d
+|4,51,1,0,1624154121,"~/media/uni/index.d"
+'4  1  0  ~/.steam/registry.vdf
+|4,52,1,0,1624003434,"~/.steam/registry.vdf"
+'5  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,53,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+'6  46  0  ~/git/dots/polybar/.config/polybar/config
+|4,54,46,0,1624001512,"~/git/dots/polybar/.config/polybar/config"
+'7  46  0  ~/git/dots/polybar/.config/polybar/config
+|4,55,46,0,1624001512,"~/git/dots/polybar/.config/polybar/config"
+'8  84  0  ~/git/dots/polybar/.config/polybar/config
+|4,56,84,0,1624001442,"~/git/dots/polybar/.config/polybar/config"
+'9  84  0  ~/git/dots/polybar/.config/polybar/config
+|4,57,84,0,1624001442,"~/git/dots/polybar/.config/polybar/config"
 
 # Jumplist (newest first):
--'  8  0  ~/.xinitrc
-|4,39,8,0,1616341035,"~/.xinitrc"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1616341015,"~/.xinitrc"
--'  3  0  ~/.cache/rofi-3.runcache
-|4,39,3,0,1616296623,"~/.cache/rofi-3.runcache"
--'  3  0  ~/.cache/rofi-3.runcache
-|4,39,3,0,1616296623,"~/.cache/rofi-3.runcache"
--'  1  0  ~/.cache/rofi-3.runcache
-|4,39,1,0,1616296605,"~/.cache/rofi-3.runcache"
--'  1  0  ~/.cache/rofi-3.runcache
-|4,39,1,0,1616296605,"~/.cache/rofi-3.runcache"
--'  10  3  ~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex
-|4,39,10,3,1616296342,"~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex"
--'  10  3  ~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex
-|4,39,10,3,1616296342,"~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex"
--'  10  3  ~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex
-|4,39,10,3,1616296342,"~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex"
--'  10  3  ~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex
-|4,39,10,3,1616296342,"~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex"
--'  50  16  ~/git/dots/vim/.vim/.vimrc
-|4,39,50,16,1616294212,"~/git/dots/vim/.vim/.vimrc"
--'  50  16  ~/git/dots/vim/.vim/.vimrc
-|4,39,50,16,1616294212,"~/git/dots/vim/.vim/.vimrc"
--'  50  16  ~/git/dots/vim/.vim/.vimrc
-|4,39,50,16,1616294212,"~/git/dots/vim/.vim/.vimrc"
--'  50  16  ~/git/dots/vim/.vim/.vimrc
-|4,39,50,16,1616294212,"~/git/dots/vim/.vim/.vimrc"
--'  1  0  ~/git/dots/vim/.vim/.vimrc
-|4,39,1,0,1616294120,"~/git/dots/vim/.vim/.vimrc"
--'  1  0  ~/git/dots/vim/.vim/.vimrc
-|4,39,1,0,1616294120,"~/git/dots/vim/.vim/.vimrc"
--'  1  0  ~/git/dots/vim/.vim/.vimrc
-|4,39,1,0,1616294120,"~/git/dots/vim/.vim/.vimrc"
--'  1  0  ~/git/dots/vim/.vim/.vimrc
-|4,39,1,0,1616294120,"~/git/dots/vim/.vim/.vimrc"
--'  9  3  ~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex
-|4,39,9,3,1616294059,"~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex"
--'  9  3  ~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex
-|4,39,9,3,1616294059,"~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex"
--'  9  3  ~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex
-|4,39,9,3,1616294059,"~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex"
--'  9  3  ~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex
-|4,39,9,3,1616294059,"~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex"
--'  5  21  ~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex
-|4,39,5,21,1616294035,"~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex"
--'  5  21  ~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex
-|4,39,5,21,1616294035,"~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex"
--'  5  21  ~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex
-|4,39,5,21,1616294035,"~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex"
--'  5  21  ~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex
-|4,39,5,21,1616294035,"~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex"
--'  3  0  ~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex
-|4,39,3,0,1616294027,"~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex"
--'  3  0  ~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex
-|4,39,3,0,1616294027,"~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex"
--'  3  0  ~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex
-|4,39,3,0,1616294027,"~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex"
--'  3  0  ~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex
-|4,39,3,0,1616294027,"~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex"
--'  1  14  ~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex
-|4,39,1,14,1616294025,"~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex"
--'  1  14  ~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex
-|4,39,1,14,1616294025,"~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex"
--'  1  14  ~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex
-|4,39,1,14,1616294025,"~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex"
--'  1  14  ~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex
-|4,39,1,14,1616294025,"~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex"
--'  9  27  ~/media/uni/engineering_mathematics_math2393/math2393.md
-|4,39,9,27,1616294020,"~/media/uni/engineering_mathematics_math2393/math2393.md"
--'  9  27  ~/media/uni/engineering_mathematics_math2393/math2393.md
-|4,39,9,27,1616294020,"~/media/uni/engineering_mathematics_math2393/math2393.md"
--'  9  27  ~/media/uni/engineering_mathematics_math2393/math2393.md
-|4,39,9,27,1616294020,"~/media/uni/engineering_mathematics_math2393/math2393.md"
--'  9  27  ~/media/uni/engineering_mathematics_math2393/math2393.md
-|4,39,9,27,1616294020,"~/media/uni/engineering_mathematics_math2393/math2393.md"
--'  1  0  ~/media/uni/engineering_mathematics_math2393/math2393.md
-|4,39,1,0,1616293995,"~/media/uni/engineering_mathematics_math2393/math2393.md"
--'  1  0  ~/media/uni/engineering_mathematics_math2393/math2393.md
-|4,39,1,0,1616293995,"~/media/uni/engineering_mathematics_math2393/math2393.md"
--'  1  0  ~/media/uni/engineering_mathematics_math2393/math2393.md
-|4,39,1,0,1616293995,"~/media/uni/engineering_mathematics_math2393/math2393.md"
--'  1  0  ~/media/uni/engineering_mathematics_math2393/math2393.md
-|4,39,1,0,1616293995,"~/media/uni/engineering_mathematics_math2393/math2393.md"
--'  5  2  ~/media/uni/index.md
-|4,39,5,2,1616293993,"~/media/uni/index.md"
--'  4  2  ~/media/uni/index.md
-|4,39,4,2,1616293993,"~/media/uni/index.md"
 -'  1  0  ~/media/uni/index.md
-|4,39,1,0,1616293993,"~/media/uni/index.md"
--'  5  2  ~/media/uni/index.md
-|4,39,5,2,1616293993,"~/media/uni/index.md"
--'  4  2  ~/media/uni/index.md
-|4,39,4,2,1616293993,"~/media/uni/index.md"
--'  1  0  ~/media/uni/index.md
-|4,39,1,0,1616293993,"~/media/uni/index.md"
--'  5  2  ~/media/uni/index.md
-|4,39,5,2,1616293993,"~/media/uni/index.md"
--'  4  2  ~/media/uni/index.md
-|4,39,4,2,1616293993,"~/media/uni/index.md"
--'  1  0  ~/media/uni/index.md
-|4,39,1,0,1616293993,"~/media/uni/index.md"
--'  5  2  ~/media/uni/index.md
-|4,39,5,2,1616293993,"~/media/uni/index.md"
--'  4  2  ~/media/uni/index.md
-|4,39,4,2,1616293993,"~/media/uni/index.md"
--'  1  0  ~/media/uni/index.md
-|4,39,1,0,1616293993,"~/media/uni/index.md"
--'  1  1  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,1,1,1616293572,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  1  1  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,1,1,1616293572,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  1  1  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,1,1,1616293572,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  1  1  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,1,1,1616293572,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  1  1  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,1,1,1616293572,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  1  1  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,1,1,1616293572,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  1  1  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,1,1,1616293572,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  1  1  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,1,1,1616293572,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  1  1  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,1,1,1616293572,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  1  1  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,1,1,1616293572,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  1  1  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,1,1,1616293572,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  1  1  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,1,1,1616293572,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  89  0  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,89,0,1616293569,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  89  0  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,89,0,1616293569,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  89  0  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,89,0,1616293569,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  89  0  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,89,0,1616293569,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  89  0  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,89,0,1616293569,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  89  0  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,89,0,1616293569,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  89  0  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,89,0,1616293569,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  89  0  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,89,0,1616293569,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  89  0  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,89,0,1616293569,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  89  0  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,89,0,1616293569,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  89  0  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,89,0,1616293569,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  89  0  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,89,0,1616293569,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  8  6  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,8,6,1616293568,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  8  6  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,8,6,1616293568,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  8  6  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,8,6,1616293568,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  8  6  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,8,6,1616293568,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  8  6  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,8,6,1616293568,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  8  6  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,8,6,1616293568,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  8  6  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,8,6,1616293568,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  8  6  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,8,6,1616293568,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  8  6  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,8,6,1616293568,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  8  6  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,8,6,1616293568,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  8  6  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,8,6,1616293568,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  8  6  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,8,6,1616293568,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  11  0  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,11,0,1616293537,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  15  0  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,15,0,1616293537,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  11  0  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,11,0,1616293537,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  15  0  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,15,0,1616293537,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  11  0  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,11,0,1616293537,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  15  0  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,15,0,1616293537,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  11  0  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,11,0,1616293537,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  15  0  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,15,0,1616293537,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  11  0  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,11,0,1616293537,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
--'  15  0  ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-|4,39,15,0,1616293537,"~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex"
+|4,39,1,0,1624154180,"~/media/uni/index.md"
+-'  24  43  ~/git/dots/vim/.vim/.vimrc
+|4,39,24,43,1624154175,"~/git/dots/vim/.vim/.vimrc"
+-'  24  43  ~/git/dots/vim/.vim/.vimrc
+|4,39,24,43,1624154175,"~/git/dots/vim/.vim/.vimrc"
+-'  1  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,1,0,1624154168,"~/git/dots/vim/.vim/.vimrc"
+-'  1  0  ~/git/dots/vim/.vim/.vimrc
+|4,39,1,0,1624154168,"~/git/dots/vim/.vim/.vimrc"
+-'  1  4  ~/media/uni/index.md
+|4,39,1,4,1624154144,"~/media/uni/index.md"
+-'  1  4  ~/media/uni/index.md
+|4,39,1,4,1624154144,"~/media/uni/index.md"
+-'  1  0  ~/media/uni/index.d
+|4,39,1,0,1624154121,"~/media/uni/index.d"
+-'  1  0  ~/media/uni/index.d
+|4,39,1,0,1624154121,"~/media/uni/index.d"
+-'  1  0  ~/media/uni/index.d
+|4,39,1,0,1624154121,"~/media/uni/index.d"
+-'  1  0  ~/media/uni/index.d
+|4,39,1,0,1624154121,"~/media/uni/index.d"
+-'  1  0  ~/media/uni/index.d
+|4,39,1,0,1624154121,"~/media/uni/index.d"
+-'  1  0  ~/media/uni/index.d
+|4,39,1,0,1624154121,"~/media/uni/index.d"
+-'  1  0  ~/media/uni/index.d
+|4,39,1,0,1624154121,"~/media/uni/index.d"
+-'  1  0  ~/media/uni/index.d
+|4,39,1,0,1624154121,"~/media/uni/index.d"
+-'  1  0  ~/.steam/registry.vdf
+|4,39,1,0,1624003434,"~/.steam/registry.vdf"
+-'  1  0  ~/.steam/registry.vdf
+|4,39,1,0,1624003434,"~/.steam/registry.vdf"
+-'  1  0  ~/.steam/registry.vdf
+|4,39,1,0,1624003434,"~/.steam/registry.vdf"
+-'  1  0  ~/.steam/registry.vdf
+|4,39,1,0,1624003434,"~/.steam/registry.vdf"
+-'  1  0  ~/.steam/registry.vdf
+|4,39,1,0,1624003434,"~/.steam/registry.vdf"
+-'  1  0  ~/.steam/registry.vdf
+|4,39,1,0,1624003434,"~/.steam/registry.vdf"
+-'  1  0  ~/.steam/registry.vdf
+|4,39,1,0,1624003434,"~/.steam/registry.vdf"
+-'  1  0  ~/.steam/registry.vdf
+|4,39,1,0,1624003434,"~/.steam/registry.vdf"
+-'  1  0  ~/.steam/registry.vdf
+|4,39,1,0,1624003434,"~/.steam/registry.vdf"
+-'  1  0  ~/.steam/registry.vdf
+|4,39,1,0,1624003434,"~/.steam/registry.vdf"
+-'  1  0  ~/.steam/registry.vdf
+|4,39,1,0,1624003434,"~/.steam/registry.vdf"
+-'  1  0  ~/.steam/registry.vdf
+|4,39,1,0,1624003434,"~/.steam/registry.vdf"
+-'  1  0  ~/.steam/registry.vdf
+|4,39,1,0,1624003434,"~/.steam/registry.vdf"
+-'  1  0  ~/.steam/registry.vdf
+|4,39,1,0,1624003434,"~/.steam/registry.vdf"
+-'  1  0  ~/.steam/registry.vdf
+|4,39,1,0,1624003434,"~/.steam/registry.vdf"
+-'  1  0  ~/.steam/registry.vdf
+|4,39,1,0,1624003434,"~/.steam/registry.vdf"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  181  51  ~/git/dots/polybar/.config/polybar/config
+|4,39,181,51,1624003158,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  185  8  ~/git/dots/polybar/.config/polybar/config
+|4,39,185,8,1624003129,"~/git/dots/polybar/.config/polybar/config"
+-'  62  21  ~/git/dots/polybar/.config/polybar/config
+|4,39,62,21,1624003104,"~/git/dots/polybar/.config/polybar/config"
+-'  62  21  ~/git/dots/polybar/.config/polybar/config
+|4,39,62,21,1624003104,"~/git/dots/polybar/.config/polybar/config"
+-'  62  21  ~/git/dots/polybar/.config/polybar/config
+|4,39,62,21,1624003104,"~/git/dots/polybar/.config/polybar/config"
+-'  62  21  ~/git/dots/polybar/.config/polybar/config
+|4,39,62,21,1624003104,"~/git/dots/polybar/.config/polybar/config"
+-'  62  21  ~/git/dots/polybar/.config/polybar/config
+|4,39,62,21,1624003104,"~/git/dots/polybar/.config/polybar/config"
 
 # History of marks within files (newest to oldest):
 
+> ~/media/uni/index.md
+	*	1624154179	0
+	"	1	0
+	^	1	5
+	.	1	4
+	+	1	4
+
+> ~/git/dots/vim/.vim/.vimrc
+	*	1624154174	0
+	"	24	43
+	^	40	19
+	.	24	43
+	+	126	4
+	+	119	0
+	+	3	0
+	+	38	0
+	+	38	16
+	+	38	0
+	+	38	16
+	+	38	0
+	+	127	0
+	+	64	0
+	+	57	0
+	+	51	0
+	+	64	0
+	+	57	0
+	+	38	0
+	+	51	0
+	+	43	0
+	+	38	0
+	+	43	0
+	+	44	0
+	+	43	0
+	+	41	0
+	+	38	0
+	+	43	0
+	+	38	0
+	+	41	0
+	+	42	18
+	+	42	0
+	+	3	0
+	+	88	60
+	+	88	0
+	+	88	60
+	+	1	0
+	+	88	60
+	+	89	0
+	+	88	88
+	+	88	0
+	+	89	61
+	+	24	32
+	+	25	40
+	+	91	59
+	+	92	0
+	+	91	35
+	+	92	0
+	+	91	35
+	+	92	0
+	+	89	0
+	+	91	12
+	+	92	0
+	+	91	66
+	+	40	16
+	+	102	17
+	+	81	0
+	+	77	52
+	+	78	46
+	+	77	51
+	+	78	46
+	+	77	56
+	+	80	27
+	+	24	48
+	+	91	64
+	+	127	0
+	+	126	0
+	+	126	31
+	+	126	33
+	+	127	18
+	+	119	0
+	+	28	0
+	+	34	0
+	+	12	37
+	+	127	0
+	+	126	31
+	+	70	22
+	+	71	21
+	+	40	18
+	+	24	43
+
+> ~/media/uni/index.d
+	*	1624154120	0
+	"	1	0
+
+> ~/.steam/registry.vdf
+	*	1624003433	0
+	"	1	0
+
+> ~/git/dots/polybar/.config/polybar/config
+	*	1624003156	0
+	"	181	51
+	^	45	15
+	.	181	51
+	+	31	25
+	+	32	0
+	+	30	3
+	+	84	0
+	+	83	0
+	+	84	8
+	+	84	0
+	+	84	26
+	+	60	15
+	+	61	17
+	+	62	29
+	+	60	15
+	+	84	22
+	+	45	14
+	+	48	15
+	+	60	15
+	+	61	17
+	+	60	15
+	+	71	0
+	+	37	18
+	+	60	15
+	+	62	0
+	+	61	17
+	+	60	15
+	+	60	0
+	+	84	0
+	+	46	33
+	+	45	14
+	+	185	0
+	+	181	51
+
+> ~/git/dots/sxhkd/.config/sxhkd/sxhkdrc
+	*	1624000807	0
+	"	39	28
+	^	39	29
+	.	39	28
+	+	39	28
+
+> ~/git/dots/bspwm/.config/bspwm/bspwmrc
+	*	1624000721	0
+	"	21	36
+	^	21	37
+	.	21	36
+	+	28	56
+	+	11	30
+	+	6	58
+	+	11	20
+	+	11	15
+	+	11	16
+	+	11	15
+	+	11	13
+	+	11	0
+	+	11	26
+	+	11	27
+	+	11	28
+	+	11	36
+	+	11	0
+	+	12	34
+	+	12	0
+	+	10	30
+	+	11	29
+	+	11	0
+	+	6	58
+	+	10	0
+	+	11	71
+	+	5	0
+	+	4	7
+	+	11	17
+	+	10	13
+	+	4	3
+	+	12	25
+	+	10	0
+	+	6	58
+	+	6	50
+	+	6	59
+	+	6	56
+	+	8	4
+	+	13	0
+	+	5	0
+	+	9	0
+	+	6	47
+	+	6	58
+	+	6	1
+	+	7	0
+	+	14	0
+	+	6	50
+	+	7	21
+	+	6	0
+	+	7	0
+	+	6	0
+	+	7	17
+	+	16	32
+	+	25	32
+	+	24	40
+	+	19	36
+	+	23	35
+	+	24	35
+	+	26	0
+	+	25	35
+	+	19	35
+	+	21	36
+
+> /tmp/vifm.rename_2550125506_00
+	*	1624000326	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/media/uni/notes/engineering_mathematics_math2393/week_09/week_09.tex
+	*	1623804386	0
+	"	27	0
+	^	26	82
+	.	26	81
+	+	26	81
+
+> ~/media/uni/notes/engineering_mathematics_math2393/week_9
+	*	1623804076	0
+	"	1	0
+
 > ~/.xinitrc
-	*	1616341020	0
-	"	8	0
-	.	6	0
+	*	1623294024	0
+	"	5	1
+	^	5	2
+	.	5	1
 	+	19	0
 	+	18	21
 	+	13	0
 	+	6	0
+	+	22	22
+	+	23	20
+	+	23	0
+	+	25	12
+	+	5	1
 
-> ~/.cache/rofi-3.runcache
-	*	1616296620	0
-	"	3	0
-	.	3	0
-	+	2	0
+> ~/media/uni/notes/engineering_mathematics_math2393/week_13/final_assessment_question_1.tex
+	*	1623292933	0
+	"	30	20
+	^	29	47
+	.	29	19
+	+	14	56
+	+	32	80
+	+	32	0
+	+	32	94
+	+	32	0
+	+	32	111
+	+	32	0
+	+	32	112
+	+	32	0
+	+	33	0
+	+	13	0
+	+	52	0
+	+	37	0
+	+	51	0
+	+	38	21
+	+	35	38
+	+	37	33
+	+	51	0
+	+	35	37
+	+	38	85
+	+	38	0
+	+	38	101
+	+	38	0
+	+	40	118
+	+	40	0
+	+	40	121
+	+	40	0
+	+	42	114
+	+	42	0
+	+	44	76
+	+	46	104
+	+	46	0
+	+	46	156
+	+	46	0
+	+	46	159
+	+	46	0
+	+	47	60
+	+	48	0
+	+	50	0
+	+	49	103
+	+	50	22
+	+	49	104
+	+	38	0
+	+	16	0
+	+	19	0
+	+	17	80
+	+	19	35
+	+	17	0
+	+	19	24
+	+	19	26
+	+	19	28
+	+	19	31
+	+	19	39
+	+	19	41
+	+	18	30
+	+	16	20
+	+	19	18
+	+	16	20
+	+	18	30
+	+	17	42
+	+	19	29
+	+	19	31
+	+	16	24
+	+	19	22
+	+	19	29
+	+	19	31
+	+	19	26
+	+	19	0
+	+	31	0
+	+	19	0
+	+	20	0
+	+	23	0
+	+	19	0
+	+	21	0
+	+	16	0
+	+	19	37
+	+	21	29
+	+	22	31
+	+	27	0
+	+	30	0
+	+	28	19
+	+	22	0
+	+	22	61
+	+	23	0
+	+	23	42
+	+	23	0
+	+	24	0
+	+	26	0
+	+	25	16
+	+	23	34
+	+	28	74
+	+	29	54
+	+	29	0
+	+	28	17
+	+	29	19
+
+> ~/git/dots/vim/.vim/UltiSnips/tex.snippets
+	*	1623025996	0
+	"	1	0
+	^	293	10
+	.	293	9
+	+	83	90
+	+	81	9
+	+	83	90
+	+	81	70
+	+	80	15
+	+	83	159
+	+	78	21
+	+	85	0
+	+	83	90
+	+	81	0
+	+	83	90
+	+	83	0
+	+	83	11
+	+	81	69
+	+	83	90
+	+	85	0
+	+	85	12
+	+	83	15
+	+	81	59
+	+	81	0
+	+	83	0
+	+	81	8
+	+	83	90
+	+	78	16
+	+	78	0
+	+	85	0
+	+	76	19
+	+	78	17
+	+	83	93
+	+	76	18
+	+	80	34
+	+	83	65
+	+	78	17
+	+	83	93
+	+	81	45
+	+	83	13
+	+	84	2
+	+	83	11
+	+	78	21
+	+	83	11
+	+	83	12
+	+	78	20
+	+	78	0
+	+	82	0
+	+	79	7
+	+	81	15
+	+	79	71
+	+	82	8
+	+	84	0
+	+	79	69
+	+	68	32
+	+	79	0
+	+	84	0
+	+	83	11
+	+	79	54
+	+	89	0
+	+	201	10
+	+	199	25
+	+	163	61
+	+	234	9
+	+	250	19
+	+	114	8
+	+	116	0
+	+	115	1
+	+	116	1
+	+	158	8
+	+	106	28
+	+	250	19
+	+	255	19
+	+	260	19
+	+	279	0
+	+	263	0
+	+	278	0
+	+	265	11
+	+	270	11
+	+	275	17
+	+	270	18
+	+	265	17
+	+	271	4
+	+	276	4
+	+	266	4
+	+	248	17
+	+	278	0
+	+	278	17
+	+	278	4
+	+	278	21
+	+	278	6
+	+	278	17
+	+	278	0
+	+	264	0
+	+	264	19
+	+	264	3
+	+	264	16
+	+	264	3
+	+	264	19
+	+	1	0
+	+	264	0
+	+	310	0
+	+	98	0
+	+	293	9
+
+> ~/media/uni/notes/engineering_mathematics_math2393/week_13/final_assessment_question_1.
+	*	1623025322	0
+	"	1	0
+
+> ~/git/dots/picom/.config/picom/picom.conf
+	*	1622421277	0
+	"	15	5
+	^	15	6
+	.	15	5
 	+	6	0
+	+	8	29
+	+	15	5
+
+> /usr/share/vim/vim82/doc/help.txt
+	*	1622418267	0
+	"	1	0
+
+> ~/media/uni/notes/engineering_science_oeng1208/week_12/week_12_tut_problems.tex
+	*	1622348011	0
+	"	1	0
+	^	64	32
+	.	64	30
+	+	16	0
+	+	15	36
+	+	17	0
+	+	21	0
+	+	20	32
+	+	14	16
+	+	17	0
+	+	13	0
+	+	24	0
+	+	28	0
+	+	25	34
+	+	26	41
+	+	27	32
+	+	25	0
+	+	67	0
+	+	70	0
+	+	68	19
+	+	29	0
+	+	32	0
+	+	30	40
+	+	31	29
+	+	33	0
+	+	36	0
+	+	34	40
+	+	35	29
+	+	30	0
+	+	68	88
+	+	68	0
+	+	69	38
+	+	81	0
+	+	69	17
+	+	69	0
+	+	19	29
+	+	71	0
+	+	75	0
+	+	72	34
+	+	73	36
+	+	74	22
+	+	76	0
+	+	80	0
+	+	79	27
+	+	79	31
+	+	76	0
+	+	74	33
+	+	83	0
+	+	87	0
+	+	84	0
+	+	84	54
+	+	87	0
+	+	85	39
+	+	86	37
+	+	68	0
+	+	88	0
+	+	93	0
+	+	93	64
+	+	93	0
+	+	93	93
+	+	93	0
+	+	88	0
+	+	92	0
+	+	89	27
+	+	90	54
+	+	91	30
+	+	84	0
+	+	39	18
+	+	40	0
+	+	47	0
+	+	41	21
+	+	38	504
+	+	66	0
+	+	41	19
+	+	48	18
+	+	49	0
+	+	56	0
+	+	50	20
+	+	57	18
+	+	58	0
+	+	65	0
+	+	59	19
+	+	48	17
+	+	38	503
+	+	41	34
+	+	42	38
+	+	46	31
+	+	43	31
+	+	42	32
+	+	41	0
+	+	50	34
+	+	51	33
+	+	52	39
+	+	55	0
+	+	55	30
+	+	50	0
+	+	78	30
+	+	74	20
+	+	79	0
+	+	59	34
+	+	60	33
+	+	61	39
+	+	64	30
+
+> ~/media/uni/notes/engineering_mathematics_math2393/week_11/week_11.tex
+	*	1622247120	0
+	"	88	3
+	^	88	4
+	.	88	4
+	+	27	0
+	+	31	4
+	+	32	35
+	+	33	80
+	+	34	0
+	+	37	0
+	+	35	91
+	+	36	106
+	+	38	4
+	+	39	83
+	+	39	0
+	+	40	44
+	+	41	0
+	+	47	0
+	+	42	82
+	+	42	0
+	+	42	88
+	+	42	0
+	+	43	63
+	+	44	47
+	+	45	0
+	+	45	61
+	+	46	39
+	+	42	0
+	+	43	8
+	+	44	0
+	+	42	40
+	+	48	4
+	+	49	45
+	+	50	0
+	+	55	0
+	+	51	0
+	+	55	0
+	+	52	64
+	+	53	48
+	+	54	39
+	+	51	40
+	+	53	38
+	+	44	38
+	+	56	4
+	+	57	39
+	+	58	0
+	+	89	0
+	+	58	0
+	+	39	94
+	+	24	10
+	+	24	105
+	+	58	0
+	+	60	0
+	+	59	57
+	+	61	0
+	+	61	186
+	+	61	0
+	+	61	204
+	+	61	0
+	+	61	212
+	+	61	0
+	+	61	220
+	+	61	0
+	+	61	221
+	+	61	11
+	+	62	4
+	+	63	80
+	+	65	0
+	+	68	0
+	+	66	11
+	+	64	83
+	+	64	0
+	+	64	118
+	+	64	0
+	+	64	118
+	+	66	83
+	+	67	19
+	+	66	37
+	+	69	0
+	+	74	0
+	+	70	0
+	+	71	54
+	+	72	43
+	+	73	36
+	+	70	0
+	+	75	4
+	+	76	31
+	+	77	36
+	+	78	56
+	+	79	0
+	+	81	0
+	+	80	34
+	+	82	96
+	+	82	0
+	+	83	4
+	+	84	44
+	+	85	0
+	+	87	0
+	+	86	49
+	+	88	4
+
+> ~/media/uni/notes/engineering_mathematics_math2393/math2393.md
+	*	1622158297	0
+	"	25	2
+	^	15	18
+	.	25	0
+	+	12	0
+	+	13	29
+	+	14	0
+	+	15	22
+	+	16	0
+	+	17	29
+	+	17	0
+	+	17	8
+	+	17	0
+	+	18	0
+	+	19	23
+	+	17	0
+	+	15	17
+	+	20	0
+	+	22	0
+	+	24	0
+	+	21	0
+	+	23	0
+	+	25	0
+
+> ~/media/uni/notes/index.md
+	*	1622158294	0
+	"	4	2
+	.	4	0
+	+	6	0
+	+	4	0
+
+> /etc/default/grub
+	*	1621908129	0
+	"	57	17
+
+> ~/media/uni/notes/digital_fundamentals_oeng1206/week_12/final_group_report.tex
+	*	1621902763	0
+	"	14	0
+	^	1	1
+	.	14	0
+	+	1	0
 	+	7	0
 	+	3	0
+	+	4	0
+	+	5	0
+	+	4	15
+	+	5	0
+	+	7	42
+	+	8	19
+	+	14	24
+	+	15	24
+	+	16	0
+	+	7	41
+	+	1	19
+	+	9	94
+	+	1	14
+	+	9	0
+	+	8	9
+	+	14	10
+	+	14	0
+	+	8	0
+	+	14	0
+	+	9	183
+	+	9	228
+	+	11	135
+	+	9	0
+	+	11	165
+	+	11	17
+	+	11	224
+	+	14	0
+	+	8	29
+	+	11	205
+	+	11	25
+	+	11	232
+	+	1	22
+	+	11	317
+	+	11	0
+	+	11	662
+	+	13	225
+	+	13	27
+	+	13	392
+	+	14	0
 
-> ~/media/uni/engineering_mathematics_math2393/week_3/week_3.tex
-	*	1616296341	0
-	"	10	3
-	^	10	4
-	.	10	4
+> ~/media/uni/notes/digital_fundamentals_oeng1206/week_12/final_group_report.
+	*	1621901015	0
+	"	3	0
+	^	3	1
+	.	3	0
+	+	3	0
+
+> /tmp/vifm.rename_1010110106_00
+	*	1621849457	0
+	"	6	0
+	.	1	0
+	+	6	0
+	+	1	0
+	+	8	13
+	+	1	0
+
+> /tmp/vifm.rename_83868391_00
+	*	1621848275	0
+	"	12	0
+	^	1	8
+	.	1	0
+	+	1	14
+	+	2	14
+	+	3	38
+	+	4	23
+	+	5	22
+	+	6	22
+	+	1	7
+	+	2	0
+	+	1	0
+
+> ~/downloads/media.txt
+	*	1621723773	0
+	"	13	0
+	.	13	0
+	+	5	0
+	+	12	0
+	+	13	0
+	+	15	0
+	+	14	0
+	+	13	0
+
+> ~/media/uni/notes/professional_engineering_oeng1166/design_proposal/design_proposal.tex
+	*	1621403751	0
+	"	11	0
+	^	11	476
+	.	11	476
+	+	2	0
+	+	8	16
+	+	6	17
+	+	8	44
+	+	8	45
+	+	19	0
+	+	8	73
+	+	8	12
+	+	5	20
+	+	2	14
+	+	7	34
+	+	4	0
+	+	7	0
+	+	8	73
+	+	5	0
+	+	8	73
+	+	8	76
+	+	15	34
+	+	16	0
+	+	18	0
+	+	17	96
+	+	5	20
+	+	8	19
+	+	8	64
+	+	8	33
+	+	13	67
+	+	5	0
+	+	8	73
+	+	2	19
+	+	7	1
+	+	2	1
+	+	1	21
+	+	13	268
+	+	7	0
+	+	2	0
+	+	7	0
+	+	13	270
+	+	15	1100
+	+	15	0
+	+	13	570
+	+	14	84
+	+	14	0
+	+	13	272
+	+	8	16
+	+	8	27
+	+	8	56
+	+	8	0
+	+	11	0
+	+	11	345
+	+	13	335
+	+	2	0
+	+	7	0
+	+	1	0
+	+	2	1
+	+	7	0
+	+	3	0
+	+	2	0
+	+	1	0
+	+	3	0
+	+	11	476
+
+> /tmp/vifm.rename_57185723_00
+	*	1621385102	0
+	"	1	5
+	^	1	6
+	.	2	0
+	+	2	0
+
+> ~/media/uni/notes/engineering_mathematics_math2393/week_10/week_10.tex
+	*	1621384861	0
+	"	44	0
+	^	43	30
+	.	43	0
 	+	1	0
 	+	9	0
 	+	3	18
@@ -590,1108 +1440,1508 @@ $
 	+	7	0
 	+	9	21
 	+	10	4
-
-> ~/git/dots/vim/.vim/.vimrc
-	*	1616294174	0
-	"	50	16
-	^	50	17
-	.	50	16
-	+	129	4
-	+	121	0
-	+	120	0
-	+	3	0
-	+	48	0
-	+	48	16
-	+	48	0
-	+	48	16
-	+	48	0
-	+	130	0
-	+	74	0
-	+	67	0
-	+	61	0
-	+	74	0
-	+	67	0
-	+	48	0
-	+	61	0
-	+	53	0
-	+	48	0
-	+	53	0
-	+	54	0
-	+	53	0
-	+	51	0
-	+	48	0
-	+	53	0
-	+	48	0
-	+	51	0
-	+	52	18
-	+	52	0
-	+	3	0
-	+	91	60
-	+	91	0
-	+	91	60
-	+	1	0
-	+	91	60
-	+	92	0
-	+	91	88
-	+	91	0
-	+	92	61
-	+	24	32
-	+	25	40
-	+	94	59
-	+	95	0
-	+	94	35
-	+	95	0
-	+	94	35
-	+	95	0
-	+	92	0
-	+	94	12
-	+	95	0
-	+	94	66
-	+	50	16
-
-> ~/media/uni/engineering_mathematics_math2393/math2393.md
-	*	1616294014	0
-	"	9	27
-	^	9	28
-	.	9	27
-	+	8	0
-	+	9	27
-
-> ~/media/uni/index.md
-	*	1616293993	0
-	"	5	2
-	.	1	0
-	+	1	0
-
-> ~/media/uni/engineering_science_oeng1208/week_3/tut_problems.tex
-	*	1616293571	0
-	"	1	1
-	^	5	16
-	.	8	0
-	+	5	15
-	+	8	0
-
-> ~/media/uni/engineering_science_oeng1208/week_3/week_3.tex
-	*	1616293340	0
-	"	132	32
-	^	132	32
-	.	132	31
-	+	55	83
-	+	56	37
-	+	57	12
-	+	54	25
-	+	58	35
-	+	59	38
-	+	60	43
-	+	61	38
-	+	49	71
-	+	50	149
-	+	50	0
-	+	50	187
-	+	64	4
-	+	65	44
-	+	66	0
-	+	68	0
-	+	67	45
-	+	66	0
-	+	81	0
-	+	83	21
-	+	82	82
-	+	83	14
-	+	88	49
-	+	88	47
-	+	88	48
-	+	89	0
-	+	88	46
-	+	92	94
-	+	92	0
-	+	92	120
-	+	93	13
-	+	97	38
-	+	98	12
-	+	97	0
-	+	97	56
-	+	98	0
-	+	97	46
-	+	98	61
-	+	99	13
-	+	97	56
-	+	103	33
-	+	104	0
-	+	103	35
-	+	104	32
-	+	105	36
-	+	109	25
-	+	110	13
-	+	109	49
-	+	143	0
-	+	114	38
-	+	113	0
-	+	135	12
-	+	116	12
-	+	150	12
-	+	1	0
-	+	114	38
-	+	136	0
-	+	137	35
-	+	138	37
-	+	139	91
-	+	140	56
-	+	143	47
-	+	144	12
-	+	145	12
-	+	109	12
-	+	145	27
-	+	143	50
-	+	145	85
-	+	145	0
-	+	145	112
-	+	145	0
-	+	146	28
-	+	147	12
-	+	148	36
-	+	149	44
-	+	150	0
-	+	149	42
-	+	114	18
-	+	114	38
-	+	114	0
-	+	114	36
-	+	114	0
-	+	114	40
-	+	115	31
-	+	115	0
-	+	122	12
-	+	123	0
-	+	125	0
-	+	126	73
-	+	127	47
-	+	128	28
-	+	129	34
-	+	132	31
-
-> ~/git/dots/vim/.vim/UltiSnips/tex.snippets
-	*	1616290905	0
-	"	175	23
-	^	117	32
-	.	175	23
-	+	79	0
-	+	78	0
-	+	85	0
-	+	84	15
-	+	86	13
-	+	171	9
-	+	122	0
-	+	113	0
-	+	114	17
-	+	123	16
-	+	114	17
-	+	123	18
-	+	113	27
-	+	122	29
-	+	112	0
-	+	121	0
-	+	113	27
-	+	122	29
-	+	104	34
-	+	127	39
-	+	135	10
-	+	132	23
-	+	133	20
-	+	71	14
-	+	73	10
-	+	67	32
-	+	133	18
-	+	132	20
-	+	177	10
-	+	175	24
-	+	108	28
-	+	117	31
-	+	237	0
-	+	218	0
-	+	222	0
-	+	83	13
-	+	175	23
-
-> ~/media/uni/engineering_science_oeng1208/oeng1208.md
-	*	1616287990	0
-	"	13	2
-	.	14	0
-	+	5	0
-	+	6	0
-	+	6	8
-	+	7	28
-	+	3	11
-	+	4	21
-	+	3	11
-	+	4	22
-	+	8	105
-	+	8	24
-	+	4	38
-	+	9	0
-	+	10	28
-	+	11	0
-	+	12	0
-	+	13	29
-	+	14	3
+	+	9	19
+	+	10	45
+	+	11	93
+	+	11	4
+	+	12	4
+	+	13	76
 	+	14	0
-
-> /etc/xrdp/startwm.sh
-	*	1616226597	0
-	"	125	5
-
-> ~/media/uni/digital_fundamentals_oeng1206/week_3/lec.m
-	*	1615982000	0
-	"	1	0
-
-> ~/media/uni/digital_fundamentals_oeng1206/week_3/milestone_1.m
-	*	1615954259	0
-	"	5	17
-	^	5	22
-	.	5	17
-	+	4	8
-	+	5	17
-
-> ~/media/uni/digital_fundamentals_oeng1206/week_3/lec_3.m
-	*	1615951299	0
-	"	39	0
-	^	39	2
-	.	40	0
-	+	1	0
-	+	7	0
-	+	1	0
-	+	7	0
-	+	2	0
-	+	1	0
-	+	7	0
-	+	16	44
-	+	3	10
-	+	7	5
-	+	8	6
-	+	12	15
-	+	16	32
+	+	18	0
+	+	16	35
+	+	17	18
 	+	15	0
-	+	11	0
-	+	6	0
-	+	21	8
-	+	21	12
+	+	19	4
+	+	20	21
+	+	10	42
+	+	20	95
 	+	21	0
-	+	21	13
-	+	25	6
-	+	19	5
-	+	20	6
-	+	21	13
-	+	23	16
-	+	25	23
-	+	19	0
-	+	18	0
-	+	22	0
-	+	18	1
-	+	19	0
-	+	28	0
-	+	28	13
-	+	29	0
-	+	28	0
-	+	29	18
-	+	32	9
-	+	28	11
-	+	29	19
-	+	30	6
-	+	28	8
-	+	30	0
-	+	28	0
-	+	35	35
-	+	37	12
-	+	35	0
-	+	40	0
-	+	39	17
-	+	41	8
-	+	40	0
-
-> ~/.zprofile
-	*	1615939730	0
-	"	8	35
-	^	8	36
-	.	9	0
-	+	9	0
-
-> ~/error.log
-	*	1615937715	0
-	"	116	0
-
-> ~/media/uni/professional_engineering_oeng1166/oeng1166.md
-	*	1615909142	0
-	"	7	0
-	^	7	0
-	.	7	0
-	+	5	0
-	+	6	7
-	+	7	28
-	+	7	0
-
-> ~/media/uni/professional_engineering_oeng1166/week_2/week_2.tex
-	*	1615908992	0
-	"	6	0
-	^	5	4
-	.	5	3
-	+	1	0
-	+	5	0
-	+	5	3
-
-> ~/media/uni/engineering_science_oeng1208/week_2/week_2.tex
-	*	1615849707	0
-	"	1	0
-	^	123	85
-	.	123	83
-	+	60	46
-	+	61	130
-	+	62	84
-	+	63	4
-	+	69	0
-	+	33	4
-	+	33	0
-	+	69	0
-	+	34	21
-	+	34	0
-	+	34	27
-	+	56	101
-	+	64	26
-	+	69	21
-	+	69	0
-	+	34	0
-	+	65	0
-	+	71	4
-	+	71	0
-	+	70	37
-	+	125	4
-	+	3	0
-	+	72	40
-	+	74	4
-	+	75	10
-	+	74	0
-	+	75	55
-	+	76	4
-	+	76	0
-	+	77	31
-	+	79	4
-	+	80	52
-	+	81	0
-	+	83	0
-	+	82	91
-	+	82	0
-	+	82	93
-	+	82	0
-	+	82	107
-	+	82	0
-	+	82	116
-	+	82	85
-	+	84	4
-	+	85	26
-	+	86	111
-	+	87	28
-	+	86	25
-	+	88	74
-	+	89	4
-	+	90	28
-	+	92	0
-	+	94	0
-	+	93	37
-	+	91	73
-	+	95	4
-	+	96	41
-	+	97	0
-	+	99	0
-	+	100	0
-	+	102	0
-	+	101	0
-	+	103	0
-	+	105	0
-	+	104	0
-	+	106	4
-	+	107	35
-	+	108	0
-	+	110	0
-	+	109	105
-	+	109	99
-	+	109	0
-	+	111	4
-	+	112	37
-	+	125	4
-	+	113	0
-	+	125	0
-	+	114	83
-	+	114	0
-	+	116	4
-	+	125	0
-	+	117	4
-	+	125	0
-	+	118	49
-	+	119	0
-	+	121	0
-	+	120	86
-	+	120	0
-	+	125	0
-	+	115	0
-	+	120	0
-	+	122	0
-	+	123	83
-
-> /tmp/vifm.rename_68356840_00
-	*	1615510728	0
-	"	4	12
-	^	1	13
-	.	4	0
-	+	1	0
-	+	2	0
-	+	2	10
-	+	2	0
-	+	1	0
-	+	2	0
-	+	3	0
-	+	4	0
-	+	2	12
-	+	2	0
-	+	3	0
-	+	4	0
-
-> ~/downloads/maths_tut_1jpg
-	*	1615510591	0
-	"	1	0
-
-> ~/git/scripts/scripts/.scripts/chbg
-	*	1615475561	0
-	"	1	10
-	^	1	11
-	.	1	10
-	+	1	10
-
-> ~/git/scripts/scripts/.scripts/randback
-	*	1615475518	0
-	"	1	8
-	^	1	9
-	.	1	8
-	+	1	8
-
-> ~/git/dots/zsh/.config/zsh/.zshrc
-	*	1615447841	0
-	"	31	102
-	^	31	103
-	.	31	102
-	+	30	36
-	+	31	102
-
-> ~/media/uni/engineering_science_oeng1208/week_2/tutorial.tex
-	*	1615332403	0
-	"	53	4
-	^	52	48
-	.	52	47
-	+	1	0
-	+	5	0
-	+	3	0
-	+	5	28
-	+	6	0
-	+	5	5
-	+	6	4
-	+	6	40
-	+	7	66
-	+	9	86
-	+	13	59
-	+	14	0
-	+	16	0
-	+	17	0
-	+	17	91
-	+	17	0
-	+	19	42
-	+	22	54
-	+	15	30
-	+	26	59
-	+	27	0
-	+	30	0
-	+	30	79
-	+	31	27
-	+	7	70
-	+	9	90
-	+	11	143
-	+	29	18
-	+	32	18
-	+	31	27
-	+	32	39
-	+	33	0
-	+	32	27
-	+	33	39
-	+	34	43
-	+	35	43
-	+	36	47
-	+	37	42
-	+	42	0
-	+	44	0
-	+	44	72
-	+	45	0
-	+	45	76
-	+	46	29
-	+	51	77
-	+	53	21
-	+	55	58
-	+	56	72
-	+	57	62
-	+	56	67
-	+	58	54
-	+	60	49
-	+	62	0
-	+	64	0
-	+	65	63
-	+	66	64
-	+	71	78
-	+	74	39
-	+	75	72
-	+	76	0
-	+	52	47
-
-> ~/git/dots/vim/.vim/UltiSnips/vimwiki.snippets
-	*	1615291778	0
-	"	35	9
-	^	35	10
-	.	35	10
-	+	35	10
-
-> ~/.zshrc
-	*	1615290932	0
-	"	1	0
-
-> ~/git/scripts/scripts/.scripts/volcontrols
-	*	1615290621	0
-	"	1	0
-
-> ~/media/uni/engineering_science_oeng1208/week_2/tutorial.
-	*	1615270497	0
-	"	1	0
-
-> /tmp/vifm.cmdline_65166521_00
-	*	1615260239	0
-	"	1	0
-
-> ~/.local/share/applications/zth.desktop
-	*	1615191217	0
-	"	5	15
-	^	5	16
-	.	5	15
-	+	5	15
-
-> ~/.local/share/applications/zth
-	*	1615191157	0
-	"	1	0
-
-> ~/.local/share/applications/Townscaper.desktop
-	*	1615191140	0
-	"	1	0
-
-> ~/media/uni/digital_fundamentals_oeng1206/oeng1206.md
-	*	1615190563	0
-	"	1	0
-
-> ~/media/uni/engineering_science_oeng1208/week_1/week_1.tex
-	*	1615190543	0
-	"	79	1
-	^	78	0
-	.	78	0
-	+	30	99
-	+	31	4
-	+	32	54
-	+	33	0
-	+	36	0
-	+	35	42
-	+	36	0
-	+	30	154
-	+	79	0
-	+	37	4
-	+	38	45
-	+	39	172
-	+	77	23
-	+	79	0
-	+	77	21
-	+	77	19
-	+	79	0
-	+	77	23
-	+	77	22
-	+	77	19
-	+	54	0
-	+	77	23
-	+	77	19
-	+	40	4
-	+	41	45
-	+	42	0
-	+	54	0
-	+	42	27
-	+	43	0
-	+	46	0
-	+	44	65
-	+	42	59
-	+	45	162
-	+	47	4
-	+	48	118
-	+	49	0
-	+	52	0
-	+	50	44
-	+	51	44
-	+	4	0
-	+	54	0
-	+	4	0
-	+	5	0
-	+	50	113
-	+	51	101
-	+	52	12
-	+	52	0
-	+	53	4
-	+	54	3
-	+	54	0
-	+	55	40
-	+	77	23
-	+	77	19
-	+	77	23
-	+	77	19
-	+	77	23
-	+	77	19
-	+	56	0
-	+	57	4
-	+	56	4
-	+	58	36
-	+	59	138
-	+	60	105
-	+	61	4
-	+	63	28
-	+	41	36
-	+	63	52
-	+	63	48
-	+	64	123
-	+	68	0
-	+	65	90
-	+	66	24
-	+	64	24
-	+	66	123
-	+	67	76
-	+	69	39
-	+	70	64
-	+	71	0
-	+	77	0
-	+	73	160
-	+	74	88
-	+	75	210
-	+	76	140
-	+	14	0
-	+	18	0
-	+	22	0
-	+	27	0
 	+	31	0
-	+	37	0
-	+	40	0
-	+	47	0
-	+	53	0
-	+	57	0
-	+	61	0
-	+	77	23
-	+	79	0
-	+	62	11
-	+	78	0
+	+	22	47
+	+	23	49
+	+	24	8
+	+	23	33
+	+	24	52
+	+	25	62
+	+	26	27
+	+	27	20
+	+	22	0
+	+	20	91
+	+	26	15
+	+	27	28
+	+	28	29
+	+	29	87
+	+	28	0
+	+	29	32
+	+	30	34
+	+	30	45
+	+	30	21
+	+	29	31
+	+	30	0
+	+	33	47
+	+	33	129
+	+	33	0
+	+	33	131
+	+	33	0
+	+	33	171
+	+	33	0
+	+	33	179
+	+	33	0
+	+	33	191
+	+	33	0
+	+	29	28
+	+	30	19
+	+	34	4
+	+	35	4
+	+	32	4
+	+	33	198
+	+	36	0
+	+	44	0
+	+	38	47
+	+	39	52
+	+	40	58
+	+	39	29
+	+	41	38
+	+	42	41
+	+	43	27
+	+	41	0
+	+	42	0
+	+	43	0
 
-> ~/git/dots/vifm/.config/vifm/vifmrc
-	*	1615188717	0
-	"	127	0
-	^	126	18
-	.	127	0
-	+	125	7
-	+	126	17
-	+	127	0
+> ~/media/uni/notes/engineering_mathematics_math2393/week_9/week_9.tex
+	*	1621253580	0
+	"	216	9
+	^	215	17
+	.	215	0
+	+	182	0
+	+	182	101
+	+	182	0
+	+	182	152
+	+	220	4
+	+	220	0
+	+	220	4
+	+	220	8
+	+	220	12
+	+	220	16
+	+	220	20
+	+	220	0
+	+	220	4
+	+	220	0
+	+	220	4
+	+	220	0
+	+	220	4
+	+	220	0
+	+	220	4
+	+	220	0
+	+	220	4
+	+	220	0
+	+	1	23
+	+	220	0
+	+	182	153
+	+	220	0
+	+	220	4
+	+	220	0
+	+	182	153
+	+	220	4
+	+	182	152
+	+	220	0
+	+	182	153
+	+	220	4
+	+	220	0
+	+	182	153
+	+	220	0
+	+	182	152
+	+	220	0
+	+	182	153
+	+	220	0
+	+	182	160
+	+	1	23
+	+	182	152
+	+	220	0
+	+	182	152
+	+	220	4
+	+	220	0
+	+	182	251
+	+	182	152
+	+	220	15
+	+	220	0
+	+	184	13
+	+	184	0
+	+	220	111
+	+	220	0
+	+	220	11
+	+	220	0
+	+	220	118
+	+	182	0
+	+	220	0
+	+	188	26
+	+	188	0
+	+	220	126
+	+	187	16
+	+	220	137
+	+	190	0
+	+	190	133
+	+	189	11
+	+	190	0
+	+	197	88
+	+	197	0
+	+	197	135
+	+	199	0
+	+	201	0
+	+	200	33
+	+	202	113
+	+	203	0
+	+	211	0
+	+	207	67
+	+	208	53
+	+	209	62
+	+	210	31
+	+	204	0
+	+	212	0
+	+	214	0
+	+	213	19
+	+	202	0
+	+	202	142
+	+	220	4
+	+	220	8
+	+	220	12
+	+	220	16
+	+	220	20
+	+	220	0
+	+	219	0
+	+	196	11
+	+	215	17
+	+	215	0
 
-> ~/git/scripts/scripts/.scripts/latex_diagrams
-	*	1615187045	0
-	"	6	10
-	^	7	11
-	.	7	10
-	+	1	11
-	+	3	33
-	+	4	16
-	+	1	7
-	+	6	6
-	+	5	9
-	+	6	48
-	+	7	11
-	+	5	11
-	+	6	14
-	+	5	10
-	+	7	5
-	+	4	0
-	+	1	7
-	+	4	4
-	+	6	0
-	+	4	4
-	+	6	0
-	+	1	7
-	+	4	0
-	+	5	10
-	+	7	10
-	+	5	5
-	+	7	5
-	+	5	10
-	+	7	10
+> /tmp/tmpgtjypmb9.tex
+	*	1621253520	0
+	"	2	5
+	^	2	6
+	.	2	5
+	+	1	3
+	+	2	5
 
-> ~/git/scripts/scripts/.scripts/brightcontrols
-	*	1615186207	0
-	"	1	7
-	.	1	7
-	+	1	7
+> /tmp/tmpauq32niq.tex
+	*	1621251886	0
+	"	1	9
+	^	1	10
+	.	1	9
+	+	1	9
 
-> ~/git/scripts/scripts/.scripts/dprop
-	*	1615186188	0
-	"	1	7
-	.	1	7
-	+	1	7
-
-> ~/git/scripts/scripts/.scripts/font-awesome-select
-	*	1615186177	0
-	"	1	10
-	^	1	11
-	.	1	10
-	+	1	10
-
-> ~/git/scripts/scripts/.scripts/wifitest
-	*	1615186158	0
-	"	1	7
-	.	1	7
-	+	1	7
-
-> /etc/texmf/tex/local/base.sty
-	*	1615183994	0
-	"	13	0
-
-> /etc/fstab
-	*	1615114286	0
-	"	1	0
-
-> /media/uni/engineering_mathematics_math2393/week_1/week_1.tex
-	*	1615114142	0
-	"	55	0
-	^	54	45
-	.	54	42
-	+	137	0
-	+	58	0
-	+	80	0
-	+	136	0
-	+	81	39
-	+	82	0
-	+	86	0
-	+	83	19
-	+	84	20
-	+	85	0
-	+	83	10
-	+	84	10
-	+	85	14
-	+	83	0
-	+	85	0
-	+	88	42
-	+	136	0
-	+	88	50
-	+	89	0
-	+	93	0
-	+	90	39
-	+	91	41
-	+	91	44
-	+	92	15
-	+	91	46
-	+	95	28
-	+	96	0
-	+	98	0
-	+	97	80
-	+	97	0
-	+	97	97
-	+	97	0
-	+	97	95
-	+	136	0
-	+	101	44
-	+	102	7
-	+	102	0
-	+	105	0
-	+	100	11
-	+	136	0
-	+	102	0
-	+	136	0
-	+	107	37
-	+	108	0
-	+	136	0
-	+	108	0
-	+	111	0
-	+	109	32
-	+	110	41
-	+	109	0
-	+	113	20
-	+	113	0
-	+	119	0
-	+	122	0
-	+	120	34
-	+	121	0
-	+	120	0
-	+	124	60
-	+	125	0
-	+	136	0
-	+	124	53
-	+	130	66
-	+	131	0
-	+	135	0
-	+	132	71
-	+	133	58
-	+	134	66
-	+	133	60
-	+	132	0
-	+	54	26
-	+	53	39
-	+	54	42
-
-> /media/uni/engineering_mathematics_math2393/math2393.md
-	*	1615114041	0
-	"	7	2
-	^	7	18
-	.	7	17
-	+	7	17
-
-> /media/uni/index.md
-	*	1615114040	0
-	"	5	2
-
-> /tmp/tmph2m23w_l.tex
-	*	1615101358	0
-	"	1	57
-	^	1	58
-	.	1	57
-	+	1	57
-
-> /tmp/tmpysa3hpf_.tex
-	*	1615101317	0
-	"	1	56
-	^	1	57
-	.	1	55
-	+	1	55
-
-> /tmp/tmpbpiglrwb.tex
-	*	1615101174	0
-	"	1	45
-	^	1	46
-	.	1	46
-	+	1	46
-
-> /tmp/tmpioh72qgz.tex
-	*	1615101093	0
-	"	2	9
-	^	2	10
-	.	2	9
-	+	1	25
-	+	2	9
-
-> /tmp/tmptjxdlorb.tex
-	*	1615100787	0
-	"	1	19
-	^	1	20
-	.	1	19
-	+	1	19
-
-> /tmp/tmp_scdj2gr.tex
-	*	1615100716	0
-	"	2	19
-	^	2	20
-	.	2	19
-	+	1	12
-	+	2	19
-
-> /tmp/tmpnh37hmaa.tex
-	*	1615100663	0
+> /tmp/tmpkijw9qua.tex
+	*	1621251446	0
 	"	2	11
 	^	2	12
 	.	2	11
-	+	1	24
-	+	1	21
+	+	1	13
 	+	2	11
 
-> /tmp/tmpwt4f53ah.tex
-	*	1615100591	0
-	"	2	11
-	^	2	12
-	.	2	10
-	+	1	21
-	+	2	10
+> /usr/share/vim/vim82/doc/syntax.txt
+	*	1621249911	0
+	"	3291	40
 
-> /tmp/tmpwnn44q0d.tex
-	*	1615099992	0
-	"	1	46
-	^	1	47
-	.	1	45
-	+	1	45
+> ~/git/dots/vim/.vim/autoload/plug.vim
+	*	1621249562	0
+	"	2788	0
 
-> /tmp/tmp76koa05c.tex
-	*	1615099897	0
-	"	1	22
-	^	1	22
-	.	1	21
-	+	1	21
+> ~/git/dots/vim/.vim/after/syntax/tex/amsmath.vim
+	*	1621249544	0
+	"	33	0
+	^	23	2
+	.	23	0
+	+	23	0
 
-> /tmp/tmpvuhz1njo.tex
-	*	1615099802	0
-	"	1	15
-	^	1	16
-	.	1	15
-	+	1	15
+> /usr/share/vim/vim82/doc/index.txt
+	*	1621249205	0
+	"	857	1
 
-> /tmp/tmp1vyjpyb7.tex
-	*	1615098352	0
+> /tmp/tmp06n407_g.tex
+	*	1621247916	0
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	1
+
+> /tmp/tmpcphu4rg7.tex
+	*	1621246812	0
+	"	1	6
+	^	1	7
+	.	1	6
+	+	1	6
+
+> /tmp/tmpfre50syu.tex
+	*	1621246745	0
+	"	4	1
+	^	4	2
+	.	4	1
+	+	1	3
+	+	2	3
+	+	3	3
+	+	4	1
+
+> /tmp/tmpps4zl_hs.tex
+	*	1621246720	0
 	"	1	7
 	^	1	8
 	.	1	7
 	+	1	7
 
-> /tmp/tmpv18c514r.tex
-	*	1615098323	0
+> /tmp/tmpffx1s5av.tex
+	*	1621224943	0
+	"	1	2
+	^	1	3
+	.	1	2
+	+	1	2
+
+> /tmp/tmphd4uzy6c.tex
+	*	1621224900	0
+	"	1	9
+	^	1	10
+	.	1	9
+	+	1	9
+
+> ~/media/uni/notes/engineering_mathematics_math2393/week_7/week_7.tex
+	*	1621221036	0
+	"	109	0
+	^	108	58
+	.	108	57
+	+	62	4
+	+	63	34
+	+	121	0
+	+	63	44
+	+	64	106
+	+	64	0
+	+	64	150
+	+	65	0
+	+	67	0
+	+	66	0
+	+	121	0
+	+	64	152
+	+	64	0
+	+	64	163
+	+	68	4
+	+	69	45
+	+	70	0
+	+	76	0
+	+	71	60
+	+	72	33
+	+	73	29
+	+	74	33
+	+	75	44
+	+	77	4
+	+	79	26
+	+	80	84
+	+	80	0
+	+	80	103
+	+	80	0
+	+	80	121
+	+	80	0
+	+	80	152
+	+	78	11
+	+	81	24
+	+	81	0
+	+	85	4
+	+	86	40
+	+	87	0
+	+	94	0
+	+	88	39
+	+	89	40
+	+	88	0
+	+	95	4
+	+	96	36
+	+	97	0
+	+	99	0
+	+	98	14
+	+	100	4
+	+	101	32
+	+	121	0
+	+	101	28
+	+	102	157
+	+	102	0
+	+	102	171
+	+	102	0
+	+	102	194
+	+	115	0
+	+	121	0
+	+	115	4
+	+	102	152
+	+	102	0
+	+	102	153
+	+	102	0
+	+	102	161
+	+	102	0
+	+	103	0
+	+	105	0
+	+	104	68
+	+	116	64
+	+	121	0
+	+	116	46
+	+	117	0
+	+	119	0
+	+	118	60
+	+	120	4
+	+	121	32
+	+	121	0
+	+	106	4
+	+	107	35
+	+	110	4
+	+	116	58
+	+	110	0
+	+	114	0
+	+	111	57
+	+	112	18
+	+	113	20
+	+	112	20
+	+	111	59
+	+	102	73
+	+	89	17
+	+	89	0
+	+	89	23
+	+	89	0
+	+	91	56
+	+	92	59
+	+	89	24
+	+	93	26
+	+	108	53
+	+	109	33
+	+	108	57
+
+> ~/media/uni/notes/engineering_mathematics_math2393/week_8/week_8.tex
+	*	1621220914	0
+	"	1	0
+	.	43	0
+	+	1	0
+	+	9	0
+	+	3	18
+	+	4	0
+	+	5	0
+	+	7	0
+	+	6	20
+	+	9	21
+	+	10	32
+	+	11	26
+	+	12	0
+	+	16	0
+	+	13	29
+	+	14	56
+	+	15	13
+	+	13	33
+	+	14	37
+	+	15	63
+	+	16	4
+	+	15	7
+	+	16	0
+	+	14	0
+	+	17	4
+	+	18	32
+	+	19	0
+	+	23	0
+	+	20	59
+	+	21	60
+	+	22	59
+	+	24	4
+	+	25	46
+	+	26	0
+	+	30	0
+	+	27	47
+	+	28	61
+	+	29	60
+	+	31	4
+	+	32	41
+	+	33	0
+	+	36	0
+	+	34	77
+	+	35	68
+	+	34	0
+	+	14	0
+	+	13	0
+	+	36	0
+	+	37	4
+	+	38	48
+	+	40	0
+	+	42	0
+	+	41	47
+	+	43	0
+	+	39	106
+	+	43	0
+
+> /tmp/tmpmyoxaysd.tex
+	*	1621212840	0
+	"	7	8
+	^	7	9
+	.	7	7
+	+	1	9
+	+	2	5
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	3	0
+	+	4	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	5	0
+	+	5	6
+	+	6	9
+	+	7	7
+
+> /tmp/vifm.rename_87398744_00
+	*	1621154817	0
+	"	4	0
+	^	1	15
+	.	1	0
+	+	1	0
+	+	2	25
+	+	1	0
+	+	2	0
+	+	1	0
+
+> /tmp/vifm.rename_86218626_00
+	*	1621154536	0
+	"	8	0
+	.	2	0
+	+	1	0
+	+	3	0
+	+	1	0
+	+	2	0
+
+> ~/media/uni/notes/engineering_science_oeng1208/week_10/week_10_tut_problems.tex
+	*	1621154408	0
+	"	46	9
+	^	42	65
+	.	46	0
+	+	18	0
+	+	18	98
+	+	18	0
+	+	18	151
+	+	18	0
+	+	18	209
+	+	18	0
+	+	18	217
+	+	18	0
+	+	18	302
+	+	18	0
+	+	18	311
+	+	18	0
+	+	27	12
+	+	28	84
+	+	28	0
+	+	28	91
+	+	28	0
+	+	28	98
+	+	28	0
+	+	37	12
+	+	38	84
+	+	38	0
+	+	38	104
+	+	38	0
+	+	45	12
+	+	47	88
+	+	47	0
+	+	47	95
+	+	47	0
+	+	47	107
+	+	47	0
+	+	57	12
+	+	58	0
+	+	10	87
+	+	10	0
+	+	10	93
+	+	11	0
+	+	16	0
+	+	13	47
+	+	14	39
+	+	15	34
+	+	23	0
+	+	26	0
+	+	24	52
+	+	24	16
+	+	12	0
+	+	24	44
+	+	24	51
+	+	26	43
+	+	26	0
+	+	24	59
+	+	26	73
+	+	26	0
+	+	24	0
+	+	24	39
+	+	24	74
+	+	25	32
+	+	24	0
+	+	24	77
+	+	29	0
+	+	36	0
+	+	30	69
+	+	31	30
+	+	32	67
+	+	33	68
+	+	34	26
+	+	34	37
+	+	35	0
+	+	30	0
+	+	19	0
+	+	22	0
+	+	24	0
+	+	20	0
+	+	22	36
+	+	47	149
+	+	48	0
+	+	56	0
+	+	50	54
+	+	51	16
+	+	49	47
+	+	51	31
+	+	52	64
+	+	53	41
+	+	54	39
+	+	55	48
+	+	49	0
+	+	45	0
+	+	39	0
+	+	44	0
+	+	41	31
+	+	42	15
+	+	41	16
+	+	42	77
+	+	43	0
+	+	40	0
+	+	38	15
+	+	42	64
+	+	38	0
+	+	46	0
+
+> ~/media/uni/notes/engineering_science_oeng1208/oeng1208.md
+	*	1621154397	0
+	"	28	2
+	^	28	62
+	.	28	61
+	+	8	0
+	+	11	0
+	+	17	0
+	+	18	27
+	+	21	0
+	+	20	0
+	+	21	0
+	+	10	58
+	+	13	0
+	+	16	0
+	+	19	0
+	+	22	0
+	+	13	0
+	+	16	0
+	+	19	0
+	+	22	0
+	+	23	0
+	+	24	29
+	+	25	0
+	+	26	0
+	+	27	32
+	+	28	61
+
+> /tmp/vifm.rename_53255330_00
+	*	1621078048	0
+	"	14	0
+	.	1	0
+	+	1	0
+
+> ~/git/dots/zsh/.config/zsh/.zshrc
+	*	1621048290	0
+	"	20	0
+	.	20	0
+	+	33	0
+	+	20	0
+
+> ~/test.tex
+	*	1620951913	0
+	"	6	0
+	^	7	9
+	.	5	0
+	+	1	0
+	+	71	0
+	+	68	18
+	+	71	0
+	+	73	0
+	+	72	20
+	+	1	0
+	+	63	0
+	+	60	18
+	+	63	0
+	+	65	0
+	+	64	8
+	+	1	0
+	+	56	0
+	+	53	18
+	+	56	0
+	+	58	0
+	+	57	19
+	+	1	0
+	+	48	0
+	+	45	18
+	+	48	0
+	+	50	0
+	+	49	17
+	+	1	0
+	+	41	16
+	+	42	0
+	+	41	0
+	+	42	9
+	+	42	8
+	+	38	0
+	+	41	0
+	+	41	20
+	+	41	0
+	+	38	0
+	+	40	0
+	+	39	22
+	+	1	0
+	+	27	0
+	+	24	18
+	+	27	0
+	+	35	0
+	+	27	19
+	+	35	0
+	+	27	0
+	+	35	0
+	+	27	0
+	+	29	0
+	+	34	0
+	+	30	30
+	+	31	22
+	+	28	9
+	+	34	11
+	+	35	0
+	+	33	10
+	+	28	9
+	+	33	10
+	+	30	22
+	+	31	18
+	+	1	0
+	+	14	0
+	+	11	18
+	+	14	0
+	+	21	0
+	+	16	0
+	+	19	0
+	+	16	24
+	+	15	20
+	+	20	14
+	+	17	0
+	+	17	43
+	+	18	31
+	+	20	15
+	+	1	0
+	+	7	0
+	+	9	0
+	+	5	0
+	+	1	0
+	+	5	36
+	+	5	0
+	+	5	27
+	+	7	22
+	+	5	40
+	+	8	9
+	+	5	29
+	+	5	20
+	+	5	29
+	+	5	0
+	+	5	15
+	+	5	19
+	+	5	0
+	+	4	15
+	+	7	20
+	+	5	20
+	+	7	5
+	+	5	18
+	+	7	9
+	+	5	0
+
+> ~/media/uni/notes/engineering_mathematics_math2393/week_2/week_2.tex
+	*	1620950955	0
+	"	1	1
+	^	6	21
+	.	6	20
+	+	41	0
+	+	1	0
+	+	41	0
+	+	4	0
+	+	57	69
+	+	58	0
+	+	60	0
+	+	59	63
+	+	57	43
+	+	62	0
+	+	64	0
+	+	63	73
+	+	64	6
+	+	66	0
+	+	55	65
+	+	5	0
+	+	7	0
+	+	6	20
+
+> ~/media/uni/notes/engineering_mathematics_math2393/week_3/week_3.tex
+	*	1620950949	0
+	"	89	0
+	^	83	56
+	.	83	0
+	+	18	32
+	+	19	34
+	+	20	36
+	+	17	0
+	+	24	0
+	+	10	44
+	+	24	37
+	+	25	0
+	+	30	0
+	+	33	0
+	+	31	47
+	+	32	31
+	+	31	0
+	+	28	16
+	+	30	0
+	+	23	11
+	+	9	21
+	+	9	4
+	+	9	44
+	+	9	0
+	+	9	45
+	+	9	0
+	+	17	8
+	+	16	17
+	+	17	0
+	+	34	4
+	+	35	33
+	+	36	39
+	+	35	5
+	+	36	88
+	+	45	101
+	+	46	0
+	+	88	0
+	+	46	0
+	+	67	0
+	+	47	0
+	+	51	0
+	+	49	29
+	+	50	26
+	+	52	13
+	+	53	0
+	+	56	0
+	+	52	10
+	+	54	24
+	+	55	0
+	+	57	11
+	+	58	0
+	+	61	0
+	+	59	24
+	+	60	0
+	+	62	11
+	+	63	0
+	+	66	0
+	+	64	24
+	+	65	0
+	+	66	13
+	+	63	15
+	+	37	59
+	+	38	0
+	+	45	0
+	+	38	0
+	+	44	0
+	+	39	0
+	+	42	0
+	+	40	20
+	+	41	16
+	+	43	16
+	+	68	4
+	+	68	96
+	+	36	87
+	+	68	105
+	+	68	109
+	+	69	4
+	+	70	48
+	+	71	0
+	+	73	0
+	+	72	68
+	+	74	4
+	+	76	29
+	+	77	26
+	+	77	0
+	+	75	11
+	+	81	4
+	+	82	0
+	+	88	0
+	+	82	0
+	+	87	0
+	+	83	56
+	+	84	35
+	+	85	60
+	+	86	9
+	+	83	0
+
+> ~/media/uni/notes/engineering_mathematics_math2393/week_5/week_5.tex
+	*	1620950929	0
+	"	1	1
+
+> ~/git/dots/zsh/.config/zsh/.zsh_history
+	*	1620721115	0
+	"	57	0
+
+> /tmp/tmpes08t404.tex
+	*	1620695465	0
+	"	3	4
+	^	3	35
+	.	2	0
+	+	1	0
+	+	4	0
+	+	2	35
+	+	3	31
+	+	2	0
+
+> /tmp/tmpzp9hvxnb.tex
+	*	1620695330	0
+	"	1	6
+	^	1	7
+	.	1	6
+	+	1	6
+
+> /tmp/tmpiht10yhd.tex
+	*	1620695251	0
+	"	1	6
+	^	1	7
+	.	1	6
+	+	1	6
+
+> /tmp/tmpx2_2z4yn.tex
+	*	1620695243	0
 	"	1	5
 	^	1	6
 	.	1	5
 	+	1	5
 
-> /tmp/tmpatmvjjyo.tex
-	*	1615098251	0
-	"	1	68
-	^	1	69
-	.	1	68
-	+	1	68
+> /tmp/tmpv56v47xd.tex
+	*	1620693939	0
+	"	3	19
+	^	3	20
+	.	3	19
+	+	1	3
+	+	2	3
+	+	3	19
 
-> ~/clear
-	*	1615097524	0
-	"	1	0
+> /tmp/tmp2byrvjty.tex
+	*	1620693872	0
+	"	1	5
+	^	1	6
+	.	1	5
+	+	1	5
 
-> ~/.config/inkscape-figures/config.py
-	*	1615097299	0
-	"	5	13
-	^	5	14
-	.	5	13
-	+	5	160
+> ~/media/uni/notes/engineering_mathematics_math2393/week_6/week_6.tex
+	*	1620692159	0
+	"	11	2
+	^	10	4
+	.	9	19
+	+	9	0
+	+	9	79
+	+	9	0
+	+	9	63
+	+	9	0
+	+	9	54
+	+	9	0
+	+	9	77
+	+	9	0
 	+	5	0
+	+	7	0
+	+	6	20
+	+	5	0
+	+	9	21
+	+	10	4
+	+	9	19
+
+> ~/media/uni/notes/engineering_mathematics_math2393/week_5.tex
+	*	1620654219	0
+	"	96	5
+	.	96	0
+	+	43	59
+	+	44	86
+	+	45	93
+	+	42	40
+	+	43	63
+	+	41	0
+	+	40	29
+	+	49	4
+	+	50	31
+	+	51	0
+	+	111	0
+	+	51	0
+	+	111	0
+	+	51	0
+	+	53	0
+	+	53	45
+	+	54	42
+	+	55	42
+	+	56	0
+	+	56	38
+	+	53	49
+	+	56	39
+	+	59	4
+	+	60	12
+	+	61	21
+	+	110	4
+	+	62	32
+	+	63	0
+	+	110	0
+	+	63	86
+	+	63	0
+	+	63	113
+	+	63	0
+	+	63	118
+	+	63	0
+	+	64	0
+	+	66	0
+	+	65	15
+	+	67	4
+	+	68	64
+	+	69	41
+	+	70	0
+	+	72	0
+	+	71	17
+	+	73	97
+	+	73	0
+	+	74	0
+	+	76	0
+	+	75	51
+	+	77	4
+	+	78	35
+	+	79	44
+	+	80	127
+	+	80	0
+	+	80	145
+	+	80	0
+	+	80	236
+	+	81	0
+	+	83	0
+	+	82	55
+	+	84	4
+	+	85	34
+	+	86	134
+	+	87	0
+	+	89	0
+	+	88	12
+	+	86	133
+	+	88	29
+	+	86	157
+	+	86	0
+	+	86	159
+	+	86	0
+	+	86	166
+	+	97	4
+	+	98	46
+	+	99	89
+	+	99	0
+	+	100	0
+	+	102	0
+	+	101	0
+	+	103	4
+	+	104	53
+	+	105	0
+	+	109	0
+	+	106	43
+	+	101	18
+	+	107	55
+	+	108	82
+	+	90	4
+	+	91	28
+	+	92	0
+	+	96	0
+	+	93	46
+	+	94	34
+	+	96	0
+	+	94	63
+	+	95	47
+	+	96	0
+
+> /tmp/tmpei1nxwn2.tex
+	*	1620650511	0
+	"	2	6
+	^	2	7
+	.	2	6
+	+	1	7
+	+	2	6
+
+> /tmp/tmpk12b4r05.tex
+	*	1620650447	0
+	"	3	13
+	^	3	14
+	.	3	11
+	+	1	14
+	+	2	14
+	+	3	11
+
+> /tmp/tmpnc4k54s0.tex
+	*	1620650422	0
+	"	1	11
+	^	1	12
+	.	1	11
+	+	1	11
+
+> /tmp/tmpmb2jhr8i.tex
+	*	1620650394	0
+	"	1	6
+	^	1	7
+	.	1	6
+	+	1	6
+
+> /tmp/tmph1ljgijj.tex
+	*	1620649788	0
+	"	1	11
+	^	1	12
+	.	1	11
+	+	1	11
+
+> /tmp/tmptgvlsb6s.tex
+	*	1620649733	0
+	"	1	6
+	^	1	7
+	.	1	6
+	+	1	6
+
+> ~/media/uni/notes/engineering_mathematics_math2393/week_4/week_4.tex
+	*	1620611197	0
+	"	13	3
+	^	104	6
+	.	105	0
+	+	51	0
+	+	55	0
+	+	57	0
+	+	56	33
+	+	58	31
+	+	105	0
+	+	58	34
+	+	59	4
+	+	60	50
+	+	61	0
+	+	63	0
+	+	62	68
+	+	64	13
+	+	65	0
+	+	68	0
+	+	66	93
+	+	67	55
+	+	66	0
+	+	64	13
+	+	60	50
+	+	58	38
+	+	69	4
+	+	71	23
+	+	72	102
+	+	72	0
+	+	72	102
+	+	72	0
+	+	72	117
+	+	72	0
+	+	72	146
+	+	72	0
+	+	72	168
+	+	77	4
+	+	77	81
+	+	77	0
+	+	77	84
+	+	77	0
+	+	77	103
+	+	73	4
+	+	73	0
+	+	74	0
+	+	71	0
+	+	74	0
+	+	70	11
+	+	77	0
+	+	79	0
+	+	78	34
+	+	77	0
+	+	80	41
+	+	81	0
+	+	105	0
+	+	105	58
+	+	105	51
+	+	105	44
+	+	105	23
+	+	105	0
+	+	105	21
+	+	105	45
+	+	105	52
+	+	81	11
+	+	105	0
+	+	105	9
+	+	105	0
+	+	82	0
+	+	81	0
+	+	86	15
+	+	81	0
+	+	86	0
+	+	82	8
+	+	86	21
+	+	88	78
+	+	89	0
+	+	91	0
+	+	90	23
+	+	87	4
+	+	92	88
+	+	93	4
+	+	94	44
+	+	95	4
 	+	4	0
-	+	3	0
-	+	2	0
-	+	3	0
-	+	5	0
-	+	4	14
-	+	3	17
-	+	2	27
-	+	5	13
+	+	95	68
+	+	96	0
+	+	98	0
+	+	97	80
+	+	97	0
+	+	99	4
+	+	100	52
+	+	101	88
+	+	102	0
+	+	104	0
+	+	103	37
+	+	104	6
+	+	105	0
 
-> /tmp/tmpqmi2vopj.tex
-	*	1615097017	0
-	"	1	81
-	^	1	82
-	.	1	80
-	+	1	80
+> /tmp/tmpv9uhb87g.tex
+	*	1620610217	0
+	"	1	12
+	^	1	13
+	.	1	12
+	+	1	12
 
-> /tmp/tmpzj6sz2hu.tex
-	*	1615096922	0
+> /tmp/tmpimh12zi7.tex
+	*	1620609997	0
+	"	3	10
+	^	3	11
+	.	3	10
+	+	1	21
+	+	2	15
+	+	3	10
+
+> /tmp/tmpz6n16zij.tex
+	*	1620608021	0
+	"	1	13
+	^	1	13
+	.	1	12
+	+	1	12
+
+> /tmp/tmp_6k4ctje.tex
+	*	1620607958	0
+	"	2	12
+	^	2	13
+	.	2	12
+	+	1	14
+	+	2	12
+
+> /tmp/tmpa7u0c352.tex
+	*	1620607805	0
+	"	1	6
+	^	1	7
+	.	1	6
+	+	1	6
+
+> /tmp/tmp8n2ufidw.tex
+	*	1620607750	0
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	1
+
+> /tmp/tmpvn17wvz2.tex
+	*	1620607732	0
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	1
+
+> /tmp/tmpansr11_8.tex
+	*	1620607708	0
+	"	1	8
+	^	1	9
+	.	1	8
+	+	1	8
+
+> /tmp/tmpzxigtf45.tex
+	*	1620607662	0
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	1
+
+> /tmp/tmpf5y2ensw.tex
+	*	1620607650	0
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	1
+
+> /tmp/tmpa3wlpyx0.tex
+	*	1620607548	0
+	"	1	9
+	^	1	10
+	.	1	9
+	+	1	9
+
+> /tmp/tmpe8kc1zl0.tex
+	*	1620607538	0
 	"	1	10
 	^	1	11
 	.	1	10
 	+	1	10
 
-> /tmp/tmpmvza69vk.tex
-	*	1615096894	0
-	"	1	6
-	^	1	7
-	.	1	6
-	+	1	6
-
-> /tmp/tmpvlaufg7f.tex
-	*	1615096885	0
-	"	1	6
-	^	1	7
-	.	1	6
-	+	1	6
-
-> ~/build/inkscape-shortcut-manager/main.py
-	*	1615096355	0
-	"	1	0
-
-> ~/build/inkscape-shortcut-manager/config.py
-	*	1615096254	0
-	"	9	9
-	^	9	11
-	.	9	10
-	+	7	10
-	+	8	10
-	+	9	10
-
-> /media/uni/engineering_mathematics_math2393/week_1.tex
-	*	1615090694	0
-	"	1	0
-	.	80	0
+> ~/media/uni/notes/engineering_science_oeng1208/week_8/lab_2/lab_2.tex
+	*	1620543463	0
+	"	59	1
+	^	38	12
+	.	38	11
 	+	1	0
-	+	10	0
-	+	7	0
-	+	10	0
-	+	22	0
-	+	10	0
-	+	10	32
-	+	22	0
-	+	10	0
-	+	10	38
-	+	11	32
-	+	12	3
-	+	3	16
-	+	12	0
-	+	13	32
-	+	13	31
-	+	12	11
-	+	13	38
-	+	12	12
-	+	13	32
-	+	13	17
-	+	15	0
-	+	13	31
-	+	14	22
-	+	13	30
-	+	14	40
-	+	13	0
-	+	12	11
-	+	15	9
+	+	60	0
+	+	1	0
+	+	58	0
+	+	3	18
+	+	5	17
+	+	58	3
 	+	6	0
-	+	9	19
-	+	17	33
-	+	18	0
+	+	8	34
+	+	15	23
 	+	20	0
-	+	19	12
+	+	21	19
+	+	9	0
+	+	15	0
+	+	9	0
+	+	11	0
+	+	11	72
+	+	14	0
+	+	16	0
+	+	39	21
+	+	40	0
+	+	8	0
+	+	8	15
+	+	40	0
+	+	42	40
 	+	22	0
-	+	19	12
-	+	21	0
-	+	19	12
-	+	18	16
-	+	20	14
-	+	19	12
-	+	19	0
-	+	70	31
-	+	71	0
-	+	77	0
-	+	76	22
-	+	60	22
-	+	69	22
-	+	80	8
-	+	80	0
-	+	78	18
-	+	80	4
-	+	80	0
-	+	80	3
-	+	80	0
-	+	80	9
-	+	80	0
-	+	43	0
-	+	80	0
-	+	80	8
-	+	80	0
+	+	24	0
+	+	24	40
+	+	25	39
+	+	26	48
+	+	27	47
+	+	28	48
+	+	29	60
+	+	31	59
+	+	30	59
+	+	32	60
+	+	33	51
+	+	34	43
+	+	46	0
+	+	50	0
+	+	48	45
+	+	49	0
+	+	48	9
+	+	49	30
+	+	53	0
+	+	57	0
+	+	55	51
+	+	56	26
+	+	47	0
+	+	11	59
+	+	16	9
+	+	16	0
+	+	38	11
 
-> ~/git/dots/vim/.vim/after/syntax/tex/amsmath.vim
-	*	1615079638	0
+> /tmp/tmpc9_p_r12.tex
+	*	1620542790	0
+	"	4	27
+	^	4	28
+	.	4	27
+	+	1	28
+	+	2	28
+	+	3	28
+	+	4	27
+
+> /tmp/tmpvl3kxuc4.tex
+	*	1620542358	0
+	"	3	3
+	^	3	4
+	.	3	3
+	+	1	5
+	+	2	5
+	+	3	3
+
+> /tmp/tmpr4ms22j0.tex
+	*	1620541718	0
+	"	3	11
+	^	3	12
+	.	3	10
+	+	1	12
+	+	2	12
+	+	3	10
+
+> ~/media/uni/notes/engineering_science_oeng1208/week_9/week_9_tut_problems.tex
+	*	1620534093	0
+	"	59	0
+	.	58	0
+	+	44	167
+	+	44	0
+	+	44	174
+	+	44	0
+	+	44	180
+	+	44	282
+	+	44	0
+	+	44	289
+	+	44	0
+	+	44	292
+	+	44	0
+	+	44	301
+	+	44	0
+	+	44	307
+	+	35	0
+	+	35	81
+	+	51	98
+	+	51	0
+	+	51	104
+	+	51	0
+	+	51	110
+	+	51	206
+	+	51	0
+	+	51	212
+	+	51	0
+	+	51	218
+	+	58	86
+	+	58	0
+	+	58	91
+	+	58	0
+	+	58	96
+	+	58	204
+	+	58	0
+	+	58	212
+	+	58	0
+	+	58	239
+	+	58	0
+	+	58	244
+	+	58	0
+	+	58	250
+	+	17	69
+	+	11	0
+	+	15	0
+	+	14	35
+	+	18	0
+	+	22	0
+	+	12	0
+	+	19	18
+	+	11	0
+	+	18	0
+	+	19	40
+	+	20	58
+	+	21	29
+	+	19	0
+	+	29	0
+	+	33	0
+	+	30	16
+	+	29	0
+	+	25	0
+	+	27	44
+	+	25	0
+	+	27	41
+	+	30	46
+	+	31	93
+	+	32	30
+	+	30	0
+	+	36	0
+	+	41	0
+	+	37	69
+	+	38	76
+	+	39	40
+	+	40	17
+	+	37	0
+	+	40	18
+	+	39	26
+	+	40	32
+	+	39	38
+	+	43	15
+	+	45	0
+	+	49	0
+	+	46	45
+	+	47	17
+	+	46	55
+	+	47	63
+	+	48	32
+	+	46	31
+	+	52	0
+	+	57	0
+	+	53	50
+	+	54	53
+	+	53	51
+	+	55	69
+	+	56	34
+	+	53	0
+	+	58	0
+
+> ~/git/dots/vim/.vim/.vinrc
+	*	1620529922	0
 	"	1	0
-	^	180	2
-	.	180	0
-	+	13	0
-	+	180	0
+
+> /tmp/tmp4tapnvm3.tex
+	*	1620526294	0
+	"	1	0
+
+> /tmp/tmps6wrr3yx.tex
+	*	1620526161	0
+	"	1	0
+
+> /tmp/tmpgpswhagc.tex
+	*	1620525962	0
+	"	3	8
+	^	3	9
+	.	3	8
+	+	1	10
+	+	3	8
+
+> /tmp/tmpou81jb5o.tex
+	*	1620525948	0
+	"	1	8
+	^	1	9
+	.	1	8
+	+	1	8
+
+> /tmp/tmp7cv759lf.tex
+	*	1620525791	0
+	"	3	3
+	^	3	4
+	.	3	4
+	+	1	8
+	+	2	5
+	+	3	4
+
+> /tmp/vifm.rename_1380913814_00
+	*	1620033703	0
+	"	1	25
+	.	1	25
+	+	1	25
+
+> ~/20-nouveau.conf
+	*	1620004872	0
+	"	4	0
+	^	4	14
+	.	4	0
+	+	4	0
+
+> ~/10-nvidia-drm-outputclass.conf
+	*	1620004718	0
+	"	4	12
+	^	8	29
+	.	8	28
+	+	8	28
+
+> /etc/X11/xorg.conf.d/20-nvidia.conf
+	*	1619991760	0
+	"	6	0
+	^	6	14
+	.	6	0
+	+	6	0
+
+> /etc/X11/xorg.conf
+	*	1619991547	0
+	"	14	0

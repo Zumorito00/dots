@@ -9,7 +9,7 @@ Plug 'SirVer/ultisnips'
 
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
-let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+let g:UltiSnipsJumpBackwardTrigger="<S-tab>"
 let g:UltiSnipsSnippetsDir = "~/.vim/UltiSnips"
 
 " If you want :UltiSnipsEdit to split your window.
@@ -25,10 +25,6 @@ let g:vimwiki_list = [{'path': '~/media/uni',
                         \ 'path_html': '~/media/uni/export',
                         \ 'syntax': 'markdown', 'ext': '.md'}]
 
-" Auto save on exit insert mode
-Plug '907th/vim-auto-save'
-let g:auto_save = 0
-
 " Goyo
 Plug 'junegunn/goyo.vim'
 let g:goyo_width = 150
@@ -36,18 +32,12 @@ let g:goyo_height = "100%"
 let g:goyo_linenr = 0
 nnoremap <leader>g :Goyo<CR>
 
-" Ditto
-Plug 'dbmrq/vim-ditto'
-let g:ditto_mode = "paragraph"
-let g:ditto_min_repetitions = 3
-nnoremap <leader>d :ToggleDitto<CR>
-
 call plug#end()
 
 " General
 filetype plugin on
 syntax on
-colorscheme pablo
+colorscheme koehler
 set nocompatible
 set ttimeoutlen=100
 set number
@@ -76,11 +66,18 @@ set softtabstop=4
 set lcs=eol:$,trail:~,extends:>,precedes:<,space:·
 nnoremap <F8> :set list! <CR>
 
+" Set tex_fast
+let g:tex_fast = "bMpr"
+let g:tex_conceal = ""
+
 " Keybinds
 " line numbers
 nnoremap <F5> :set nu! rnu! <CR>
 " spell check
+inoremap <F7> <Esc>:setlocal spell! spelllang=en_au <CR>a
 nnoremap <F7> :setlocal spell! spelllang=en_au <CR>
+" autocorrect words
+nnoremap <C-s> [sz=1<CR><CR>
 " redraw screen
 nnoremap <F9> :silent redraw! <CR>
 " save
@@ -91,7 +88,7 @@ nnoremap zS :shell<CR>
 inoremap <C-f> <Esc>: silent exec '.!inkscape-figures create "'.getline('.').'" "figures"'<CR><CR>:w<CR>
 nnoremap <C-f> : silent exec '!inkscape-figures edit "figures" > /dev/null 2>&1 &'<CR><CR>:redraw!<CR>
 " latex pictures
-nnoremap <leader>f : silent exec '.!latex_diagrams'<CR><CR>:w<CR>f[
+nnoremap <leader>f : silent exec '.!latex_diagrams'<CR><CR>:w<CR><CR>f[
 
 " Commands
 " reload syntax highlighting
@@ -101,6 +98,8 @@ command T :VimwikiTable
 " convert vimwiki to html
 command VHALL :VimwikiAll2HTML
 command VH :Vimwiki2HTML
+" open tex in zathura
+command Z :silent !zth '%:r'.pdf
 
 " Autocommands
 " auto change directory
@@ -117,8 +116,6 @@ au BufWritePost *polybar/config silent !killall polybar; setsid polybar bar &; x
 au BufWritePost *config.*h silent !sudo make install
 " restart bspwm after write
 au BufWritePost *bspwmrc silent !bspc wm -r
-" auto save on latex documents
-au BufRead,BufReadPre,BufNewFile ~/vimwiki/* let g:auto_save = 1
 " bind == to compile latex
 au BufRead,BufReadPre,BufNewFile *.tex map == :w <CR> :!pdflatex '%'; rm *.log *.aux <CR>
 " latex au

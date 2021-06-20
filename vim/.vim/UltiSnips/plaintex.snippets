@@ -24,6 +24,7 @@ def math():
 		return False
 endglobal
 
+# Setup Snippets
 snippet inkfig "Inkscape figures preamble"
 \usepackage{import}
 \usepackage{pdfpages}
@@ -38,7 +39,7 @@ snippet inkfig "Inkscape figures preamble"
 \pdfsuppresswarningpagegroup=1
 endsnippet
 
-snippet doc "Document Skeleton" b
+snippet "^doc" "Document Skeleton" brA
 \documentclass{${1:article}}
 \usepackage{base}
 ${2:Optional Packages}
@@ -64,9 +65,22 @@ snippet beg "Begin-End Skeleton Visual" A
 \end{$1}
 endsnippet
 
-snippet tab "Tabular Skeleton" bA
+snippet tab "Tabular Skeleton" b
 \begin{center}
 	\begin{tabular}{$1}
+		$0
+	\end{tabular}
+\end{center}
+endsnippet
+
+snippet "tab (\d*)" "Tabular Skeleton" br
+\begin{center}
+	\begin{tabular}{`!p s = ""
+para = r"p{" + str(round(1 / int(match.group(1)) * 0.8, 2)) + r"\textwidth}"
+for i in range(1, int(match.group(1))):
+	s += para + "|"
+s += para
+snip.rv = s`}
 		$0
 	\end{tabular}
 \end{center}
@@ -80,57 +94,26 @@ snippet (( "()" iA
 ($1)$0
 endsnippet
 
-priority 1000
-context "math()"
-snippet (( "()" iA
-\left($1\right)$0
-endsnippet
-
 snippet [[ "[]" iA
 [$1]$0
 endsnippet
 
-snippet .., "{}" iA
-{
-	$0
-}
-endsnippet
-
+# General Snippets
 snippet " "Quote Skeleton" iA
 \`\`$1''$0
 endsnippet
 
-context "snip.visual_mode"
-snippet " "Quote Skeleton Visual" iA
-\`\`${VISUAL}''
-endsnippet
-
-snippet \bf "Bold Skeleton" iA
+snippet bf "Bold Skeleton" i
 \textbf{$1}$0
 endsnippet
 
-context "snip.visual_mode"
-snippet bf "Bold Skeleton" iA
-\textbf{${VISUAL}}
-endsnippet
-
-snippet \it "Italic Skeleton" iA
+snippet \it "Italic Skeleton" i
 \textit{$1}$0
 endsnippet
 
-context "snip.visual_mode"
-snippet it "Italic Skeleton" iA
-\textit{${VISUAL}}
-endsnippet
-
-context "snip.visual_mode"
-snippet hl "Highlight Skeleton Visual" iA
-\hl{${VISUAL}}
-endsnippet
-
-snippet fancy "Fancy Headers" bA
-\fancyhead[l]{\textbf{${1:Class}}}
-\fancyhead[r]{\textbf{Week $2}}
+snippet "^fancy" "Fancy Headers" brA
+\lhead{\textbf{${1:Class}}}
+\rhead{\textbf{Week $2}}
 $0
 endsnippet
 
@@ -160,11 +143,11 @@ endsnippet
 
 snippet dm "Display" wA
 \[
-$1
+	$1
 \]$0
 endsnippet
 
-snippet -> "Right Arrow" iA
+snippet _> "Right Arrow" iA
 $\rightarrow$
 endsnippet
 
@@ -172,8 +155,54 @@ snippet \| "Escaped Backslash" iA
 $\backslash$
 endsnippet
 
-snippet \ce "Chem Env" iA
+snippet ce "Chem Env" i
 \ce{$1}$0
+endsnippet
+
+snippet "(\\ce.*)\s(s|l|g|aq)" "Chem State" irA
+`!p snip.rv = match.group(1) + "_{(" + match.group(2) + ")}"`
+endsnippet
+
+# Visual Snippets
+context "snip.visual_mode"
+snippet " "Quote Skeleton Visual" iA
+\`\`${VISUAL}''
+endsnippet
+
+context "snip.visual_mode"
+snippet bf "Bold Skeleton" iA
+\textbf{${VISUAL}}
+endsnippet
+
+context "snip.visual_mode"
+snippet it "Italic Skeleton" iA
+\textit{${VISUAL}}
+endsnippet
+
+context "snip.visual_mode"
+snippet hl "Highlight Skeleton Visual" iA
+\hl{${VISUAL}}
+endsnippet
+
+context "snip.visual_mode"
+snippet ce "Chem Env" iA
+\ce{${VISUAL}}$0
+endsnippet
+
+# Maths Snippets
+context "math()"
+snippet rm "Mathrm" iA
+\mathrm{$1}$0
+endsnippet
+
+context "math()"
+snippet "\sunit" "Unit" irA
+\ \mathrm{$1}$0
+endsnippet
+
+context "math()"
+snippet vec "Vector Env" iA
+\vec{$1}$0
 endsnippet
 
 context "math()"
@@ -202,7 +231,7 @@ snippet cb "^3" iA
 endsnippet
 
 context "math()"
-snippet td "superscript" iA
+snippet wq "superscript" iA
 ^{$1}$0
 endsnippet
 
@@ -216,11 +245,90 @@ snippet '((\d+)|(\d*)(\\)?([A-Za-z]+)((\^|_)(\{\d+\}|\d))*)/' "Fraction" wrA
 \\frac{`!p snip.rv = match.group(1)`}{$1}$0
 endsnippet
 
+## Trig functions
+context "math()"
+snippet sin "Sin" i
+\sin{($1)}$0
+endsnippet
+
+context "math()"
+snippet cos "Cos" i
+\cos{($1)}$0
+endsnippet
+
+context "math()"
+snippet tan "Tan" i
+\tan{($1)}$0
+endsnippet
+
+context "math()"
+snippet sinh "Sinh" i
+\sinh{($1)}$0
+endsnippet
+
+context "math()"
+snippet cosh "Cosh" i
+\cosh{($1)}$0
+endsnippet
+
+context "math()"
+snippet tanh "Tanh" i
+\tanh{($1)}$0
+endsnippet
+
 snippet sympy "sympy block " w
 sympy $1 sympy$0
 endsnippet
 
-priority 10000
+# Priority Snippets
+priority 10
+context "math()"
+snippet (( "()" iA
+\left($1\right)$0
+endsnippet
+
+context "math()"
+snippet [[ "[]" iA
+\left[$1\right]$0
+endsnippet
+
+context "math()"
+snippet \bf "Math Bold Skeleton" iA
+\mathbf{$1}$0
+endsnippet
+
+context "math()"
+snippet _> "Right Arrow" iA
+\rightarrow
+endsnippet
+
+context "math()"
+snippet uvec "Vector Env" iA
+\uvec{$1}$0
+endsnippet
+
+context "math()"
+snippet arcsin "Arcsin" i
+\arcsin{($1)}$0
+endsnippet
+
+context "math()"
+snippet arccos "Arccos" i
+\arccos{($1)}$0
+endsnippet
+
+context "math()"
+snippet arctan "Arctan" i
+\arctan{($1)}$0
+endsnippet
+
+priority 100
+context "math()"
+snippet uuvec "Vector Hat Env" iA
+\uuvec{$1}$0
+endsnippet
+
+priority 1000000000
 snippet 'sympy(.*)sympy' "evaluate sympy" wr
 `!p
 from sympy import *
